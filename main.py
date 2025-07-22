@@ -7,10 +7,6 @@ import threading
 import time
 from datetime import datetime
 
-def escape_markdown(text):
-    import re
-    return re.sub(r'([_*[\]()~`>#+\-=|{}.!])', r'\\\1', text)
-
 GRUPO_ID = -1002363575666
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
@@ -20,11 +16,10 @@ app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
-HISTORICO_PATH = "historico.json"
-
+RESPONDIDAS_PATH = "respondidas.json"
 respostas_pendentes = {}
-ultima_pergunta_id = None
 
+# Carregar dados
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
@@ -36,82 +31,73 @@ except:
     ranking = {}
 
 try:
-    historico = json.load(open(HISTORICO_PATH, encoding="utf-8"))
+    respondidas = json.load(open(RESPONDIDAS_PATH, encoding="utf-8"))
 except:
-    historico = {}
+    respondidas = {}
 
 def salvar_ranking():
     with open(RANKING_PATH, "w", encoding="utf-8") as f:
         json.dump(ranking, f, ensure_ascii=False, indent=2)
 
-def salvar_historico():
-    with open(HISTORICO_PATH, "w", encoding="utf-8") as f:
-        json.dump(historico, f, ensure_ascii=False, indent=2)
+def salvar_respondidas():
+    with open(RESPONDIDAS_PATH, "w", encoding="utf-8") as f:
+        json.dump(respondidas, f, ensure_ascii=False, indent=2)
 
-def mandar_quiz_loop():
-    global ultima_pergunta_id
+def escolher_pergunta():
+    agora = time.time()
+    candidatas = [
+        p for p in perguntas if str(p["id"]) not in respondidas or (agora - respondidas[str(p["id"])]) > 432000
+    ]
+    return random.choice(candidatas) if candidatas else None
+
+def mandar_pergunta():
     while True:
         hora = datetime.now().hour
         if 6 <= hora <= 23:
-            if ultima_pergunta_id:
-                revelar_resposta(ultima_pergunta_id)
+            pergunta = escolher_pergunta()
+            if pergunta:
+                pid = str(time.time())
+                respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
 
-            agora = time.time()
-            cinco_dias = 5 * 24 * 60 * 60
+                markup = telebot.types.InlineKeyboardMarkup()
+                for i, opc in enumerate(pergunta["opcoes"]):
+                    markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
-            disponiveis = [
-                p for p in perguntas
-                if str(p['pergunta']) not in historico or agora - historico[str(p['pergunta'])] > cinco_dias
-            ]
+                bot.send_message(
+                    GRUPO_ID,
+                    f"❓ *Pergunta:* {pergunta['pergunta']}",
+                    parse_mode="Markdown",
+                    reply_markup=markup
+                )
 
-            if not disponiveis:
-                historico.clear()
-                disponiveis = perguntas
+                timer = threading.Timer(900, revelar_resposta, args=[pid])  # 15 minutos
+                respostas_pendentes[pid]["timer"] = timer
+                respostas_pendentes[pid]["id_pergunta"] = pergunta["id"]
+                timer.start()
 
-            pergunta = random.choice(disponiveis)
-            historico[str(pergunta['pergunta'])] = agora
-            salvar_historico()
-
-            pid = str(time.time())
-            ultima_pergunta_id = pid
-            respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
-
-            markup = telebot.types.InlineKeyboardMarkup()
-            for i, opc in enumerate(pergunta["opcoes"]):
-                markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
-
-            bot.send_message(
-                GRUPO_ID,
-                f"❓ *Pergunta:* {pergunta['pergunta']}",
-                parse_mode="Markdown",
-                reply_markup=markup
-            )
-
-        time.sleep(900)  # espera 15 minutos entre rodadas
-        # fora do horário, dorme por 5 min antes de reavaliar
-        if not (6 <= datetime.now().hour <= 23):
-            time.sleep(300)
+        time.sleep(900)  # Espera 15 minutos
+        # A resposta anterior será revelada antes da nova, veja abaixo
 
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     pid, opcao = call.data.split("|")
     if pid not in respostas_pendentes:
-        return bot.answer_callback_query(call.id, "Pergunta expirada.")
-
+        return bot.answer_callback_query(call.id, "❌ Pergunta expirada.")
+    
     pend = respostas_pendentes[pid]
-    user = call._user.id
+    user = call.from_user.id
 
     if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Você já respondeu.")
-
+        return bot.answer_callback_query(call.id, "⚠️ Você já respondeu.")
+    
     pend["respostas"][user] = int(opcao)
-
-    nome = call._user.first_name or call._user.username or "Alguém"
-    nome = escape_markdown(nome)
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+    
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.", parse_mode="Markdown")
+    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
 
     if len(pend["respostas"]) >= 10:
+        pend["timer"].cancel()
         revelar_resposta(pid)
 
 def revelar_resposta(pid):
@@ -120,6 +106,11 @@ def revelar_resposta(pid):
         return
 
     pergunta = pend["pergunta"]
+    id_pergunta = pend.get("id_pergunta")
+    if id_pergunta:
+        respondidas[str(id_pergunta)] = time.time()
+        salvar_respondidas()
+
     corretos = [u for u, o in pend["respostas"].items() if o == pergunta["correta"]]
     acertadores = []
 
@@ -134,15 +125,15 @@ def revelar_resposta(pid):
 
     salvar_ranking()
 
-    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    texto = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
 
     if acertadores:
-        resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
+        texto += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
     else:
-        resp += "😢 Ninguém acertou dessa vez.\n"
+        texto += "😢 Ninguém acertou dessa vez.\n"
 
     if ranking:
-        resp += "\n🏆 *Ranking atual:*\n"
+        texto += "\n🏆 *Ranking atual:*\n"
         top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)
         for i, (u, p) in enumerate(top, start=1):
             try:
@@ -150,9 +141,9 @@ def revelar_resposta(pid):
                 nome = user.first_name or user.username or str(u)
             except:
                 nome = str(u)
-            resp += f"{i}º – {nome}: {p} ponto(s)\n"
+            texto += f"{i}º – {nome}: {p} ponto(s)\n"
 
-    bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
+    bot.send_message(GRUPO_ID, texto, parse_mode="Markdown")
 
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
@@ -177,7 +168,7 @@ def manter_vivo():
         time.sleep(600)
 
 if __name__ == "__main__":
-    threading.Thread(target=mandar_quiz_loop).start()
+    threading.Thread(target=mandar_pergunta).start()
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
