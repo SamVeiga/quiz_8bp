@@ -6,6 +6,7 @@ import json
 import threading
 import time
 from datetime import datetime
+from telebot.util import escape_markdown
 
 GRUPO_ID = -1002363575666
 TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -16,26 +17,53 @@ app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
+HISTORICO_PATH = "historico.json"
+
 respostas_pendentes = {}
 
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
     perguntas = []
+
 try:
     ranking = json.load(open(RANKING_PATH, encoding="utf-8"))
 except:
     ranking = {}
 
+try:
+    historico = json.load(open(HISTORICO_PATH, encoding="utf-8"))
+except:
+    historico = {}
+
 def salvar_ranking():
     with open(RANKING_PATH, "w", encoding="utf-8") as f:
         json.dump(ranking, f, ensure_ascii=False, indent=2)
+
+def salvar_historico():
+    with open(HISTORICO_PATH, "w", encoding="utf-8") as f:
+        json.dump(historico, f, ensure_ascii=False, indent=2)
 
 def mandar_pergunta():
     while True:
         hora = datetime.now().hour
         if 6 <= hora <= 23 and perguntas:
-            pergunta = random.choice(perguntas)
+            agora = time.time()
+            cinco_dias = 5 * 24 * 60 * 60
+
+            perguntas_disponiveis = [
+                p for p in perguntas
+                if str(p['pergunta']) not in historico or agora - historico[str(p['pergunta'])] > cinco_dias
+            ]
+
+            if not perguntas_disponiveis:
+                historico.clear()
+                perguntas_disponiveis = perguntas
+
+            pergunta = random.choice(perguntas_disponiveis)
+            historico[str(pergunta['pergunta'])] = agora
+            salvar_historico()
+
             pid = str(time.time())
             respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
 
@@ -68,8 +96,6 @@ def responder_quiz(call):
         return bot.answer_callback_query(call.id, "Você já respondeu.")
 
     pend["respostas"][user] = int(opcao)
-    
-   from telebot.util import escape_markdown
 
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
     nome = escape_markdown(nome)
