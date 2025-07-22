@@ -1,17 +1,347 @@
 [
   {
-    "pergunta": "Qual é a capital do Brasil?",
-    "opcoes": ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"],
+    "pergunta": "Qual é o maior bioma brasileiro?",
+    "opcoes": ["Mata Atlântica", "Caatinga", "Amazônia", "Pampa"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Quem foi o primeiro presidente do Brasil?",
+    "opcoes": ["Getúlio Vargas", "Juscelino Kubitschek", "Deodoro da Fonseca", "Floriano Peixoto"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é a moeda oficial do Brasil?",
+    "opcoes": ["Real", "Dólar", "Peso", "Euro"],
     "correta": 1
   },
   {
-    "pergunta": "Quem escreveu 'Dom Casmurro'?",
-    "opcoes": ["Clarice Lispector", "Machado de Assis", "Graciliano Ramos", "José de Alencar"],
+    "pergunta": "Quem pintou o quadro 'Abaporu'?",
+    "opcoes": ["Tarsila do Amaral", "Candido Portinari", "Di Cavalcanti", "Anita Malfatti"],
     "correta": 1
   },
   {
-    "pergunta": "Qual planeta é conhecido como o Planeta Vermelho?",
-    "opcoes": ["Terra", "Júpiter", "Marte", "Vênus"],
+    "pergunta": "Qual é a maior cidade do Brasil em população?",
+    "opcoes": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
     "correta": 2
+  },
+  {
+    "pergunta": "Qual desses animais é símbolo da fauna brasileira?",
+    "opcoes": ["Onça-pintada", "Lobo-marinho", "Águia-americana", "Canguru"],
+    "correta": 1
+  },
+  {
+    "pergunta": "O que é a Camisa 10 no futebol brasileiro?",
+    "opcoes": ["O goleiro", "O técnico", "O capitão", "O principal jogador ofensivo"],
+    "correta": 4
+  },
+  {
+    "pergunta": "Qual é o principal rio da Amazônia?",
+    "opcoes": ["Rio Negro", "Rio São Francisco", "Rio Amazonas", "Rio Paraná"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual dessas festas é típica do Nordeste brasileiro?",
+    "opcoes": ["Festa Junina", "Oktoberfest", "Carnaval de Veneza", "Dia de Ação de Graças"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem é conhecido como o 'Pai da Aviação'?",
+    "opcoes": ["Alberto Santos-Dumont", "Orville Wright", "Claudio Coutinho", "Charles Lindbergh"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o principal ingrediente do prato brasileiro 'feijoada'?",
+    "opcoes": ["Arroz", "Feijão preto", "Farinha de mandioca", "Carne de vaca"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual desses estados NÃO faz parte da Região Sul do Brasil?",
+    "opcoes": ["Paraná", "Santa Catarina", "Rio Grande do Sul", "Bahia"],
+    "correta": 4
+  },
+  {
+    "pergunta": "Qual é o significado da palavra 'Amazonas'?",
+    "opcoes": ["Rio dos grandes peixes", "Terra das mulheres guerreiras", "Floresta densa", "Rio de águas claras"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual cientista brasileiro é conhecido pela descoberta do vírus da febre amarela?",
+    "opcoes": ["Carlos Chagas", "Oswaldo Cruz", "Vital Brazil", "Cesar Lattes"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual o estilo musical característico do Rio Grande do Sul?",
+    "opcoes": ["Forró", "Samba", "Vanerão", "Chimarrão"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual escritor brasileiro é autor de 'Grande Sertão: Veredas'?",
+    "opcoes": ["João Guimarães Rosa", "Jorge Amado", "Machado de Assis", "José de Alencar"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a principal função da Amazônia para o planeta?",
+    "opcoes": ["Ser uma grande fonte de minérios", "Produzir oxigênio e ajudar na regulação climática", "Ser um deserto", "Produzir petróleo"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é o nome do maior estádio de futebol do Brasil?",
+    "opcoes": ["Maracanã", "Morumbi", "Mineirão", "Beira-Rio"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
+    "opcoes": ["1930", "1958", "1970", "1994"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é o nome da dança típica brasileira que mistura capoeira e dança?",
+    "opcoes": ["Samba", "Frevo", "Maculelê", "Forró"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é o maior estado brasileiro em extensão territorial?",
+    "opcoes": ["Amazonas", "Pará", "Mato Grosso", "Bahia"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual dessas cidades brasileiras é conhecida como a 'Cidade Maravilhosa'?",
+    "opcoes": ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Quem foi o líder da Inconfidência Mineira?",
+    "opcoes": ["Tiradentes", "Dom Pedro I", "José Bonifácio", "Zumbi dos Palmares"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome da floresta tropical que cobre grande parte do norte do Brasil?",
+    "opcoes": ["Mata Atlântica", "Cerrado", "Caatinga", "Amazônia"],
+    "correta": 4
+  },
+  {
+    "pergunta": "Quem é o autor do livro 'Memórias Póstumas de Brás Cubas'?",
+    "opcoes": ["Machado de Assis", "Jorge Amado", "Carlos Drummond de Andrade", "Graciliano Ramos"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual a capital do estado do Ceará?",
+    "opcoes": ["Fortaleza", "Natal", "Recife", "Maceió"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o maior arquipélago brasileiro?",
+    "opcoes": ["Fernando de Noronha", "Ilha de Marajó", "Ilhas Abrolhos", "Arquipélago de São Pedro e São Paulo"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual desses é um rio importante no Nordeste do Brasil?",
+    "opcoes": ["Rio São Francisco", "Rio Amazonas", "Rio Paraná", "Rio Tietê"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome do movimento artístico brasileiro que valorizou a cultura nacional nas artes plásticas na década de 1920?",
+    "opcoes": ["Modernismo", "Barroco", "Romantismo", "Realismo"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a capital do estado do Rio Grande do Sul?",
+    "opcoes": ["Porto Alegre", "Curitiba", "Florianópolis", "Pelotas"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual desses animais é típico da Caatinga?",
+    "opcoes": ["Onça-pintada", "Gato-do-mato", "Tatu-bola", "Jararaca"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é o nome da planta símbolo da flora brasileira?",
+    "opcoes": ["Ipê-amarelo", "Pau-brasil", "Carnaúba", "Açaí"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é o principal ingrediente da bebida tradicional chamada 'chimarrão'?",
+    "opcoes": ["Café", "Erva-mate", "Chá verde", "Guaraná"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual cidade é conhecida por ser o centro político do Brasil?",
+    "opcoes": ["São Paulo", "Brasília", "Rio de Janeiro", "Belo Horizonte"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Quem foi o fundador da cidade de São Paulo?",
+    "opcoes": ["Padre Anchieta", "José Bonifácio", "Dom Pedro I", "Bartolomeu Bueno da Silva"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual o nome do festival de música tradicional que acontece anualmente em Parintins, Amazonas?",
+    "opcoes": ["Carnaval", "Festival de Parintins", "Festa Junina", "Rock in Rio"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é a principal língua falada no Brasil?",
+    "opcoes": ["Espanhol", "Português", "Inglês", "Francês"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é a principal atividade econômica da região Centro-Oeste do Brasil?",
+    "opcoes": ["Agricultura e pecuária", "Indústria pesada", "Pesca", "Mineração"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem é a cantora brasileira famosa pelo hit 'Garota de Ipanema'?",
+    "opcoes": ["Elis Regina", "Gal Costa", "Astrud Gilberto", "Maria Bethânia"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é o nome do arquiteto que projetou Brasília?",
+    "opcoes": ["Oscar Niemeyer", "Lúcio Costa", "Roberto Burle Marx", "Paulo Mendes da Rocha"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual a principal característica do clima na região amazônica?",
+    "opcoes": ["Semiárido", "Tropical úmido", "Temperado", "Polar"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual desses elementos é fundamental para a fotossíntese?",
+    "opcoes": ["Oxigênio", "Dióxido de carbono", "Nitrogênio", "Hidrogênio"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Quem foi o líder quilombola famoso no Brasil colonial?",
+    "opcoes": ["Zumbi dos Palmares", "Lampião", "Tiradentes", "Chico Mendes"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a principal indústria do estado do Espírito Santo?",
+    "opcoes": ["Petróleo", "Metalurgia", "Agricultura", "Turismo"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é o principal símbolo do Carnaval brasileiro?",
+    "opcoes": ["Samba", "Forró", "Frevo", "Axé"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem é o autor da música 'Aquarela do Brasil'?",
+    "opcoes": ["Tom Jobim", "Ary Barroso", "Chico Buarque", "Caetano Veloso"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual desses animais é um mamífero típico da região amazônica?",
+    "opcoes": ["Bicho-preguiça", "Lobo-guará", "Tatu-canastra", "Tamanduá-bandeira"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o principal patrimônio natural do estado do Rio de Janeiro?",
+    "opcoes": ["Parque Nacional da Tijuca", "Pantanal", "Serra do Mar", "Chapada dos Veadeiros"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome do movimento cultural brasileiro que aconteceu em 1922 e marcou o Modernismo?",
+    "opcoes": ["Semana de Arte Moderna", "Semana de Música Brasileira", "Semana de Literatura", "Semana do Folclore"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem foi o primeiro brasileiro a ganhar um prêmio Nobel?",
+    "opcoes": ["Carlos Chagas", "Cesar Lattes", "Peter Medawar", "Ninguém"],
+    "correta": 4
+  },
+  {
+    "pergunta": "Qual é a maior floresta tropical do mundo?",
+    "opcoes": ["Floresta Amazônica", "Floresta do Congo", "Floresta de Bornéu", "Floresta Temperada da Europa"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual dessas capitais brasileiras está localizada no interior do país?",
+    "opcoes": ["Rio de Janeiro", "Salvador", "Brasília", "Fortaleza"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é o principal produto agrícola do Brasil exportado para o mundo?",
+    "opcoes": ["Soja", "Café", "Milho", "Cana-de-açúcar"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome do povo indígena que habita a região do Xingu?",
+    "opcoes": ["Tupi", "Guarani", "Kayapó", "Yanomami"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é a principal característica do clima do Pantanal brasileiro?",
+    "opcoes": ["Semiárido", "Tropical com estação seca", "Temperado", "Polar"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é a maior cadeia montanhosa do Brasil?",
+    "opcoes": ["Serra do Mar", "Serra da Mantiqueira", "Serra do Espinhaço", "Serra do Caparaó"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem foi o imperador do Brasil durante o período imperial?",
+    "opcoes": ["Dom Pedro I", "Dom João VI", "Dom Pedro II", "Getúlio Vargas"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual é o nome da bebida alcoólica típica do Brasil feita a partir da cana-de-açúcar?",
+    "opcoes": ["Caipirinha", "Cachaça", "Vinho", "Cerveja"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual dessas obras é de autoria de Jorge Amado?",
+    "opcoes": ["Gabriela, Cravo e Canela", "O Cortiço", "Capitães da Areia", "O Primo Basílio"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome da principal avenida de São Paulo?",
+    "opcoes": ["Avenida Paulista", "Avenida Brasil", "Avenida Atlântica", "Avenida Rio Branco"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a unidade federativa mais populosa do Brasil?",
+    "opcoes": ["Rio de Janeiro", "São Paulo", "Minas Gerais", "Bahia"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Quem é conhecido como o Rei do Futebol?",
+    "opcoes": ["Pelé", "Zico", "Garrincha", "Ronaldo Fenômeno"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual desses rios passa pela cidade de Manaus?",
+    "opcoes": ["Rio Negro", "Rio São Francisco", "Rio Tietê", "Rio Paraná"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a capital do estado do Maranhão?",
+    "opcoes": ["São Luís", "Teresina", "Fortaleza", "Belém"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é a cor principal da bandeira brasileira?",
+    "opcoes": ["Azul", "Verde", "Amarelo", "Vermelho"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual a finalidade do Parque Nacional da Chapada Diamantina?",
+    "opcoes": ["Preservar formações rochosas e biodiversidade", "Área urbana para construção", "Zona de mineração", "Zona agrícola"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome da cantora brasileira conhecida internacionalmente por 'Mas Que Nada'?",
+    "opcoes": ["Elis Regina", "Sérgio Mendes", "Anitta", "Ivete Sangalo"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual é a maior cadeia de supermercados brasileira?",
+    "opcoes": ["Pão de Açúcar", "Carrefour", "Walmart", "Extra"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual é o nome do presidente brasileiro eleito em 2018?",
+    "opcoes": ["Dilma Rousseff", "Michel Temer", "Jair Bolsonaro", "
+orreta": 2
   }
 ]
