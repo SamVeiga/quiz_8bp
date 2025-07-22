@@ -1098,5 +1098,2205 @@
       "Número negativo"
     ],
     "correta": 0
+  },
+  {
+    "id": "afa9cf20-1e08-4352-a8b4-75caac4476c5",
+    "pergunta": "Qual é o maior oceano do mundo? (1)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "5860a773-e5c7-4d64-b847-c61f433d2617",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (2)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "8775b407-6d69-4498-ae65-9e97c5af1201",
+    "pergunta": "Quem foi Albert Einstein? (3)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "dcb3bd38-896e-4fe4-9c97-1f9838d5b578",
+    "pergunta": "Qual é a língua mais falada no mundo? (4)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "95710d7a-58a6-4525-9838-8973f7f718a0",
+    "pergunta": "Qual é a capital do Canadá? (5)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "0822b2b5-ab04-41cf-a809-27db740ed1b3",
+    "pergunta": "Qual planeta tem mais luas? (6)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "ee2c7901-0ba8-4e6b-98dc-f4fe52c3991e",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (7)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "5581470a-3cc3-433d-b20f-4f37aa7d1498",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (8)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "25a6d568-26f3-450e-b879-23eb8780063e",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (9)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "3119d6a1-5abc-4777-a58c-1d8d7d403ceb",
+    "pergunta": "Quantos cromossomos tem o ser humano? (10)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "23f4a9cd-5c25-4f0d-8b74-a5261345367c",
+    "pergunta": "Qual é o maior oceano do mundo? (11)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "058d586b-9e09-4310-a5c4-9909a9795b5e",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (12)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "35475866-fe45-41ea-bbdd-36c3a8db6a09",
+    "pergunta": "Quem foi Albert Einstein? (13)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "e1a2a956-a652-4679-b286-873c7189d3ee",
+    "pergunta": "Qual é a língua mais falada no mundo? (14)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "653f32b9-9259-4c74-8476-1fde1f363826",
+    "pergunta": "Qual é a capital do Canadá? (15)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "51494438-9f1f-48d2-8123-593f695677be",
+    "pergunta": "Qual planeta tem mais luas? (16)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "b917acdd-afcc-4614-8002-6162a3fdc045",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (17)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "5ba32adf-9efd-42db-84ed-85eff9ae07e4",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (18)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "6e618f8e-6bf0-46f8-a9a9-2a184f34830c",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (19)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "79170038-4942-4b7b-8a6a-ea135d121751",
+    "pergunta": "Quantos cromossomos tem o ser humano? (20)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "3ef250a3-8f2c-4def-a20c-d589fc367dc6",
+    "pergunta": "Qual é o maior oceano do mundo? (21)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "50a8c278-dcde-4f2d-9b4c-4621ad19ee78",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (22)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "129f9687-b9b7-45f8-a62f-29144052cc81",
+    "pergunta": "Quem foi Albert Einstein? (23)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "118fa9e9-5d5d-4503-a602-e2e711c8dfd8",
+    "pergunta": "Qual é a língua mais falada no mundo? (24)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "8775af85-c07d-4c8c-8938-672793da07a5",
+    "pergunta": "Qual é a capital do Canadá? (25)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "71ba75ed-35da-4a69-8bf7-ea7a30791634",
+    "pergunta": "Qual planeta tem mais luas? (26)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "00761a50-3261-4bf6-abb1-601afc61fb0f",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (27)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "f58bb2ba-37ef-4af2-bccc-c11fe3c4c0a4",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (28)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "8873264a-a019-409c-b0f5-c847a7f4f6df",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (29)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "3e694e47-d88d-4890-a5b7-e220a82e34b8",
+    "pergunta": "Quantos cromossomos tem o ser humano? (30)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "b73fbf5b-eff9-4113-9cd4-70115a8bb068",
+    "pergunta": "Qual é o maior oceano do mundo? (31)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "49484123-7763-40a9-aa7a-477e73228a3c",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (32)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "f545f5c3-7baa-4abf-9808-485df48438b1",
+    "pergunta": "Quem foi Albert Einstein? (33)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "701e059a-0062-457d-80d3-dda3329dc06c",
+    "pergunta": "Qual é a língua mais falada no mundo? (34)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "0e6116e7-1a20-4150-8622-02cae638ec4c",
+    "pergunta": "Qual é a capital do Canadá? (35)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "ffccb0dd-09ef-4104-8250-1d664e885545",
+    "pergunta": "Qual planeta tem mais luas? (36)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "f41526af-f724-482d-9a4c-a8b5157e8a7c",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (37)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "e5bde596-9823-4969-89cc-a5e3a71d550d",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (38)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "163d38bf-4f3d-40fb-a69b-f6bf5c8a6b82",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (39)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "aca4d19f-bc73-4a76-9379-cdd93f507596",
+    "pergunta": "Quantos cromossomos tem o ser humano? (40)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "efc5944c-df33-47d7-9502-fa504536c846",
+    "pergunta": "Qual é o maior oceano do mundo? (41)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "3a5f9cde-a3e1-4c36-b89c-40516af4ba7b",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (42)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "ff5848d7-a399-4879-8828-41dfc9c9a165",
+    "pergunta": "Quem foi Albert Einstein? (43)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "bd0aa015-85e4-4133-9d79-64bf08130840",
+    "pergunta": "Qual é a língua mais falada no mundo? (44)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "90c6ca40-1a21-4c2c-98c2-486b40839795",
+    "pergunta": "Qual é a capital do Canadá? (45)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "b3d2be7f-fdc4-4dee-bbf5-dfef0ca9c990",
+    "pergunta": "Qual planeta tem mais luas? (46)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "98a447ae-9540-46b0-b10f-becec0fc3702",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (47)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "5e00a6b2-625c-4c7c-b283-1cf0f0741da0",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (48)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "e9a897e5-b1e6-4884-a048-5c50ee0728be",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (49)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "8076160a-fd9d-4776-a084-ba1b24b41d68",
+    "pergunta": "Quantos cromossomos tem o ser humano? (50)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "acd27f95-b91b-4572-b8cc-c6b47d8a08fc",
+    "pergunta": "Qual é o maior oceano do mundo? (51)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "5cf85a36-7e06-4595-9916-642034c959d9",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (52)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "ed816e20-b116-4c59-ae40-38d1fd59f657",
+    "pergunta": "Quem foi Albert Einstein? (53)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "8b97c028-0857-4a8f-b792-6cb9aa81c7c6",
+    "pergunta": "Qual é a língua mais falada no mundo? (54)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "4a756c9b-9991-4010-bd1b-34e7ebb6e47e",
+    "pergunta": "Qual é a capital do Canadá? (55)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2f33f722-6a9b-4531-a45b-d0a99d381c48",
+    "pergunta": "Qual planeta tem mais luas? (56)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "1ff0b56f-3f37-4f5a-aad1-086cff6e6b69",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (57)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "f760f979-c86e-4d63-b482-352528f87bf4",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (58)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "3bb7c5df-9ab5-4562-a347-492eb20e0c09",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (59)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "fbc676e2-c4d0-42fd-b234-ade3f6cfd400",
+    "pergunta": "Quantos cromossomos tem o ser humano? (60)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "8e805163-2fc4-4e79-9643-9cfb234f3512",
+    "pergunta": "Qual é o maior oceano do mundo? (61)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "7a7b2702-7420-4104-89d9-5f3713a58aa5",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (62)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "e42bc218-fc8f-4518-8e72-5cb93ce5673f",
+    "pergunta": "Quem foi Albert Einstein? (63)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "25ed1a97-6e82-4ea8-81de-7c00f9afc625",
+    "pergunta": "Qual é a língua mais falada no mundo? (64)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "94ffee95-a718-4971-9834-b5a249aad646",
+    "pergunta": "Qual é a capital do Canadá? (65)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "6502e44f-36fa-407d-9f6b-9c7efc36caf7",
+    "pergunta": "Qual planeta tem mais luas? (66)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "250d3b2a-9d4c-406a-a3d5-e776e2a5902c",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (67)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "850c77f5-6128-4ffb-b2e4-285195effe79",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (68)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "6f2ae6ec-1355-43b2-9c9b-3d40f74271ab",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (69)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "1e085349-b0ca-48c7-af4f-070a3138782a",
+    "pergunta": "Quantos cromossomos tem o ser humano? (70)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "0a649d44-56f0-486d-9db4-b831cb1062a4",
+    "pergunta": "Qual é o maior oceano do mundo? (71)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "769836d1-c474-470e-b76e-9c6fe019b8ba",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (72)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "a0085c25-90c5-4f1c-8b61-6bc81fc20fea",
+    "pergunta": "Quem foi Albert Einstein? (73)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "0994abc6-5c49-4e59-a98a-3e0635a9c12d",
+    "pergunta": "Qual é a língua mais falada no mundo? (74)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "f7a9670e-7282-47de-a7b2-1b1ea1567a03",
+    "pergunta": "Qual é a capital do Canadá? (75)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "feabcbf3-09ef-4d25-bc1d-821caff6ce45",
+    "pergunta": "Qual planeta tem mais luas? (76)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "12765d4a-6441-445f-8fcb-23aa6cc74474",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (77)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "0106f14f-851f-44b1-b6fc-508979cfb9be",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (78)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "f569ea84-dfd7-4028-9bc1-fd66aba5272f",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (79)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "da0d19b9-a5b1-401a-8690-d155e53350b3",
+    "pergunta": "Quantos cromossomos tem o ser humano? (80)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "a91591e7-40df-405b-bc41-3dfad2716437",
+    "pergunta": "Qual é o maior oceano do mundo? (81)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "a151e021-4051-449e-9659-6a13de375dba",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (82)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "6a3bece7-334c-44f0-ae99-130aa381375d",
+    "pergunta": "Quem foi Albert Einstein? (83)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "d5f654c8-de56-4d63-8c71-aa891ee80b34",
+    "pergunta": "Qual é a língua mais falada no mundo? (84)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "3a0f9b87-746b-46ab-94ba-5f80355af290",
+    "pergunta": "Qual é a capital do Canadá? (85)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "77a8fcbf-1ce2-4aef-a88b-77e966f82e84",
+    "pergunta": "Qual planeta tem mais luas? (86)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "75dc00a2-6917-4d43-bf03-bba54b5bd4d8",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (87)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "e3f117cd-9a25-46fd-803c-b01f96a50753",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (88)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "9dc50b50-e369-4c84-acba-425b6eded007",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (89)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "d3789ff8-27d8-41cd-9278-690b2294c56f",
+    "pergunta": "Quantos cromossomos tem o ser humano? (90)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "70da1ff2-3e5e-4377-8393-0529f3ba70bf",
+    "pergunta": "Qual é o maior oceano do mundo? (91)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "aff247c2-6744-4540-8018-0dac7996fe13",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (92)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "49952d9f-8f33-4e05-be9a-871c7e683627",
+    "pergunta": "Quem foi Albert Einstein? (93)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "1f45f9c6-d71e-4335-8858-7629e28ae9b5",
+    "pergunta": "Qual é a língua mais falada no mundo? (94)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "28b12fd6-a2a0-4a47-a758-a8203eb77067",
+    "pergunta": "Qual é a capital do Canadá? (95)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2e881c06-0974-4cab-8c47-aeb92492fb57",
+    "pergunta": "Qual planeta tem mais luas? (96)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "20187ab4-d721-4510-ab30-648f79d76348",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (97)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "9c4ac12b-cd38-4b19-a92c-bbc7a293dcc8",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (98)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "09eb697d-082a-4ae3-a9e8-de9d23f4038e",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (99)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "b14538d2-a739-4a0e-a53a-cbf59dfa8229",
+    "pergunta": "Quantos cromossomos tem o ser humano? (100)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "eadfe5f6-a847-44e2-9be3-6b70e306c2d1",
+    "pergunta": "Qual é o maior oceano do mundo? (101)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "5f85e420-2377-417b-9565-0233ac817ac8",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (102)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "edaf6374-c0df-4cc0-8a0e-f8e44ca70dad",
+    "pergunta": "Quem foi Albert Einstein? (103)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "a417050a-fe4f-4577-b0d2-ed3430cb014c",
+    "pergunta": "Qual é a língua mais falada no mundo? (104)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "18de7492-42f0-4689-97be-6b7f92eff0a6",
+    "pergunta": "Qual é a capital do Canadá? (105)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "554afeb8-1c42-4101-86e5-90d1d056bd29",
+    "pergunta": "Qual planeta tem mais luas? (106)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "a880f188-8e9a-43eb-97f1-53576b634ad8",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (107)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2fdba627-c69d-4ef7-b294-57a4e72e7b9d",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (108)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "510da380-90cd-48d3-865d-54008415f871",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (109)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "8935e11e-90ad-466a-bae3-45c9920d4ec3",
+    "pergunta": "Quantos cromossomos tem o ser humano? (110)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "6e32bf14-3c26-4318-af1a-0b3a1ecb36e4",
+    "pergunta": "Qual é o maior oceano do mundo? (111)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "1285c654-030a-422e-9106-28b6e03bbb00",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (112)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "3d332b7e-f600-4861-b794-f798c67c0e8e",
+    "pergunta": "Quem foi Albert Einstein? (113)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2dff72b7-3cea-493c-bc7e-4de5bbd726b8",
+    "pergunta": "Qual é a língua mais falada no mundo? (114)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "7f18c98b-6078-4e7d-8590-5c754e03e662",
+    "pergunta": "Qual é a capital do Canadá? (115)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "d4b36225-1298-4880-baa4-a55c59c3e376",
+    "pergunta": "Qual planeta tem mais luas? (116)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "c8fcba66-34bf-4af0-a980-aeb1e987f5fd",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (117)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "d1978cb3-c02b-48ee-9299-6f8e590812df",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (118)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "8949c57f-93dc-49fe-9590-d7f04b35e0fd",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (119)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "3180819f-8134-4248-8760-778aa16b0013",
+    "pergunta": "Quantos cromossomos tem o ser humano? (120)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "5d28858f-e5b1-4dae-9f2c-fdb34684d440",
+    "pergunta": "Qual é o maior oceano do mundo? (121)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "6e6e2a64-09ff-4976-9142-6b542a0af25f",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (122)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "43c0fe25-b819-493f-94db-e188aa0d0825",
+    "pergunta": "Quem foi Albert Einstein? (123)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "fd8554a0-2d72-4de2-92bb-b2519e6e13db",
+    "pergunta": "Qual é a língua mais falada no mundo? (124)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "04b7303e-a841-401b-b161-218d5713b7bc",
+    "pergunta": "Qual é a capital do Canadá? (125)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "20b2fd2b-6264-4950-be82-85c7d133b4e4",
+    "pergunta": "Qual planeta tem mais luas? (126)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "5bb9aa6f-0b06-461f-9e73-74c8e117e93d",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (127)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "bb7e5fc2-2cd0-479d-9d27-9b16008b725f",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (128)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "44cbf7f0-f3b7-4d4e-8fe6-396efbe66239",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (129)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "b2143d90-324f-4ffb-a104-215d4a392fcd",
+    "pergunta": "Quantos cromossomos tem o ser humano? (130)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "9dbfc65d-76f5-4af2-a39b-2413311c078d",
+    "pergunta": "Qual é o maior oceano do mundo? (131)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "e475f8d0-e8ff-4e5d-8cba-f1b811e9be27",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (132)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "2a0d05e6-fb3f-4909-8cbd-037aaecb2e0d",
+    "pergunta": "Quem foi Albert Einstein? (133)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "93c0ce88-e139-4f85-b74e-a4642957b1ec",
+    "pergunta": "Qual é a língua mais falada no mundo? (134)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "1def4a93-a175-4e73-a62c-fc9f1e56f413",
+    "pergunta": "Qual é a capital do Canadá? (135)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2f55c3b0-e7fc-4c3a-b8e0-7b8fae3f8a33",
+    "pergunta": "Qual planeta tem mais luas? (136)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "252832e1-f097-4513-9b88-ab9e760d6554",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (137)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "a43a05e5-fff4-4af3-8a98-daa07c66ed4d",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (138)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "80be23b6-232b-4169-9c6b-eb1fda7f2796",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (139)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "f8e352e5-0d74-4482-aaa4-11dd00f1a4ce",
+    "pergunta": "Quantos cromossomos tem o ser humano? (140)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "a91f93f4-3751-4395-8645-c982b2620978",
+    "pergunta": "Qual é o maior oceano do mundo? (141)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "54374b7f-e051-4ebd-be4d-0839839700f5",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (142)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "ea03a5f7-47e5-4281-aa11-6d73568476c0",
+    "pergunta": "Quem foi Albert Einstein? (143)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "98f1d856-2f61-4ab4-8927-efd06a57df05",
+    "pergunta": "Qual é a língua mais falada no mundo? (144)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "dcca7c4d-73c0-4a2a-8cd2-3b741aa7c763",
+    "pergunta": "Qual é a capital do Canadá? (145)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "edf2d677-8f50-414d-9bf6-2d5c0fb3982b",
+    "pergunta": "Qual planeta tem mais luas? (146)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "d98070f5-0df6-463c-957c-8f382de642a1",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (147)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "b43c27b7-0be3-4df1-bc8b-5eaaf0ba9dc3",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (148)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "609ed7bc-2d0b-423e-bd47-dce922e67485",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (149)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "dbe42ce1-442c-4900-89ae-a2b858edbdd6",
+    "pergunta": "Quantos cromossomos tem o ser humano? (150)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "4d8e6db6-130a-4942-bf41-5870efdcf405",
+    "pergunta": "Qual é o maior oceano do mundo? (151)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "4159aabd-eac2-4e85-8e85-2bd8da686402",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (152)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "c8bf3ae6-f21a-4fd4-9981-11cd9a502385",
+    "pergunta": "Quem foi Albert Einstein? (153)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "3549cfd7-012a-4840-87a5-3893cd3348f3",
+    "pergunta": "Qual é a língua mais falada no mundo? (154)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "5a297c83-ff22-4e3b-b294-a68f6d179feb",
+    "pergunta": "Qual é a capital do Canadá? (155)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "378b46f9-492b-4c2c-8d7e-7a3d3d7844f2",
+    "pergunta": "Qual planeta tem mais luas? (156)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "de594f17-e051-4b25-bbeb-9b9b85032608",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (157)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "655c1377-f61d-4d12-9507-7113c3ceeaf4",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (158)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "33ab85ce-052c-4606-bd3a-b68d5bbeb9ad",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (159)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "08e45bc5-6e9e-4921-a77f-efabc945dcb2",
+    "pergunta": "Quantos cromossomos tem o ser humano? (160)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "d56b05d1-54b0-4b0c-970a-526e8a252af3",
+    "pergunta": "Qual é o maior oceano do mundo? (161)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "69f822b1-1e7d-45c4-b2ef-40a90dc64296",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (162)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "bee91fa2-6d18-499f-8d04-b0c5950b47a3",
+    "pergunta": "Quem foi Albert Einstein? (163)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "c2b4c596-5801-4014-8500-10a6b89a319f",
+    "pergunta": "Qual é a língua mais falada no mundo? (164)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "fb3aa5a8-892e-433c-b696-34df7b4da170",
+    "pergunta": "Qual é a capital do Canadá? (165)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "524b17ec-89ec-4587-af25-7b09b7640123",
+    "pergunta": "Qual planeta tem mais luas? (166)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "308efaad-66ce-4b75-a8bd-bcf7a66a132d",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (167)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "4ca118f8-5903-4e13-b35f-de870b619175",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (168)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "e1d3a07d-dac8-4214-b112-767f9855a580",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (169)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "e7c8b963-d387-4c09-8cf9-6a7e0868d8f8",
+    "pergunta": "Quantos cromossomos tem o ser humano? (170)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "47bce340-7d54-4241-8bce-4e49aa1b3e05",
+    "pergunta": "Qual é o maior oceano do mundo? (171)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "f8660919-fc78-47ac-967a-b097f09e2c66",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (172)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "821eb448-46c6-470e-98f7-390698a68421",
+    "pergunta": "Quem foi Albert Einstein? (173)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "767c9c0a-2fc0-4a18-a0be-133ea9686943",
+    "pergunta": "Qual é a língua mais falada no mundo? (174)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "60d55e31-998c-4274-b998-b9e1d9085c88",
+    "pergunta": "Qual é a capital do Canadá? (175)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "4b856ef8-efbc-4418-aae3-621a8c5d8dfb",
+    "pergunta": "Qual planeta tem mais luas? (176)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "cb696aad-e701-4ebf-b40e-786b6a6faef7",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (177)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "9a825dd8-6de2-4b1f-a589-1c79be589559",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (178)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "439c545b-62ea-442a-b20c-f3737f03ac34",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (179)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "96746e4f-8309-40e8-8ff9-638b3a5d5513",
+    "pergunta": "Quantos cromossomos tem o ser humano? (180)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "c7e9bd7a-adfa-46b0-8239-e71a4480ac21",
+    "pergunta": "Qual é o maior oceano do mundo? (181)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "d32ab8ec-84d9-4f92-9428-b6f0b7f2a340",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (182)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "3eff6c8a-5ed5-4cf5-8f6b-f69862533d94",
+    "pergunta": "Quem foi Albert Einstein? (183)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "fc78a1a2-e9f2-46f6-9caa-c239dd14a3a8",
+    "pergunta": "Qual é a língua mais falada no mundo? (184)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "35221424-681a-4b59-af5f-1bfeead7e953",
+    "pergunta": "Qual é a capital do Canadá? (185)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "f8cac569-ba47-49b8-b450-fe307e1c1de5",
+    "pergunta": "Qual planeta tem mais luas? (186)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "b49c0aa9-53ff-41ca-ba8f-5208717b2af6",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (187)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "9f7e8366-6d5c-409f-8d46-446f48480748",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (188)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "176a3605-70fc-4b75-817b-c31690b5e491",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (189)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "585fdbb5-6b24-4cda-8403-5b5a5faa3a57",
+    "pergunta": "Quantos cromossomos tem o ser humano? (190)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "2987de82-aec7-45f4-bd84-0257b585f5e0",
+    "pergunta": "Qual é o maior oceano do mundo? (191)",
+    "opcoes": [
+      "Atlântico",
+      "Índico",
+      "Ártico",
+      "Pacífico"
+    ],
+    "correta": 3
+  },
+  {
+    "id": "fffe6a05-2915-48ea-b812-1cb2e904a5dc",
+    "pergunta": "Qual é o elemento químico representado pelo símbolo O? (192)",
+    "opcoes": [
+      "Ouro",
+      "Osmio",
+      "Oxigênio",
+      "Oganessônio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "7fcdd1d7-08fe-4db5-a5e6-5c6eb7bd2a78",
+    "pergunta": "Quem foi Albert Einstein? (193)",
+    "opcoes": [
+      "Músico",
+      "Físico",
+      "Político",
+      "Pintor"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "19cce303-950f-4312-b5dd-2ff3d51f642a",
+    "pergunta": "Qual é a língua mais falada no mundo? (194)",
+    "opcoes": [
+      "Espanhol",
+      "Inglês",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": "52179c86-5098-4453-8271-94930a099b39",
+    "pergunta": "Qual é a capital do Canadá? (195)",
+    "opcoes": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "5e54345c-7353-4998-a4f0-acedeebf4321",
+    "pergunta": "Qual planeta tem mais luas? (196)",
+    "opcoes": [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "10f808dd-c56f-45c3-83ee-b47d35811ee0",
+    "pergunta": "Quem pintou o teto da Capela Sistina? (197)",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "2848b859-c040-4c1c-8f53-ca4da56d030a",
+    "pergunta": "Qual é o segundo maior país em extensão territorial? (198)",
+    "opcoes": [
+      "Brasil",
+      "Canadá",
+      "China",
+      "EUA"
+    ],
+    "correta": 1
+  },
+  {
+    "id": "ba2a8c0b-fff2-460a-b2ea-5b4b41b2abe3",
+    "pergunta": "Qual é a velocidade da luz no vácuo? (199)",
+    "opcoes": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "30 mil km/s"
+    ],
+    "correta": 0
+  },
+  {
+    "id": "2849a213-6e0a-4555-8b66-329812227945",
+    "pergunta": "Quantos cromossomos tem o ser humano? (200)",
+    "opcoes": [
+      "46",
+      "44",
+      "48",
+      "42"
+    ],
+    "correta": 0
   }
 ]
