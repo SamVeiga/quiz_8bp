@@ -64,11 +64,15 @@ def mandar_pergunta():
                 )
                 markup.add(btn)
 
-            bot.send_message(GRUPO_ID, f"❓ *Pergunta do Quiz:*\n||{pergunta['pergunta']}||", parse_mode="MarkdownV2", reply_markup=markup)
+            bot.send_message(
+                GRUPO_ID,
+                f"❓ *Pergunta do Quiz:*\n{pergunta['pergunta']}",
+                parse_mode="Markdown",
+                reply_markup=markup
+            )
 
-            threading.Timer(1800, revelar_resposta, args=[pergunta_id]).start()  # 30 minutos
-
-        time.sleep(1800)  # Espera 30 min para a próxima pergunta
+            threading.Timer(30, revelar_resposta, args=[pergunta_id]).start()  # 30 segundos para teste
+        time.sleep(1800)  # espera 30 minutos para a próxima
 
 def revelar_resposta(pergunta_id):
     if pergunta_id not in respostas_pendentes:
@@ -92,7 +96,6 @@ def revelar_resposta(pergunta_id):
     else:
         texto += "😢 Ninguém acertou dessa vez."
 
-    # Mostrar ranking
     if ranking:
         texto += "\n\n🏆 *Ranking:*\n"
         top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)[:5]
@@ -103,15 +106,14 @@ def revelar_resposta(pergunta_id):
 
 @bot.callback_query_handler(func=lambda c: True)
 def responder_quiz(call):
+    bot.answer_callback_query(call.id, "Resposta registrada!")
     try:
         pergunta_id, opcao = call.data.split("|")
         if pergunta_id not in respostas_pendentes:
             return
         if call.from_user.id in respostas_pendentes[pergunta_id]["respostas"]:
-            bot.answer_callback_query(call.id, "Você já respondeu essa pergunta.")
             return
         respostas_pendentes[pergunta_id]["respostas"][call.from_user.id] = int(opcao)
-        bot.answer_callback_query(call.id, "Resposta registrada!")
     except Exception as e:
         print("Erro:", e)
 
