@@ -5,9 +5,10 @@ import random
 import json
 import threading
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 GRUPO_ID = -1002363575666
+DONO_ID = 1481389775
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
@@ -16,67 +17,77 @@ app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
-HISTORICO_PATH = "historico.json"
 respostas_pendentes = {}
+perguntas_feitas = []
 
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
     perguntas = []
-
 try:
     ranking = json.load(open(RANKING_PATH, encoding="utf-8"))
 except:
     ranking = {}
 
-try:
-    historico = json.load(open(HISTORICO_PATH, encoding="utf-8"))
-except:
-    historico = {}
-
 def salvar_ranking():
     with open(RANKING_PATH, "w", encoding="utf-8") as f:
         json.dump(ranking, f, ensure_ascii=False, indent=2)
 
-def salvar_historico():
-    with open(HISTORICO_PATH, "w", encoding="utf-8") as f:
-        json.dump(historico, f, ensure_ascii=False, indent=2)
+def salvar_perguntas_feitas():
+    with open("perguntas_feitas.json", "w", encoding="utf-8") as f:
+        json.dump(perguntas_feitas, f)
 
-def filtrar_perguntas():
-    agora = datetime.now()
-    return [
-        p for p in perguntas
-        if p["id"] not in historico or
-        (agora - datetime.strptime(historico[p["id"]], "%Y-%m-%d")).days > 5
-    ]
+def carregar_perguntas_feitas():
+    global perguntas_feitas
+    try:
+        with open("perguntas_feitas.json", "r", encoding="utf-8") as f:
+            perguntas_feitas = json.load(f)
+    except:
+        perguntas_feitas = []
 
-def ciclo_pergunta():
-    while True:
-        hora = datetime.now().hour
-        if 6 <= hora <= 23:
-            pool = filtrar_perguntas()
-            if not pool:
-                time.sleep(900)
-                continue
+def escolher_pergunta():
+    agora = time.time()
+    ultimos_5_dias = agora - (5 * 86400)
+    recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_5_dias]
+    ids_recentes = [p["id"] for p in recentes]
 
-            pergunta = random.choice(pool)
-            pid = str(time.time())
-            respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
+    candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
+    if not candidatas:
+        return None
+    return random.choice(candidatas)
 
-            markup = telebot.types.InlineKeyboardMarkup()
-            for i, opc in enumerate(pergunta["opcoes"]):
-                markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
+def mandar_pergunta():
+    hora = datetime.now().hour
+    if not (6 <= hora <= 23):
+        return
 
-            bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
+    pergunta = escolher_pergunta()
+    if not pergunta:
+        return
 
-            historico[pergunta["id"]] = datetime.now().strftime("%Y-%m-%d")
-            salvar_historico()
+    pid = str(time.time())
+    respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
 
-            # Espera 15 minutos antes de revelar a resposta
-            time.sleep(900)
-            revelar_resposta(pid)
-        else:
-            time.sleep(60)
+    markup = telebot.types.InlineKeyboardMarkup()
+    for i, opc in enumerate(pergunta["opcoes"]):
+        markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
+
+    bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
+
+    perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
+    salvar_perguntas_feitas()
+
+    timer = threading.Timer(900, revelar_resposta, args=[pid])
+    respostas_pendentes[pid]["timer"] = timer
+    timer.start()
+
+@bot.message_handler(commands=["forcar"])
+def forcar_pergunta(m):
+    if m.from_user.id == DONO_ID:
+        bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
+        mandar_pergunta()
+    else:
+        bot.reply_to(m, "Você não tem permissão pra isso.")
 
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
@@ -86,12 +97,12 @@ def responder_quiz(call):
 
     pend = respostas_pendentes[pid]
     user = call.from_user.id
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
 
     if user in pend["respostas"]:
         return bot.answer_callback_query(call.id, "Você já respondeu.")
 
     pend["respostas"][user] = int(opcao)
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
     bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
 
@@ -99,6 +110,7 @@ def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
         return
+
     pergunta = pend["pergunta"]
     corretos = [u for u, o in pend["respostas"].items() if o == pergunta["correta"]]
     acertadores = []
@@ -115,6 +127,7 @@ def revelar_resposta(pid):
     salvar_ranking()
 
     resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+
     if acertadores:
         resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
     else:
@@ -155,8 +168,16 @@ def manter_vivo():
             pass
         time.sleep(600)
 
+def ciclo_perguntas():
+    while True:
+        agora = datetime.now()
+        if 6 <= agora.hour < 24:
+            mandar_pergunta()
+        time.sleep(900)  # 15 minutos
+
 if __name__ == "__main__":
-    threading.Thread(target=ciclo_pergunta).start()
+    carregar_perguntas_feitas()
+    threading.Thread(target=ciclo_perguntas).start()
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
