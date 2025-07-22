@@ -25,7 +25,6 @@ try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
     perguntas = []
-
 try:
     ranking = json.load(open(RANKING_PATH, encoding="utf-8"))
 except:
@@ -52,6 +51,7 @@ def escolher_pergunta():
     ultimos_5_dias = agora - (5 * 86400)
     recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_5_dias]
     ids_recentes = [p["id"] for p in recentes]
+
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     if not candidatas:
         return None
@@ -82,9 +82,39 @@ def mandar_pergunta():
     respostas_pendentes[pid]["timer"] = timer
     timer.start()
 
-def revelar_resposta(pid=None):
-    if not pid and respostas_pendentes:
-        pid = next(iter(respostas_pendentes))
+@bot.message_handler(commands=["forcar"])
+def forcar_pergunta(m):
+    if m.from_user.id != DONO_ID:
+        return bot.reply_to(m, "Você não tem permissão pra isso.")
+
+    # Revelar resposta pendente (se houver)
+    if respostas_pendentes:
+        pid_ativo = next(iter(respostas_pendentes))
+        bot.send_message(GRUPO_ID, "⏳ Enviando resposta da pergunta anterior...")
+        revelar_resposta(pid_ativo)
+
+    # Enviar nova pergunta
+    bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
+    mandar_pergunta()
+
+@bot.callback_query_handler(func=lambda c: "|" in c.data)
+def responder_quiz(call):
+    pid, opcao = call.data.split("|")
+    if pid not in respostas_pendentes:
+        return bot.answer_callback_query(call.id, "Pergunta expirada.")
+
+    pend = respostas_pendentes[pid]
+    user = call.from_user.id
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+
+    if user in pend["respostas"]:
+        return bot.answer_callback_query(call.id, "Você já respondeu.")
+
+    pend["respostas"][user] = int(opcao)
+    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
+    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+
+def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
         return
@@ -124,33 +154,6 @@ def revelar_resposta(pid=None):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
-@bot.message_handler(commands=["forcar"])
-def forcar_pergunta(m):
-    if m.from_user.id == DONO_ID:
-        if respostas_pendentes:
-            revelar_resposta()
-        bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
-        mandar_pergunta()
-    else:
-        bot.reply_to(m, "Você não tem permissão pra isso.")
-
-@bot.callback_query_handler(func=lambda c: "|" in c.data)
-def responder_quiz(call):
-    pid, opcao = call.data.split("|")
-    if pid not in respostas_pendentes:
-        return bot.answer_callback_query(call.id, "Pergunta expirada.")
-
-    pend = respostas_pendentes[pid]
-    user = call.from_user.id
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
-
-    if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Você já respondeu.")
-
-    pend["respostas"][user] = int(opcao)
-    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
-
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
@@ -177,8 +180,6 @@ def ciclo_perguntas():
     while True:
         agora = datetime.now()
         if 6 <= agora.hour < 24:
-            if respostas_pendentes:
-                revelar_resposta()
             mandar_pergunta()
         time.sleep(900)  # 15 minutos
 
