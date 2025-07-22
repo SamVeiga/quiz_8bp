@@ -13,6 +13,12 @@ TOKEN = os.getenv("TELEGRAM_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
 bot = telebot.TeleBot(TOKEN)
+
+import logging
+telebot_logger = logging.getLogger('TeleBot')
+telebot_logger.setLevel(logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)
+
 app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
