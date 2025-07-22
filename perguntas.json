@@ -1,0 +1,17 @@
+[
+  {
+    "pergunta": "Qual é a capital do Brasil?",
+    "opcoes": ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Quem escreveu 'Dom Casmurro'?",
+    "opcoes": ["Clarice Lispector", "Machado de Assis", "Graciliano Ramos", "José de Alencar"],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual planeta é conhecido como o Planeta Vermelho?",
+    "opcoes": ["Terra", "Júpiter", "Marte", "Vênus"],
+    "correta": 2
+  }
+]
