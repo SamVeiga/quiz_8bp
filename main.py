@@ -6,7 +6,10 @@ import json
 import threading
 import time
 from datetime import datetime
-from telebot.util import escape_markdown
+
+def escape_markdown(text):
+    import re
+    return re.sub(r'([_*[\]()~`>#+\-=|{}.!])', r'\\\1', text)
 
 GRUPO_ID = -1002363575666
 TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -96,14 +99,14 @@ def responder_quiz(call):
         return bot.answer_callback_query(call.id, "Pergunta expirada.")
 
     pend = respostas_pendentes[pid]
-    user = call.from_user.id
+    user = call._user.id
 
     if user in pend["respostas"]:
         return bot.answer_callback_query(call.id, "Você já respondeu.")
 
     pend["respostas"][user] = int(opcao)
 
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+    nome = call._user.first_name or call._user.username or "Alguém"
     nome = escape_markdown(nome)
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
     bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.", parse_mode="Markdown")
