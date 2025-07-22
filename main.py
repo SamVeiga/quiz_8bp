@@ -20,6 +20,7 @@ RANKING_PATH = "ranking.json"
 HISTORICO_PATH = "historico.json"
 
 respostas_pendentes = {}
+ultima_pergunta_id = None
 
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
@@ -44,27 +45,32 @@ def salvar_historico():
     with open(HISTORICO_PATH, "w", encoding="utf-8") as f:
         json.dump(historico, f, ensure_ascii=False, indent=2)
 
-def mandar_pergunta():
+def mandar_quiz_loop():
+    global ultima_pergunta_id
     while True:
         hora = datetime.now().hour
-        if 6 <= hora <= 23 and perguntas:
+        if 6 <= hora <= 23:
+            if ultima_pergunta_id:
+                revelar_resposta(ultima_pergunta_id)
+
             agora = time.time()
             cinco_dias = 5 * 24 * 60 * 60
 
-            perguntas_disponiveis = [
+            disponiveis = [
                 p for p in perguntas
                 if str(p['pergunta']) not in historico or agora - historico[str(p['pergunta'])] > cinco_dias
             ]
 
-            if not perguntas_disponiveis:
+            if not disponiveis:
                 historico.clear()
-                perguntas_disponiveis = perguntas
+                disponiveis = perguntas
 
-            pergunta = random.choice(perguntas_disponiveis)
+            pergunta = random.choice(disponiveis)
             historico[str(pergunta['pergunta'])] = agora
             salvar_historico()
 
             pid = str(time.time())
+            ultima_pergunta_id = pid
             respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
 
             markup = telebot.types.InlineKeyboardMarkup()
@@ -78,17 +84,17 @@ def mandar_pergunta():
                 reply_markup=markup
             )
 
-            timer = threading.Timer(600, revelar_resposta, args=[pid])
-            respostas_pendentes[pid]["timer"] = timer
-            timer.start()
-        time.sleep(600)
+        time.sleep(900)  # espera 15 minutos entre rodadas
+        # fora do horário, dorme por 5 min antes de reavaliar
+        if not (6 <= datetime.now().hour <= 23):
+            time.sleep(300)
 
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     pid, opcao = call.data.split("|")
     if pid not in respostas_pendentes:
         return bot.answer_callback_query(call.id, "Pergunta expirada.")
-    
+
     pend = respostas_pendentes[pid]
     user = call.from_user.id
 
@@ -103,17 +109,17 @@ def responder_quiz(call):
     bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.", parse_mode="Markdown")
 
     if len(pend["respostas"]) >= 10:
-        pend["timer"].cancel()
         revelar_resposta(pid)
 
 def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
         return
+
     pergunta = pend["pergunta"]
     corretos = [u for u, o in pend["respostas"].items() if o == pergunta["correta"]]
     acertadores = []
-    
+
     for u in corretos:
         ranking[u] = ranking.get(u, 0) + 1
         try:
@@ -122,11 +128,11 @@ def revelar_resposta(pid):
         except:
             nome = str(u)
         acertadores.append(nome)
-    
+
     salvar_ranking()
 
     resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
-    
+
     if acertadores:
         resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
     else:
@@ -168,7 +174,7 @@ def manter_vivo():
         time.sleep(600)
 
 if __name__ == "__main__":
-    threading.Thread(target=mandar_pergunta).start()
+    threading.Thread(target=mandar_quiz_loop).start()
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
