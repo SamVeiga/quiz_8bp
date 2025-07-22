@@ -14,11 +14,6 @@ RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
 bot = telebot.TeleBot(TOKEN)
 
-import logging
-telebot_logger = logging.getLogger('TeleBot')
-telebot_logger.setLevel(logging.DEBUG)
-logging.basicConfig(level=logging.DEBUG)
-
 app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
@@ -30,6 +25,7 @@ try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
     perguntas = []
+
 try:
     ranking = json.load(open(RANKING_PATH, encoding="utf-8"))
 except:
@@ -56,7 +52,6 @@ def escolher_pergunta():
     ultimos_5_dias = agora - (5 * 86400)
     recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_5_dias]
     ids_recentes = [p["id"] for p in recentes]
-
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     if not candidatas:
         return None
@@ -87,32 +82,9 @@ def mandar_pergunta():
     respostas_pendentes[pid]["timer"] = timer
     timer.start()
 
-@bot.message_handler(commands=["forcar"])
-def forcar_pergunta(m):
-    if m.from_user.id == DONO_ID:
-        bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
-        mandar_pergunta()
-    else:
-        bot.reply_to(m, "Você não tem permissão pra isso.")
-
-@bot.callback_query_handler(func=lambda c: "|" in c.data)
-def responder_quiz(call):
-    pid, opcao = call.data.split("|")
-    if pid not in respostas_pendentes:
-        return bot.answer_callback_query(call.id, "Pergunta expirada.")
-
-    pend = respostas_pendentes[pid]
-    user = call.from_user.id
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
-
-    if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Você já respondeu.")
-
-    pend["respostas"][user] = int(opcao)
-    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
-
-def revelar_resposta(pid):
+def revelar_resposta(pid=None):
+    if not pid and respostas_pendentes:
+        pid = next(iter(respostas_pendentes))
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
         return
@@ -152,6 +124,33 @@ def revelar_resposta(pid):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
+@bot.message_handler(commands=["forcar"])
+def forcar_pergunta(m):
+    if m.from_user.id == DONO_ID:
+        if respostas_pendentes:
+            revelar_resposta()
+        bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
+        mandar_pergunta()
+    else:
+        bot.reply_to(m, "Você não tem permissão pra isso.")
+
+@bot.callback_query_handler(func=lambda c: "|" in c.data)
+def responder_quiz(call):
+    pid, opcao = call.data.split("|")
+    if pid not in respostas_pendentes:
+        return bot.answer_callback_query(call.id, "Pergunta expirada.")
+
+    pend = respostas_pendentes[pid]
+    user = call.from_user.id
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+
+    if user in pend["respostas"]:
+        return bot.answer_callback_query(call.id, "Você já respondeu.")
+
+    pend["respostas"][user] = int(opcao)
+    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
+    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
@@ -178,23 +177,10 @@ def ciclo_perguntas():
     while True:
         agora = datetime.now()
         if 6 <= agora.hour < 24:
-            # Revela qualquer pergunta pendente
             if respostas_pendentes:
-                for pid in list(respostas_pendentes):
-                    try:
-                        respostas_pendentes[pid]["timer"].cancel()
-                    except:
-                        pass
-                    revelar_resposta(pid)
-
-            # Aguarda 2 segundos só pra garantir que o balão com a resposta seja enviado antes da nova pergunta
-            time.sleep(2)
-
-            # Envia a nova pergunta
+                revelar_resposta()
             mandar_pergunta()
-        
-        # Aguarda 15 minutos até o próximo ciclo
-        time.sleep(900)
+        time.sleep(900)  # 15 minutos
 
 if __name__ == "__main__":
     carregar_perguntas_feitas()
