@@ -102,7 +102,7 @@ def revelar_resposta(pid):
         acertadores.append(nome)
     salvar_ranking()
 
-    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    resp = f"✅ *Resposta Correta do QUIZ anterior:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
     if acertadores:
         resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
     else:
