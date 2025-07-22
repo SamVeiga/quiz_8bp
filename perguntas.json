@@ -338,10 +338,5 @@
     "pergunta": "Qual é a maior cadeia de supermercados brasileira?",
     "opcoes": ["Pão de Açúcar", "Carrefour", "Walmart", "Extra"],
     "correta": 1
-  },
-  {
-    "pergunta": "Qual é o nome do presidente brasileiro eleito em 2018?",
-    "opcoes": ["Dilma Rousseff", "Michel Temer", "Jair Bolsonaro",
-    "correta": 2
   }
 ]
