@@ -69,9 +69,12 @@ def responder_quiz(call):
 
     pend["respostas"][user] = int(opcao)
     
+   from telebot.util import escape_markdown
+
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
+    nome = escape_markdown(nome)
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.", parse_mode="Markdown")
 
     if len(pend["respostas"]) >= 10:
         pend["timer"].cancel()
