@@ -50,10 +50,10 @@ def mandar_pergunta():
                 reply_markup=markup
             )
 
-            timer = threading.Timer(1800, revelar_resposta, args=[pid])
+            timer = threading.Timer(600, revelar_resposta, args=[pid])
             respostas_pendentes[pid]["timer"] = timer
             timer.start()
-        time.sleep(1800)
+        time.sleep(600)
 
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
