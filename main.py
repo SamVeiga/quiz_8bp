@@ -7,16 +7,8 @@ import threading
 import time
 from datetime import datetime
 
-# === INFORMAÇÕES DO GRUPO ===
+# === CONFIGURAÇÕES DO GRUPO E DO BOT ===
 GRUPO_ID = -1002363575666  # Chat 8bp Oficial
-GRUPO_LINK = "https://t.me/Chat8bpOficial"
-GRUPO_NOME = "Chat 8bp Oficial"
-
-# === INFORMAÇÃO DO DONO ===
-DONO_ID = 1481389775  # Samuel 🦅
-DONO_USER = "@samuel_gpm"
-
-# === TOKENS E CONFIGURAÇÃO ===
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
@@ -25,20 +17,17 @@ app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
+respostas_pendentes = {}
 
+# Carregando perguntas e ranking
 try:
-    with open(PERGUNTAS_PATH, "r", encoding="utf-8") as f:
-        perguntas = json.load(f)
+    perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
     perguntas = []
-
 try:
-    with open(RANKING_PATH, "r", encoding="utf-8") as f:
-        ranking = json.load(f)
+    ranking = json.load(open(RANKING_PATH, encoding="utf-8"))
 except:
     ranking = {}
-
-respostas_pendentes = {}
 
 def salvar_ranking():
     with open(RANKING_PATH, "w", encoding="utf-8") as f:
@@ -49,93 +38,106 @@ def mandar_pergunta():
         hora = datetime.now().hour
         if 6 <= hora <= 23 and perguntas:
             pergunta = random.choice(perguntas)
-            pergunta_id = str(time.time())
-            respostas_pendentes[pergunta_id] = {
-                "pergunta": pergunta,
-                "respostas": {}
-            }
+            pid = str(time.time())
+            respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
 
-            opcoes = pergunta["opcoes"]
             markup = telebot.types.InlineKeyboardMarkup()
-            for i, opcao in enumerate(opcoes):
-                btn = telebot.types.InlineKeyboardButton(
-                    text=opcao,
-                    callback_data=f"{pergunta_id}|{i}"
-                )
-                markup.add(btn)
+            for i, opc in enumerate(pergunta["opcoes"]):
+                markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
             bot.send_message(
                 GRUPO_ID,
-                f"❓ *Pergunta do Quiz:*\n{pergunta['pergunta']}",
+                f"❓ *Pergunta:* {pergunta['pergunta']}",
                 parse_mode="Markdown",
                 reply_markup=markup
             )
 
-            threading.Timer(30, revelar_resposta, args=[pergunta_id]).start()  # 30 segundos para teste
-        time.sleep(1800)  # espera 30 minutos para a próxima
+            timer = threading.Timer(1800, revelar_resposta, args=[pid])
+            respostas_pendentes[pid]["timer"] = timer
+            timer.start()
 
-def revelar_resposta(pergunta_id):
-    if pergunta_id not in respostas_pendentes:
-        return
-    dados = respostas_pendentes.pop(pergunta_id)
-    pergunta = dados["pergunta"]
-    corretas = []
-    texto = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+        time.sleep(1800)
 
-    for user_id, escolha in dados["respostas"].items():
-        if escolha == pergunta["correta"]:
-            corretas.append(user_id)
-            ranking[user_id] = ranking.get(user_id, 0) + 1
-
-    salvar_ranking()
-
-    if corretas:
-        texto += "🎉 *Quem acertou:*\n"
-        for uid in corretas:
-            texto += f"• [{uid}](tg://user?id={uid})\n"
-    else:
-        texto += "😢 Ninguém acertou dessa vez."
-
-    if ranking:
-        texto += "\n\n🏆 *Ranking:*\n"
-        top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)[:5]
-        for i, (uid, pontos) in enumerate(top, start=1):
-            texto += f"{i}º - [{uid}](tg://user?id={uid}): {pontos} ponto(s)\n"
-
-    bot.send_message(GRUPO_ID, texto, parse_mode="Markdown")
-
-@bot.callback_query_handler(func=lambda c: True)
+@bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     bot.answer_callback_query(call.id, "Resposta registrada!")
-    try:
-        pergunta_id, opcao = call.data.split("|")
-        if pergunta_id not in respostas_pendentes:
-            return
-        if call.from_user.id in respostas_pendentes[pergunta_id]["respostas"]:
-            return
-        respostas_pendentes[pergunta_id]["respostas"][call.from_user.id] = int(opcao)
-    except Exception as e:
-        print("Erro:", e)
+    pid, opcao = call.data.split("|")
+    if pid not in respostas_pendentes:
+        return
+    pend = respostas_pendentes[pid]
+    user = call.from_user.id
+    if user in pend["respostas"]:
+        return
+    pend["respostas"][user] = int(opcao)
+
+    chat_id = call.message.chat.id
+    msg_id = call.message.message_id
+    new_markup = telebot.types.InlineKeyboardMarkup()
+    for idx, opc in enumerate(pend["pergunta"]["opcoes"]):
+        text = opc
+        if idx == int(opcao):
+            text = f"✅ {opc}"
+        new_markup.add(telebot.types.InlineKeyboardButton(text, callback_data=f"{pid}|{idx}"))
+
+    bot.edit_message_reply_markup(chat_id, msg_id, reply_markup=new_markup)
+
+    if len(pend["respostas"]) >= 10:
+        pend["timer"].cancel()
+        revelar_resposta(pid)
+
+def revelar_resposta(pid):
+    pend = respostas_pendentes.pop(pid, None)
+    if not pend:
+        return
+    pergunta = pend["pergunta"]
+    corretos = [u for u, o in pend["respostas"].items() if o == pergunta["correta"]]
+    acertadores = []
+    for u in corretos:
+        ranking[u] = ranking.get(u, 0) + 1
+        try:
+            user = bot.get_chat(u)
+            nome = user.first_name or user.username or str(u)
+        except:
+            nome = str(u)
+        acertadores.append(nome)
+    salvar_ranking()
+
+    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    if acertadores:
+        resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) + "\n"
+    else:
+        resp += "😢 Ninguém acertou dessa vez.\n"
+
+    if ranking:
+        resp += "\n🏆 *Ranking atual:*\n"
+        top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)[:5]
+        for i, (u, p) in enumerate(top, start=1):
+            try:
+                user = bot.get_chat(u)
+                nome = user.first_name or user.username or str(u)
+            except:
+                nome = str(u)
+            resp += f"{i}º - {nome}: {p} ponto(s)\n"
+
+    bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
 @app.route(f"/{TOKEN}", methods=["POST"])
-def receber():
-    update = telebot.types.Update.de_json(request.stream.read().decode("utf-8"))
-    bot.process_new_updates([update])
-    return "ok", 200
+def webhook():
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "OK", 200
 
 @app.route("/", methods=["GET"])
-def configurar_webhook():
+def home():
     url = f"{RENDER_URL}/{TOKEN}"
-    info = bot.get_webhook_info()
-    if info.url != url:
+    if bot.get_webhook_info().url != url:
         bot.remove_webhook()
         bot.set_webhook(url=url)
-    return "✅ Webhook pronto!", 200
+    return "✅", 200
 
 def manter_vivo():
+    import requests
     while True:
         try:
-            import requests
             requests.get(RENDER_URL)
         except:
             pass
@@ -144,6 +146,5 @@ def manter_vivo():
 if __name__ == "__main__":
     threading.Thread(target=mandar_pergunta).start()
     threading.Thread(target=manter_vivo).start()
-
-    port = int(os.environ.get("PORT", 10000))
+    port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
