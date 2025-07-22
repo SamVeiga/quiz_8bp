@@ -178,8 +178,23 @@ def ciclo_perguntas():
     while True:
         agora = datetime.now()
         if 6 <= agora.hour < 24:
+            # Revela qualquer pergunta pendente
+            if respostas_pendentes:
+                for pid in list(respostas_pendentes):
+                    try:
+                        respostas_pendentes[pid]["timer"].cancel()
+                    except:
+                        pass
+                    revelar_resposta(pid)
+
+            # Aguarda 2 segundos só pra garantir que o balão com a resposta seja enviado antes da nova pergunta
+            time.sleep(2)
+
+            # Envia a nova pergunta
             mandar_pergunta()
-        time.sleep(900)  # 15 minutos
+        
+        # Aguarda 15 minutos até o próximo ciclo
+        time.sleep(900)
 
 if __name__ == "__main__":
     carregar_perguntas_feitas()
