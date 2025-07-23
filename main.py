@@ -74,7 +74,7 @@ def mandar_pergunta():
     for i, opc in enumerate(pergunta["opcoes"]):
         markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
-    msg = bot.send_message(GRUPO_ID, f"\u2753 *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
+    msg = bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
     mensagens_anteriores.append(msg.message_id)
     if len(mensagens_anteriores) > 3:
         apagar_mensagens_antigas()
@@ -124,7 +124,7 @@ def revelar_resposta(pid):
 
     salvar_ranking()
 
-    resp = f"\u2705 *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
     resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"\u2022 {nome}" for nome in acertadores) if acertadores else "\ud83d\ude22 Ninguém acertou.\n"
 
     if ranking:
@@ -162,10 +162,12 @@ def responder_quiz(call):
         return bot.answer_callback_query(call.id, "Pergunta expirada.")
     pend = respostas_pendentes[pid]
     user = call.from_user.id
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
     if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Já respondeu!")
+        return bot.answer_callback_query(call.id, "Você já respondeu.")
     pend["respostas"][user] = int(opcao)
-    bot.answer_callback_query(call.id, "\u2705 Resposta salva!")
+    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
 
 # 🎯 CALLBACK DO BOTÃO "NOVO DESAFIO"
 ultimo_pedido = 0
@@ -255,4 +257,3 @@ if __name__ == "__main__":
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
-    
