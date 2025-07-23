@@ -60,12 +60,24 @@ def escolher_pergunta():
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
+# ❌ APAGAR TODAS AS MENSAGENS RELACIONADAS À PERGUNTA ANTERIOR
+
+def apagar_mensagens_anteriores():
+    while mensagens_anteriores:
+        try:
+            msg_id = mensagens_anteriores.pop(0)
+            bot.delete_message(GRUPO_ID, msg_id)
+        except:
+            continue
+
 # 🌟 FUNÇÃO PRINCIPAL DE ENVIO DE PERGUNTA
 
 def mandar_pergunta():
     pergunta = escolher_pergunta()
     if not pergunta:
         return
+
+    apagar_mensagens_anteriores()
 
     pid = str(time.time())
     respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
@@ -74,10 +86,8 @@ def mandar_pergunta():
     for i, opc in enumerate(pergunta["opcoes"]):
         markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
-    msg = bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
+    msg = bot.send_message(GRUPO_ID, f"\u2753 *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
     mensagens_anteriores.append(msg.message_id)
-    if len(mensagens_anteriores) > 3:
-        apagar_mensagens_antigas()
 
     # Botão "Novo Desafio"
     desafio = telebot.types.InlineKeyboardMarkup()
@@ -91,16 +101,6 @@ def mandar_pergunta():
     timer = threading.Timer(3600, revelar_resposta, args=[pid])
     respostas_pendentes[pid]["timer"] = timer
     timer.start()
-
-# ❌ APAGAR MENSAGENS ANTERIORES, MENOS A MAIS RECENTE
-
-def apagar_mensagens_antigas():
-    while len(mensagens_anteriores) > 3:
-        try:
-            msg_id = mensagens_anteriores.pop(0)
-            bot.delete_message(GRUPO_ID, msg_id)
-        except:
-            continue
 
 # ⚖️ RANKING E RESPOSTA
 
@@ -124,7 +124,7 @@ def revelar_resposta(pid):
 
     salvar_ranking()
 
-    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    resp = f"\u2705 *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
     resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"\u2022 {nome}" for nome in acertadores) if acertadores else "\ud83d\ude22 Ninguém acertou.\n"
 
     if ranking:
@@ -141,7 +141,6 @@ def revelar_resposta(pid):
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
-    # Aguarda 30s antes de nova pergunta
     threading.Timer(30, mandar_pergunta).start()
 
 # 🚀 /FORCAR SOMENTE DONO
@@ -162,12 +161,13 @@ def responder_quiz(call):
         return bot.answer_callback_query(call.id, "Pergunta expirada.")
     pend = respostas_pendentes[pid]
     user = call.from_user.id
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
     if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Você já respondeu.")
+        return bot.answer_callback_query(call.id, "Já respondeu!")
     pend["respostas"][user] = int(opcao)
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
-    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
+    bot.answer_callback_query(call.id, "\u2705 Resposta salva!")
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+    msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+    mensagens_anteriores.append(msg.message_id)
 
 # 🎯 CALLBACK DO BOTÃO "NOVO DESAFIO"
 ultimo_pedido = 0
@@ -257,3 +257,4 @@ if __name__ == "__main__":
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
+                  
