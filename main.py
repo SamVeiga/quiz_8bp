@@ -72,7 +72,7 @@ def mandar_pergunta():
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
 
-    timer = threading.Timer(450, revelar_resposta, args=[pid])
+    timer = threading.Timer(470, revelar_resposta, args=[pid])
     respostas_pendentes[pid]["timer"] = timer
     timer.start()
 
