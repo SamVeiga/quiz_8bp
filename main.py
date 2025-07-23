@@ -60,9 +60,8 @@ def escolher_pergunta():
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
-# ❌ APAGAR TODAS AS MENSAGENS ANTERIORES MENOS AS DUAS ÚLTIMAS
-
-def apagar_mensagens_anteriores():
+# ❌ APAGAR TODAS AS MENSAGENS EXCETO AS 2 MAIS RECENTES
+def apagar_mensagens_antigas():
     while len(mensagens_anteriores) > 2:
         try:
             msg_id = mensagens_anteriores.pop(0)
@@ -77,7 +76,7 @@ def mandar_pergunta():
     if not pergunta:
         return
 
-    apagar_mensagens_anteriores()
+    apagar_mensagens_antigas()
 
     pid = str(time.time())
     respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
@@ -89,7 +88,6 @@ def mandar_pergunta():
     msg = bot.send_message(GRUPO_ID, f"\u2753 *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
     mensagens_anteriores.append(msg.message_id)
 
-    # ✅ Botão "Novo Desafio"
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("\ud83c\udfaf Novo Desafio", callback_data="novo_desafio"))
     desafio_msg = bot.send_message(GRUPO_ID, "Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
@@ -97,6 +95,10 @@ def mandar_pergunta():
 
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
+
+    timer = threading.Timer(300, revelar_resposta, args=[pid])
+    respostas_pendentes[pid]["timer"] = timer
+    timer.start()
 
 # ⚖️ RANKING E RESPOSTA
 
@@ -139,7 +141,7 @@ def revelar_resposta(pid):
 
     threading.Timer(30, mandar_pergunta).start()
 
-# ✅ /FORCAR SOMENTE DONO
+# 🚀 /FORCAR SOMENTE DONO
 @bot.message_handler(commands=["forcar"])
 def forcar_pergunta(m):
     if m.from_user.id != DONO_ID:
@@ -147,10 +149,9 @@ def forcar_pergunta(m):
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
-    else:
-        mandar_pergunta()
+    mandar_pergunta()
 
-# ✅ CALLBACK DE RESPOSTA AO QUIZ
+# 📊 CALLBACK DE RESPOSTA AO QUIZ
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     pid, opcao = call.data.split("|")
@@ -166,7 +167,7 @@ def responder_quiz(call):
     msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
     mensagens_anteriores.append(msg.message_id)
 
-# ✅ CALLBACK DO BOTÃO "NOVO DESAFIO"
+# 🎯 CALLBACK DO BOTÃO "NOVO DESAFIO"
 ultimo_pedido = 0
 @bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
 def desafio_callback(call):
@@ -179,8 +180,6 @@ def desafio_callback(call):
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
-    else:
-        mandar_pergunta()
     bot.answer_callback_query(call.id, "Novo desafio enviado!")
 
 # 🚀 FLASK WEBHOOKS E ROTINAS
@@ -206,7 +205,7 @@ def manter_vivo():
             pass
         time.sleep(600)
 
-# ✅ ZERAR RANKING TODO DIA À MEIA-NOITE COM MENSAGEM FESTIVA
+# ⛔ ZERAR RANKING TODO DIA À MEIA-NOITE COM MENSAGEM FESTIVA
 
 def zerar_ranking_diario():
     while True:
