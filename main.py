@@ -54,16 +54,15 @@ def carregar_perguntas_feitas():
 # 🔒 BLOCO DE ESCOLHA DE PERGUNTAS (NÃO ALTERAR)
 def escolher_pergunta():
     agora = time.time()
-    ultimos_5_dias = agora - (5 * 86400)
-    recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_5_dias]
+    ultimos_3_dias = agora - (3 * 86400)  # Alterado para 3 dias
+    recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_3_dias]
     ids_recentes = [p["id"] for p in recentes]
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
-# ❌ APAGAR TODAS AS MENSAGENS RELACIONADAS À PERGUNTA ANTERIOR
-
+# ❌ APAGAR TODAS AS MENSAGENS RELACIONADAS À PERGUNTA ANTERIOR (deixa as 2 últimas)
 def apagar_mensagens_anteriores():
-    while mensagens_anteriores:
+    while len(mensagens_anteriores) > 2:
         try:
             msg_id = mensagens_anteriores.pop(0)
             bot.delete_message(GRUPO_ID, msg_id)
@@ -175,8 +174,8 @@ ultimo_pedido = 0
 def desafio_callback(call):
     global ultimo_pedido
     agora = time.time()
-    if agora - ultimo_pedido < 600:
-        restante = int(600 - (agora - ultimo_pedido))
+    if agora - ultimo_pedido < 300:
+        restante = int(300 - (agora - ultimo_pedido))
         return bot.answer_callback_query(call.id, f"Aguarde {restante}s para novo desafio.", show_alert=True)
     ultimo_pedido = agora
     if respostas_pendentes:
@@ -257,4 +256,3 @@ if __name__ == "__main__":
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
-        
