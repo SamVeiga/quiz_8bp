@@ -22,7 +22,7 @@ PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
 respostas_pendentes = {}
 perguntas_feitas = []
-mensagens_anteriores = []  # Armazena mensagens para referência futura (sem exclusão agora)
+mensagens_pergunta = []  # Armazena IDs de mensagens da pergunta e botão
 
 # ⛔ CARREGAMENTO INICIAL DE DADOS (NÃO ALTERAR)
 try:
@@ -51,7 +51,7 @@ def carregar_perguntas_feitas():
     except:
         perguntas_feitas = []
 
-# 🔐 BLOCO DE ESCOLHA DE PERGUNTAS (NÃO ALTERAR)
+# 🔒 BLOCO DE ESCOLHA DE PERGUNTAS (NÃO ALTERAR)
 def escolher_pergunta():
     agora = time.time()
     ultimos_3_dias = agora - (3 * 86400)
@@ -60,9 +60,20 @@ def escolher_pergunta():
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
-# 🌟 ENVIO DA PRÓXIMA PERGUNTA
+# ❌ APAGAR SOMENTE MENSAGENS DE PERGUNTAS E BOTÕES (MANTER BALÕES DE RANKING)
+def apagar_mensagens_de_pergunta():
+    while len(mensagens_pergunta) > 2:
+        try:
+            msg_id = mensagens_pergunta.pop(0)
+            bot.delete_message(GRUPO_ID, msg_id)
+        except:
+            continue
+
+# 🌟 FUNÇÃO PRINCIPAL DE ENVIO DE PERGUNTA
 
 def mandar_pergunta():
+    apagar_mensagens_de_pergunta()
+
     pergunta = escolher_pergunta()
     if not pergunta:
         return
@@ -74,19 +85,19 @@ def mandar_pergunta():
     for i, opc in enumerate(pergunta["opcoes"]):
         markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
-    msg = bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
-    mensagens_anteriores.append(msg.message_id)
+    msg = bot.send_message(GRUPO_ID, f"\u2753 *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
+    mensagens_pergunta.append(msg.message_id)
 
     # Botão "Novo Desafio"
     desafio = telebot.types.InlineKeyboardMarkup()
-    desafio.add(telebot.types.InlineKeyboardButton("🎯 Novo Desafio", callback_data="novo_desafio"))
+    desafio.add(telebot.types.InlineKeyboardButton("\ud83c\udfaf Novo Desafio", callback_data="novo_desafio"))
     desafio_msg = bot.send_message(GRUPO_ID, "Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
-    mensagens_anteriores.append(desafio_msg.message_id)
+    mensagens_pergunta.append(desafio_msg.message_id)
 
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
 
-# ⚖️ RANKING + BALÃO DE RESPOSTA
+# ⚖️ RANKING E RESPOSTA
 
 def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
@@ -108,11 +119,11 @@ def revelar_resposta(pid):
 
     salvar_ranking()
 
-    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
-    resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) if acertadores else "😢 Ninguém acertou.\n"
+    resp = f"\u2705 *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"\u2022 {nome}" for nome in acertadores) if acertadores else "\ud83d\ude22 Ninguém acertou.\n"
 
     if ranking:
-        resp += "\n🏆 *Ranking atual:*\n"
+        resp += "\n\ud83c\udfc6 *Ranking atual:*\n"
         top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)[:10]
         for i, (u, p) in enumerate(top, 1):
             try:
@@ -124,7 +135,9 @@ def revelar_resposta(pid):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
-# 🚀 /FORCAR SÓ DONO
+    threading.Timer(30, mandar_pergunta).start()
+
+# 🚀 /FORCAR SOMENTE DONO
 @bot.message_handler(commands=["forcar"])
 def forcar_pergunta(m):
     if m.from_user.id != DONO_ID:
@@ -132,10 +145,10 @@ def forcar_pergunta(m):
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
-        time.sleep(30)
-    mandar_pergunta()
+    else:
+        mandar_pergunta()
 
-# 📊 RESPOSTA DO QUIZ
+# 📊 CALLBACK DE RESPOSTA AO QUIZ
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     pid, opcao = call.data.split("|")
@@ -146,11 +159,11 @@ def responder_quiz(call):
     if user in pend["respostas"]:
         return bot.answer_callback_query(call.id, "Já respondeu!")
     pend["respostas"][user] = int(opcao)
-    bot.answer_callback_query(call.id, "✅ Resposta salva!")
+    bot.answer_callback_query(call.id, "\u2705 Resposta salva!")
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
     bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
 
-# 🎯 BOTÃO NOVO DESAFIO
+# 🎯 CALLBACK DO BOTÃO "NOVO DESAFIO"
 ultimo_pedido = 0
 @bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
 def desafio_callback(call):
@@ -163,11 +176,11 @@ def desafio_callback(call):
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
-        time.sleep(30)
-    mandar_pergunta()
+    else:
+        mandar_pergunta()
     bot.answer_callback_query(call.id, "Novo desafio enviado!")
 
-# 🚀 WEBHOOK
+# 🚀 FLASK WEBHOOKS E ROTINAS
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
@@ -179,7 +192,7 @@ def home():
     if bot.get_webhook_info().url != url:
         bot.remove_webhook()
         bot.set_webhook(url=url)
-    return "✅", 200
+    return "\u2705", 200
 
 def manter_vivo():
     import requests
@@ -190,9 +203,7 @@ def manter_vivo():
             pass
         time.sleep(600)
 
-# ❌ SEM PERGUNTAS AUTOMÁTICAS AGORA
-
-# ⏰ ZERAR RANKING MEIA-NOITE
+# ⛔ ZERAR RANKING TODO DIA À MEIA-NOITE COM MENSAGEM FESTIVA
 
 def zerar_ranking_diario():
     while True:
@@ -207,7 +218,7 @@ def zerar_ranking_diario():
                 except:
                     nome = str(vencedor)
                 texto = f"\U0001f389 *Vitória do Dia!* \U0001f389\n\nParabéns {nome}! Você foi o melhor do dia!\n\n"
-                texto += "🎖️ *Top 3 do Dia:*\n"
+                texto += "\ud83c\udf96\ufe0f *Top 3 do Dia:*\n"
                 for i, (u, p) in enumerate(top[:3], 1):
                     try:
                         user = bot.get_chat(u)
@@ -221,7 +232,7 @@ def zerar_ranking_diario():
             time.sleep(60)
         time.sleep(30)
 
-# 🔧 INICIAR TUDO
+# 🔧 INICIAR THREADS
 if __name__ == "__main__":
     carregar_perguntas_feitas()
     threading.Thread(target=zerar_ranking_diario).start()
