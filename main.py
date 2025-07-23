@@ -257,4 +257,4 @@ if __name__ == "__main__":
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
-                  
+        
