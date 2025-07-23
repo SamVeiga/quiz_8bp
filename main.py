@@ -13,7 +13,6 @@ TOKEN = os.getenv("TELEGRAM_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
 bot = telebot.TeleBot(TOKEN)
-
 app = Flask(__name__)
 
 PERGUNTAS_PATH = "perguntas.json"
@@ -51,17 +50,12 @@ def escolher_pergunta():
     ultimos_5_dias = agora - (5 * 86400)
     recentes = [p for p in perguntas_feitas if p["tempo"] > ultimos_5_dias]
     ids_recentes = [p["id"] for p in recentes]
-
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     if not candidatas:
         return None
     return random.choice(candidatas)
 
 def mandar_pergunta():
-    hora = datetime.now().hour
-    if not (6 <= hora <= 23):
-        return
-
     pergunta = escolher_pergunta()
     if not pergunta:
         return
@@ -87,13 +81,11 @@ def forcar_pergunta(m):
     if m.from_user.id != DONO_ID:
         return bot.reply_to(m, "Você não tem permissão pra isso.")
 
-    # Revelar resposta pendente (se houver)
     if respostas_pendentes:
         pid_ativo = next(iter(respostas_pendentes))
         bot.send_message(GRUPO_ID, "⏳ Enviando resposta da pergunta anterior...")
         revelar_resposta(pid_ativo)
 
-    # Enviar nova pergunta
     bot.send_message(GRUPO_ID, "🚨 Enviando nova pergunta agora!")
     mandar_pergunta()
 
@@ -178,9 +170,7 @@ def manter_vivo():
 
 def ciclo_perguntas():
     while True:
-        agora = datetime.now()
-        if 6 <= agora.hour < 24:
-            mandar_pergunta()
+        mandar_pergunta()
         time.sleep(480)  # 8 minutos
 
 if __name__ == "__main__":
