@@ -78,7 +78,7 @@ def mandar_pergunta():
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
 
-    timer = threading.Timer(900, revelar_resposta, args=[pid])
+    timer = threading.Timer(450, revelar_resposta, args=[pid])
     respostas_pendentes[pid]["timer"] = timer
     timer.start()
 
@@ -181,7 +181,7 @@ def ciclo_perguntas():
         agora = datetime.now()
         if 6 <= agora.hour < 24:
             mandar_pergunta()
-        time.sleep(900)  # 15 minutos
+        time.sleep(480)  # 8 minutos
 
 if __name__ == "__main__":
     carregar_perguntas_feitas()
