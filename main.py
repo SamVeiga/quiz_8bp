@@ -60,7 +60,7 @@ def escolher_pergunta():
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
-# ❌ APAGAR TODAS AS MENSAGENS EXCETO AS 2 MAIS RECENTES
+# ❌ APAGAR TODAS AS MENSAGENS ANTERIORES (exceto as 2 mais recentes)
 def apagar_mensagens_antigas():
     while len(mensagens_anteriores) > 2:
         try:
@@ -72,11 +72,11 @@ def apagar_mensagens_antigas():
 # 🌟 FUNÇÃO PRINCIPAL DE ENVIO DE PERGUNTA
 
 def mandar_pergunta():
+    apagar_mensagens_antigas()
+
     pergunta = escolher_pergunta()
     if not pergunta:
         return
-
-    apagar_mensagens_antigas()
 
     pid = str(time.time())
     respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
@@ -88,6 +88,7 @@ def mandar_pergunta():
     msg = bot.send_message(GRUPO_ID, f"\u2753 *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
     mensagens_anteriores.append(msg.message_id)
 
+    # Botão "Novo Desafio"
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("\ud83c\udfaf Novo Desafio", callback_data="novo_desafio"))
     desafio_msg = bot.send_message(GRUPO_ID, "Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
@@ -96,9 +97,7 @@ def mandar_pergunta():
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
 
-    timer = threading.Timer(300, revelar_resposta, args=[pid])
-    respostas_pendentes[pid]["timer"] = timer
-    timer.start()
+    # Não inicia temporizador automático aqui
 
 # ⚖️ RANKING E RESPOSTA
 
@@ -149,7 +148,6 @@ def forcar_pergunta(m):
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
-    mandar_pergunta()
 
 # 📊 CALLBACK DE RESPOSTA AO QUIZ
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
@@ -173,7 +171,7 @@ ultimo_pedido = 0
 def desafio_callback(call):
     global ultimo_pedido
     agora = time.time()
-    if agora - ultimo_pedido < 300:
+    if agora - ultimo_pedido < 300:  # 5 minutos
         restante = int(300 - (agora - ultimo_pedido))
         return bot.answer_callback_query(call.id, f"Aguarde {restante}s para novo desafio.", show_alert=True)
     ultimo_pedido = agora
