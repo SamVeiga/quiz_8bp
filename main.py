@@ -200,32 +200,57 @@ def manter_vivo():
 # ❌ SEM PERGUNTAS AUTOMÁTICAS AGORA
 
 # ⏰ ZERAR RANKING MEIA-NOITE
+from datetime import timedelta
 
 def zerar_ranking_diario():
+    ultimo_dia_enviado = None  # guarda o último dia em que o relatório foi enviado
+
     while True:
-        agora = datetime.now()
+        agora = datetime.utcnow() - timedelta(hours=3)  # Horário de Brasília
+        hoje = agora.date()
+
         if agora.hour == 0 and agora.minute == 0:
-            top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)
-            if top:
-                vencedor = top[0][0]
-                try:
-                    user = bot.get_chat(vencedor)
-                    nome = user.first_name or user.username or str(vencedor)
-                except:
-                    nome = str(vencedor)
-                texto = f"\U0001f389 *Vitória do Dia!* \U0001f389\n\nParabéns {nome}! Você foi o melhor do dia!\n\n"
-                texto += "🎖️ *Top 3 do Dia:*\n"
-                for i, (u, p) in enumerate(top[:3], 1):
+            if ultimo_dia_enviado != hoje:
+                # Enviar ranking final
+                top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)
+                if top:
+                    vencedor = top[0][0]
                     try:
-                        user = bot.get_chat(u)
-                        nome_u = user.first_name or user.username or str(u)
+                        user = bot.get_chat(vencedor)
+                        nome = user.first_name or user.username or str(vencedor)
                     except:
-                        nome_u = str(u)
-                    texto += f"{i}º - {nome_u}: {p} ponto(s)\n"
-                bot.send_message(GRUPO_ID, texto, parse_mode="Markdown")
-            ranking.clear()
-            salvar_ranking()
-            time.sleep(60)
+                        nome = str(vencedor)
+                    texto = f"\U0001f389 *Vitória do Dia!* \U0001f389\n\nParabéns {nome}! Você foi o melhor do dia!\n\n"
+                    texto += "🎖️ *Top 3 do Dia:*\n"
+                    for i, (u, p) in enumerate(top[:3], 1):
+                        try:
+                            user = bot.get_chat(u)
+                            nome_u = user.first_name or user.username or str(u)
+                        except:
+                            nome_u = str(u)
+                        texto += f"{i}º - {nome_u}: {p} ponto(s)\n"
+                    bot.send_message(GRUPO_ID, texto, parse_mode="Markdown")
+
+                # Relatório de perguntas do dia
+                desde_ontem = time.time() - 86400
+                feitas_hoje = [p for p in perguntas_feitas if p["tempo"] > desde_ontem]
+                ids_hoje = {p["id"] for p in feitas_hoje}
+                repetidas = len(feitas_hoje) - len(ids_hoje)
+                novas = len(ids_hoje)
+
+                relatorio = (
+                    "📊 *Relatório Diário do Quiz* 📊\n\n"
+                    f"📝 Perguntas feitas hoje: {len(feitas_hoje)}\n"
+                    f"🔁 Repetidas nos últimos 3 dias: {repetidas}\n"
+                    f"🆕 Novas perguntas hoje: {novas}\n\n"
+                    "🕛 Relatório gerado automaticamente à meia-noite."
+                )
+                bot.send_message(GRUPO_ID, relatorio, parse_mode="Markdown")
+
+                ranking.clear()
+                salvar_ranking()
+                ultimo_dia_enviado = hoje
+
         time.sleep(30)
 
             # Relatório de perguntas do dia
