@@ -126,6 +126,7 @@ def revelar_resposta(pid):
 # 🚀 /FORCAR OU /INICIAR (SOMENTE O DONO)
 @bot.message_handler(commands=["forcar", "iniciar"])
 def forcar_pergunta(m):
+    print("🔧 Comando recebido:", m.text)  # <-- ADICIONE ISSO AQUI
     if m.from_user.id != DONO_ID:
         return bot.reply_to(m, "Sem permissão!")
     if respostas_pendentes:
