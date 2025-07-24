@@ -123,7 +123,8 @@ def revelar_resposta(pid):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
-@bot.message_handler(commands=["forcar"])
+# 🚀 /FORCAR OU /INICIAR (SOMENTE O DONO)
+@bot.message_handler(commands=["forcar", "iniciar"])
 def forcar_pergunta(m):
     if m.from_user.id != DONO_ID:
         return bot.reply_to(m, "Sem permissão!")
