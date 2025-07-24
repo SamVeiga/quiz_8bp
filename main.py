@@ -1,4 +1,3 @@
-# ✅ IMPORTAÇÕES E CONFIGURAÇÕES INICIAIS (NÃO ALTERAR) ⛔
 from flask import Flask, request
 import telebot
 import os
@@ -8,7 +7,7 @@ import threading
 import time
 from datetime import datetime, timedelta
 
-# ⛔ CONFIGURAÇÕES DO GRUPO E TOKENS (PODE ALTERAR SOMENTE O GRUPO_ID E DONO_ID)
+# CONFIGURAÇÕES DO GRUPO E TOKENS
 GRUPO_ID = -1002363575666
 DONO_ID = 1481389775
 TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -17,14 +16,14 @@ RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
-# ⛔ CAMINHOS DE ARQUIVOS (NÃO ALTERAR)
+# CAMINHOS DE ARQUIVOS
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
 respostas_pendentes = {}
 perguntas_feitas = []
 mensagens_anteriores = []
 
-# ⛔ CARREGAMENTO INICIAL DE DADOS (NÃO ALTERAR)
+# CARREGAMENTO INICIAL DE DADOS
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
@@ -123,10 +122,9 @@ def revelar_resposta(pid):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
-# 🚀 /FORCAR OU /INICIAR (SOMENTE O DONO)
-@bot.message_handler(commands=["forcar", "iniciar"])
+# 🚀 COMANDO /FORCAR SOMENTE PARA DONO
+@bot.message_handler(commands=["forcar"])
 def forcar_pergunta(m):
-    print("🔧 Comando recebido:", m.text)  # <-- ADICIONE ISSO AQUI
     if m.from_user.id != DONO_ID:
         return bot.reply_to(m, "Sem permissão!")
     if respostas_pendentes:
@@ -187,14 +185,13 @@ def manter_vivo():
             pass
         time.sleep(600)
 
-# ✅ CORREÇÃO AQUI:
+# RELATÓRIO À MEIA-NOITE (BRASIL)
 ultimo_dia_enviado = None
-
 def zerar_ranking_diario():
     global ultimo_dia_enviado
 
     while True:
-        agora = datetime.utcnow() - timedelta(hours=3)
+        agora = datetime.utcnow() - timedelta(hours=3)  # Horário de Brasília
         hoje = agora.date()
 
         if agora.hour == 0 and agora.minute == 0:
