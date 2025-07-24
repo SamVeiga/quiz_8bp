@@ -253,22 +253,6 @@ def zerar_ranking_diario():
 
         time.sleep(30)
 
-            # Relatório de perguntas do dia
-        hoje = time.time() - 86400  # últimas 24h
-        feitas_hoje = [p for p in perguntas_feitas if p["tempo"] > hoje]
-        ids_hoje = {p["id"] for p in feitas_hoje}
-        repetidas = len(feitas_hoje) - len(ids_hoje)
-        novas = len(ids_hoje)
-
-        relatorio = (
-            "📊 *Relatório Diário do Quiz* 📊\n\n"
-            f"📝 Perguntas feitas hoje: {len(feitas_hoje)}\n"
-            f"🔁 Repetidas nos últimos 3 dias: {repetidas}\n"
-            f"🆕 Novas perguntas hoje: {novas}\n\n"
-            "🕛 Relatório gerado automaticamente à meia-noite."
-        )
-        bot.send_message(GRUPO_ID, relatorio, parse_mode="Markdown")
-
 # 🔧 INICIAR TUDO
 if __name__ == "__main__":
     carregar_perguntas_feitas()
