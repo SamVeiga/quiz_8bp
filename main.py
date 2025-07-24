@@ -6,7 +6,7 @@ import random
 import json
 import threading
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # ⛔ CONFIGURAÇÕES DO GRUPO E TOKENS (PODE ALTERAR SOMENTE O GRUPO_ID E DONO_ID)
 GRUPO_ID = -1002363575666
@@ -22,7 +22,7 @@ PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
 respostas_pendentes = {}
 perguntas_feitas = []
-mensagens_anteriores = []  # Armazena mensagens para referência futura (sem exclusão agora)
+mensagens_anteriores = []
 
 # ⛔ CARREGAMENTO INICIAL DE DADOS (NÃO ALTERAR)
 try:
@@ -41,11 +41,9 @@ def salvar_ranking():
 
 def salvar_perguntas_feitas():
     global perguntas_feitas
-    # Eliminar duplicatas por ID, mantendo o mais recente
     visto = {}
     for p in perguntas_feitas:
-        visto[p["id"]] = p  # Substitui se houver ID duplicado
-
+        visto[p["id"]] = p
     unicas = list(visto.values())
     with open("perguntas_feitas.json", "w", encoding="utf-8") as f:
         json.dump(unicas, f)
@@ -58,7 +56,6 @@ def carregar_perguntas_feitas():
     except:
         perguntas_feitas = []
 
-# 🔐 BLOCO DE ESCOLHA DE PERGUNTAS (NÃO ALTERAR)
 def escolher_pergunta():
     agora = time.time()
     ultimos_3_dias = agora - (3 * 86400)
@@ -66,8 +63,6 @@ def escolher_pergunta():
     ids_recentes = [p["id"] for p in recentes]
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
-
-# 🌟 ENVIO DA PRÓXIMA PERGUNTA
 
 def mandar_pergunta():
     pergunta = escolher_pergunta()
@@ -84,7 +79,6 @@ def mandar_pergunta():
     msg = bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
     mensagens_anteriores.append(msg.message_id)
 
-    # Botão "Novo Desafio"
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("🎯 Novo Desafio", callback_data="novo_desafio"))
     desafio_msg = bot.send_message(GRUPO_ID, "Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
@@ -92,8 +86,6 @@ def mandar_pergunta():
 
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
-
-# ⚖️ RANKING + BALÃO DE RESPOSTA
 
 def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
@@ -131,7 +123,6 @@ def revelar_resposta(pid):
 
     bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
 
-# 🚀 /FORCAR SÓ DONO
 @bot.message_handler(commands=["forcar"])
 def forcar_pergunta(m):
     if m.from_user.id != DONO_ID:
@@ -142,7 +133,6 @@ def forcar_pergunta(m):
         time.sleep(30)
     mandar_pergunta()
 
-# 📊 RESPOSTA DO QUIZ
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
 def responder_quiz(call):
     pid, opcao = call.data.split("|")
@@ -157,7 +147,6 @@ def responder_quiz(call):
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
     bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
 
-# 🎯 BOTÃO NOVO DESAFIO
 ultimo_pedido = 0
 @bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
 def desafio_callback(call):
@@ -174,7 +163,6 @@ def desafio_callback(call):
     mandar_pergunta()
     bot.answer_callback_query(call.id, "Novo desafio enviado!")
 
-# 🚀 WEBHOOK
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
@@ -197,21 +185,18 @@ def manter_vivo():
             pass
         time.sleep(600)
 
-# ❌ SEM PERGUNTAS AUTOMÁTICAS AGORA
-
-# ⏰ ZERAR RANKING MEIA-NOITE
-from datetime import timedelta
+# ✅ CORREÇÃO AQUI:
+ultimo_dia_enviado = None
 
 def zerar_ranking_diario():
-    ultimo_dia_enviado = None  # guarda o último dia em que o relatório foi enviado
+    global ultimo_dia_enviado
 
     while True:
-        agora = datetime.utcnow() - timedelta(hours=3)  # Horário de Brasília
+        agora = datetime.utcnow() - timedelta(hours=3)
         hoje = agora.date()
 
         if agora.hour == 0 and agora.minute == 0:
             if ultimo_dia_enviado != hoje:
-                # Enviar ranking final
                 top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)
                 if top:
                     vencedor = top[0][0]
@@ -231,7 +216,6 @@ def zerar_ranking_diario():
                         texto += f"{i}º - {nome_u}: {p} ponto(s)\n"
                     bot.send_message(GRUPO_ID, texto, parse_mode="Markdown")
 
-                # Relatório de perguntas do dia
                 desde_ontem = time.time() - 86400
                 feitas_hoje = [p for p in perguntas_feitas if p["tempo"] > desde_ontem]
                 ids_hoje = {p["id"] for p in feitas_hoje}
@@ -253,7 +237,6 @@ def zerar_ranking_diario():
 
         time.sleep(30)
 
-# 🔧 INICIAR TUDO
 if __name__ == "__main__":
     carregar_perguntas_feitas()
     threading.Thread(target=zerar_ranking_diario).start()
