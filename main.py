@@ -197,7 +197,7 @@ def manter_vivo():
 def zerar_ranking_diario():
     while True:
         agora = datetime.now()
-        if agora.hour == 0 and agora.minute == 0:
+        if agora.hour == 3 and agora.minute == 0:
             top = sorted(ranking.items(), key=lambda x: x[1], reverse=True)
             if top:
                 vencedor = top[0][0]
