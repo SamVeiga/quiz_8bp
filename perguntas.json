@@ -1,62 +1,2158 @@
 [
   {
-    "id": 1721758900.1,
-    "pergunta": "Qual é a capital da França?",
-    "opcoes": ["Londres", "Paris", "Berlim", "Roma"],
-    "correta": 1
-  },
-  {
-    "id": 1721758912.2,
-    "pergunta": "Quanto é 9 x 6?",
-    "opcoes": ["54", "63", "45", "56"],
-    "correta": 0
-  },
-  {
-    "id": 1721758923.3,
-    "pergunta": "Qual o maior planeta do Sistema Solar?",
-    "opcoes": ["Terra", "Júpiter", "Saturno", "Marte"],
-    "correta": 1
-  },
-  {
-    "id": 1721758934.4,
-    "pergunta": "Quem escreveu 'Dom Casmurro'?",
-    "opcoes": ["José de Alencar", "Machado de Assis", "Monteiro Lobato", "Carlos Drummond"],
-    "correta": 1
-  },
-  {
-    "id": 1721758945.5,
-    "pergunta": "Qual elemento tem o símbolo O na Tabela Periódica?",
-    "opcoes": ["Ouro", "Oxigênio", "Osmônio", "Ozônio"],
-    "correta": 1
-  },
-  {
-    "id": 1721758956.6,
-    "pergunta": "Qual país sediou a Copa do Mundo de 2014?",
-    "opcoes": ["Alemanha", "Brasil", "África do Sul", "Rússia"],
-    "correta": 1
-  },
-  {
-    "id": 1721758967.7,
-    "pergunta": "Quantos segundos tem 2 minutos?",
-    "opcoes": ["60", "90", "120", "150"],
+    "id": 1201,
+    "pergunta": "Qual foi o tratado que pôs fim à Primeira Guerra Mundial?",
+    "opcoes": [
+      "Tratado de Tordesilhas",
+      "Tratado de Paris",
+      "Tratado de Versalhes",
+      "Tratado de Utrecht"
+    ],
     "correta": 2
   },
   {
-    "id": 1721758978.8,
-    "pergunta": "Qual a fórmula da água?",
-    "opcoes": ["CO2", "H2O", "NaCl", "O2"],
+    "id": 1202,
+    "pergunta": "Qual é a função dos glóbulos brancos no corpo humano?",
+    "opcoes": [
+      "Transportar oxigênio",
+      "Combater infecções",
+      "Produzir insulina",
+      "Regular temperatura"
+    ],
     "correta": 1
   },
   {
-    "id": 1721758989.9,
-    "pergunta": "Que animal é conhecido como o rei da selva?",
-    "opcoes": ["Elefante", "Tigre", "Leão", "Urso"],
+    "id": 1203,
+    "pergunta": "Quem proclamou a independência do Brasil?",
+    "opcoes": [
+      "Dom João VI",
+      "Tiradentes",
+      "Dom Pedro I",
+      "Getúlio Vargas"
+    ],
     "correta": 2
   },
   {
-    "id": 1721759000.0,
-    "pergunta": "Qual continente o Brasil pertence?",
-    "opcoes": ["América", "África", "Europa", "Ásia"],
+    "id": 1204,
+    "pergunta": "O que significa a sigla STF no Brasil?",
+    "opcoes": [
+      "Supremo Tribunal Federal",
+      "Sistema Tributário Federal",
+      "Serviço Técnico Federal",
+      "Segurança Total Federativa"
+    ],
     "correta": 0
+  },
+  {
+    "id": 1205,
+    "pergunta": "Qual é o maior bioma do Brasil?",
+    "opcoes": [
+      "Cerrado",
+      "Mata Atlântica",
+      "Pantanal",
+      "Amazônia"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1206,
+    "pergunta": "Qual filósofo escreveu 'O contrato social'?",
+    "opcoes": [
+      "Platão",
+      "Rousseau",
+      "Maquiavel",
+      "Aristóteles"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1207,
+    "pergunta": "Em que parte do corpo humano fica o baço?",
+    "opcoes": [
+      "Tórax",
+      "Pelve",
+      "Abdômen",
+      "Cérebro"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1208,
+    "pergunta": "Qual é a função do Poder Legislativo no Brasil?",
+    "opcoes": [
+      "Criar leis",
+      "Julgar crimes",
+      "Executar obras públicas",
+      "Fazer segurança nacional"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1209,
+    "pergunta": "Em que século aconteceu a Revolução Francesa?",
+    "opcoes": [
+      "Século XVI",
+      "Século XVII",
+      "Século XVIII",
+      "Século XIX"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1210,
+    "pergunta": "Qual é o plural de 'cidadão'?",
+    "opcoes": [
+      "Cidadões",
+      "Cidadãos",
+      "Cidadães",
+      "Cidadãs"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1211,
+    "pergunta": "Qual o nome do processo de transformação da lagarta em borboleta?",
+    "opcoes": [
+      "Hibernação",
+      "Metamorfose",
+      "Germinação",
+      "Fermentação"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1212,
+    "pergunta": "A Lei Áurea foi assinada em que ano?",
+    "opcoes": [
+      "1878",
+      "1888",
+      "1898",
+      "1868"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1213,
+    "pergunta": "Qual a função do neurônio?",
+    "opcoes": [
+      "Levar impulsos elétricos",
+      "Fazer digestão",
+      "Transportar sangue",
+      "Proteger os ossos"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1214,
+    "pergunta": "O que define o Habeas Corpus na Constituição?",
+    "opcoes": [
+      "Direito à educação",
+      "Direito à liberdade",
+      "Direito à saúde",
+      "Direito à moradia"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1215,
+    "pergunta": "Em qual continente se localiza a cordilheira dos Andes?",
+    "opcoes": [
+      "Ásia",
+      "África",
+      "Europa",
+      "América do Sul"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1216,
+    "pergunta": "O que é uma ossada fóssil?",
+    "opcoes": [
+      "Fóssil de planta",
+      "Ossos petrificados",
+      "Areia compacta",
+      "Insetos em âmbar"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1217,
+    "pergunta": "Qual é o tempo verbal da frase: 'Eu estudaria mais se pudesse'?",
+    "opcoes": [
+      "Futuro do presente",
+      "Pretérito perfeito",
+      "Futuro do pretérito",
+      "Pretérito imperfeito"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1218,
+    "pergunta": "Qual órgão é responsável pela produção de bile?",
+    "opcoes": [
+      "Fígado",
+      "Estômago",
+      "Baço",
+      "Pâncreas"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1219,
+    "pergunta": "Quem foi o presidente durante a promulgação da Constituição de 1988?",
+    "opcoes": [
+      "José Sarney",
+      "Itamar Franco",
+      "Fernando Collor",
+      "Tancredo Neves"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1220,
+    "pergunta": "Qual a capital do estado do Acre?",
+    "opcoes": [
+      "Boa Vista",
+      "Palmas",
+      "Rio Branco",
+      "Porto Velho"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1221,
+    "pergunta": "O que significa a sigla OAB?",
+    "opcoes": [
+      "Organização Administrativa Brasileira",
+      "Ordem dos Advogados do Brasil",
+      "Observatório de Atos Brasileiros",
+      "Ordem Arquivista Brasileira"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1222,
+    "pergunta": "Qual destes não é um planeta do sistema solar?",
+    "opcoes": [
+      "Netuno",
+      "Saturno",
+      "Plutônio",
+      "Vênus"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1223,
+    "pergunta": "Qual é o nome da estrutura que liga músculos aos ossos?",
+    "opcoes": [
+      "Cartilagem",
+      "Ligamento",
+      "Tendão",
+      "Cápsula"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1224,
+    "pergunta": "Quem escreveu a obra 'Dom Casmurro'?",
+    "opcoes": [
+      "Eça de Queirós",
+      "Machado de Assis",
+      "José de Alencar",
+      "Carlos Drummond"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1225,
+    "pergunta": "O que é uma 'ação penal pública incondicionada'?",
+    "opcoes": [
+      "Depende de autorização do juiz",
+      "Depende da vítima",
+      "É promovida pelo MP independentemente da vítima",
+      "É promovida por advogado particular"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1226,
+    "pergunta": "Qual é o maior osso do corpo humano?",
+    "opcoes": [
+      "Tíbia",
+      "Fêmur",
+      "Rádio",
+      "Úmero"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1227,
+    "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
+    "opcoes": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1228,
+    "pergunta": "Qual a função da mitocôndria?",
+    "opcoes": [
+      "Síntese de proteínas",
+      "Respiração celular",
+      "Armazenar água",
+      "Digestão intracelular"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1229,
+    "pergunta": "Quem é o autor da obra 'O Príncipe'?",
+    "opcoes": [
+      "Rousseau",
+      "Hobbes",
+      "Maquiavel",
+      "Kant"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1230,
+    "pergunta": "Qual é a função da hemoglobina?",
+    "opcoes": [
+      "Combater bactérias",
+      "Levar glicose",
+      "Transportar oxigênio",
+      "Formar coágulos"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1500,
+    "pergunta": "Qual é o nome da molécula que armazena o material genético?",
+    "opcoes": [
+      "RNA",
+      "ATP",
+      "DNA",
+      "Glicose"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1501,
+    "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
+    "opcoes": [
+      "1888",
+      "1889",
+      "1891",
+      "1870"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1502,
+    "pergunta": "Qual é a maior artéria do corpo humano?",
+    "opcoes": [
+      "Carótida",
+      "Aorta",
+      "Femoral",
+      "Pulmonar"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1503,
+    "pergunta": "Qual bioma cobre a maior parte do território brasileiro?",
+    "opcoes": [
+      "Pantanal",
+      "Caatinga",
+      "Amazônia",
+      "Mata Atlântica"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1504,
+    "pergunta": "Que órgão é responsável pela produção da bile?",
+    "opcoes": [
+      "Estômago",
+      "Pâncreas",
+      "Fígado",
+      "Baço"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1505,
+    "pergunta": "Em qual século ocorreu a Revolução Francesa?",
+    "opcoes": [
+      "XV",
+      "XVI",
+      "XVIII",
+      "XIX"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1506,
+    "pergunta": "Qual é o nome do tratado que divide os poderes em Executivo, Legislativo e Judiciário?",
+    "opcoes": [
+      "Tratado de Versalhes",
+      "Contrato Social",
+      "Teoria da Separação dos Poderes",
+      "Magna Carta"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1507,
+    "pergunta": "Qual é o nome da substância responsável pela cor da pele?",
+    "opcoes": [
+      "Melanina",
+      "Hemoglobina",
+      "Queratina",
+      "Colágeno"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1508,
+    "pergunta": "Quem é o autor de 'Os Sertões'?",
+    "opcoes": [
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Euclides da Cunha",
+      "Machado de Assis"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1509,
+    "pergunta": "Qual o artigo da Constituição Federal que trata dos direitos fundamentais?",
+    "opcoes": [
+      "Art. 5º",
+      "Art. 1º",
+      "Art. 10º",
+      "Art. 12º"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1510,
+    "pergunta": "Onde foi encontrada a ossada do fóssil 'Lucy', uma das mais antigas já descobertas?",
+    "opcoes": [
+      "Egito",
+      "Quênia",
+      "Etiópia",
+      "África do Sul"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1511,
+    "pergunta": "Que tipo de célula não possui núcleo definido?",
+    "opcoes": [
+      "Procarionte",
+      "Eucarionte",
+      "Célula-tronco",
+      "Célula nervosa"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1512,
+    "pergunta": "Qual é a função do sistema linfático?",
+    "opcoes": [
+      "Digestão",
+      "Excreção",
+      "Circulação",
+      "Defesa imunológica"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1513,
+    "pergunta": "Quem liderou a Revolta dos Malês?",
+    "opcoes": [
+      "Zumbi",
+      "Negros muçulmanos",
+      "Cabral",
+      "Dandara"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1514,
+    "pergunta": "Qual é a montanha mais alta do Brasil?",
+    "opcoes": [
+      "Pico da Neblina",
+      "Pico das Agulhas Negras",
+      "Monte Roraima",
+      "Serra do Mar"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1515,
+    "pergunta": "Em qual órgão da ONU o Brasil tradicionalmente faz o discurso de abertura?",
+    "opcoes": [
+      "UNESCO",
+      "Conselho de Segurança",
+      "Assembleia Geral",
+      "UNICEF"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1516,
+    "pergunta": "Qual é o país com o maior número de vulcões ativos?",
+    "opcoes": [
+      "Chile",
+      "Estados Unidos",
+      "Japão",
+      "Indonésia"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1517,
+    "pergunta": "Qual a função do hormônio insulina?",
+    "opcoes": [
+      "Produzir adrenalina",
+      "Regular açúcar no sangue",
+      "Combater vírus",
+      "Regular temperatura"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1518,
+    "pergunta": "Qual é a capital da civilização Inca?",
+    "opcoes": [
+      "Cusco",
+      "Machu Picchu",
+      "Quito",
+      "La Paz"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1519,
+    "pergunta": "Qual foi a principal causa da queda do Império Romano?",
+    "opcoes": [
+      "Epidemias",
+      "Invasões bárbaras",
+      "Falta de recursos naturais",
+      "Revoltas internas"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1520,
+    "pergunta": "Qual a principal função dos glóbulos vermelhos?",
+    "opcoes": [
+      "Defender o organismo",
+      "Coagular o sangue",
+      "Transportar oxigênio",
+      "Combater bactérias"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1521,
+    "pergunta": "Em qual região brasileira fica o Aquífero Guarani?",
+    "opcoes": [
+      "Nordeste",
+      "Centro-Oeste",
+      "Sul",
+      "Sudeste"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1522,
+    "pergunta": "Qual das opções abaixo é um verbo defectivo?",
+    "opcoes": [
+      "Fazer",
+      "Colorir",
+      "Chover",
+      "Viver"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1523,
+    "pergunta": "O que define a tipicidade no Direito Penal?",
+    "opcoes": [
+      "A intenção do agente",
+      "A pena aplicada",
+      "A adequação do fato à norma",
+      "A conduta da vítima"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1524,
+    "pergunta": "Qual foi a primeira Constituição brasileira?",
+    "opcoes": [
+      "1934",
+      "1824",
+      "1891",
+      "1988"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1525,
+    "pergunta": "Qual país é conhecido como o berço da democracia?",
+    "opcoes": [
+      "Roma",
+      "Estados Unidos",
+      "Grécia",
+      "França"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1526,
+    "pergunta": "Quantos cromossomos o ser humano possui?",
+    "opcoes": [
+      "42",
+      "46",
+      "48",
+      "44"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1527,
+    "pergunta": "Em que local se localiza a Esfinge de Gizé?",
+    "opcoes": [
+      "Alexandria",
+      "Luxor",
+      "Gizé",
+      "Cairo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1528,
+    "pergunta": "Qual é o tempo verbal da frase: 'Eu teria ido se soubesse'?",
+    "opcoes": [
+      "Pretérito imperfeito",
+      "Futuro do presente",
+      "Futuro do pretérito",
+      "Pretérito perfeito"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1529,
+    "pergunta": "A Lei Maria da Penha combate que tipo de violência?",
+    "opcoes": [
+      "Juvenil",
+      "Doméstica",
+      "Religiosa",
+      "Policial"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1231,
+    "pergunta": "Qual foi a primeira capital do Brasil?",
+    "opcoes": [
+      "Brasília",
+      "Salvador",
+      "Olinda",
+      "Rio de Janeiro"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1232,
+    "pergunta": "Qual é o nome da região entre os rios Tigre e Eufrates?",
+    "opcoes": [
+      "Mesopotâmia",
+      "Fenícia",
+      "Suméria",
+      "Persépolis"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1233,
+    "pergunta": "O que é habeas corpus?",
+    "opcoes": [
+      "Imposto",
+      "Mandado de segurança",
+      "Remédio constitucional",
+      "Recurso civil"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1234,
+    "pergunta": "Qual é a função da mitocôndria na célula?",
+    "opcoes": [
+      "Digestão",
+      "Síntese de proteínas",
+      "Respiração celular",
+      "Produção hormonal"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1235,
+    "pergunta": "Em qual estado brasileiro está o Parque Nacional da Serra da Capivara?",
+    "opcoes": [
+      "Bahia",
+      "Piauí",
+      "Pará",
+      "Minas Gerais"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1236,
+    "pergunta": "Quem foi o primeiro presidente civil após a ditadura militar no Brasil?",
+    "opcoes": [
+      "Collor",
+      "Tancredo Neves",
+      "José Sarney",
+      "Itamar Franco"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1237,
+    "pergunta": "Qual o nome do texto que resume uma pesquisa científica?",
+    "opcoes": [
+      "Monografia",
+      "Resumo",
+      "Artigo",
+      "Abstract"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1238,
+    "pergunta": "Qual é o nome da membrana que recobre o coração?",
+    "opcoes": [
+      "Miocárdio",
+      "Endocárdio",
+      "Pericárdio",
+      "Epicárdio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1239,
+    "pergunta": "Qual é a montanha mais alta do mundo?",
+    "opcoes": [
+      "Everest",
+      "K2",
+      "Makalu",
+      "Kangchenjunga"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1240,
+    "pergunta": "Qual o nome da linha imaginária que divide o globo em Norte e Sul?",
+    "opcoes": [
+      "Trópico de Capricórnio",
+      "Equador",
+      "Meridiano de Greenwich",
+      "Trópico de Câncer"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1241,
+    "pergunta": "Em que parte do corpo humano está a hipófise?",
+    "opcoes": [
+      "Cérebro",
+      "Fígado",
+      "Pulmões",
+      "Estômago"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1242,
+    "pergunta": "A Constituição de 1988 é conhecida como:",
+    "opcoes": [
+      "Constituição dos Cidadãos",
+      "Nova República",
+      "Constituição Imperial",
+      "Constituição Militar"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1243,
+    "pergunta": "Que substância é liberada durante reações alérgicas?",
+    "opcoes": [
+      "Cortisol",
+      "Histamina",
+      "Insulina",
+      "Dopamina"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1244,
+    "pergunta": "O que foi a Revolução Praieira?",
+    "opcoes": [
+      "Movimento abolicionista",
+      "Revolta armada em PE",
+      "Início da República",
+      "Golpe militar"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1245,
+    "pergunta": "O que define um substantivo abstrato?",
+    "opcoes": [
+      "Nome de objeto",
+      "Nome de sentimento",
+      "Nome próprio",
+      "Nome coletivo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1246,
+    "pergunta": "Qual é o planeta mais denso do sistema solar?",
+    "opcoes": [
+      "Terra",
+      "Saturno",
+      "Vênus",
+      "Júpiter"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1247,
+    "pergunta": "O que é o Código de Hamurábi?",
+    "opcoes": [
+      "Lei romana",
+      "Código moral",
+      "Lei egípcia",
+      "Conjunto de leis da Mesopotâmia"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1248,
+    "pergunta": "Quem descobriu a circulação do sangue?",
+    "opcoes": [
+      "Pasteur",
+      "Harvey",
+      "Darwin",
+      "Fleming"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1249,
+    "pergunta": "Qual era o nome do programa espacial da URSS?",
+    "opcoes": [
+      "Apollo",
+      "Soyuz",
+      "Sputnik",
+      "Cosmos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1250,
+    "pergunta": "Quantos ossos tem o corpo humano adulto?",
+    "opcoes": [
+      "205",
+      "206",
+      "210",
+      "201"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1251,
+    "pergunta": "Qual é o antônimo de 'ânimo'?",
+    "opcoes": [
+      "Alegria",
+      "Tristeza",
+      "Desânimo",
+      "Esperança"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1252,
+    "pergunta": "Qual é a sigla usada para descrever uma organização não governamental?",
+    "opcoes": [
+      "ONG",
+      "OGN",
+      "ONGOV",
+      "NGO"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1253,
+    "pergunta": "Se 2 lápis custam R$4,00, quanto custam 5 lápis?",
+    "opcoes": [
+      "R$8,00",
+      "R$10,00",
+      "R$6,00",
+      "R$12,00"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1254,
+    "pergunta": "Qual ator protagonizou o filme 'Como Se Fosse a Primeira Vez'?",
+    "opcoes": [
+      "Ben Stiller",
+      "Adam Sandler",
+      "Jim Carrey",
+      "Tom Hanks"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1255,
+    "pergunta": "Qual é o coletivo de lobos?",
+    "opcoes": [
+      "Bando",
+      "Matilha",
+      "Rebanho",
+      "Alcateia"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1256,
+    "pergunta": "Qual é a sigla do órgão brasileiro que controla a inflação?",
+    "opcoes": [
+      "STF",
+      "IBGE",
+      "BACEN",
+      "INSS"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1257,
+    "pergunta": "Quantas consoantes tem a palavra 'computador'?",
+    "opcoes": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1258,
+    "pergunta": "Qual filme brasileiro tem a icônica frase 'Que horas ela volta?'?",
+    "opcoes": [
+      "Central do Brasil",
+      "Tropa de Elite",
+      "Que Horas Ela Volta?",
+      "O Auto da Compadecida"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1259,
+    "pergunta": "Quantos segundos tem uma hora?",
+    "opcoes": [
+      "3600",
+      "600",
+      "60",
+      "1800"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1260,
+    "pergunta": "Qual dessas palavras é um advérbio?",
+    "opcoes": [
+      "Casa",
+      "Feliz",
+      "Rapidamente",
+      "Forte"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1261,
+    "pergunta": "Quem dirigiu o filme 'Titanic'?",
+    "opcoes": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Martin Scorsese"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1262,
+    "pergunta": "Qual é a sigla do órgão responsável pelas leis no Brasil?",
+    "opcoes": [
+      "STJ",
+      "CNJ",
+      "OAB",
+      "CN"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1263,
+    "pergunta": "Se Ana é irmã de João, e João é filho de Pedro, quem é Pedro de Ana?",
+    "opcoes": [
+      "Irmão",
+      "Pai",
+      "Primo",
+      "Avô"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1264,
+    "pergunta": "Em que filme brasileiro os personagens Chicó e João Grilo aparecem?",
+    "opcoes": [
+      "Minha Mãe é uma Peça",
+      "O Auto da Compadecida",
+      "Se Eu Fosse Você",
+      "Cidade de Deus"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1265,
+    "pergunta": "A sigla 'ONU' significa:",
+    "opcoes": [
+      "Organização Nacional Unida",
+      "Ordem das Nações Unidas",
+      "Organização das Nações Unidas",
+      "Ordem Nacional de União"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1266,
+    "pergunta": "Quantas sílabas tem a palavra 'maracujá'?",
+    "opcoes": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1267,
+    "pergunta": "Qual filme americano tem a famosa frase 'You can't handle the truth!'?",
+    "opcoes": [
+      "Um Sonho de Liberdade",
+      "Tempo de Matar",
+      "Questão de Honra",
+      "O Advogado do Diabo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1268,
+    "pergunta": "Quantos graus tem um ângulo reto?",
+    "opcoes": [
+      "90",
+      "45",
+      "120",
+      "180"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1270,
+    "pergunta": "Em 'De Volta para o Futuro', qual é o nome do cientista?",
+    "opcoes": [
+      "Doc Brown",
+      "Doc Smith",
+      "Dr. Einstein",
+      "Dr. Martin"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1271,
+    "pergunta": "Qual dessas palavras é paroxítona?",
+    "opcoes": [
+      "Café",
+      "Fácil",
+      "Sofá",
+      "Jacaré"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1272,
+    "pergunta": "Qual a sigla que representa a Carteira Nacional de Habilitação?",
+    "opcoes": [
+      "CNH",
+      "CRV",
+      "RG",
+      "CPF"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1273,
+    "pergunta": "Se 3 pessoas comem 3 pães em 3 minutos, quantas comem 6 pães em 6 minutos?",
+    "opcoes": [
+      "6",
+      "3",
+      "9",
+      "Ainda 3"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1274,
+    "pergunta": "Qual é o filme onde Jim Carrey vive um homem filmado 24h por dia sem saber?",
+    "opcoes": [
+      "O Show de Truman",
+      "Debi & Lóide",
+      "O Mentiroso",
+      "Sim Senhor"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1275,
+    "pergunta": "Qual dessas é uma interjeição?",
+    "opcoes": [
+      "Ah!",
+      "De",
+      "Casa",
+      "Lá"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1276,
+    "pergunta": "A sigla 'IBGE' se refere a:",
+    "opcoes": [
+      "Instituto Brasileiro de Geografia e Estatística",
+      "Instituto de Bancos e Garantias",
+      "Índice Brasileiro de Gastos Estaduais",
+      "Instituto de Base Geral Econômica"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1277,
+    "pergunta": "Qual é o antônimo de 'altruísta'?",
+    "opcoes": [
+      "Egoísta",
+      "Gentil",
+      "Educado",
+      "Calmo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1278,
+    "pergunta": "No filme 'Se Eu Fosse Você', o que acontece com os protagonistas?",
+    "opcoes": [
+      "Ficam invisíveis",
+      "Trocam de corpos",
+      "Perdem a memória",
+      "Ficam surdos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1279,
+    "pergunta": "Qual é a sigla usada para medir corrente elétrica?",
+    "opcoes": [
+      "A",
+      "V",
+      "W",
+      "Ω"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1280,
+    "pergunta": "Qual palavra completa corretamente a frase: 'Ele não foi, _____ estava cansado'?",
+    "opcoes": [
+      "mas",
+      "e",
+      "ou",
+      "porque"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1281,
+    "pergunta": "Qual ator brasileiro interpreta 'Hermes e Renato'?",
+    "opcoes": [
+      "Tom Cavalcante",
+      "Bruno Sutter",
+      "Fábio Porchat",
+      "Marcelo Adnet"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1282,
+    "pergunta": "A sigla 'OMS' significa:",
+    "opcoes": [
+      "Organização Mundial da Saúde",
+      "Organização Médica do Sul",
+      "Ordem Mundial de Saúde",
+      "Ofício Médico Sanitário"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1283,
+    "pergunta": "Se um trem parte às 10h e chega às 13h, quanto tempo durou a viagem?",
+    "opcoes": [
+      "2 horas",
+      "4 horas",
+      "3 horas",
+      "3h30min"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1284,
+    "pergunta": "Qual filme romântico tem como tema principal a troca de cartas no tempo?",
+    "opcoes": [
+      "A Casa do Lago",
+      "Um Amor para Recordar",
+      "Cartas para Julieta",
+      "P.S. Eu Te Amo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1285,
+    "pergunta": "Qual dessas palavras é escrita com S?",
+    "opcoes": [
+      "Casamento",
+      "Caza",
+      "Peseguir",
+      "Receita"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1286,
+    "pergunta": "Qual a sigla do principal imposto sobre produtos no Brasil?",
+    "opcoes": [
+      "IPTU",
+      "ICMS",
+      "ISS",
+      "IRRF"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1287,
+    "pergunta": "Qual é a figura de linguagem presente em: 'Ela chorava rios de lágrimas'?",
+    "opcoes": [
+      "Metáfora",
+      "Comparação",
+      "Ironia",
+      "Hipérbole"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1288,
+    "pergunta": "Quem protagonizou o filme 'Click' (2006)?",
+    "opcoes": [
+      "Jim Carrey",
+      "Adam Sandler",
+      "Ben Stiller",
+      "Will Ferrell"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1289,
+    "pergunta": "O que é uma sigla?",
+    "opcoes": [
+      "Nome de um lugar",
+      "Abreviação de palavras",
+      "Letra decorativa",
+      "Prefixo linguístico"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1290,
+    "pergunta": "Qual dessas palavras é um substantivo coletivo?",
+    "opcoes": [
+      "Alcateia",
+      "Bonito",
+      "Correr",
+      "Belo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1291,
+    "pergunta": "Em qual filme brasileiro temos a frase: 'Você é fraco, te falta ódio'?",
+    "opcoes": [
+      "Cidade de Deus",
+      "Tropa de Elite",
+      "O Auto da Compadecida",
+      "Nenhum dos anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1292,
+    "pergunta": "Qual a sigla que representa o imposto sobre a propriedade de veículos?",
+    "opcoes": [
+      "IPVA",
+      "ICMS",
+      "IPTU",
+      "IR"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1293,
+    "pergunta": "Se hoje é segunda, que dia será depois de 5 dias?",
+    "opcoes": [
+      "Quinta",
+      "Sábado",
+      "Domingo",
+      "Sexta"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1294,
+    "pergunta": "Qual dessas palavras leva acento?",
+    "opcoes": [
+      "Ideia",
+      "Heroico",
+      "Vovó",
+      "Judia"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1295,
+    "pergunta": "Qual filme é conhecido pelo bordão 'Meu nome é Bond, James Bond'?",
+    "opcoes": [
+      "Missão Impossível",
+      "007",
+      "Jason Bourne",
+      "Batman"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1296,
+    "pergunta": "A sigla 'BRICS' representa países em:",
+    "opcoes": [
+      "Guerra",
+      "Desenvolvimento",
+      "Fome",
+      "Crise"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1297,
+    "pergunta": "Quantas vogais existem no alfabeto?",
+    "opcoes": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1298,
+    "pergunta": "O que é palíndromo?",
+    "opcoes": [
+      "Palavra escrita ao contrário",
+      "Palavra que não rima",
+      "Palavra igual de trás pra frente",
+      "Palavra estrangeira"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1299,
+    "pergunta": "Em qual filme brasileiro Wagner Moura interpreta um capitão da polícia?",
+    "opcoes": [
+      "Cidade de Deus",
+      "Central do Brasil",
+      "Tropa de Elite",
+      "Bicho de Sete Cabeças"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1300,
+    "pergunta": "Qual dessas palavras é um adjetivo?",
+    "opcoes": [
+      "Corrida",
+      "Forte",
+      "João",
+      "Casa"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1151,
+    "pergunta": "O que significa a sigla 'INSS' no Brasil?",
+    "opcoes": [
+      "Instituto Nacional de Serviço Social",
+      "Instituto Nacional do Seguro Social",
+      "Instituto Nacional de Saúde e Seguridade",
+      "Instituição Nacional de Segurança Social"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1152,
+    "pergunta": "Quantos segundos há em uma hora?",
+    "opcoes": [
+      "3600",
+      "6000",
+      "3000",
+      "1800"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1153,
+    "pergunta": "Quem escreveu o livro 'Dom Casmurro'?",
+    "opcoes": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Graciliano Ramos",
+      "Monteiro Lobato"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1154,
+    "pergunta": "O que é um pleonasmo?",
+    "opcoes": [
+      "Erro gramatical",
+      "Repetição de ideias com outras palavras",
+      "Palavra de origem estrangeira",
+      "Frase com dois sujeitos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1155,
+    "pergunta": "Qual destas figuras é um quadrilátero?",
+    "opcoes": [
+      "Triângulo",
+      "Pentágono",
+      "Trapézio",
+      "Hexágono"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1156,
+    "pergunta": "Qual é o menor país do mundo?",
+    "opcoes": [
+      "Mônaco",
+      "Nauru",
+      "Vaticano",
+      "Malta"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1157,
+    "pergunta": "Qual órgão do corpo humano é responsável por filtrar o sangue?",
+    "opcoes": [
+      "Fígado",
+      "Pulmão",
+      "Estômago",
+      "Coração"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1158,
+    "pergunta": "Quem foi o primeiro presidente do Brasil?",
+    "opcoes": [
+      "Marechal Deodoro da Fonseca",
+      "Getúlio Vargas",
+      "Floriano Peixoto",
+      "Dom Pedro II"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1159,
+    "pergunta": "Qual é o símbolo químico da prata?",
+    "opcoes": [
+      "Ag",
+      "Pr",
+      "Pt",
+      "Sr"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1160,
+    "pergunta": "Qual destas palavras está escrita com erro?",
+    "opcoes": [
+      "Exceção",
+      "Privilégio",
+      "Precione",
+      "Subsídio"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1161,
+    "pergunta": "Quantos dias tem um ano bissexto?",
+    "opcoes": [
+      "365",
+      "366",
+      "367",
+      "364"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1162,
+    "pergunta": "Quem protagoniza o filme 'O Todo Poderoso' (2003)?",
+    "opcoes": [
+      "Robin Williams",
+      "Jim Carrey",
+      "Eddie Murphy",
+      "Will Smith"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1163,
+    "pergunta": "Quantos estados tem o Brasil?",
+    "opcoes": [
+      "26",
+      "25",
+      "27",
+      "24"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1164,
+    "pergunta": "O que é um 'soneto'?",
+    "opcoes": [
+      "Tipo de música",
+      "Poema com 14 versos",
+      "Crônica humorística",
+      "Expressão de linguagem informal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1165,
+    "pergunta": "Em qual país nasceu o cientista Charles Darwin?",
+    "opcoes": [
+      "França",
+      "Estados Unidos",
+      "Inglaterra",
+      "Alemanha"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1166,
+    "pergunta": "Qual dessas palavras é antônima de 'valente'?",
+    "opcoes": [
+      "Corajoso",
+      "Covarde",
+      "Forte",
+      "Bravo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1167,
+    "pergunta": "Quem pintou o teto da Capela Sistina?",
+    "opcoes": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Donatello",
+      "Rafael"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1168,
+    "pergunta": "Qual é o plural da palavra 'pão'?",
+    "opcoes": [
+      "Pães",
+      "Pãos",
+      "Pões",
+      "Pãozes"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1169,
+    "pergunta": "Qual o planeta mais próximo do Sol?",
+    "opcoes": [
+      "Terra",
+      "Vênus",
+      "Marte",
+      "Mercúrio"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1170,
+    "pergunta": "Em que filme brasileiro um palhaço viaja pelo interior com o circo 'Esperança'?",
+    "opcoes": [
+      "O Auto da Compadecida",
+      "O Palhaço",
+      "Minha Mãe é uma Peça",
+      "Tainá"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1171,
+    "pergunta": "Qual é o coletivo de 'abelhas'?",
+    "opcoes": [
+      "Enxame",
+      "Bando",
+      "Ninho",
+      "Matilha"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1172,
+    "pergunta": "Em qual hemisfério está localizado o Brasil?",
+    "opcoes": [
+      "Norte e Oeste",
+      "Sul e Leste",
+      "Sul e Oeste",
+      "Norte e Leste"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1173,
+    "pergunta": "Qual é a moeda oficial do Japão?",
+    "opcoes": [
+      "Yuan",
+      "Won",
+      "Iene",
+      "Ringgit"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1174,
+    "pergunta": "Em qual romance brasileiro aparece a personagem Capitu?",
+    "opcoes": [
+      "Memórias Póstumas de Brás Cubas",
+      "Iracema",
+      "Dom Casmurro",
+      "Senhora"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1175,
+    "pergunta": "Qual desses planetas não tem satélites naturais?",
+    "opcoes": [
+      "Marte",
+      "Mercúrio",
+      "Terra",
+      "Netuno"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1176,
+    "pergunta": "Em qual filme um homem envelhece ao contrário?",
+    "opcoes": [
+      "O Curioso Caso de Benjamin Button",
+      "Tempo",
+      "Efeito Borboleta",
+      "O Homem Bicentenário"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1177,
+    "pergunta": "Qual é o nome da proteína que transporta oxigênio no sangue?",
+    "opcoes": [
+      "Hemoglobina",
+      "Albumina",
+      "Insulina",
+      "Glucagon"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1178,
+    "pergunta": "Qual a capital da Argentina?",
+    "opcoes": [
+      "Rosário",
+      "Buenos Aires",
+      "Córdoba",
+      "Mendoza"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1179,
+    "pergunta": "Qual é o significado da sigla 'IBGE'?",
+    "opcoes": [
+      "Instituto Brasileiro de Geografia e Estatística",
+      "Instituto de Biodiversidade e Gestão Econômica",
+      "Instituto Brasileiro Geral de Educação",
+      "Instituição de Base Geográfica Escolar"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1180,
+    "pergunta": "Quem é o vilão principal em 'Vingadores: Guerra Infinita'?",
+    "opcoes": [
+      "Loki",
+      "Ultron",
+      "Thanos",
+      "Galactus"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1181,
+    "pergunta": "Quantos graus tem um triângulo equilátero?",
+    "opcoes": [
+      "90º",
+      "120º",
+      "180º",
+      "360º"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1182,
+    "pergunta": "Qual o superlativo de 'amável'?",
+    "opcoes": [
+      "Mais amável",
+      "Amabilíssimo",
+      "Amávelzíssimo",
+      "Amável demais"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1183,
+    "pergunta": "Qual foi a cidade brasileira sede da Copa do Mundo de 1950 e 2014?",
+    "opcoes": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1184,
+    "pergunta": "Quem descobriu o Brasil?",
+    "opcoes": [
+      "Dom Pedro I",
+      "Cristóvão Colombo",
+      "Pedro Álvares Cabral",
+      "Vasco da Gama"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1185,
+    "pergunta": "Qual o tempo verbal da frase 'Eles tinham estudado'?",
+    "opcoes": [
+      "Pretérito perfeito",
+      "Pretérito mais-que-perfeito",
+      "Futuro do presente",
+      "Pretérito imperfeito"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1186,
+    "pergunta": "O que é 'dislexia'?",
+    "opcoes": [
+      "Doença cardíaca",
+      "Dificuldade de leitura e escrita",
+      "Problema de visão",
+      "Desvio de coluna"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1187,
+    "pergunta": "Qual é o resultado de 9 x 7?",
+    "opcoes": [
+      "56",
+      "63",
+      "72",
+      "69"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1188,
+    "pergunta": "O que significa a sigla 'CNH'?",
+    "opcoes": [
+      "Cadastro Nacional de Habilitação",
+      "Carteira Nacional de Habilitação",
+      "Controle Nacional de Habilitação",
+      "Cartão de Nível de Habilitação"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1189,
+    "pergunta": "Em que século ocorreu a Revolução Francesa?",
+    "opcoes": [
+      "XV",
+      "XVI",
+      "XVIII",
+      "XIX"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1190,
+    "pergunta": "Qual é a fórmula da água?",
+    "opcoes": [
+      "HO",
+      "OH2",
+      "H2O",
+      "HHO"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1191,
+    "pergunta": "O que é um oxímoro?",
+    "opcoes": [
+      "Figura de linguagem que exagera",
+      "Contraste de ideias opostas",
+      "Contradição em termos",
+      "Repetição proposital"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1192,
+    "pergunta": "Qual o coletivo de 'cães'?",
+    "opcoes": [
+      "Alcateia",
+      "Rebanho",
+      "Matilha",
+      "Bando"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1193,
+    "pergunta": "Qual filme tem a frase: 'A vida é como uma caixa de chocolates'?",
+    "opcoes": [
+      "O Náufrago",
+      "À Espera de um Milagre",
+      "Forrest Gump",
+      "Uma Mente Brilhante"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1194,
+    "pergunta": "Qual dessas palavras tem dígrafo?",
+    "opcoes": [
+      "Casa",
+      "Chave",
+      "Pato",
+      "Moeda"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1195,
+    "pergunta": "Quantos músculos, em média, existem no corpo humano?",
+    "opcoes": [
+      "206",
+      "306",
+      "650",
+      "900"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1196,
+    "pergunta": "Quem escreveu 'O Pequeno Príncipe'?",
+    "opcoes": [
+      "Antoine de Saint-Exupéry",
+      "Victor Hugo",
+      "Voltaire",
+      "Jules Verne"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1197,
+    "pergunta": "Qual é o sinônimo da palavra 'rápido'?",
+    "opcoes": [
+      "Demorado",
+      "Veloz",
+      "Lento",
+      "Devagar"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1198,
+    "pergunta": "Qual é a capital do estado do Pará?",
+    "opcoes": [
+      "Manaus",
+      "São Luís",
+      "Belém",
+      "Macapá"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1199,
+    "pergunta": "Em que continente está o Egito?",
+    "opcoes": [
+      "Ásia",
+      "Europa",
+      "África",
+      "Oceania"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1200,
+    "pergunta": "Em qual profissão trabalha um tabelião?",
+    "opcoes": [
+      "Hospital",
+      "Cartório",
+      "Prefeitura",
+      "Escola"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1401,
+    "pergunta": "O que significa a sigla 'ONU'?",
+    "opcoes": [
+      "Organização Nacional Unida",
+      "Ordem Nacional Universal",
+      "Organização das Nações Unidas",
+      "Ordem das Nações Unidas"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1402,
+    "pergunta": "Qual é o adjetivo pátrio de quem nasce no Amapá?",
+    "opcoes": [
+      "Amapense",
+      "Amapano",
+      "Amapaense",
+      "Amapanoense"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1403,
+    "pergunta": "Qual filme brasileiro tem a frase famosa: 'Meu nome não é Zé Pequeno, é Dadinho!'?",
+    "opcoes": [
+      "Tropa de Elite",
+      "Cidade de Deus",
+      "Central do Brasil",
+      "Carandiru"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1404,
+    "pergunta": "Se João tem 5 laranjas e come 2, com quantas ele fica?",
+    "opcoes": [
+      "3",
+      "2",
+      "5",
+      "7"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1405,
+    "pergunta": "Quantas sílabas tem a palavra 'paralelepípedo'?",
+    "opcoes": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1406,
+    "pergunta": "Em que país nasceu o personagem Rocky Balboa?",
+    "opcoes": [
+      "Canadá",
+      "Itália",
+      "Estados Unidos",
+      "México"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1407,
+    "pergunta": "Qual é a sigla da entidade máxima do futebol mundial?",
+    "opcoes": [
+      "UEFA",
+      "CBF",
+      "FIFA",
+      "FAF"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1408,
+    "pergunta": "Quantas letras tem o alfabeto da língua portuguesa atual?",
+    "opcoes": [
+      "26",
+      "28",
+      "25",
+      "23"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1409,
+    "pergunta": "Qual é a capital do estado de Roraima?",
+    "opcoes": [
+      "Boa Vista",
+      "Macapá",
+      "Rio Branco",
+      "Palmas"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1410,
+    "pergunta": "Qual destes filmes NÃO é uma comédia?",
+    "opcoes": [
+      "Se Beber, Não Case",
+      "Click",
+      "O Resgate do Soldado Ryan",
+      "Minha Mãe é uma Peça"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1411,
+    "pergunta": "O que significa a sigla 'IBGE'?",
+    "opcoes": [
+      "Instituto Brasileiro de Geografia e Estatística",
+      "Instituto de Biologia e Geociência Estaduais",
+      "Instituto Brasileiro de Gestão Econômica",
+      "Instituto Básico de Geografia e Estatística"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1412,
+    "pergunta": "Qual número completa corretamente a sequência: 2, 4, 8, 16, ___?",
+    "opcoes": [
+      "24",
+      "30",
+      "32",
+      "28"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 1413,
+    "pergunta": "Quem escreveu a peça 'O Auto da Compadecida'?",
+    "opcoes": [
+      "Ariano Suassuna",
+      "Machado de Assis",
+      "Guimarães Rosa",
+      "Graciliano Ramos"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1414,
+    "pergunta": "Qual destes não é um substantivo coletivo?",
+    "opcoes": [
+      "Alcateia",
+      "Cardume",
+      "Multidão",
+      "Bonito"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 1416,
+    "pergunta": "Qual foi o primeiro filme da saga Harry Potter?",
+    "opcoes": [
+      "Câmara Secreta",
+      "Pedra Filosofal",
+      "Prisioneiro de Azkaban",
+      "Enigma do Príncipe"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 1417,
+    "pergunta": "Quantos segundos há em 5 minutos?",
+    "opcoes": [
+      "300",
+      "250",
+      "200",
+      "150"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 1419,
+    "pergunta": "Qual desses filmes é um clássico de comédia brasileiro?",
+    "opcoes": [
+      "Cidade de Deus",
+      "O Auto da Compadecida",
+      "Central do Brasil",
+      "Carandiru"
+    ],
+    "correta": 1
   }
 ]
