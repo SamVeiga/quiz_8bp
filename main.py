@@ -133,6 +133,14 @@ def revelar_resposta(pid):
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
+# 🧹 Limpeza: manter apenas as 3 últimas mensagens (botão, pergunta e ranking)
+while len(mensagens_anteriores) > 3:
+    msg_id = mensagens_anteriores.pop(0)
+    try:
+        bot.delete_message(GRUPO_ID, msg_id)
+    except:
+        pass
+
 # 🚀 /FORCAR SÓ DONO
 @bot.message_handler(commands=["quiz"])
 def forcar_pergunta(m):
