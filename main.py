@@ -86,6 +86,14 @@ def mandar_pergunta():
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
 
+    # 🧹 Apagar mensagens antigas (mantém só as 3 mais recentes)
+    while len(mensagens_anteriores) > 3:
+        msg_id = mensagens_anteriores.pop(0)
+        try:
+            bot.delete_message(GRUPO_ID, msg_id)
+        except:
+            pass
+
 # ⚖️ RANKING + BALÃO DE RESPOSTA
 
 def revelar_resposta(pid):
@@ -122,17 +130,16 @@ def revelar_resposta(pid):
                 nome = str(u)
             resp += f"{i}º - {nome}: {p} ponto(s)\n"
 
-    # ✅ Envia a mensagem com a resposta
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
-    # 🧹 Limpa mensagens antigas depois de mandar a resposta
-    while len(mensagens_anteriores) > 3:
-        msg_id = mensagens_anteriores.pop(0)
-        try:
-            bot.delete_message(GRUPO_ID, msg_id)
-        except:
-            pass
+# 🧹 Limpeza: manter apenas as 3 últimas mensagens (botão, pergunta e ranking)
+while len(mensagens_anteriores) > 3:
+    msg_id = mensagens_anteriores.pop(0)
+    try:
+        bot.delete_message(GRUPO_ID, msg_id)
+    except:
+        pass
 
 # 🚀 /FORCAR SÓ DONO
 @bot.message_handler(commands=["quiz"])
