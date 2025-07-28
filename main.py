@@ -23,6 +23,8 @@ RANKING_PATH = "ranking.json"
 respostas_pendentes = {}
 perguntas_feitas = []
 mensagens_anteriores = []  # Armazena mensagens para referência futura (sem exclusão agora)
+mensagens_respostas = []  # Armazena mensagens "Fulano respondeu" para futura limpeza
+
 
 # ⛔ CARREGAMENTO INICIAL DE DADOS (NÃO ALTERAR)
 try:
@@ -165,7 +167,18 @@ def responder_quiz(call):
     pend["respostas"][user] = int(opcao)
     bot.answer_callback_query(call.id, "✅ Resposta salva!")
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
-    bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+    msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
+
+    # Salva o ID da mensagem de resposta
+    mensagens_respostas.append(msg.message_id)
+
+    # Limpa mensagens antigas de "Fulano respondeu" (mantém só as 10 últimas)
+    while len(mensagens_respostas) > 10:
+        msg_id = mensagens_respostas.pop(0)
+        try:
+            bot.delete_message(GRUPO_ID, msg_id)
+        except:
+            pass
 
 # 🎯 BOTÃO NOVO DESAFIO
 ultimo_pedido = 0
