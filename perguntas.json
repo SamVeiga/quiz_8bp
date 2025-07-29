@@ -1,1104 +1,4 @@
 [
-  {
-    "id": 3000,
-    "pergunta": "Qual é o próximo número na sequência: 2, 4, 8, 16, ...?",
-    "opcoes": [
-      "18",
-      "24",
-      "32",
-      "36"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3001,
-    "pergunta": "Se todos os gatos são mamíferos e alguns mamíferos são cães, então todos os gatos são cães? ",
-    "opcoes": [
-      "Sim",
-      "Não",
-      "Apenas alguns",
-      "Não pode ser determinado"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3002,
-    "pergunta": "Em uma sala com 5 pessoas, quantos apertos de mão acontecerão se cada pessoa apertar a mão de todas as outras uma vez?",
-    "opcoes": [
-      "10",
-      "20",
-      "5",
-      "15"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3003,
-    "pergunta": "Qual é o valor de x na equação 3x + 5 = 20?",
-    "opcoes": [
-      "5",
-      "10",
-      "15",
-      "20"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3004,
-    "pergunta": "Se hoje é segunda-feira, que dia da semana será daqui a 10 dias?",
-    "opcoes": [
-      "Quarta-feira",
-      "Sábado",
-      "Terça-feira",
-      "Quinta-feira"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3005,
-    "pergunta": "Qual das opções não pertence ao grupo: maçã, banana, cenoura, uva?",
-    "opcoes": [
-      "Banana",
-      "Cenoura",
-      "Uva",
-      "Maçã"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3006,
-    "pergunta": "Se 5 trabalhadores constroem uma parede em 4 horas, quanto tempo 10 trabalhadores levarão para construir a mesma parede?",
-    "opcoes": [
-      "8 horas",
-      "2 horas",
-      "4 horas",
-      "1 hora"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3007,
-    "pergunta": "Qual número completa a sequência: 1, 3, 6, 10, 15, ...?",
-    "opcoes": [
-      "20",
-      "22",
-      "18",
-      "25"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3008,
-    "pergunta": "Se todos os A são B, e nenhum B é C, então algum A é C?",
-    "opcoes": [
-      "Sim",
-      "Não",
-      "Talvez",
-      "Não pode ser determinado"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3009,
-    "pergunta": "Qual é o resultado de (2 + 3) × 4?",
-    "opcoes": [
-      "20",
-      "14",
-      "24",
-      "10"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3010,
-    "pergunta": "Se hoje é quinta-feira, que dia será daqui a 100 dias?",
-    "opcoes": [
-      "Domingo",
-      "Terça-feira",
-      "Quinta-feira",
-      "Sábado"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3011,
-    "pergunta": "Complete a sequência: 5, 10, 20, 40, ...",
-    "opcoes": [
-      "50",
-      "80",
-      "60",
-      "100"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3012,
-    "pergunta": "Qual número falta na sequência: 3, 6, 9, 12, __, 18?",
-    "opcoes": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3013,
-    "pergunta": "Se uma caixa tem 12 bolas vermelhas e 18 azuis, qual a probabilidade de tirar uma bola vermelha?",
-    "opcoes": [
-      "12%",
-      "40%",
-      "60%",
-      "66%"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3014,
-    "pergunta": "Em uma disputa de lógica, Pedro é mais velho que João, João é mais velho que Ana. Quem é o mais novo?",
-    "opcoes": [
-      "Pedro",
-      "João",
-      "Ana",
-      "Não pode ser determinado"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3015,
-    "pergunta": "Qual número completa a sequência: 2, 6, 12, 20, 30, ...?",
-    "opcoes": [
-      "36",
-      "40",
-      "42",
-      "48"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3016,
-    "pergunta": "Se um trem viaja a 80 km/h, quantos quilômetros ele percorre em 3 horas?",
-    "opcoes": [
-      "180 km",
-      "240 km",
-      "260 km",
-      "300 km"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3017,
-    "pergunta": "Qual é o próximo número na sequência: 1, 4, 9, 16, 25, ...?",
-    "opcoes": [
-      "30",
-      "35",
-      "36",
-      "40"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3018,
-    "pergunta": "Se hoje é terça-feira, que dia será daqui a 9 dias?",
-    "opcoes": [
-      "Quarta-feira",
-      "Quinta-feira",
-      "Sexta-feira",
-      "Terça-feira"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3019,
-    "pergunta": "Complete a frase: Se todo P é Q, e todo Q é R, então todo P é __.",
-    "opcoes": [
-      "Q",
-      "R",
-      "P",
-      "Nenhuma das anteriores"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3020,
-    "pergunta": "Em uma turma de 30 alunos, 18 gostam de matemática, 15 de física, e 10 gostam de ambos. Quantos alunos gostam de pelo menos uma das duas matérias?",
-    "opcoes": [
-      "23",
-      "25",
-      "27",
-      "30"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3021,
-    "pergunta": "Qual das palavras abaixo é um anagrama de “amor”?",
-    "opcoes": [
-      "Roma",
-      "Mora",
-      "Ramo",
-      "Todas as anteriores"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3022,
-    "pergunta": "Se a média de cinco números é 10, qual a soma deles?",
-    "opcoes": [
-      "50",
-      "40",
-      "60",
-      "55"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3023,
-    "pergunta": "Qual é o próximo número na sequência: 2, 5, 10, 17, 26, ...?",
-    "opcoes": [
-      "35",
-      "37",
-      "38",
-      "39"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3024,
-    "pergunta": "Se João é irmão de Maria e Maria é irmã de Ana, então João é tio de Ana?",
-    "opcoes": [
-      "Sim",
-      "Não",
-      "Pode ser",
-      "Não pode ser determinado"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3025,
-    "pergunta": "Qual é o próximo número na sequência: 1, 3, 6, 10, 15, 21, ...?",
-    "opcoes": [
-      "27",
-      "28",
-      "29",
-      "30"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3026,
-    "pergunta": "Se uma máquina faz 20 peças em 5 minutos, quantas peças fará em 15 minutos?",
-    "opcoes": [
-      "50",
-      "60",
-      "70",
-      "80"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3027,
-    "pergunta": "Qual a metade de 3/4?",
-    "opcoes": [
-      "1/2",
-      "3/8",
-      "1/4",
-      "2/3"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3028,
-    "pergunta": "Se hoje é sexta-feira, que dia será daqui a 45 dias?",
-    "opcoes": [
-      "Domingo",
-      "Segunda-feira",
-      "Quarta-feira",
-      "Sexta-feira"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3029,
-    "pergunta": "Quantos segundos há em 2 horas?",
-    "opcoes": [
-      "7200",
-      "3600",
-      "1800",
-      "5400"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3030,
-    "pergunta": "Se 8 pessoas dividem igualmente R$ 160, quanto cada uma receberá?",
-    "opcoes": [
-      "R$ 10",
-      "R$ 15",
-      "R$ 20",
-      "R$ 25"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3031,
-    "pergunta": "Qual o próximo número na sequência: 1, 2, 4, 8, 16, ...?",
-    "opcoes": [
-      "32",
-      "30",
-      "28",
-      "26"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3032,
-    "pergunta": "Se uma loja oferece 20% de desconto em um produto que custa R$ 50, qual o preço final?",
-    "opcoes": [
-      "R$ 30",
-      "R$ 35",
-      "R$ 40",
-      "R$ 45"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3033,
-    "pergunta": "Complete a sequência: 10, 20, 40, 80, ...",
-    "opcoes": [
-      "90",
-      "100",
-      "120",
-      "160"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3034,
-    "pergunta": "Se Maria tem o dobro da idade de Ana e Ana tem 10 anos, quantos anos tem Maria?",
-    "opcoes": [
-      "10",
-      "15",
-      "20",
-      "25"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3035,
-    "pergunta": "Qual é o próximo número na sequência: 3, 6, 12, 24, 48, ...?",
-    "opcoes": [
-      "72",
-      "90",
-      "96",
-      "100"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3036,
-    "pergunta": "Qual é a capital do Brasil?",
-    "opcoes": [
-      "São Paulo",
-      "Brasília",
-      "Rio de Janeiro",
-      "Salvador"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3037,
-    "pergunta": "Se a soma de dois números é 30 e um deles é 12, qual é o outro número?",
-    "opcoes": [
-      "12",
-      "18",
-      "20",
-      "22"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3038,
-    "pergunta": "Qual é o próximo número na sequência: 5, 10, 15, 20, 25, ...?",
-    "opcoes": [
-      "30",
-      "35",
-      "28",
-      "40"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3039,
-    "pergunta": "Se um carro viaja a 60 km/h, quantos quilômetros ele percorrerá em 2 horas e meia?",
-    "opcoes": [
-      "120 km",
-      "150 km",
-      "180 km",
-      "200 km"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3040,
-    "pergunta": "Qual número completa a sequência: 2, 4, 8, 16, 32, __?",
-    "opcoes": [
-      "64",
-      "60",
-      "48",
-      "40"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3041,
-    "pergunta": "Qual é o resultado de 9 × 9?",
-    "opcoes": [
-      "81",
-      "72",
-      "90",
-      "99"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3042,
-    "pergunta": "Se Pedro tem 5 anos a mais que João e João tem 10 anos, qual a idade de Pedro?",
-    "opcoes": [
-      "10",
-      "12",
-      "15",
-      "20"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3043,
-    "pergunta": "Complete a sequência: 1, 1, 2, 3, 5, 8, ...",
-    "opcoes": [
-      "10",
-      "11",
-      "13",
-      "15"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3044,
-    "pergunta": "Se um ângulo reto tem 90 graus, quantos graus tem um ângulo raso?",
-    "opcoes": [
-      "180",
-      "90",
-      "45",
-      "60"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3045,
-    "pergunta": "Qual é o próximo número na sequência: 4, 9, 16, 25, 36, ...?",
-    "opcoes": [
-      "48",
-      "49",
-      "50",
-      "52"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3046,
-    "pergunta": "Se uma pizza foi dividida em 8 fatias e foram comidas 3, quantas restaram?",
-    "opcoes": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3047,
-    "pergunta": "Qual é o próximo número na sequência: 10, 20, 30, 40, 50, ...?",
-    "opcoes": [
-      "55",
-      "60",
-      "70",
-      "65"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3048,
-    "pergunta": "Se um trem percorre 100 km em 2 horas, qual é sua velocidade média?",
-    "opcoes": [
-      "40 km/h",
-      "50 km/h",
-      "60 km/h",
-      "70 km/h"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3049,
-    "pergunta": "Quantos lados tem um hexágono?",
-    "opcoes": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3050,
-    "pergunta": "Se um número é múltiplo de 4, ele também é múltiplo de 2?",
-    "opcoes": [
-      "Sim",
-      "Não",
-      "Apenas às vezes",
-      "Não pode ser determinado"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3051,
-    "pergunta": "Qual é o próximo número na sequência: 1, 3, 5, 7, 9, ...?",
-    "opcoes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3052,
-    "pergunta": "Se a soma dos ângulos internos de um triângulo é 180 graus, qual é a soma dos ângulos internos de um quadrado?",
-    "opcoes": [
-      "360 graus",
-      "180 graus",
-      "90 graus",
-      "270 graus"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3053,
-    "pergunta": "Complete a frase: Se hoje é domingo, amanhã será __.",
-    "opcoes": [
-      "Segunda-feira",
-      "Sábado",
-      "Domingo",
-      "Terça-feira"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3054,
-    "pergunta": "Quantos segundos há em um minuto?",
-    "opcoes": [
-      "30",
-      "60",
-      "90",
-      "120"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3055,
-    "pergunta": "Se uma camisa custa R$ 80 e está com 25% de desconto, qual o preço final?",
-    "opcoes": [
-      "R$ 20",
-      "R$ 60",
-      "R$ 65",
-      "R$ 75"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3056,
-    "pergunta": "Qual é o próximo número na sequência: 7, 14, 21, 28, 35, ...?",
-    "opcoes": [
-      "38",
-      "40",
-      "42",
-      "45"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3057,
-    "pergunta": "Se um triângulo tem lados 3, 4 e 5, qual é o tipo dele?",
-    "opcoes": [
-      "Equilátero",
-      "Isósceles",
-      "Retângulo",
-      "Obtusângulo"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3058,
-    "pergunta": "Qual é o próximo número na sequência: 2, 4, 6, 8, 10, ...?",
-    "opcoes": [
-      "11",
-      "12",
-      "13",
-      "14"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3059,
-    "pergunta": "Se uma pessoa caminha 5 km em 1 hora, qual é sua velocidade média?",
-    "opcoes": [
-      "4 km/h",
-      "5 km/h",
-      "6 km/h",
-      "7 km/h"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3060,
-    "pergunta": "Complete a sequência: 1, 2, 4, 8, 16, ...",
-    "opcoes": [
-      "18",
-      "20",
-      "32",
-      "24"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3061,
-    "pergunta": "Se hoje é quarta-feira, que dia da semana será daqui a 15 dias?",
-    "opcoes": [
-      "Segunda-feira",
-      "Quarta-feira",
-      "Sexta-feira",
-      "Domingo"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3062,
-    "pergunta": "Quantos meses têm 28 dias?",
-    "opcoes": [
-      "1",
-      "6",
-      "12",
-      "Nenhum"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3063,
-    "pergunta": "Se 3x = 12, qual o valor de x?",
-    "opcoes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3064,
-    "pergunta": "Qual é o próximo número na sequência: 10, 9, 7, 4, 0, ...?",
-    "opcoes": [
-      "-1",
-      "-2",
-      "-3",
-      "-4"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3065,
-    "pergunta": "Se um retângulo tem comprimento 10 e largura 5, qual é a área?",
-    "opcoes": [
-      "15",
-      "30",
-      "50",
-      "60"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3066,
-    "pergunta": "Qual é o próximo número na sequência: 1, 8, 27, 64, ...?",
-    "opcoes": [
-      "81",
-      "100",
-      "125",
-      "216"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3067,
-    "pergunta": "Se hoje é sábado, que dia será daqui a 20 dias?",
-    "opcoes": [
-      "Terça-feira",
-      "Quarta-feira",
-      "Domingo",
-      "Sexta-feira"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3068,
-    "pergunta": "Qual o número que completa a sequência: 100, 90, 80, 70, ...?",
-    "opcoes": [
-      "65",
-      "60",
-      "55",
-      "50"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3069,
-    "pergunta": "Qual é o próximo número na sequência: 3, 6, 9, 12, ...?",
-    "opcoes": [
-      "14",
-      "15",
-      "18",
-      "20"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3070,
-    "pergunta": "Se um ângulo tem 45 graus, qual o ângulo complementar?",
-    "opcoes": [
-      "45",
-      "90",
-      "135",
-      "180"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3071,
-    "pergunta": "Qual é a capital da França?",
-    "opcoes": [
-      "Berlim",
-      "Madri",
-      "Paris",
-      "Londres"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3072,
-    "pergunta": "Complete a sequência: 2, 4, 6, 8, 10, ...",
-    "opcoes": [
-      "11",
-      "12",
-      "13",
-      "14"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3073,
-    "pergunta": "Se um cubo tem aresta 3, qual seu volume?",
-    "opcoes": [
-      "9",
-      "18",
-      "27",
-      "36"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3074,
-    "pergunta": "Qual o próximo número na sequência: 5, 10, 20, 40, ...?",
-    "opcoes": [
-      "50",
-      "60",
-      "70",
-      "80"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3075,
-    "pergunta": "Se um carro consome 10 litros para 100 km, quantos litros gastará em 250 km?",
-    "opcoes": [
-      "15",
-      "20",
-      "25",
-      "30"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3076,
-    "pergunta": "Qual é o resultado de 7 × 8?",
-    "opcoes": [
-      "54",
-      "56",
-      "58",
-      "60"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3077,
-    "pergunta": "Se um triângulo tem lados iguais, ele é chamado de:",
-    "opcoes": [
-      "Isósceles",
-      "Equilátero",
-      "Escaleno",
-      "Obtusângulo"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3078,
-    "pergunta": "Qual é o próximo número na sequência: 1, 4, 7, 10, 13, ...?",
-    "opcoes": [
-      "15",
-      "16",
-      "17",
-      "19"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3079,
-    "pergunta": "Se uma lâmpada custa R$ 12 e há 10% de desconto, qual o preço final?",
-    "opcoes": [
-      "R$ 10,80",
-      "R$ 11",
-      "R$ 11,50",
-      "R$ 12"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3080,
-    "pergunta": "Qual a soma de 8 + 15?",
-    "opcoes": [
-      "20",
-      "23",
-      "25",
-      "30"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3081,
-    "pergunta": "Se hoje é quinta-feira, que dia será daqui a 7 dias?",
-    "opcoes": [
-      "Quinta-feira",
-      "Sexta-feira",
-      "Sábado",
-      "Domingo"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3082,
-    "pergunta": "Complete a sequência: 3, 6, 9, 12, 15, ...",
-    "opcoes": [
-      "16",
-      "17",
-      "18",
-      "19"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3083,
-    "pergunta": "Se uma caixa tem 5 bolas vermelhas, 3 azuis e 2 verdes, qual a probabilidade de tirar uma bola azul?",
-    "opcoes": [
-      "20%",
-      "30%",
-      "40%",
-      "50%"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3084,
-    "pergunta": "Qual é o próximo número na sequência: 0, 1, 1, 2, 3, 5, ...?",
-    "opcoes": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3085,
-    "pergunta": "Se dois ângulos somam 90 graus, eles são chamados de:",
-    "opcoes": [
-      "Ângulos complementares",
-      "Ângulos suplementares",
-      "Ângulos retos",
-      "Ângulos obtusos"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3086,
-    "pergunta": "Qual o próximo número na sequência: 5, 7, 9, 11, 13, ...?",
-    "opcoes": [
-      "14",
-      "15",
-      "16",
-      "17"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3087,
-    "pergunta": "Se um retângulo tem perímetro 20 e comprimento 6, qual é a largura?",
-    "opcoes": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3088,
-    "pergunta": "Qual é o próximo número na sequência: 2, 3, 5, 7, 11, ...?",
-    "opcoes": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3089,
-    "pergunta": "Complete a frase: Se A é maior que B, e B é maior que C, então __.",
-    "opcoes": [
-      "A é menor que C",
-      "A é maior que C",
-      "B é maior que A",
-      "C é maior que A"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3090,
-    "pergunta": "Se hoje é domingo, que dia da semana será daqui a 21 dias?",
-    "opcoes": [
-      "Domingo",
-      "Segunda-feira",
-      "Terça-feira",
-      "Quarta-feira"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3091,
-    "pergunta": "Qual é o próximo número na sequência: 1, 2, 4, 8, 16, ...?",
-    "opcoes": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3092,
-    "pergunta": "Se 4x = 20, qual o valor de x?",
-    "opcoes": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correta": 0
-  },
-  {
-    "id": 3093,
-    "pergunta": "Qual é o próximo número na sequência: 6, 12, 18, 24, ...?",
-    "opcoes": [
-      "28",
-      "30",
-      "32",
-      "34"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3094,
-    "pergunta": "Qual é o próximo número na sequência: 1, 1, 2, 3, 5, 8, 13, ...?",
-    "opcoes": [
-      "18",
-      "19",
-      "20",
-      "21"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3095,
-    "pergunta": "Se um triângulo tem ângulos de 30°, 60° e 90°, qual é o tipo dele?",
-    "opcoes": [
-      "Equilátero",
-      "Isósceles",
-      "Retângulo",
-      "Obtusângulo"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3096,
-    "pergunta": "Qual é o próximo número na sequência: 10, 20, 30, 40, 50, 60, ...?",
-    "opcoes": [
-      "65",
-      "70",
-      "75",
-      "80"
-    ],
-    "correta": 1
-  },
-  {
-    "id": 3097,
-    "pergunta": "Se um relógio atrasou 5 minutos a cada hora, quantos minutos ele atrasará em 12 horas?",
-    "opcoes": [
-      "30",
-      "40",
-      "50",
-      "60"
-    ],
-    "correta": 3
-  },
-  {
-    "id": 3098,
-    "pergunta": "Qual é a raiz quadrada de 81?",
-    "opcoes": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "correta": 2
-  },
-  {
-    "id": 3099,
-    "pergunta": "Se um número é múltiplo de 5 e de 3, ele é múltiplo de:",
-    "opcoes": [
-      "8",
-      "10",
-      "15",
-      "20"
-    ],
-    "correta": 2
-  },
     {
     "id": 3110,
     "pergunta": "Qual parte do sistema reprodutor masculino armazena espermatozoides até a ejaculação?",
@@ -4290,5 +3190,456 @@
       "Joined Photographic Experts Group"
     ],
     "correta": 0
+  },
+  {
+    "id": 3400,
+    "pergunta": "Se todos os carros são veículos e alguns veículos são vermelhos, podemos afirmar que todos os carros são vermelhos?",
+    "opcoes": [
+      "Sim",
+      "Não",
+      "Apenas alguns",
+      "Não é possível saber"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3401,
+    "pergunta": "Em uma sala, há 3 pessoas: Ana, Beto e Carla. Ana sempre diz a verdade, Beto sempre mente e Carla às vezes mente e às vezes diz a verdade. Ana diz: 'Beto mente sempre'. Beto diz: 'Eu minto sempre'. Quem está dizendo a verdade?",
+    "opcoes": [
+      "Apenas Ana",
+      "Apenas Beto",
+      "Ana e Carla",
+      "Nenhum deles"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3402,
+    "pergunta": "Qual número completa a sequência: 2, 6, 12, 20, ?",
+    "opcoes": [
+      "28",
+      "30",
+      "26",
+      "24"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3403,
+    "pergunta": "Se um relógio atrasa 5 minutos a cada hora, quantos minutos ele terá atrasado após 6 horas?",
+    "opcoes": [
+      "25 minutos",
+      "30 minutos",
+      "35 minutos",
+      "40 minutos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3404,
+    "pergunta": "Qual das opções não pertence ao grupo: maçã, banana, alface, pera?",
+    "opcoes": [
+      "Maçã",
+      "Banana",
+      "Alface",
+      "Pera"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3405,
+    "pergunta": "Se hoje é segunda-feira, que dia da semana será daqui a 15 dias?",
+    "opcoes": [
+      "Quarta-feira",
+      "Terça-feira",
+      "Segunda-feira",
+      "Quinta-feira"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3406,
+    "pergunta": "Maria é 3 vezes mais velha que João. Se João tem 10 anos, qual é a idade de Maria?",
+    "opcoes": [
+      "13 anos",
+      "30 anos",
+      "23 anos",
+      "33 anos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3407,
+    "pergunta": "Quantos triângulos há na figura formada por um triângulo grande dividido em 4 triângulos menores?",
+    "opcoes": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3408,
+    "pergunta": "Se João tem o dobro da idade de Ana e Ana tem 5 anos, qual a idade de João?",
+    "opcoes": [
+      "5 anos",
+      "10 anos",
+      "15 anos",
+      "20 anos"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3409,
+    "pergunta": "Em uma fila de 10 pessoas, se a terceira pessoa trocar de lugar com a sétima, em que posição ficará a pessoa que estava na terceira posição originalmente?",
+    "opcoes": [
+      "Terceira",
+      "Sétima",
+      "Oitava",
+      "Nona"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3410,
+    "pergunta": "Qual é a palavra que não pertence ao grupo: caneta, lápis, borracha, caderno?",
+    "opcoes": [
+      "Caneta",
+      "Lápis",
+      "Borracha",
+      "Caderno"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3411,
+    "pergunta": "Se um trem viaja a 60 km/h, quanto tempo ele levará para percorrer 180 km?",
+    "opcoes": [
+      "2 horas",
+      "3 horas",
+      "4 horas",
+      "5 horas"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3412,
+    "pergunta": "Qual número completa a sequência: 1, 4, 9, 16, 25, ?",
+    "opcoes": [
+      "30",
+      "32",
+      "36",
+      "40"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3413,
+    "pergunta": "Se o dobro de um número é 50, qual é esse número?",
+    "opcoes": [
+      "10",
+      "20",
+      "25",
+      "50"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3414,
+    "pergunta": "Se hoje é quinta-feira, que dia da semana será daqui a 9 dias?",
+    "opcoes": [
+      "Domingo",
+      "Segunda-feira",
+      "Terça-feira",
+      "Quarta-feira"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3415,
+    "pergunta": "Qual das figuras abaixo não pertence ao grupo: círculo, quadrado, triângulo, cubo?",
+    "opcoes": [
+      "Círculo",
+      "Quadrado",
+      "Triângulo",
+      "Cubo"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3416,
+    "pergunta": "Se três pessoas levam 3 horas para pintar uma parede, quanto tempo levarão 6 pessoas para pintar a mesma parede, trabalhando juntas?",
+    "opcoes": [
+      "1,5 horas",
+      "2 horas",
+      "3 horas",
+      "4 horas"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3417,
+    "pergunta": "Quantos meses têm 28 dias?",
+    "opcoes": [
+      "1",
+      "12",
+      "6",
+      "Nenhum"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3418,
+    "pergunta": "Qual número falta na sequência: 5, 10, 20, 40, ?",
+    "opcoes": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3419,
+    "pergunta": "Se hoje é domingo, que dia da semana será daqui a 100 dias?",
+    "opcoes": [
+      "Terça-feira",
+      "Quarta-feira",
+      "Sexta-feira",
+      "Sábado"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3420,
+    "pergunta": "Em uma caixa, há 5 bolas vermelhas e 3 bolas azuis. Qual a probabilidade de tirar uma bola azul?",
+    "opcoes": [
+      "3/8",
+      "5/8",
+      "1/2",
+      "1/3"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3421,
+    "pergunta": "Qual é o próximo número na sequência: 2, 3, 5, 7, 11, ?",
+    "opcoes": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3422,
+    "pergunta": "Se 5 operários constroem uma casa em 10 dias, quanto tempo levariam 10 operários para construir a mesma casa?",
+    "opcoes": [
+      "5 dias",
+      "7 dias",
+      "10 dias",
+      "15 dias"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3423,
+    "pergunta": "Quantas diagonais tem um hexágono?",
+    "opcoes": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3424,
+    "pergunta": "Qual das palavras abaixo é um anagrama da palavra 'amor'?",
+    "opcoes": [
+      "Roma",
+      "Mar",
+      "Armo",
+      "Ramo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3425,
+    "pergunta": "Em um relógio, quantos graus o ponteiro dos minutos avança em 15 minutos?",
+    "opcoes": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3426,
+    "pergunta": "Se 4 gatos pegam 4 ratos em 4 minutos, quanto tempo 1 gato leva para pegar 1 rato?",
+    "opcoes": [
+      "1 minuto",
+      "4 minutos",
+      "16 minutos",
+      "Nenhuma das anteriores"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3427,
+    "pergunta": "Qual é o número faltante: 3, 6, 9, 12, ?",
+    "opcoes": [
+      "14",
+      "15",
+      "18",
+      "21"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3428,
+    "pergunta": "Se hoje é segunda-feira, que dia da semana será daqui a 45 dias?",
+    "opcoes": [
+      "Sábado",
+      "Domingo",
+      "Terça-feira",
+      "Quarta-feira"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3429,
+    "pergunta": "Qual é a soma dos ângulos internos de um triângulo?",
+    "opcoes": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3430,
+    "pergunta": "Qual número completa a sequência: 1, 1, 2, 3, 5, 8, ?",
+    "opcoes": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3431,
+    "pergunta": "Se uma camisa custa R$ 50 e está com 20% de desconto, qual é o preço final?",
+    "opcoes": [
+      "R$ 10",
+      "R$ 30",
+      "R$ 40",
+      "R$ 50"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3432,
+    "pergunta": "Se a soma de dois números é 20 e um deles é 12, qual é o outro?",
+    "opcoes": [
+      "8",
+      "12",
+      "20",
+      "32"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3433,
+    "pergunta": "Qual das opções é um palíndromo?",
+    "opcoes": [
+      "arara",
+      "casa",
+      "gato",
+      "carro"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3434,
+    "pergunta": "Se em um saco há 7 bolas vermelhas, 5 verdes e 8 azuis, quantas bolas há no total?",
+    "opcoes": [
+      "20",
+      "18",
+      "15",
+      "10"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3435,
+    "pergunta": "Qual é o próximo número na sequência: 10, 20, 40, 80, ?",
+    "opcoes": [
+      "120",
+      "140",
+      "160",
+      "180"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3436,
+    "pergunta": "Se uma piscina enche em 6 horas com duas torneiras abertas, quanto tempo levará para encher com uma única torneira aberta?",
+    "opcoes": [
+      "3 horas",
+      "6 horas",
+      "12 horas",
+      "18 horas"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3437,
+    "pergunta": "Se três amigos dividem igualmente uma conta de R$ 90, quanto cada um paga?",
+    "opcoes": [
+      "R$ 20",
+      "R$ 25",
+      "R$ 30",
+      "R$ 35"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3438,
+    "pergunta": "Quantos segundos há em 3 minutos?",
+    "opcoes": [
+      "60",
+      "90",
+      "120",
+      "180"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3439,
+    "pergunta": "Qual a soma dos números 15, 25 e 35?",
+    "opcoes": [
+      "65",
+      "75",
+      "80",
+      "85"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3440,
+    "pergunta": "Se um livro tem 300 páginas e você lê 20 páginas por dia, quantos dias levará para terminar?",
+    "opcoes": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correta": 2
   }
 ]
