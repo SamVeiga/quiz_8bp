@@ -1098,5 +1098,3197 @@
       "20"
     ],
     "correta": 2
+  },
+    {
+    "id": 3110,
+    "pergunta": "Qual parte do sistema reprodutor masculino armazena espermatozoides até a ejaculação?",
+    "opcoes": [
+      "Testículos",
+      "Próstata",
+      "Pênis",
+      "Epidídimo"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3111,
+    "pergunta": "Qual o nome do método cirúrgico de esterilização feminina?",
+    "opcoes": [
+      "Histerectomia",
+      "Laqueadura tubária",
+      "Curetagem",
+      "Cesárea"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3112,
+    "pergunta": "O que é a ovulação?",
+    "opcoes": [
+      "Liberação do espermatozoide",
+      "Perda da mucosa uterina",
+      "Liberação de um óvulo pelo ovário",
+      "Início da menstruação"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3113,
+    "pergunta": "Qual das opções abaixo NÃO é uma IST?",
+    "opcoes": [
+      "Sífilis",
+      "Herpes genital",
+      "Candidíase",
+      "Gonorreia"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3114,
+    "pergunta": "Qual órgão produz os espermatozoides?",
+    "opcoes": [
+      "Pênis",
+      "Próstata",
+      "Testículos",
+      "Uretra"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3115,
+    "pergunta": "O DIU é inserido em qual parte do corpo da mulher?",
+    "opcoes": [
+      "Ovário",
+      "Canal vaginal",
+      "Útero",
+      "Trompas"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3116,
+    "pergunta": "Qual é a função do hormônio progesterona?",
+    "opcoes": [
+      "Induzir o parto",
+      "Preparar o útero para gravidez",
+      "Estimular a menstruação",
+      "Controlar a libido"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3117,
+    "pergunta": "Qual é o tempo de duração típico de um ciclo menstrual regular?",
+    "opcoes": [
+      "14 dias",
+      "21 dias",
+      "28 dias",
+      "35 dias"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3118,
+    "pergunta": "A ejaculação precoce é caracterizada por:",
+    "opcoes": [
+      "Falta de esperma",
+      "Ejaculação antes ou logo após a penetração",
+      "Incapacidade de ejaculação",
+      "Dor ao ejacular"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3119,
+    "pergunta": "Qual é a principal via de transmissão do HPV?",
+    "opcoes": [
+      "Contato com água contaminada",
+      "Contato sanguíneo",
+      "Relação sexual",
+      "Contato com objetos pessoais"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3120,
+    "pergunta": "O que caracteriza a puberdade?",
+    "opcoes": [
+      "Aparição de rugas",
+      "Fim do crescimento ósseo",
+      "Desenvolvimento de características sexuais secundárias",
+      "Interrupção da menstruação"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3121,
+    "pergunta": "Qual estrutura recebe o embrião após a fecundação?",
+    "opcoes": [
+      "Ovário",
+      "Trompa de Falópio",
+      "Útero",
+      "Cérvix"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3122,
+    "pergunta": "Qual é a principal função do hormônio testosterona?",
+    "opcoes": [
+      "Produzir leite",
+      "Regular o ciclo menstrual",
+      "Desenvolver características sexuais masculinas",
+      "Reduzir a fertilidade"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3123,
+    "pergunta": "Qual das opções abaixo pode ser considerada uma função da menstruação?",
+    "opcoes": [
+      "Lubrificação vaginal",
+      "Eliminação do óvulo não fecundado",
+      "Produção de hormônios",
+      "Aumento da libido"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3124,
+    "pergunta": "Qual dos itens abaixo é considerado um método de barreira?",
+    "opcoes": [
+      "Camisinha",
+      "Pílula",
+      "DIU hormonal",
+      "Adesivo anticoncepcional"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3125,
+    "pergunta": "O que pode causar falha nos métodos anticoncepcionais hormonais?",
+    "opcoes": [
+      "Interrupção no uso",
+      "Exercícios físicos",
+      "Má alimentação",
+      "Exposição ao sol"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3126,
+    "pergunta": "Qual das alternativas é uma infecção causada por vírus?",
+    "opcoes": [
+      "Sífilis",
+      "Gonorreia",
+      "Hepatite B",
+      "Clamídia"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3127,
+    "pergunta": "A fecundação geralmente ocorre em qual local?",
+    "opcoes": [
+      "Útero",
+      "Ovário",
+      "Canal vaginal",
+      "Trompas de Falópio"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3128,
+    "pergunta": "O que é libido?",
+    "opcoes": [
+      "Fertilidade feminina",
+      "Apetite sexual",
+      "Ovulação intensa",
+      "Desequilíbrio hormonal"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3129,
+    "pergunta": "Qual método abaixo NÃO é contraceptivo?",
+    "opcoes": [
+      "DIU",
+      "Camisinha",
+      "Coito interrompido",
+      "Ultrassonografia"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3130,
+    "pergunta": "Qual país sediou a primeira Copa do Mundo de Futebol em 1930?",
+    "opcoes": [
+      "Brasil",
+      "Alemanha",
+      "Uruguai",
+      "Itália"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3131,
+    "pergunta": "Qual seleção é a maior campeã da história das Copas do Mundo?",
+    "opcoes": [
+      "Alemanha",
+      "Argentina",
+      "Brasil",
+      "França"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3132,
+    "pergunta": "Quantas Copas do Mundo a seleção brasileira conquistou até 2022?",
+    "opcoes": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3133,
+    "pergunta": "Quem marcou o gol do título do Brasil na final da Copa de 2002?",
+    "opcoes": [
+      "Ronaldinho",
+      "Cafu",
+      "Rivaldo",
+      "Ronaldo"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3134,
+    "pergunta": "Qual país venceu a Copa do Mundo de 2018?",
+    "opcoes": [
+      "Croácia",
+      "França",
+      "Inglaterra",
+      "Alemanha"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3135,
+    "pergunta": "Quantas seleções participaram da Copa do Mundo de 2022?",
+    "opcoes": [
+      "28",
+      "30",
+      "32",
+      "36"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3136,
+    "pergunta": "Em que ano o Brasil sediou a Copa do Mundo pela primeira vez?",
+    "opcoes": [
+      "1950",
+      "1962",
+      "1970",
+      "1982"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3137,
+    "pergunta": "Qual jogador é o maior artilheiro da história das Copas do Mundo?",
+    "opcoes": [
+      "Pelé",
+      "Ronaldo",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3138,
+    "pergunta": "Qual técnico foi campeão com o Brasil na Copa de 1994?",
+    "opcoes": [
+      "Felipão",
+      "Zagallo",
+      "Parreira",
+      "Dunga"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3139,
+    "pergunta": "Qual foi o resultado da final da Copa do Mundo de 2014?",
+    "opcoes": [
+      "Alemanha 1x0 Argentina",
+      "Brasil 1x7 Alemanha",
+      "França 4x2 Croácia",
+      "Itália 1x1 França"
+    ],
+    "correta": 0
+  },
+
+  {
+    "id": 3140,
+    "pergunta": "Qual seleção eliminou o Brasil na Copa do Mundo de 2022?",
+    "opcoes": [
+      "Croácia",
+      "Argentina",
+      "França",
+      "Inglaterra"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3141,
+    "pergunta": "Quantos títulos mundiais a Alemanha possui até 2022?",
+    "opcoes": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3142,
+    "pergunta": "Em que ano a Argentina venceu sua terceira Copa do Mundo?",
+    "opcoes": [
+      "1986",
+      "2022",
+      "2014",
+      "1990"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3143,
+    "pergunta": "Qual o estádio da final da Copa do Mundo de 2014?",
+    "opcoes": [
+      "Maracanã",
+      "Morumbi",
+      "Mineirão",
+      "Beira-Rio"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3144,
+    "pergunta": "Quantos gols Pelé marcou em Copas do Mundo?",
+    "opcoes": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3145,
+    "pergunta": "Quem foi o artilheiro da Copa do Mundo de 2002?",
+    "opcoes": [
+      "Ronaldo",
+      "Rivaldo",
+      "Ronaldinho",
+      "Klose"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3146,
+    "pergunta": "Qual foi a primeira seleção africana a chegar a uma semifinal de Copa?",
+    "opcoes": [
+      "Camarões",
+      "Nigéria",
+      "Marrocos",
+      "Senegal"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3147,
+    "pergunta": "Quem foi o capitão da seleção brasileira na Copa de 2002?",
+    "opcoes": [
+      "Ronaldo",
+      "Cafu",
+      "Roberto Carlos",
+      "Rivaldo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3148,
+    "pergunta": "Quantas Copas do Mundo foram vencidas pela Itália?",
+    "opcoes": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3149,
+    "pergunta": "Qual seleção venceu a Copa do Mundo de 1966?",
+    "opcoes": [
+      "Alemanha",
+      "Inglaterra",
+      "Brasil",
+      "França"
+    ],
+    "correta": 1
+  },
+
+  {
+    "id": 3150,
+    "pergunta": "Qual foi o país campeão da Copa do Mundo de 1978?",
+    "opcoes": [
+      "Alemanha",
+      "Holanda",
+      "Argentina",
+      "Itália"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3151,
+    "pergunta": "Quantos títulos mundiais tem a seleção da França até 2022?",
+    "opcoes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3152,
+    "pergunta": "Qual jogador recebeu o prêmio de melhor da Copa de 2014?",
+    "opcoes": [
+      "Neymar",
+      "Thomas Müller",
+      "Messi",
+      "James Rodríguez"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3153,
+    "pergunta": "Quem foi o técnico do Brasil na Copa de 2022?",
+    "opcoes": [
+      "Felipão",
+      "Tite",
+      "Dunga",
+      "Mano Menezes"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3154,
+    "pergunta": "Em que ano o Brasil foi campeão pela última vez?",
+    "opcoes": [
+      "1998",
+      "2002",
+      "2006",
+      "2010"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3155,
+    "pergunta": "Quantas vezes a Alemanha foi vice-campeã mundial?",
+    "opcoes": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3156,
+    "pergunta": "Qual seleção venceu a Copa de 2010?",
+    "opcoes": [
+      "Holanda",
+      "Alemanha",
+      "Espanha",
+      "Itália"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3157,
+    "pergunta": "Qual foi o país anfitrião da Copa do Mundo de 2022?",
+    "opcoes": [
+      "Rússia",
+      "Qatar",
+      "Arábia Saudita",
+      "Emirados Árabes"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3158,
+    "pergunta": "Em que ano Pelé conquistou sua última Copa?",
+    "opcoes": [
+      "1958",
+      "1962",
+      "1970",
+      "1974"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3159,
+    "pergunta": "Qual jogador marcou o gol da vitória da Argentina na final de 2022?",
+    "opcoes": [
+      "Messi",
+      "Di María",
+      "Montiel",
+      "Álvarez"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3160,
+    "pergunta": "Qual é o único felino que vive em grupos sociais?",
+    "opcoes": [
+      "Onça",
+      "Leopardo",
+      "Leão",
+      "Guepardo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3161,
+    "pergunta": "Que animal pode mudar de cor para se camuflar?",
+    "opcoes": [
+      "Polvo",
+      "Camaleão",
+      "Cobra",
+      "Jacaré"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3162,
+    "pergunta": "Qual desses animais é um marsupial?",
+    "opcoes": [
+      "Morcego",
+      "Tamanduá",
+      "Canguru",
+      "Lontra"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3163,
+    "pergunta": "Qual ave é conhecida por imitar sons humanos?",
+    "opcoes": [
+      "Coruja",
+      "Arara",
+      "Papagaio",
+      "Urubu"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3164,
+    "pergunta": "Qual é o único animal que pode regenerar membros perdidos?",
+    "opcoes": [
+      "Lagarto",
+      "Estrela-do-mar",
+      "Camarão",
+      "Caranguejo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3165,
+    "pergunta": "Que animal é famoso por construir represas?",
+    "opcoes": [
+      "Castor",
+      "Capivara",
+      "Lontra",
+      "Jacaré"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3166,
+    "pergunta": "Qual é o maior peixe do mundo?",
+    "opcoes": [
+      "Tubarão-branco",
+      "Tubarão-baleia",
+      "Baleia Azul",
+      "Orca"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3167,
+    "pergunta": "Quantas patas tem uma aranha?",
+    "opcoes": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3168,
+    "pergunta": "Qual é o nome do filhote da ovelha?",
+    "opcoes": [
+      "Cordeiro",
+      "Bezerro",
+      "Potro",
+      "Cabrito"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3169,
+    "pergunta": "Qual é o som emitido pela coruja?",
+    "opcoes": [
+      "Pio",
+      "Uivo",
+      "Zunido",
+      "Grunhido"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3170,
+    "pergunta": "Qual desses animais é ovíparo?",
+    "opcoes": [
+      "Gato",
+      "Cachorro",
+      "Galinha",
+      "Baleia"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3171,
+    "pergunta": "Qual animal possui língua azul?",
+    "opcoes": [
+      "Dragão-de-komodo",
+      "Urso-pardo",
+      "Lagarto-tolo",
+      "Tigre"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3172,
+    "pergunta": "Que inseto poliniza a maior parte das plantas?",
+    "opcoes": [
+      "Formiga",
+      "Vespa",
+      "Abelha",
+      "Mosquito"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3173,
+    "pergunta": "Qual desses animais não possui esqueleto interno?",
+    "opcoes": [
+      "Cobra",
+      "Caranguejo",
+      "Jacaré",
+      "Golfinho"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3174,
+    "pergunta": "Qual mamífero põe ovos?",
+    "opcoes": [
+      "Tamanduá",
+      "Ornitorrinco",
+      "Gambá",
+      "Raposa"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3175,
+    "pergunta": "Que animal tem dentes mas não mastiga?",
+    "opcoes": [
+      "Pato",
+      "Jacaré",
+      "Golfinho",
+      "Cobra"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3176,
+    "pergunta": "Qual é o nome do som que o cavalo faz?",
+    "opcoes": [
+      "Rebuzno",
+      "Mugido",
+      "Relincho",
+      "Grunhido"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3177,
+    "pergunta": "Qual desses animais possui esqueleto externo?",
+    "opcoes": [
+      "Tubarão",
+      "Besouro",
+      "Cobra",
+      "Jacaré"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3178,
+    "pergunta": "Que animal é símbolo da Austrália?",
+    "opcoes": [
+      "Coala",
+      "Canguru",
+      "Emu",
+      "Dingo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3179,
+    "pergunta": "Qual é a principal característica do camaleão?",
+    "opcoes": [
+      "Soltar veneno",
+      "Vôo noturno",
+      "Mudar de cor",
+      "Correr velozmente"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3180,
+    "pergunta": "Qual animal é conhecido por carregar sua casa nas costas?",
+    "opcoes": [
+      "Caramujo",
+      "Cágado",
+      "Caranguejo",
+      "Tartaruga"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3181,
+    "pergunta": "Que animal marinho tem tentáculos com ventosas?",
+    "opcoes": [
+      "Estrela-do-mar",
+      "Polvo",
+      "Moreia",
+      "Cavalo-marinho"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3182,
+    "pergunta": "Qual desses animais é considerado um roedor?",
+    "opcoes": [
+      "Coelho",
+      "Esquilo",
+      "Morcego",
+      "Raposa"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3183,
+    "pergunta": "Que animal possui veneno, mas não tem dentes?",
+    "opcoes": [
+      "Água-viva",
+      "Ornitorrinco",
+      "Enguia",
+      "Peixe-leão"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3184,
+    "pergunta": "Qual animal é símbolo da paz?",
+    "opcoes": [
+      "Andorinha",
+      "Pomba",
+      "Papagaio",
+      "Coruja"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3185,
+    "pergunta": "Qual é o maior predador dos oceanos?",
+    "opcoes": [
+      "Tubarão-branco",
+      "Baleia Orca",
+      "Tubarão-martelo",
+      "Lula-gigante"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3186,
+    "pergunta": "Qual desses animais é mais antigo?",
+    "opcoes": [
+      "Dinossauro",
+      "Crocodilo",
+      "Tubarão",
+      "Barata"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3187,
+    "pergunta": "Que animal é símbolo do WWF (Fundo Mundial para a Natureza)?",
+    "opcoes": [
+      "Urso Polar",
+      "Panda",
+      "Leão",
+      "Águia"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3188,
+    "pergunta": "Qual desses animais é considerado hermafrodita?",
+    "opcoes": [
+      "Minhoca",
+      "Formiga",
+      "Bicho-preguiça",
+      "Cavalo-marinho"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3189,
+    "pergunta": "Qual animal põe o maior número de ovos?",
+    "opcoes": [
+      "Crocodilo",
+      "Polvo",
+      "Tubarão",
+      "Sapo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3190,
+    "pergunta": "Qual mamífero vive no mar?",
+    "opcoes": [
+      "Orca",
+      "Foca",
+      "Golfinho",
+      "Todos os anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3191,
+    "pergunta": "Que animal dorme de cabeça para baixo?",
+    "opcoes": [
+      "Tamanduá",
+      "Macaco",
+      "Morcego",
+      "Gato"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3192,
+    "pergunta": "Qual desses é um animal bioluminescente?",
+    "opcoes": [
+      "Polvo",
+      "Vaga-lume",
+      "Água-viva",
+      "Ambos"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3193,
+    "pergunta": "Qual animal pode viver tanto na água quanto na terra?",
+    "opcoes": [
+      "Jacaré",
+      "Sapo",
+      "Pato",
+      "Todos os anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3194,
+    "pergunta": "Qual desses animais é considerado social e vive em colônias?",
+    "opcoes": [
+      "Leão",
+      "Elefante",
+      "Formiga",
+      "Cervo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3195,
+    "pergunta": "Que animal tem o coração do tamanho de um carro?",
+    "opcoes": [
+      "Elefante",
+      "Tubarão-baleia",
+      "Baleia Azul",
+      "Orca"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3196,
+    "pergunta": "Qual o nome do animal símbolo do Brasil?",
+    "opcoes": [
+      "Onça-pintada",
+      "Tucano",
+      "Lobo-guará",
+      "Arara"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3197,
+    "pergunta": "Qual animal tem os olhos maiores que o próprio cérebro?",
+    "opcoes": [
+      "Avestruz",
+      "Polvo",
+      "Camaleão",
+      "Lula-gigante"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3198,
+    "pergunta": "Qual animal é conhecido por fingir de morto para se proteger?",
+    "opcoes": [
+      "Cobra",
+      "Tamanduá",
+      "Gambá",
+      "Tatu"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3199,
+    "pergunta": "Que animal tem visão de 360 graus?",
+    "opcoes": [
+      "Camaleão",
+      "Polvo",
+      "Pombo",
+      "Libélula"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3200,
+    "pergunta": "Quantos mandamentos há na tradição cristã?",
+    "opcoes": [
+      "7",
+      "10",
+      "12",
+      "8"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3201,
+    "pergunta": "Quem foi o fundador do islamismo?",
+    "opcoes": [
+      "Jesus",
+      "Maomé",
+      "Abraão",
+      "Moisés"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3202,
+    "pergunta": "Qual é o livro sagrado do hinduísmo?",
+    "opcoes": [
+      "Torá",
+      "Alcorão",
+      "Bhagavad Gita",
+      "Evangelho"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3203,
+    "pergunta": "Qual destas religiões é monoteísta?",
+    "opcoes": [
+      "Cristianismo",
+      "Hinduísmo",
+      "Budismo",
+      "Espiritismo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3204,
+    "pergunta": "O Alcorão é o livro sagrado de qual religião?",
+    "opcoes": [
+      "Cristianismo",
+      "Judaísmo",
+      "Islamismo",
+      "Budismo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3205,
+    "pergunta": "Qual é a figura central do cristianismo?",
+    "opcoes": [
+      "Moisés",
+      "Pedro",
+      "Jesus Cristo",
+      "Paulo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3206,
+    "pergunta": "Qual religião tem como símbolo a estrela de Davi?",
+    "opcoes": [
+      "Cristianismo",
+      "Islamismo",
+      "Judaísmo",
+      "Espiritismo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3207,
+    "pergunta": "Qual é o local mais sagrado do Islã?",
+    "opcoes": [
+      "Jerusalém",
+      "Medina",
+      "Meca",
+      "Bagdá"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3208,
+    "pergunta": "O budismo foi fundado por qual figura histórica?",
+    "opcoes": [
+      "Confúcio",
+      "Lao Tsé",
+      "Sidarta Gautama",
+      "Krishna"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3209,
+    "pergunta": "O espiritismo foi codificado por qual pensador?",
+    "opcoes": [
+      "Chico Xavier",
+      "Allan Kardec",
+      "Eurípedes Barsanulfo",
+      "Zé Arigó"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3210,
+    "pergunta": "Qual religião brasileira é sincrética e mistura elementos africanos e cristãos?",
+    "opcoes": [
+      "Protestantismo",
+      "Espiritismo",
+      "Umbanda",
+      "Catolicismo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3211,
+    "pergunta": "O que é o Torá?",
+    "opcoes": [
+      "Um profeta",
+      "Livro sagrado judaico",
+      "Templo religioso",
+      "Deus do hinduísmo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3212,
+    "pergunta": "Quem liderou o povo hebreu na travessia do Mar Vermelho?",
+    "opcoes": [
+      "Josué",
+      "Abraão",
+      "Moisés",
+      "Davi"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3213,
+    "pergunta": "Qual dos seguintes não é um dos quatro evangelhos canônicos?",
+    "opcoes": [
+      "Mateus",
+      "Lucas",
+      "Tiago",
+      "João"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3214,
+    "pergunta": "Em que dia os cristãos comemoram a ressurreição de Jesus?",
+    "opcoes": [
+      "Natal",
+      "Quarta-feira de Cinzas",
+      "Sexta-feira Santa",
+      "Páscoa"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3215,
+    "pergunta": "Qual dessas figuras é considerada profeta em várias religiões monoteístas?",
+    "opcoes": [
+      "Noé",
+      "Abraão",
+      "Salomão",
+      "Davi"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3216,
+    "pergunta": "Qual dos seguintes é um dos cinco pilares do Islã?",
+    "opcoes": [
+      "Batismo",
+      "Meditação",
+      "Oração diária",
+      "Confissão"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3217,
+    "pergunta": "Qual animal representa o espírito santo em algumas tradições cristãs?",
+    "opcoes": [
+      "Cordeiro",
+      "Águia",
+      "Pomba",
+      "Cavalo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3218,
+    "pergunta": "Qual religião tem o karma como um de seus princípios?",
+    "opcoes": [
+      "Cristianismo",
+      "Islamismo",
+      "Hinduísmo",
+      "Judaísmo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3219,
+    "pergunta": "Qual é o principal livro sagrado do cristianismo?",
+    "opcoes": [
+      "Torá",
+      "Alcorão",
+      "Bíblia",
+      "Talmude"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3220,
+    "pergunta": "Qual foi o primeiro milagre de Jesus, segundo a Bíblia?",
+    "opcoes": [
+      "Cura de um leproso",
+      "Ressuscitar Lázaro",
+      "Andar sobre as águas",
+      "Transformar água em vinho"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3221,
+    "pergunta": "Qual é o maior templo católico do mundo?",
+    "opcoes": [
+      "Basílica de Aparecida",
+      "Basílica de São Pedro",
+      "Catedral de Notre-Dame",
+      "Basílica de Fátima"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3222,
+    "pergunta": "Qual destes é um arcanjo citado na Bíblia?",
+    "opcoes": [
+      "Lúcifer",
+      "Gabriel",
+      "Uriel",
+      "Azazel"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3223,
+    "pergunta": "Em que cidade nasceu Jesus Cristo?",
+    "opcoes": [
+      "Nazaré",
+      "Belém",
+      "Jerusalém",
+      "Hebrom"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3224,
+    "pergunta": "A reencarnação é um conceito central de qual dessas religiões?",
+    "opcoes": [
+      "Catolicismo",
+      "Judaísmo",
+      "Hinduísmo",
+      "Islamismo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3225,
+    "pergunta": "O que é o Ramadã no Islã?",
+    "opcoes": [
+      "Oração",
+      "Mês sagrado de jejum",
+      "Peregrinação a Meca",
+      "Celebração de nascimento"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3226,
+    "pergunta": "Qual apóstolo é conhecido como o 'discípulo amado'?",
+    "opcoes": [
+      "Pedro",
+      "João",
+      "Tiago",
+      "Mateus"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3227,
+    "pergunta": "Quantos livros tem a Bíblia Católica?",
+    "opcoes": [
+      "66",
+      "72",
+      "73",
+      "70"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3228,
+    "pergunta": "Qual dos seguintes livros pertence ao Novo Testamento?",
+    "opcoes": [
+      "Gênesis",
+      "Levítico",
+      "Romanos",
+      "Salmos"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3229,
+    "pergunta": "Qual religião acredita na iluminação como caminho para o nirvana?",
+    "opcoes": [
+      "Cristianismo",
+      "Hinduísmo",
+      "Islamismo",
+      "Budismo"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3230,
+    "pergunta": "Quem foi o primeiro papa da Igreja Católica?",
+    "opcoes": [
+      "Paulo",
+      "Pedro",
+      "João",
+      "Tiago"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3231,
+    "pergunta": "O Templo de Salomão foi construído em qual cidade?",
+    "opcoes": [
+      "Jericó",
+      "Belém",
+      "Jerusalém",
+      "Nazaré"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3232,
+    "pergunta": "Quantos livros compõem o Pentateuco?",
+    "opcoes": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3233,
+    "pergunta": "A palavra 'evangelho' significa:",
+    "opcoes": [
+      "Revelação",
+      "História",
+      "Boa notícia",
+      "Vida eterna"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3234,
+    "pergunta": "Qual religião celebra o Yom Kipur?",
+    "opcoes": [
+      "Islamismo",
+      "Judaísmo",
+      "Cristianismo",
+      "Hinduísmo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3235,
+    "pergunta": "No espiritismo, qual é o objetivo da reencarnação?",
+    "opcoes": [
+      "Sofrimento eterno",
+      "Castigo divino",
+      "Evolução espiritual",
+      "Purificação do corpo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3236,
+    "pergunta": "Quem traiu Jesus por 30 moedas de prata?",
+    "opcoes": [
+      "Pedro",
+      "João",
+      "Judas Iscariotes",
+      "Tomé"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3237,
+    "pergunta": "Qual é o livro sagrado do espiritismo?",
+    "opcoes": [
+      "Livro dos Espíritos",
+      "Torá",
+      "Bíblia",
+      "Evangelho segundo Moisés"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3238,
+    "pergunta": "Qual era a religião predominante no Império Romano antes do cristianismo?",
+    "opcoes": [
+      "Cristianismo",
+      "Judaísmo",
+      "Paganismo politeísta",
+      "Islamismo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3239,
+    "pergunta": "Em que religião encontramos os Vedas?",
+    "opcoes": [
+      "Budismo",
+      "Judaísmo",
+      "Cristianismo",
+      "Hinduísmo"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3240,
+    "pergunta": "O que é a 'samsara' no hinduísmo?",
+    "opcoes": [
+      "Paraíso",
+      "Ciclo de renascimentos",
+      "Deus supremo",
+      "Energia vital"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3241,
+    "pergunta": "Qual figura é venerada como mãe de Jesus?",
+    "opcoes": [
+      "Madalena",
+      "Maria",
+      "Rute",
+      "Marta"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3242,
+    "pergunta": "Qual dos seguintes é um princípio do budismo?",
+    "opcoes": [
+      "Dez mandamentos",
+      "Quatro nobres verdades",
+      "Sete sacramentos",
+      "Cinco orações diárias"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3243,
+    "pergunta": "Quem recebeu os Dez Mandamentos?",
+    "opcoes": [
+      "Abraão",
+      "Moisés",
+      "Isaías",
+      "Jacó"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3244,
+    "pergunta": "Qual o nome do último livro da Bíblia?",
+    "opcoes": [
+      "Evangelho de João",
+      "Apocalipse",
+      "Atos dos Apóstolos",
+      "Gênesis"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3245,
+    "pergunta": "O que significa 'Cristo'?",
+    "opcoes": [
+      "Messias",
+      "Filho do homem",
+      "Rei dos reis",
+      "Profeta"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3246,
+    "pergunta": "Qual o nome do monte onde Jesus foi crucificado?",
+    "opcoes": [
+      "Monte Sinai",
+      "Monte Carmelo",
+      "Monte das Oliveiras",
+      "Gólgota"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3247,
+    "pergunta": "Qual é a religião com o maior número de adeptos no mundo?",
+    "opcoes": [
+      "Islamismo",
+      "Cristianismo",
+      "Hinduísmo",
+      "Budismo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3248,
+    "pergunta": "Em qual país nasceu o budismo?",
+    "opcoes": [
+      "China",
+      "Índia",
+      "Nepal",
+      "Japão"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3249,
+    "pergunta": "Qual destes não é um livro da Bíblia?",
+    "opcoes": [
+      "Levítico",
+      "Filipenses",
+      "Gálatas",
+      "Eurípedes"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3250,
+    "pergunta": "Qual filme ganhou o Oscar de Melhor Filme em 1994?",
+    "opcoes": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "Um Sonho de Liberdade",
+      "Cães de Aluguel"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3251,
+    "pergunta": "Quem interpretou o personagem Coringa no filme 'Coringa' de 2019?",
+    "opcoes": [
+      "Heath Ledger",
+      "Jared Leto",
+      "Joaquin Phoenix",
+      "Jack Nicholson"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3252,
+    "pergunta": "Qual é o nome do hobbit interpretado por Elijah Wood?",
+    "opcoes": [
+      "Bilbo Baggins",
+      "Frodo Baggins",
+      "Samwise Gamgee",
+      "Merry Brandybuck"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3253,
+    "pergunta": "Em que ano foi lançado o primeiro filme da saga Harry Potter?",
+    "opcoes": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3254,
+    "pergunta": "Quem dirigiu o filme 'Titanic' (1997)?",
+    "opcoes": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Ridley Scott"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3255,
+    "pergunta": "Qual é o nome do protagonista do filme 'Matrix'?",
+    "opcoes": [
+      "Neo",
+      "Morpheus",
+      "Trinity",
+      "Smith"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3256,
+    "pergunta": "Em 'De Volta para o Futuro', qual é o nome do cientista?",
+    "opcoes": [
+      "Dr. Watson",
+      "Dr. Emmett Brown",
+      "Dr. Gregory House",
+      "Dr. Banner"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3257,
+    "pergunta": "Quem protagonizou o filme 'Gladiador'?",
+    "opcoes": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Russell Crowe",
+      "Mel Gibson"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3258,
+    "pergunta": "Qual filme tem a famosa frase: 'Say hello to my little friend'?",
+    "opcoes": [
+      "Scarface",
+      "O Poderoso Chefão",
+      "Taxi Driver",
+      "Os Intocáveis"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3259,
+    "pergunta": "Qual animação da Pixar se passa no fundo do mar?",
+    "opcoes": [
+      "Toy Story",
+      "Procurando Nemo",
+      "Os Incríveis",
+      "Ratatouille"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3260,
+    "pergunta": "Qual desses filmes é dirigido por Quentin Tarantino?",
+    "opcoes": [
+      "Forrest Gump",
+      "Clube da Luta",
+      "Kill Bill",
+      "O Resgate do Soldado Ryan"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3261,
+    "pergunta": "Qual atriz interpretou Katniss Everdeen em 'Jogos Vorazes'?",
+    "opcoes": [
+      "Emma Watson",
+      "Jennifer Lawrence",
+      "Kristen Stewart",
+      "Natalie Portman"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3262,
+    "pergunta": "Qual é o subtítulo do segundo filme do Senhor dos Anéis?",
+    "opcoes": [
+      "A Sociedade do Anel",
+      "As Duas Torres",
+      "O Retorno do Rei",
+      "O Hobbit"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3263,
+    "pergunta": "Quem dirigiu a trilogia 'O Cavaleiro das Trevas'?",
+    "opcoes": [
+      "Zack Snyder",
+      "James Gunn",
+      "Christopher Nolan",
+      "Joss Whedon"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3264,
+    "pergunta": "Em que filme aparece o personagem Jack Sparrow?",
+    "opcoes": [
+      "Titanic",
+      "Piratas do Caribe",
+      "O Náufrago",
+      "Moby Dick"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3265,
+    "pergunta": "Qual ator interpretou Wolverine por mais de 15 anos?",
+    "opcoes": [
+      "Hugh Jackman",
+      "Ryan Reynolds",
+      "Chris Evans",
+      "Robert Downey Jr."
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3266,
+    "pergunta": "Em qual filme da Marvel o personagem Thanos estala os dedos?",
+    "opcoes": [
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "Guardiões da Galáxia",
+      "Homem de Ferro 3"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3267,
+    "pergunta": "Qual é o planeta natal do Superman?",
+    "opcoes": [
+      "Terra",
+      "Kripton",
+      "Asgard",
+      "Vulcano"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3268,
+    "pergunta": "Qual desses filmes foi dirigido por Alfred Hitchcock?",
+    "opcoes": [
+      "Psicose",
+      "O Iluminado",
+      "A Bruxa",
+      "Corra!"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3269,
+    "pergunta": "Quem é o diretor do filme 'A Origem' (Inception)?",
+    "opcoes": [
+      "Martin Scorsese",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3270,
+    "pergunta": "Qual filme é estrelado por Leonardo DiCaprio e se passa em Wall Street?",
+    "opcoes": [
+      "O Aviador",
+      "O Regresso",
+      "O Lobo de Wall Street",
+      "Ilha do Medo"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3271,
+    "pergunta": "Em qual filme ouvimos a frase: 'Eu sou seu pai'?",
+    "opcoes": [
+      "Matrix",
+      "Star Wars: O Império Contra-Ataca",
+      "O Senhor dos Anéis",
+      "Avatar"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3272,
+    "pergunta": "Qual é o nome do vilão em 'Pantera Negra' (2018)?",
+    "opcoes": [
+      "Thanos",
+      "Killmonger",
+      "Ultron",
+      "Loki"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3273,
+    "pergunta": "Qual filme brasileiro ganhou o Oscar de Melhor Filme Estrangeiro?",
+    "opcoes": [
+      "Central do Brasil",
+      "Cidade de Deus",
+      "O Pagador de Promessas",
+      "Nenhum"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3274,
+    "pergunta": "Qual desses filmes foi inspirado em fatos reais?",
+    "opcoes": [
+      "Titanic",
+      "Interestelar",
+      "Avatar",
+      "Senhor dos Anéis"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3275,
+    "pergunta": "Qual é o nome do robô em 'Guerra nas Estrelas' que acompanha R2-D2?",
+    "opcoes": [
+      "BB-8",
+      "C-3PO",
+      "WALL-E",
+      "T-800"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3276,
+    "pergunta": "Qual filme tem como tema central um sonho dentro de um sonho?",
+    "opcoes": [
+      "Matrix",
+      "A Origem",
+      "Donnie Darko",
+      "O Sexto Sentido"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3277,
+    "pergunta": "Qual desses filmes foi protagonizado por Tom Hanks?",
+    "opcoes": [
+      "Apollo 13",
+      "O Náufrago",
+      "Forrest Gump",
+      "Todos os anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3278,
+    "pergunta": "Qual filme popularizou a frase: 'Houston, we have a problem'?",
+    "opcoes": [
+      "Armageddon",
+      "Apollo 13",
+      "Interestelar",
+      "Gravidade"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3279,
+    "pergunta": "Em 'Toy Story', qual é o nome do astronauta de brinquedo?",
+    "opcoes": [
+      "Woody",
+      "Buzz Lightyear",
+      "Rex",
+      "Zurg"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3280,
+    "pergunta": "Qual filme de terror mostra uma menina possuída girando a cabeça?",
+    "opcoes": [
+      "O Iluminado",
+      "Atividade Paranormal",
+      "O Exorcista",
+      "A Freira"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3281,
+    "pergunta": "Quem interpreta Deadpool no cinema?",
+    "opcoes": [
+      "Hugh Jackman",
+      "Chris Pratt",
+      "Ryan Reynolds",
+      "Tom Hardy"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3282,
+    "pergunta": "Em que país se passa o filme 'A Vida é Bela'?",
+    "opcoes": [
+      "Alemanha",
+      "França",
+      "Itália",
+      "Áustria"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3283,
+    "pergunta": "Quem dirigiu 'Pulp Fiction'?",
+    "opcoes": [
+      "Martin Scorsese",
+      "Tarantino",
+      "Nolan",
+      "Coppola"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3284,
+    "pergunta": "Qual desses filmes é um musical?",
+    "opcoes": [
+      "La La Land",
+      "O Código da Vinci",
+      "A Origem",
+      "Coringa"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3285,
+    "pergunta": "Quem é o inimigo principal de Harry Potter?",
+    "opcoes": [
+      "Draco Malfoy",
+      "Voldemort",
+      "Dumbledore",
+      "Snape"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3286,
+    "pergunta": "Qual é o filme em que um garoto vê pessoas mortas?",
+    "opcoes": [
+      "O Chamado",
+      "O Sexto Sentido",
+      "Coraline",
+      "O Orfanato"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3287,
+    "pergunta": "Qual é o nome do brinquedo cowboy em Toy Story?",
+    "opcoes": [
+      "Woody",
+      "Andy",
+      "Buzz",
+      "Zurg"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3288,
+    "pergunta": "Qual filme retrata o naufrágio do navio Titanic?",
+    "opcoes": [
+      "Titanic",
+      "Poseidon",
+      "Piratas do Caribe",
+      "A Tempestade"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3289,
+    "pergunta": "Quem vive o personagem Tony Stark no MCU?",
+    "opcoes": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Chris Evans"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3290,
+    "pergunta": "Qual desses filmes se passa em Pandora?",
+    "opcoes": [
+      "Matrix",
+      "Avatar",
+      "Star Wars",
+      "Blade Runner"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3291,
+    "pergunta": "Qual filme é uma adaptação da obra de Tolkien?",
+    "opcoes": [
+      "Nárnia",
+      "Harry Potter",
+      "O Senhor dos Anéis",
+      "Percy Jackson"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3292,
+    "pergunta": "Qual desses é um filme de Alfred Hitchcock?",
+    "opcoes": [
+      "Psicose",
+      "A Origem",
+      "O Exorcista",
+      "Ilha do Medo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3293,
+    "pergunta": "Qual filme tem como vilão Darth Vader?",
+    "opcoes": [
+      "Star Wars",
+      "Vingadores",
+      "Duna",
+      "Star Trek"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3294,
+    "pergunta": "Qual desses filmes se passa durante a Segunda Guerra Mundial?",
+    "opcoes": [
+      "Pearl Harbor",
+      "O Resgate do Soldado Ryan",
+      "Dunkirk",
+      "Todos os anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3295,
+    "pergunta": "Qual desses filmes é da Disney?",
+    "opcoes": [
+      "Toy Story",
+      "O Rei Leão",
+      "Aladdin",
+      "Todos os anteriores"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3296,
+    "pergunta": "Qual filme traz uma competição de jogos mortais coreana?",
+    "opcoes": [
+      "Parasita",
+      "Round 6",
+      "Jogos Vorazes",
+      "Alice in Borderland"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3297,
+    "pergunta": "Qual desses filmes tem o personagem Gollum?",
+    "opcoes": [
+      "Star Wars",
+      "Harry Potter",
+      "Senhor dos Anéis",
+      "Crônicas de Nárnia"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3298,
+    "pergunta": "Qual filme tem a personagem Elsa, com poderes de gelo?",
+    "opcoes": [
+      "Valente",
+      "Encanto",
+      "Frozen",
+      "Moana"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3299,
+    "pergunta": "Qual desses filmes é estrelado por Keanu Reeves como um assassino profissional?",
+    "opcoes": [
+      "Matrix",
+      "Constantine",
+      "John Wick",
+      "Velocidade Máxima"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3300,
+    "pergunta": "Qual é o nome da princesa que perde seu sapatinho de cristal?",
+    "opcoes": [
+      "Branca de Neve",
+      "Cinderela",
+      "Aurora",
+      "Bela"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3301,
+    "pergunta": "Qual é o nome do peixe-palhaço em 'Procurando Nemo'?",
+    "opcoes": [
+      "Dory",
+      "Marlin",
+      "Nemo",
+      "Gill"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3302,
+    "pergunta": "Em 'O Rei Leão', qual é o nome do vilão?",
+    "opcoes": [
+      "Scar",
+      "Mufasa",
+      "Timon",
+      "Zazu"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3303,
+    "pergunta": "Qual é o nome do garotinho que nunca quer crescer?",
+    "opcoes": [
+      "Peter Pan",
+      "Simba",
+      "Aladdin",
+      "Pinóquio"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3304,
+    "pergunta": "Quem é o melhor amigo de Aladdin?",
+    "opcoes": [
+      "Abu",
+      "Genie",
+      "Iago",
+      "Jafar"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3305,
+    "pergunta": "Qual é o nome da princesa de 'A Pequena Sereia'?",
+    "opcoes": [
+      "Ariel",
+      "Aurora",
+      "Bela",
+      "Jasmine"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3306,
+    "pergunta": "Qual é o nome do vilão em '101 Dálmatas'?",
+    "opcoes": [
+      "Cruella de Vil",
+      "Malévola",
+      "Úrsula",
+      "Frollo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3307,
+    "pergunta": "Em 'Frozen', qual é o poder de Elsa?",
+    "opcoes": [
+      "Fogo",
+      "Água",
+      "Gelo",
+      "Vento"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3308,
+    "pergunta": "Qual é o nome do ratinho famoso criado pela Disney?",
+    "opcoes": [
+      "Mickey",
+      "Stitch",
+      "Donald",
+      "Goofy"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3309,
+    "pergunta": "Em 'A Bela e a Fera', o que a Fera pede a Bela que faça para libertá-lo?",
+    "opcoes": [
+      "Que ela o ame",
+      "Que ela quebre o feitiço",
+      "Que ela o visite",
+      "Que ela encontre a rosa"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3310,
+    "pergunta": "Quem é o vilão principal em 'A Bela Adormecida'?",
+    "opcoes": [
+      "Malévola",
+      "Úrsula",
+      "Cruella de Vil",
+      "Jafar"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3311,
+    "pergunta": "Qual personagem Disney é conhecido por ser uma abelha falante?",
+    "opcoes": [
+      "Maya",
+      "Zangão",
+      "Barry B. Benson",
+      "Abelha Rainha"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3312,
+    "pergunta": "Qual é o nome da garota do filme 'Valente'?",
+    "opcoes": [
+      "Merida",
+      "Elsa",
+      "Moana",
+      "Anna"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3313,
+    "pergunta": "Qual é o nome do boneco de madeira que quer ser um menino de verdade?",
+    "opcoes": [
+      "Pinóquio",
+      "Geppetto",
+      "Buzz Lightyear",
+      "Woody"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3314,
+    "pergunta": "Qual é o nome do tigre amigo de Mowgli em 'Mogli: O Menino Lobo'?",
+    "opcoes": [
+      "Shere Khan",
+      "Bagheera",
+      "Baloo",
+      "Rajah"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3315,
+    "pergunta": "Qual é o nome do urso amigo de Mowgli?",
+    "opcoes": [
+      "Baloo",
+      "Shere Khan",
+      "Bagheera",
+      "Kaa"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3316,
+    "pergunta": "Quem é o personagem principal de 'Carros'?",
+    "opcoes": [
+      "Lightning McQueen",
+      "Mater",
+      "Doc Hudson",
+      "Sally"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3317,
+    "pergunta": "Qual é o nome do elefante voador da Disney?",
+    "opcoes": [
+      "Dumbo",
+      "Bambi",
+      "Stitch",
+      "Simba"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3318,
+    "pergunta": "Qual é o nome da princesa em 'Moana'?",
+    "opcoes": [
+      "Moana",
+      "Maui",
+      "Nani",
+      "Lilo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3319,
+    "pergunta": "Quem é o inimigo em 'Hércules'?",
+    "opcoes": [
+      "Hades",
+      "Zeus",
+      "Ares",
+      "Poseidon"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3320,
+    "pergunta": "Qual personagem Disney é um pato com voz engraçada?",
+    "opcoes": [
+      "Mickey",
+      "Pato Donald",
+      "Pateta",
+      "Tico"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3321,
+    "pergunta": "Em 'Aladdin', qual é o nome do vilão?",
+    "opcoes": [
+      "Jafar",
+      "Abu",
+      "Genie",
+      "Iago"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3322,
+    "pergunta": "Qual é o nome do camaleão em 'Enrolados'?",
+    "opcoes": [
+      "Maximus",
+      "Pascal",
+      "Flynn",
+      "Rapunzel"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3323,
+    "pergunta": "Qual é o nome da princesa de 'Pocahontas'?",
+    "opcoes": [
+      "Pocahontas",
+      "Mulan",
+      "Tiana",
+      "Esmeralda"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3324,
+    "pergunta": "Quem é o melhor amigo de Simba em 'O Rei Leão'?",
+    "opcoes": [
+      "Timon",
+      "Pumba",
+      "Nala",
+      "Timon e Pumba"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3325,
+    "pergunta": "Qual é o nome da fada madrinha de Cinderela?",
+    "opcoes": [
+      "Flora",
+      "Fauna",
+      "Merryweather",
+      "Fada Madrinha"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3326,
+    "pergunta": "Qual é o nome do cachorro de Mickey Mouse?",
+    "opcoes": [
+      "Pateta",
+      "Pluto",
+      "Max",
+      "Donald"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3327,
+    "pergunta": "Quem é o protagonista de 'A Princesa e o Sapo'?",
+    "opcoes": [
+      "Tiana",
+      "Naveen",
+      "Ray",
+      "Louis"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3328,
+    "pergunta": "Qual é o nome do vilão em 'Malévola'?",
+    "opcoes": [
+      "Malévola",
+      "Aurora",
+      "Diaval",
+      "Stefan"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3329,
+    "pergunta": "Qual é o nome da jovem que perde seu pai no filme 'Valente'?",
+    "opcoes": [
+      "Merida",
+      "Fergus",
+      "Elinor",
+      "Mor'du"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3330,
+    "pergunta": "Qual desses é um personagem da Disney que fala com uma voz grave e rouca?",
+    "opcoes": [
+      "Pato Donald",
+      "Pateta",
+      "Maui",
+      "Goofy"
+    ],
+    "correta": 2
+  },
+  {
+    "id": 3331,
+    "pergunta": "Qual é o nome do rato que é aprendiz de feiticeiro em 'Fantasia'?",
+    "opcoes": [
+      "Mickey",
+      "Stuart",
+      "Remy",
+      "Bernardo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3332,
+    "pergunta": "Quem é o protagonista do filme 'Zootopia'?",
+    "opcoes": [
+      "Judy Hopps",
+      "Nick Wilde",
+      "Flash",
+      "Bellwether"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3333,
+    "pergunta": "Qual é o nome da cidade onde se passa 'Zootopia'?",
+    "opcoes": [
+      "Zootopia",
+      "Metropolis",
+      "Animalópolis",
+      "Savanna City"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3334,
+    "pergunta": "Qual é o nome do monstro que ajuda a Rapunzel em 'Enrolados'?",
+    "opcoes": [
+      "Maximus",
+      "Flynn",
+      "Pascal",
+      "Sapo"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3335,
+    "pergunta": "Qual é o nome da protagonista de 'Valente'?",
+    "opcoes": [
+      "Merida",
+      "Anna",
+      "Elsa",
+      "Moana"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3336,
+    "pergunta": "Qual é o nome do personagem que usa o escudo em 'Capitão América'?",
+    "opcoes": [
+      "Steve Rogers",
+      "Bucky Barnes",
+      "Tony Stark",
+      "Nick Fury"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3337,
+    "pergunta": "Qual personagem é conhecido por ser o melhor amigo de Mickey?",
+    "opcoes": [
+      "Donald",
+      "Pateta",
+      "Pluto",
+      "Goofy"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3338,
+    "pergunta": "Qual é o nome do tigre em 'Aladdin'?",
+    "opcoes": [
+      "Rajah",
+      "Shere Khan",
+      "Bagheera",
+      "Tigger"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3339,
+    "pergunta": "Qual é o nome da protagonista de 'Mulan'?",
+    "opcoes": [
+      "Mulan",
+      "Fa Mulan",
+      "Liu Yang",
+      "Ping"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3340,
+    "pergunta": "Qual é o nome do burro falante em 'Shrek', que foi produzido pela DreamWorks?",
+    "opcoes": [
+      "Burro",
+      "Donkey",
+      "Eeyore",
+      "Gordo"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3341,
+    "pergunta": "Qual personagem Disney canta a música 'Let It Go'?",
+    "opcoes": [
+      "Anna",
+      "Elsa",
+      "Rapunzel",
+      "Tiana"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3342,
+    "pergunta": "Qual é o nome do príncipe em 'A Bela Adormecida'?",
+    "opcoes": [
+      "Filipe",
+      "Charming",
+      "Eric",
+      "Naveen"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3343,
+    "pergunta": "Qual é o nome da aranha em 'Homem-Aranha: No Aranhaverso'?",
+    "opcoes": [
+      "Peter Parker",
+      "Miles Morales",
+      "Spider-Gwen",
+      "Peni Parker"
+    ],
+    "correta": 3
+  },
+  {
+    "id": 3344,
+    "pergunta": "Qual é o nome da princesa que canta 'A Dream is a Wish Your Heart Makes'?",
+    "opcoes": [
+      "Cinderela",
+      "Branca de Neve",
+      "Aurora",
+      "Bela"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3345,
+    "pergunta": "Qual é o nome do brinquedo soldado em 'Toy Story'?",
+    "opcoes": [
+      "Rex",
+      "Sarge",
+      "Buzz Lightyear",
+      "Woody"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3346,
+    "pergunta": "Quem é o melhor amigo de Buzz Lightyear?",
+    "opcoes": [
+      "Woody",
+      "Rex",
+      "Slinky",
+      "Jessie"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3347,
+    "pergunta": "Qual personagem Disney vive na floresta e é amigo dos animais?",
+    "opcoes": [
+      "Tarzan",
+      "Mowgli",
+      "Bambi",
+      "Peter Pan"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3348,
+    "pergunta": "Qual é o nome da fada que acompanha Peter Pan?",
+    "opcoes": [
+      "Sininho",
+      "Flora",
+      "Fauna",
+      "Merryweather"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3349,
+    "pergunta": "Em 'A Pequena Sereia', qual é o nome da bruxa do mar?",
+    "opcoes": [
+      "Malévola",
+      "Úrsula",
+      "Cruella",
+      "Morgana"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3350,
+    "pergunta": "O que significa a sigla 'ONU'?",
+    "opcoes": [
+      "Organização das Nações Unidas",
+      "Organização Nacional Unificada",
+      "Ordem Nacional Unida",
+      "Organização de Negócios Urbanos"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3351,
+    "pergunta": "O que significa a sigla 'NASA'?",
+    "opcoes": [
+      "National Aeronautics and Space Administration",
+      "National Air and Space Agency",
+      "North American Space Administration",
+      "National Aerospace and Security Agency"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3352,
+    "pergunta": "Qual é o significado da sigla 'COVID-19'?",
+    "opcoes": [
+      "Doença do Vírus da Imunodeficiência Humana",
+      "Coronavírus Disease 2019",
+      "Corona Virus Development 19",
+      "Síndrome Respiratória Aguda Grave"
+    ],
+    "correta": 1
+  },
+  {
+    "id": 3353,
+    "pergunta": "O que significa a sigla 'FBI'?",
+    "opcoes": [
+      "Federal Bureau of Investigation",
+      "Federal Bureau of Intelligence",
+      "Federal Bureau of Interrogation",
+      "Federal Branch of Investigation"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3354,
+    "pergunta": "O que significa a sigla 'USB'?",
+    "opcoes": [
+      "Universal Serial Bus",
+      "Universal System Board",
+      "United Serial Bus",
+      "Universal Storage Bus"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3355,
+    "pergunta": "Qual o significado da sigla 'GPS'?",
+    "opcoes": [
+      "Global Positioning System",
+      "General Positioning Service",
+      "Global Planetary System",
+      "Geographical Positioning Satellite"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3356,
+    "pergunta": "O que significa a sigla 'CPU'?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Central Programming Unit",
+      "Computer Processing Unit",
+      "Central Peripheral Unit"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3357,
+    "pergunta": "O que significa a sigla 'DNA'?",
+    "opcoes": [
+      "Ácido Desoxirribonucleico",
+      "Ácido Desoxinucleico",
+      "Ácido Ribonucléico",
+      "Ácido Desoxirribossômico"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3358,
+    "pergunta": "O que significa a sigla 'RAM' em informática?",
+    "opcoes": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Rapid Access Memory",
+      "Run Access Memory"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3359,
+    "pergunta": "O que significa a sigla 'HIV'?",
+    "opcoes": [
+      "Human Immunodeficiency Virus",
+      "Human Infection Virus",
+      "Human Immunity Virus",
+      "Human Infectious Virus"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3360,
+    "pergunta": "Qual o significado da sigla 'LOL' na internet?",
+    "opcoes": [
+      "Laughing Out Loud",
+      "Lots of Love",
+      "Language of Logic",
+      "Level of Learning"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3361,
+    "pergunta": "O que significa a sigla 'Wi-Fi'?",
+    "opcoes": [
+      "Wireless Fidelity",
+      "Wide Fidelity",
+      "Wireless Fiber",
+      "Wide Fiber"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3362,
+    "pergunta": "O que significa a sigla 'CPU' em computadores?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Computer Program Unit",
+      "Central Programming Unit",
+      "Computer Processing Unit"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3363,
+    "pergunta": "O que significa a sigla 'LED'?",
+    "opcoes": [
+      "Light Emitting Diode",
+      "Light Emission Device",
+      "Laser Emitting Diode",
+      "Light Electronic Device"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3364,
+    "pergunta": "O que significa a sigla 'USB'?",
+    "opcoes": [
+      "Universal Serial Bus",
+      "Unified Serial Bus",
+      "Universal Service Bus",
+      "Universal Storage Bus"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3365,
+    "pergunta": "Qual o significado da sigla 'FAQ'?",
+    "opcoes": [
+      "Frequently Asked Questions",
+      "Fast Answer Questions",
+      "Frequently Answered Queries",
+      "Fast Asked Questions"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3366,
+    "pergunta": "O que significa a sigla 'ATM' em bancos?",
+    "opcoes": [
+      "Automated Teller Machine",
+      "Automatic Transfer Machine",
+      "Automated Transaction Machine",
+      "Automatic Teller Mechanism"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3367,
+    "pergunta": "O que significa a sigla 'SMS'?",
+    "opcoes": [
+      "Short Message Service",
+      "Simple Message Service",
+      "Small Message System",
+      "Short Mail Service"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3368,
+    "pergunta": "O que significa a sigla 'PDF'?",
+    "opcoes": [
+      "Portable Document Format",
+      "Portable Data Format",
+      "Public Document Format",
+      "Public Data Format"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3369,
+    "pergunta": "O que significa a sigla 'CEO'?",
+    "opcoes": [
+      "Chief Executive Officer",
+      "Chief Executive Official",
+      "Corporate Executive Officer",
+      "Chief Employment Officer"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3370,
+    "pergunta": "O que significa a sigla 'DIY'?",
+    "opcoes": [
+      "Do It Yourself",
+      "Develop It Yourself",
+      "Do It Yesterday",
+      "Drive It Yourself"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3371,
+    "pergunta": "O que significa a sigla 'URL'?",
+    "opcoes": [
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "Uniform Resource Link",
+      "Universal Resource Link"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3372,
+    "pergunta": "O que significa a sigla 'IP' em redes?",
+    "opcoes": [
+      "Internet Protocol",
+      "Internal Protocol",
+      "Internet Process",
+      "Internal Process"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3373,
+    "pergunta": "O que significa a sigla 'CPU'?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Control Processing Unit",
+      "Central Peripheral Unit"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3374,
+    "pergunta": "O que significa a sigla 'VPN'?",
+    "opcoes": [
+      "Virtual Private Network",
+      "Virtual Public Network",
+      "Verified Private Network",
+      "Verified Public Network"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3375,
+    "pergunta": "O que significa a sigla 'HTML'?",
+    "opcoes": [
+      "HyperText Markup Language",
+      "Hyperlink Text Markup Language",
+      "HyperText Machine Language",
+      "Hyperlinking Text Markup Language"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3376,
+    "pergunta": "O que significa a sigla 'HTTP'?",
+    "opcoes": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "Hyperlink Transfer Protocol",
+      "Hyperlink Transmission Protocol"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3377,
+    "pergunta": "O que significa a sigla 'SMS'?",
+    "opcoes": [
+      "Short Message Service",
+      "Simple Message Service",
+      "Small Mail Service",
+      "Short Mail Service"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3378,
+    "pergunta": "O que significa a sigla 'PDF'?",
+    "opcoes": [
+      "Portable Document Format",
+      "Portable Data Format",
+      "Public Document Format",
+      "Public Data Format"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3379,
+    "pergunta": "O que significa a sigla 'LCD'?",
+    "opcoes": [
+      "Liquid Crystal Display",
+      "Liquid Crystal Device",
+      "Light Crystal Display",
+      "Light Crystal Device"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3380,
+    "pergunta": "O que significa a sigla 'CPU'?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Central Programming Unit",
+      "Computer Processing Unit",
+      "Central Peripheral Unit"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3381,
+    "pergunta": "O que significa a sigla 'GIF'?",
+    "opcoes": [
+      "Graphics Interchange Format",
+      "Graphics Interface Format",
+      "Graphical Interchange Format",
+      "Graphics Internet Format"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3382,
+    "pergunta": "O que significa a sigla 'IPTV'?",
+    "opcoes": [
+      "Internet Protocol Television",
+      "Internet Private Television",
+      "Internal Protocol Television",
+      "Internet Public Television"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3383,
+    "pergunta": "O que significa a sigla 'JPEG'?",
+    "opcoes": [
+      "Joint Photographic Experts Group",
+      "Joint Photo Experts Group",
+      "Joint Photographic Expert Group",
+      "Joined Photographic Experts Group"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3384,
+    "pergunta": "O que significa a sigla 'LCD'?",
+    "opcoes": [
+      "Liquid Crystal Display",
+      "Light Crystal Display",
+      "Liquid Crystal Device",
+      "Light Crystal Device"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3385,
+    "pergunta": "O que significa a sigla 'VPN'?",
+    "opcoes": [
+      "Virtual Private Network",
+      "Verified Private Network",
+      "Virtual Public Network",
+      "Verified Public Network"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3386,
+    "pergunta": "O que significa a sigla 'USB'?",
+    "opcoes": [
+      "Universal Serial Bus",
+      "Unified Serial Bus",
+      "United Service Bus",
+      "Universal Service Bus"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3387,
+    "pergunta": "O que significa a sigla 'RAM'?",
+    "opcoes": [
+      "Random Access Memory",
+      "Rapid Access Memory",
+      "Read Access Memory",
+      "Run Access Memory"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3388,
+    "pergunta": "O que significa a sigla 'HTTP'?",
+    "opcoes": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "Hyperlink Transfer Protocol",
+      "Hyperlink Transmission Protocol"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3389,
+    "pergunta": "O que significa a sigla 'HTTPS'?",
+    "opcoes": [
+      "HyperText Transfer Protocol Secure",
+      "HyperText Transmission Protocol Secure",
+      "Hyperlink Transfer Protocol Secure",
+      "Hyperlink Transmission Protocol Secure"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3390,
+    "pergunta": "O que significa a sigla 'SMS'?",
+    "opcoes": [
+      "Short Message Service",
+      "Simple Message Service",
+      "Small Mail Service",
+      "Short Mail Service"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3391,
+    "pergunta": "O que significa a sigla 'AI'?",
+    "opcoes": [
+      "Artificial Intelligence",
+      "Automated Interface",
+      "Automated Intelligence",
+      "Artificial Interface"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3392,
+    "pergunta": "O que significa a sigla 'CEO'?",
+    "opcoes": [
+      "Chief Executive Officer",
+      "Chief Employment Officer",
+      "Corporate Executive Officer",
+      "Chief Executive Official"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3393,
+    "pergunta": "O que significa a sigla 'PDF'?",
+    "opcoes": [
+      "Portable Document Format",
+      "Public Document Format",
+      "Portable Data Format",
+      "Public Data Format"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3394,
+    "pergunta": "O que significa a sigla 'VPN'?",
+    "opcoes": [
+      "Virtual Private Network",
+      "Verified Private Network",
+      "Virtual Public Network",
+      "Verified Public Network"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3395,
+    "pergunta": "O que significa a sigla 'CPU'?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Control Processing Unit",
+      "Central Peripheral Unit"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3396,
+    "pergunta": "O que significa a sigla 'LED'?",
+    "opcoes": [
+      "Light Emitting Diode",
+      "Light Emission Device",
+      "Laser Emitting Diode",
+      "Light Electronic Device"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3397,
+    "pergunta": "O que significa a sigla 'IP'?",
+    "opcoes": [
+      "Internet Protocol",
+      "Internal Protocol",
+      "Internet Process",
+      "Internal Process"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3398,
+    "pergunta": "O que significa a sigla 'RAM'?",
+    "opcoes": [
+      "Random Access Memory",
+      "Rapid Access Memory",
+      "Read Access Memory",
+      "Run Access Memory"
+    ],
+    "correta": 0
+  },
+  {
+    "id": 3399,
+    "pergunta": "O que significa a sigla 'JPEG'?",
+    "opcoes": [
+      "Joint Photographic Experts Group",
+      "Joint Photo Experts Group",
+      "Joint Photographic Expert Group",
+      "Joined Photographic Experts Group"
+    ],
+    "correta": 0
   }
 ]
