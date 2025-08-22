@@ -119,6 +119,11 @@ def revelar_resposta(pid):
     salvar_ranking()
 
     resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+
+    # Mostra a explicação se existir
+    if "explicacao" in pergunta and pergunta["explicacao"].strip():
+        resp += f"💡 *Explicação:* {pergunta['explicacao']}\n\n"
+    
     resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) if acertadores else "😢 Ninguém acertou.\n"
 
     if ranking:
