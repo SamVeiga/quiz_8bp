@@ -778,5 +778,1475 @@
     "opcoes": ["Cinza", "Azul", "Preto", "Branco"],
     "correta": 2,
     "explicacao": "Os agentes J e K usam ternos pretos característicos no filme 'Homens de Preto'."
+  },
+  {
+    "id": 150,
+    "pergunta": "Qual era o nome da empregada vivida por Regina Duarte em 'Rainha da Sucata'?",
+    "opcoes": ["Maria do Carmo", "Lurdes", "Maria do Céu", "Laurinha Figueiroa"],
+    "correta": 0,
+    "explicacao": "Em 'Rainha da Sucata', Regina Duarte interpretava Maria do Carmo."
+  },
+  {
+    "id": 151,
+    "pergunta": "Qual era o bordão de Odete Roitman em 'Vale Tudo'?",
+    "opcoes": ["Eu não sou obrigada!", "Que país é este?", "Me serve!", "Sai da minha frente!"],
+    "correta": 1,
+    "explicacao": "Odete Roitman imortalizou o bordão 'Que país é este?' em 'Vale Tudo'."
+  },
+  {
+    "id": 152,
+    "pergunta": "Quem matou Odete Roitman em 'Vale Tudo'?",
+    "opcoes": ["Leila", "Maria de Fátima", "Raquel", "Heleninha"],
+    "correta": 0,
+    "explicacao": "A assassina de Odete Roitman foi Leila, papel de Cássia Kis."
+  },
+  {
+    "id": 153,
+    "pergunta": "Qual era o apelido de Nazaré Tedesco em 'Senhora do Destino'?",
+    "opcoes": ["Vilã do Brasil", "Naza", "Rainha do Mal", "Nazaré meme"],
+    "correta": 1,
+    "explicacao": "Nazaré Tedesco, interpretada por Renata Sorrah, era chamada de 'Naza'."
+  },
+  {
+    "id": 154,
+    "pergunta": "Em 'Senhora do Destino', qual era o nome da filha sequestrada por Nazaré?",
+    "opcoes": ["Maria do Carmo", "Isabel", "Clara", "Regina"],
+    "correta": 1,
+    "explicacao": "Isabel foi sequestrada por Nazaré em 'Senhora do Destino'."
+  },
+  {
+    "id": 155,
+    "pergunta": "Em 'O Clone', qual era o nome da personagem de Giovanna Antonelli?",
+    "opcoes": ["Jade", "Mel", "Deusa", "Zoraide"],
+    "correta": 0,
+    "explicacao": "Giovanna Antonelli interpretava Jade em 'O Clone'."
+  },
+  {
+    "id": 156,
+    "pergunta": "Qual era o vício de Mel em 'O Clone'?",
+    "opcoes": ["Álcool", "Cigarro", "Drogas", "Jogo"],
+    "correta": 2,
+    "explicacao": "Mel, interpretada por Débora Falabella, sofria com dependência de drogas em 'O Clone'."
+  },
+  {
+    "id": 157,
+    "pergunta": "Em 'Roque Santeiro', qual era o nome da viúva interpretada por Regina Duarte?",
+    "opcoes": ["Viúva Porcina", "Viúva Negra", "Viúva Dona Bela", "Viúva Zefa"],
+    "correta": 0,
+    "explicacao": "Regina Duarte deu vida à famosa Viúva Porcina em 'Roque Santeiro'."
+  },
+  {
+    "id": 158,
+    "pergunta": "Qual era o bordão do personagem Sinhozinho Malta em 'Roque Santeiro'?",
+    "opcoes": ["Tô certo ou tô errado?", "Eita mundo velho!", "Estou aqui!", "Me respeita!"],
+    "correta": 0,
+    "explicacao": "Sinhozinho Malta, interpretado por Lima Duarte, dizia 'Tô certo ou tô errado?'."
+  },
+  {
+    "id": 159,
+    "pergunta": "Qual novela tinha a personagem Carminha como vilã?",
+    "opcoes": ["Avenida Brasil", "Senhora do Destino", "O Clone", "Vale Tudo"],
+    "correta": 0,
+    "explicacao": "Carminha, vivida por Adriana Esteves, foi a grande vilã de 'Avenida Brasil'."
+  },
+  {
+    "id": 160,
+    "pergunta": "Qual era o apelido da mocinha Rita em 'Avenida Brasil'?",
+    "opcoes": ["Ritinha", "Batata", "Carminha", "Nina"],
+    "correta": 3,
+    "explicacao": "Rita cresceu e virou Nina em 'Avenida Brasil'."
+  },
+  {
+    "id": 161,
+    "pergunta": "Quem interpretava Tufão em 'Avenida Brasil'?",
+    "opcoes": ["Murilo Benício", "Tony Ramos", "Cauã Reymond", "Marcelo Novaes"],
+    "correta": 0,
+    "explicacao": "Tufão foi interpretado por Murilo Benício em 'Avenida Brasil'."
+  },
+  {
+    "id": 162,
+    "pergunta": "Qual era o nome da mãe de Juma Marruá em 'Pantanal'?",
+    "opcoes": ["Maria Marruá", "Filó", "Irma", "Zuleica"],
+    "correta": 0,
+    "explicacao": "Maria Marruá, interpretada por Cássia Kis, era mãe de Juma em 'Pantanal'."
+  },
+  {
+    "id": 163,
+    "pergunta": "Qual animal Juma Marruá se transformava em 'Pantanal'?",
+    "opcoes": ["Onça", "Cobra", "Lobo", "Sapo"],
+    "correta": 0,
+    "explicacao": "Juma Marruá tinha o dom de se transformar em onça em 'Pantanal'."
+  },
+  {
+    "id": 164,
+    "pergunta": "Qual era o bordão de Félix em 'Amor à Vida'?",
+    "opcoes": ["Cada mergulho é um flash!", "Ce salve, salve!", "Vocês não valem o que comem!", "Tchau, querida!"],
+    "correta": 2,
+    "explicacao": "Félix, interpretado por Mateus Solano, dizia 'Vocês não valem o que comem!'."
+  },
+  {
+    "id": 165,
+    "pergunta": "Quem era a protagonista de 'Cheias de Charme'?",
+    "opcoes": ["As Empreguetes", "As Patroetes", "As Poderosas", "As Divinas"],
+    "correta": 0,
+    "explicacao": "A novela 'Cheias de Charme' foi protagonizada pelas Empreguetes."
+  },
+  {
+    "id": 166,
+    "pergunta": "Qual era o nome da música mais famosa das Empreguetes?",
+    "opcoes": ["Vida de Empreguete", "Cheias de Charme", "Domésticas Unidas", "Bate o Pano"],
+    "correta": 0,
+    "explicacao": "'Vida de Empreguete' foi o grande hit das Empreguetes em 'Cheias de Charme'."
+  },
+  {
+    "id": 167,
+    "pergunta": "Em 'Tieta', quem interpretava a protagonista?",
+    "opcoes": ["Susana Vieira", "Betty Faria", "Regina Duarte", "Glória Menezes"],
+    "correta": 1,
+    "explicacao": "A protagonista Tieta foi interpretada por Betty Faria."
+  },
+  {
+    "id": 168,
+    "pergunta": "Qual era o apelido de José Inocêncio em 'Renascer'?",
+    "opcoes": ["Sinhô", "Coronel", "Zé Inocêncio", "Velho do Rio"],
+    "correta": 2,
+    "explicacao": "José Inocêncio era conhecido como Zé Inocêncio em 'Renascer'."
+  },
+  {
+    "id": 169,
+    "pergunta": "Em 'Renascer', qual entidade mística aparecia como guardião da floresta?",
+    "opcoes": ["Saci", "Velho do Rio", "Curupira", "Boitatá"],
+    "correta": 1,
+    "explicacao": "O Velho do Rio era o guardião da floresta em 'Renascer'."
+  },
+  {
+    "id": 170,
+    "pergunta": "Qual era o nome da protagonista de 'Laços de Família'?",
+    "opcoes": ["Helena", "Camila", "Irene", "Clara"],
+    "correta": 0,
+    "explicacao": "Helena, interpretada por Vera Fischer, era a protagonista de 'Laços de Família'."
+  },
+  {
+    "id": 171,
+    "pergunta": "Quem raspou a cabeça em 'Laços de Família' para tratar câncer?",
+    "opcoes": ["Helena", "Camila", "Clara", "Íris"],
+    "correta": 1,
+    "explicacao": "Camila, personagem de Carolina Dieckmann, raspou a cabeça em 'Laços de Família'."
+  },
+  {
+    "id": 172,
+    "pergunta": "Qual novela tinha o personagem Crô como mordomo?",
+    "opcoes": ["Fina Estampa", "Império", "Amor à Vida", "O Clone"],
+    "correta": 0,
+    "explicacao": "Crô, interpretado por Marcelo Serrado, era mordomo em 'Fina Estampa'."
+  },
+  {
+    "id": 173,
+    "pergunta": "Qual era o nome verdadeiro de Crô em 'Fina Estampa'?",
+    "opcoes": ["Crocodilo", "Crodoaldo Valério", "Cromácio", "Crovinho"],
+    "correta": 1,
+    "explicacao": "O verdadeiro nome de Crô era Crodoaldo Valério."
+  },
+  {
+    "id": 174,
+    "pergunta": "Qual atriz interpretava a vilã Flora em 'A Favorita'?",
+    "opcoes": ["Patrícia Pillar", "Cláudia Raia", "Adriana Esteves", "Renata Sorrah"],
+    "correta": 0,
+    "explicacao": "Patrícia Pillar interpretava Flora, a vilã de 'A Favorita'."
+  },
+  {
+    "id": 175,
+    "pergunta": "Quem era a rival de Flora em 'A Favorita'?",
+    "opcoes": ["Irene", "Donatela", "Lara", "Silveirinha"],
+    "correta": 1,
+    "explicacao": "Donatela, interpretada por Cláudia Raia, era rival de Flora."
+  },
+  {
+    "id": 176,
+    "pergunta": "Qual novela tinha o casal Lucas e Lara interpretados por Reynaldo Gianecchini e Mariana Ximenes?",
+    "opcoes": ["Passione", "Esperança", "Belíssima", "Terra Nostra"],
+    "correta": 0,
+    "explicacao": "Em 'Passione', Reynaldo Gianecchini e Mariana Ximenes formavam casal."
+  },
+  {
+    "id": 177,
+    "pergunta": "Em 'Esperança', qual era o tema principal?",
+    "opcoes": ["Imigração italiana", "Imigração espanhola", "Imigração alemã", "Imigração japonesa"],
+    "correta": 0,
+    "explicacao": "'Esperança' retratava a imigração italiana no Brasil."
+  },
+  {
+    "id": 178,
+    "pergunta": "Qual era o nome da vilã interpretada por Cláudia Abreu em 'Celebridade'?",
+    "opcoes": ["Maria Clara", "Laura", "Beatriz", "Ingrid"],
+    "correta": 1,
+    "explicacao": "Laura, interpretada por Cláudia Abreu, era a grande vilã de 'Celebridade'."
+  },
+  {
+    "id": 179,
+    "pergunta": "Qual era o bordão de Dona Jura em 'O Clone'?",
+    "opcoes": ["Não é brinquedo, não!", "Olha a faca!", "Cada mergulho é um flash!", "Me serve!"],
+    "correta": 0,
+    "explicacao": "Dona Jura, vivida por Solange Couto, dizia 'Não é brinquedo, não!' em 'O Clone'."
+  },
+  {
+    "id": 210,
+    "pergunta": "Qual é o nome do personagem principal do filme 'O Máskara'?",
+    "opcoes": ["Stanley Ipkiss", "Ace Ventura", "Peter Parker", "Bruce Nolan"],
+    "correta": 0,
+    "explicacao": "Em 'O Máskara', Jim Carrey interpreta Stanley Ipkiss."
+  },
+  {
+    "id": 211,
+    "pergunta": "Quem interpreta o detetive atrapalhado em 'Corra que a Polícia Vem Aí'?",
+    "opcoes": ["Leslie Nielsen", "Jim Carrey", "Eddie Murphy", "Adam Sandler"],
+    "correta": 0,
+    "explicacao": "Leslie Nielsen interpreta o hilário detetive Frank Drebin."
+  },
+  {
+    "id": 212,
+    "pergunta": "Qual é o nome do filme em que um bebê foge de sequestradores pela cidade?",
+    "opcoes": ["Olha Quem Está Falando", "Ninguém Segura Esse Bebê", "Querida, Encolhi as Crianças", "Doze é Demais"],
+    "correta": 1,
+    "explicacao": "'Ninguém Segura Esse Bebê' é a comédia em que o bebê escapa dos sequestradores."
+  },
+  {
+    "id": 213,
+    "pergunta": "No filme 'Esqueceram de Mim', onde Kevin é deixado sozinho?",
+    "opcoes": ["Na escola", "No avião", "Em casa", "No hotel"],
+    "correta": 2,
+    "explicacao": "Kevin fica sozinho em casa em 'Esqueceram de Mim'."
+  },
+  {
+    "id": 214,
+    "pergunta": "Quem protagoniza 'Um Príncipe em Nova York'?",
+    "opcoes": ["Will Smith", "Eddie Murphy", "Martin Lawrence", "Chris Rock"],
+    "correta": 1,
+    "explicacao": "Eddie Murphy vive o príncipe Akeem em 'Um Príncipe em Nova York'."
+  },
+  {
+    "id": 215,
+    "pergunta": "Em 'Click', qual objeto mágico Adam Sandler encontra?",
+    "opcoes": ["Um celular", "Um espelho", "Um controle remoto", "Um relógio"],
+    "correta": 2,
+    "explicacao": "O personagem encontra um controle remoto que controla sua vida."
+  },
+  {
+    "id": 216,
+    "pergunta": "Qual é o nome do filme em que Jack Black forma uma banda com alunos?",
+    "opcoes": ["Escola de Rock", "High School Musical", "Professora Sem Classe", "O Substituto"],
+    "correta": 0,
+    "explicacao": "'Escola de Rock' traz Jack Black ensinando rock para alunos."
+  },
+  {
+    "id": 217,
+    "pergunta": "Em 'Ace Ventura', qual é a profissão do personagem de Jim Carrey?",
+    "opcoes": ["Policial", "Detetive de animais", "Professor", "Mágico"],
+    "correta": 1,
+    "explicacao": "Ace Ventura é um detetive especializado em encontrar animais."
+  },
+  {
+    "id": 218,
+    "pergunta": "Quem interpreta Lloyd em 'Debi & Lóide'?",
+    "opcoes": ["Adam Sandler", "Jim Carrey", "Ben Stiller", "Rob Schneider"],
+    "correta": 1,
+    "explicacao": "Jim Carrey vive Lloyd em 'Debi & Lóide'."
+  },
+  {
+    "id": 219,
+    "pergunta": "Qual comédia mostra Ben Stiller conhecendo os pais da namorada?",
+    "opcoes": ["Quem Vai Ficar com Mary?", "Entrando Numa Fria", "Duplex", "O Paizão"],
+    "correta": 1,
+    "explicacao": "'Entrando Numa Fria' mostra as trapalhadas de Ben Stiller conhecendo os sogros."
+  },
+  {
+    "id": 220,
+    "pergunta": "Em 'As Branquelas', o que os irmãos Wayans fazem?",
+    "opcoes": ["Se disfarçam de mulheres brancas", "Viraram rappers", "Abrem um salão de beleza", "Fingem ser professores"],
+    "correta": 0,
+    "explicacao": "Os dois agentes se disfarçam de socialites loiras em 'As Branquelas'."
+  },
+  {
+    "id": 221,
+    "pergunta": "Qual ator vive Adam Sandler no filme 'Como Se Fosse a Primeira Vez'?",
+    "opcoes": ["Ben Stiller", "Jim Carrey", "Adam Sandler", "Owen Wilson"],
+    "correta": 2,
+    "explicacao": "Adam Sandler interpreta Henry em 'Como Se Fosse a Primeira Vez'."
+  },
+  {
+    "id": 222,
+    "pergunta": "Quem faz par romântico com Adam Sandler em 'Como Se Fosse a Primeira Vez'?",
+    "opcoes": ["Cameron Diaz", "Jennifer Aniston", "Drew Barrymore", "Julia Roberts"],
+    "correta": 2,
+    "explicacao": "Drew Barrymore interpreta Lucy em 'Como Se Fosse a Primeira Vez'."
+  },
+  {
+    "id": 223,
+    "pergunta": "Em 'Se Beber, Não Case!', onde acontece a despedida de solteiro?",
+    "opcoes": ["Las Vegas", "Miami", "Los Angeles", "Nova York"],
+    "correta": 0,
+    "explicacao": "O filme mostra a confusão da despedida em Las Vegas."
+  },
+  {
+    "id": 224,
+    "pergunta": "Qual ator interpreta o segurança Paul Blart em 'Segurança de Shopping'?",
+    "opcoes": ["Adam Sandler", "Kevin James", "Seth Rogen", "Jack Black"],
+    "correta": 1,
+    "explicacao": "Kevin James é o atrapalhado Paul Blart."
+  },
+  {
+    "id": 225,
+    "pergunta": "Em 'Meu Nome Não é Johnny', quem interpreta Johnny?",
+    "opcoes": ["Wagner Moura", "Lázaro Ramos", "Selton Mello", "Rodrigo Santoro"],
+    "correta": 2,
+    "explicacao": "Selton Mello vive Johnny no filme nacional 'Meu Nome Não é Johnny'."
+  },
+  {
+    "id": 226,
+    "pergunta": "Qual filme mostra Robin Williams disfarçado de babá?",
+    "opcoes": ["Uma Babá Quase Perfeita", "Um Tira no Jardim de Infância", "Duplex", "A Creche do Papai"],
+    "correta": 0,
+    "explicacao": "Robin Williams se disfarça em 'Uma Babá Quase Perfeita'."
+  },
+  {
+    "id": 227,
+    "pergunta": "Em 'Um Tira no Jardim de Infância', quem é o protagonista?",
+    "opcoes": ["Sylvester Stallone", "Arnold Schwarzenegger", "Bruce Willis", "Chuck Norris"],
+    "correta": 1,
+    "explicacao": "Arnold Schwarzenegger vive o tira disfarçado de professor."
+  },
+  {
+    "id": 228,
+    "pergunta": "Qual é o nome do panda protagonista do filme de animação 'Kung Fu Panda'?",
+    "opcoes": ["Po", "Ping", "Tai Lung", "Shifu"],
+    "correta": 0,
+    "explicacao": "O panda Po é o herói em 'Kung Fu Panda'."
+  },
+  {
+    "id": 229,
+    "pergunta": "Em 'Norbit', quem interpreta vários personagens ao mesmo tempo?",
+    "opcoes": ["Martin Lawrence", "Eddie Murphy", "Chris Tucker", "Jamie Foxx"],
+    "correta": 1,
+    "explicacao": "Eddie Murphy interpreta múltiplos personagens em 'Norbit'."
+  },
+  {
+    "id": 230,
+    "pergunta": "Quem protagoniza a comédia nacional 'Minha Mãe é uma Peça'?",
+    "opcoes": ["Paulo Gustavo", "Leandro Hassum", "Lázaro Ramos", "Fábio Porchat"],
+    "correta": 0,
+    "explicacao": "Paulo Gustavo vive Dona Hermínia em 'Minha Mãe é uma Peça'."
+  },
+  {
+    "id": 231,
+    "pergunta": "Em 'Até que a Sorte nos Separe', quem interpreta Tino?",
+    "opcoes": ["Fábio Porchat", "Leandro Hassum", "Marcelo Adnet", "Danilo Gentili"],
+    "correta": 1,
+    "explicacao": "Leandro Hassum é Tino na comédia 'Até que a Sorte nos Separe'."
+  },
+  {
+    "id": 232,
+    "pergunta": "Qual filme mostra um grupo de amigos voltando à infância em um parque aquático?",
+    "opcoes": ["Esposa de Mentirinha", "Gente Grande", "Click", "Professora Sem Classe"],
+    "correta": 1,
+    "explicacao": "'Gente Grande' traz Adam Sandler e amigos em clima nostálgico."
+  },
+  {
+    "id": 233,
+    "pergunta": "Em 'Professora Sem Classe', quem interpreta a professora?",
+    "opcoes": ["Sandra Bullock", "Jennifer Aniston", "Cameron Diaz", "Reese Witherspoon"],
+    "correta": 2,
+    "explicacao": "Cameron Diaz é a professora nada exemplar."
+  },
+  {
+    "id": 234,
+    "pergunta": "Em 'O Paizão', quem interpreta o homem que adota uma criança?",
+    "opcoes": ["Adam Sandler", "Ben Stiller", "Jim Carrey", "Owen Wilson"],
+    "correta": 0,
+    "explicacao": "Adam Sandler adota uma criança em 'O Paizão'."
+  },
+  {
+    "id": 235,
+    "pergunta": "Qual ator vive Derek Zoolander em 'Zoolander'",
+    "opcoes": ["Ben Stiller", "Owen Wilson", "Will Ferrell", "Vince Vaughn"],
+    "correta": 0,
+    "explicacao": "Ben Stiller interpreta o modelo Derek Zoolander."
+  },
+  {
+    "id": 236,
+    "pergunta": "Qual comédia mostra um cachorro que causa confusão na família Newton?",
+    "opcoes": ["Beethoven", "Marley & Eu", "101 Dálmatas", "Scooby-Doo"],
+    "correta": 0,
+    "explicacao": "'Beethoven' mostra as trapalhadas do São Bernardo gigante."
+  },
+  {
+    "id": 237,
+    "pergunta": "Quem protagoniza 'Todo Mundo em Pânico'?",
+    "opcoes": ["Shawn Wayans e Marlon Wayans", "Ben Stiller e Owen Wilson", "Adam Sandler e Kevin James", "Jim Carrey e Jeff Daniels"],
+    "correta": 0,
+    "explicacao": "Shawn e Marlon Wayans são os protagonistas de 'Todo Mundo em Pânico'."
+  },
+  {
+    "id": 238,
+    "pergunta": "Em 'Loucas por Amor, Viciadas em Dinheiro', qual é o plano das protagonistas?",
+    "opcoes": ["Assaltar um carro-forte", "Ganhar na loteria", "Se casar com milionários", "Abrir uma loja"],
+    "correta": 0,
+    "explicacao": "Elas tentam roubar um carro-forte no filme."
+  },
+  {
+    "id": 239,
+    "pergunta": "Em 'Shrek', qual é o nome do burro falante?",
+    "opcoes": ["Burro", "Domkey", "Asno", "Mula"],
+    "correta": 0,
+    "explicacao": "O companheiro de Shrek é simplesmente chamado de Burro."
+  },
+  {
+    "id": 300,
+    "pergunta": "Qual é o nome verdadeiro do Homem de Ferro?",
+    "opcoes": ["Bruce Wayne", "Tony Stark", "Steve Rogers", "Peter Parker"],
+    "correta": 1,
+    "explicacao": "O Homem de Ferro é Tony Stark, um gênio bilionário e inventor."
+  },
+  {
+    "id": 301,
+    "pergunta": "Qual herói da DC é conhecido como 'Homem de Aço'?",
+    "opcoes": ["Batman", "Superman", "Flash", "Lanterna Verde"],
+    "correta": 1,
+    "explicacao": "Superman é conhecido como o 'Homem de Aço'."
+  },
+  {
+    "id": 302,
+    "pergunta": "Qual vingador carrega um escudo feito de vibranium?",
+    "opcoes": ["Thor", "Capitão América", "Hulk", "Pantera Negra"],
+    "correta": 1,
+    "explicacao": "O Capitão América usa um escudo de vibranium, vindo de Wakanda."
+  },
+  {
+    "id": 303,
+    "pergunta": "Qual membro da Liga da Justiça é o Cavaleiro das Trevas?",
+    "opcoes": ["Aquaman", "Flash", "Batman", "Superman"],
+    "correta": 2,
+    "explicacao": "Batman é chamado de Cavaleiro das Trevas e protege Gotham."
+  },
+  {
+    "id": 304,
+    "pergunta": "Quem é o Deus do Trovão entre os Vingadores?",
+    "opcoes": ["Thor", "Loki", "Hulk", "Capitão América"],
+    "correta": 0,
+    "explicacao": "Thor é o Deus do Trovão, vindo de Asgard."
+  },
+  {
+    "id": 305,
+    "pergunta": "Qual heroína da DC carrega o Laço da Verdade?",
+    "opcoes": ["Mulher-Maravilha", "Viúva Negra", "Capitã Marvel", "Supergirl"],
+    "correta": 0,
+    "explicacao": "A Mulher-Maravilha usa o Laço da Verdade como arma principal."
+  },
+  {
+    "id": 306,
+    "pergunta": "Quem é o vingador gigante e verde que fala 'Hulk esmaga!'?",
+    "opcoes": ["Thor", "Homem de Ferro", "Hulk", "Pantera Negra"],
+    "correta": 2,
+    "explicacao": "Hulk é conhecido pela sua força e pela frase 'Hulk esmaga!'."
+  },
+  {
+    "id": 307,
+    "pergunta": "Qual é o nome verdadeiro do Flash?",
+    "opcoes": ["Barry Allen", "Bruce Wayne", "Hal Jordan", "Arthur Curry"],
+    "correta": 0,
+    "explicacao": "O Flash mais famoso é Barry Allen, o velocista escarlate."
+  },
+  {
+    "id": 308,
+    "pergunta": "Quem lidera os Vingadores com a frase 'Avante, Vingadores!'?",
+    "opcoes": ["Thor", "Homem de Ferro", "Capitão América", "Hulk"],
+    "correta": 2,
+    "explicacao": "Capitão América é o líder clássico dos Vingadores."
+  },
+  {
+    "id": 309,
+    "pergunta": "Qual herói da Liga da Justiça é conhecido como o Rei de Atlântida?",
+    "opcoes": ["Aquaman", "Lanterna Verde", "Cyborg", "Flash"],
+    "correta": 0,
+    "explicacao": "Aquaman é o Rei de Atlântida e protetor dos mares."
+  },
+  {
+    "id": 310,
+    "pergunta": "Qual vingadora é especialista em artes marciais e espionagem?",
+    "opcoes": ["Viúva Negra", "Feiticeira Escarlate", "Capitã Marvel", "Gamora"],
+    "correta": 0,
+    "explicacao": "Viúva Negra é a espiã e lutadora da equipe dos Vingadores."
+  },
+  {
+    "id": 311,
+    "pergunta": "Quem é o guardião intergaláctico da Liga da Justiça que usa um anel de poder?",
+    "opcoes": ["Flash", "Lanterna Verde", "Cyborg", "Batman"],
+    "correta": 1,
+    "explicacao": "O Lanterna Verde usa um anel capaz de criar qualquer construção de energia."
+  },
+  {
+    "id": 312,
+    "pergunta": "Qual vingador é conhecido como o arqueiro da equipe?",
+    "opcoes": ["Gavião Arqueiro", "Loki", "Homem de Ferro", "Pantera Negra"],
+    "correta": 0,
+    "explicacao": "Clint Barton é o Gavião Arqueiro, mestre com o arco e flecha."
+  },
+  {
+    "id": 313,
+    "pergunta": "Qual herói da DC é metade homem e metade máquina?",
+    "opcoes": ["Cyborg", "Aquaman", "Flash", "Lanterna Verde"],
+    "correta": 0,
+    "explicacao": "Cyborg é parte humano e parte máquina, membro da Liga da Justiça."
+  },
+  {
+    "id": 314,
+    "pergunta": "Qual é o herói africano da Marvel, rei de Wakanda?",
+    "opcoes": ["Pantera Negra", "Falcão", "Gavião Arqueiro", "Homem de Ferro"],
+    "correta": 0,
+    "explicacao": "T’Challa é o Pantera Negra, rei de Wakanda."
+  },
+  {
+    "id": 315,
+    "pergunta": "Qual é a heroína mais poderosa da Liga da Justiça?",
+    "opcoes": ["Mulher-Maravilha", "Batgirl", "Supergirl", "Zatanna"],
+    "correta": 0,
+    "explicacao": "Mulher-Maravilha é a heroína mais famosa e poderosa da Liga."
+  },
+  {
+    "id": 316,
+    "pergunta": "Quem é o mago dos Vingadores, guardião do tempo?",
+    "opcoes": ["Doutor Estranho", "Loki", "Thor", "Visão"],
+    "correta": 0,
+    "explicacao": "Doutor Estranho é o Mago Supremo e controla o tempo com o Olho de Agamotto."
+  },
+  {
+    "id": 317,
+    "pergunta": "Qual herói da Liga da Justiça tem como fraqueza a kryptonita?",
+    "opcoes": ["Batman", "Aquaman", "Superman", "Flash"],
+    "correta": 2,
+    "explicacao": "Superman perde seus poderes quando exposto à kryptonita."
+  },
+  {
+    "id": 318,
+    "pergunta": "Qual androide vingador tem uma Joia do Infinito em sua testa?",
+    "opcoes": ["Visão", "Ultron", "Homem de Ferro", "Gavião Arqueiro"],
+    "correta": 0,
+    "explicacao": "Visão tem a Joia da Mente incrustada em sua testa."
+  },
+  {
+    "id": 319,
+    "pergunta": "Quem é o milionário da Liga da Justiça que usa tecnologia para lutar contra o crime?",
+    "opcoes": ["Aquaman", "Superman", "Batman", "Lanterna Verde"],
+    "correta": 2,
+    "explicacao": "Batman é Bruce Wayne, milionário que combate o crime com tecnologia."
+  },
+  {
+    "id": 320,
+    "pergunta": "Qual vingadora tem poderes de alterar a realidade?",
+    "opcoes": ["Feiticeira Escarlate", "Viúva Negra", "Gamora", "Nebulosa"],
+    "correta": 0,
+    "explicacao": "Feiticeira Escarlate pode manipular a realidade com seus poderes mágicos."
+  },
+  {
+    "id": 321,
+    "pergunta": "Qual é o nome verdadeiro do Aquaman?",
+    "opcoes": ["Barry Allen", "Arthur Curry", "Hal Jordan", "Victor Stone"],
+    "correta": 1,
+    "explicacao": "O verdadeiro nome do Aquaman é Arthur Curry."
+  },
+  {
+    "id": 322,
+    "pergunta": "Qual vingador é conhecido como 'o gigante esmeralda'?",
+    "opcoes": ["Thor", "Hulk", "Visão", "Pantera Negra"],
+    "correta": 1,
+    "explicacao": "Hulk é chamado de gigante esmeralda por sua cor verde."
+  },
+  {
+    "id": 323,
+    "pergunta": "Quem é o velocista da Liga da Justiça?",
+    "opcoes": ["Flash", "Superman", "Cyborg", "Batman"],
+    "correta": 0,
+    "explicacao": "Flash é o velocista escarlate da DC."
+  },
+  {
+    "id": 324,
+    "pergunta": "Qual vingador é conhecido como 'o Deus da tecnologia'?",
+    "opcoes": ["Visão", "Homem de Ferro", "Capitão América", "Gavião Arqueiro"],
+    "correta": 1,
+    "explicacao": "Tony Stark, o Homem de Ferro, é visto como o gênio da tecnologia."
+  },
+  {
+    "id": 325,
+    "pergunta": "Qual heroína da Liga da Justiça é amazona?",
+    "opcoes": ["Mulher-Maravilha", "Supergirl", "Batgirl", "Zatanna"],
+    "correta": 0,
+    "explicacao": "A Mulher-Maravilha é amazona, vinda da ilha de Themyscira."
+  },
+  {
+    "id": 326,
+    "pergunta": "Qual vingador também é chamado de 'Deus do Trovão'?",
+    "opcoes": ["Loki", "Thor", "Hulk", "Visão"],
+    "correta": 1,
+    "explicacao": "Thor é o Deus do Trovão e membro dos Vingadores."
+  },
+  {
+    "id": 327,
+    "pergunta": "Qual herói da Liga da Justiça é conhecido por ser detetive?",
+    "opcoes": ["Flash", "Batman", "Aquaman", "Lanterna Verde"],
+    "correta": 1,
+    "explicacao": "Batman é considerado o maior detetive do mundo."
+  },
+  {
+    "id": 328,
+    "pergunta": "Quem é o vingador que usa o traje de ferro Mark I até o Mark LXXXV?",
+    "opcoes": ["Capitão América", "Hulk", "Homem de Ferro", "Visão"],
+    "correta": 2,
+    "explicacao": "Tony Stark criou várias armaduras do Homem de Ferro, numeradas de Mark I até Mark 85."
+  },
+  {
+    "id": 329,
+    "pergunta": "Qual é o símbolo do Superman em seu peito?",
+    "opcoes": ["Um morcego", "Uma águia", "Um S", "Um raio"],
+    "correta": 2,
+    "explicacao": "O Superman usa um 'S' no peito, símbolo da esperança em Krypton."
+  },
+  {
+    "id": 241,
+    "pergunta": "Qual é o verdadeiro nome do vilão Darkseid, governante de Apokolips, inimigo da Liga da Justiça?",
+    "opcoes": ["Uxas", "Orion", "Kalibak", "Steppenwolf"],
+    "correta": 0,
+    "explicacao": "Darkseid nasceu como Uxas, antes de assumir o trono de Apokolips."
+  },
+  {
+    "id": 242,
+    "pergunta": "Em qual HQ surgiu pela primeira vez a equipe Vingadores?",
+    "opcoes": ["Avengers #1 (1963)", "Tales of Suspense #39 (1963)", "Journey into Mystery #83 (1962)", "Fantastic Four #1 (1961)"],
+    "correta": 0,
+    "explicacao": "Os Vingadores surgiram na revista Avengers #1 em 1963, criada por Stan Lee e Jack Kirby."
+  },
+  {
+    "id": 243,
+    "pergunta": "Qual é a principal fraqueza do Caçador de Marte (J'onn J'onzz), membro da Liga da Justiça?",
+    "opcoes": ["Água", "Som", "Fogo", "Radiação"],
+    "correta": 2,
+    "explicacao": "O Caçador de Marte tem grande vulnerabilidade ao fogo, apesar de seus poderes incríveis."
+  },
+  {
+    "id": 244,
+    "pergunta": "Quem foi o primeiro herói da Marvel a ser adaptado para uma série live-action de TV?",
+    "opcoes": ["Hulk", "Homem-Aranha", "Capitão América", "Thor"],
+    "correta": 0,
+    "explicacao": "O Incrível Hulk ganhou sua famosa série de TV em 1978, estrelada por Bill Bixby e Lou Ferrigno."
+  },
+  {
+    "id": 245,
+    "pergunta": "Qual desses Lanternas Verdes foi membro fundador da Liga da Justiça na versão clássica dos quadrinhos?",
+    "opcoes": ["John Stewart", "Guy Gardner", "Hal Jordan", "Kyle Rayner"],
+    "correta": 2,
+    "explicacao": "Hal Jordan foi o Lanterna Verde que integrou a primeira formação da Liga da Justiça."
+  },
+  {
+    "id": 246,
+    "pergunta": "Qual vilão já conseguiu quebrar a coluna do Batman em uma famosa HQ?",
+    "opcoes": ["Bane", "Coringa", "Ra's al Ghul", "Exterminador"],
+    "correta": 0,
+    "explicacao": "Na HQ 'Knightfall', Bane quebra a coluna do Batman em um dos arcos mais icônicos do herói."
+  },
+  {
+    "id": 247,
+    "pergunta": "Qual o nome do martelo encantado usado por Thor?",
+    "opcoes": ["Mjolnir", "Stormbreaker", "Asgardian Hammer", "Gungnir"],
+    "correta": 0,
+    "explicacao": "O martelo de Thor se chama Mjolnir, encantado por Odin para ser empunhado apenas por quem for digno."
+  },
+  {
+    "id": 248,
+    "pergunta": "Qual é o nome verdadeiro do vilão Lex Luthor?",
+    "opcoes": ["Alexander Joseph Luthor", "Leonard James Luthor", "Louis John Luthor", "Alfred Jacob Luthor"],
+    "correta": 0,
+    "explicacao": "O nome completo de Lex Luthor é Alexander Joseph Luthor."
+  },
+  {
+    "id": 249,
+    "pergunta": "Qual personagem Marvel é conhecido como o 'Mercenário Tagarela'?",
+    "opcoes": ["Deadpool", "Homem-Aranha", "Cavaleiro da Lua", "Punho de Ferro"],
+    "correta": 0,
+    "explicacao": "Deadpool é apelidado de 'Merc with a Mouth' (Mercenário Tagarela) por seu humor e falas incessantes."
+  },
+  {
+    "id": 250,
+    "pergunta": "Quem foi o criador original da Liga da Justiça nos quadrinhos?",
+    "opcoes": ["Gardner Fox", "Stan Lee", "Jack Kirby", "Bob Kane"],
+    "correta": 0,
+    "explicacao": "Gardner Fox criou a Liga da Justiça em 1960, reunindo heróis da DC Comics."
+  },
+  {
+    "id": 251,
+    "pergunta": "Em qual HQ o Homem-Aranha aparece pela primeira vez?",
+    "opcoes": ["Amazing Spider-Man #1", "Amazing Fantasy #15", "Spectacular Spider-Man #1", "Marvel Team-Up #1"],
+    "correta": 1,
+    "explicacao": "O Homem-Aranha surgiu em Amazing Fantasy #15, de 1962."
+  },
+  {
+    "id": 252,
+    "pergunta": "Qual é o planeta natal de Superman?",
+    "opcoes": ["Krypton", "Apokolips", "Oa", "Thanagar"],
+    "correta": 0,
+    "explicacao": "Superman nasceu em Krypton, que foi destruído, levando-o a ser enviado à Terra."
+  },
+  {
+    "id": 253,
+    "pergunta": "Qual é a jóia do infinito controlada pelo Doutor Estranho?",
+    "opcoes": ["Joia da Realidade", "Joia do Poder", "Joia do Tempo", "Joia da Alma"],
+    "correta": 2,
+    "explicacao": "Doutor Estranho guarda a Joia do Tempo dentro do Olho de Agamotto."
+  },
+  {
+    "id": 254,
+    "pergunta": "Qual velocista da DC morreu durante a Crise nas Infinitas Terras?",
+    "opcoes": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
+    "correta": 0,
+    "explicacao": "Barry Allen se sacrifica durante a Crise nas Infinitas Terras, desaparecendo na Força de Aceleração."
+  },
+  {
+    "id": 255,
+    "pergunta": "Qual herói Marvel tem o nome verdadeiro de T’Challa?",
+    "opcoes": ["Pantera Negra", "Falcão", "Blade", "Luke Cage"],
+    "correta": 0,
+    "explicacao": "T’Challa é o rei de Wakanda e o herói Pantera Negra."
+  },
+  {
+    "id": 256,
+    "pergunta": "Qual herói da Liga da Justiça vem do planeta Thanagar?",
+    "opcoes": ["Mulher-Gavião", "Caçador de Marte", "Lanterna Verde", "Aquaman"],
+    "correta": 0,
+    "explicacao": "A Mulher-Gavião (Hawkgirl) vem do planeta Thanagar."
+  },
+  {
+    "id": 257,
+    "pergunta": "Qual é o verdadeiro nome do herói Marvel conhecido como Cavaleiro da Lua?",
+    "opcoes": ["Marc Spector", "Steven Grant", "Jake Lockley", "Arthur Harrow"],
+    "correta": 0,
+    "explicacao": "O Cavaleiro da Lua é Marc Spector, ex-mercenário que se torna avatar do deus Khonshu."
+  },
+  {
+    "id": 258,
+    "pergunta": "Qual foi o primeiro herói da DC Comics a ganhar uma revista solo?",
+    "opcoes": ["Superman", "Batman", "Flash", "Mulher-Maravilha"],
+    "correta": 0,
+    "explicacao": "Superman foi o primeiro a ganhar revista própria em 1939, após estrear em Action Comics #1 (1938)."
+  },
+  {
+    "id": 259,
+    "pergunta": "Qual herói Marvel tem como inimigo principal o Mandarim?",
+    "opcoes": ["Homem de Ferro", "Capitão América", "Thor", "Hulk"],
+    "correta": 0,
+    "explicacao": "O Mandarim é o vilão mais icônico do Homem de Ferro."
+  },
+  {
+    "id": 260,
+    "pergunta": "Qual membro da Liga da Justiça é conhecido como o 'Homem Mais Rápido do Mundo'?",
+    "opcoes": ["Flash", "Superman", "Lanterna Verde", "Aquaman"],
+    "correta": 0,
+    "explicacao": "O Flash é conhecido como 'O Homem Mais Rápido do Mundo'."
+  },
+  {
+    "id": 261,
+    "pergunta": "Qual HQ é considerada a estreia oficial de Wolverine?",
+    "opcoes": ["Incredible Hulk #180", "Incredible Hulk #181", "X-Men #94", "Avengers #16"],
+    "correta": 1,
+    "explicacao": "Embora Wolverine apareça brevemente em Incredible Hulk #180, sua estreia oficial é em #181."
+  },
+  {
+    "id": 262,
+    "pergunta": "Qual é o nome da mãe do Superman?",
+    "opcoes": ["Martha Kent", "Lois Lane", "Kara Zor-El", "Lara Lor-Van"],
+    "correta": 0,
+    "explicacao": "A mãe adotiva de Superman na Terra é Martha Kent."
+  },
+  {
+    "id": 263,
+    "pergunta": "Qual é a identidade secreta de Shazam?",
+    "opcoes": ["Billy Batson", "Freddy Freeman", "Jason Todd", "Dick Grayson"],
+    "correta": 0,
+    "explicacao": "Shazam é o alter ego do jovem Billy Batson."
+  },
+  {
+    "id": 264,
+    "pergunta": "Qual vingador foi introduzido primeiro nos cinemas da Marvel?",
+    "opcoes": ["Homem de Ferro", "Hulk", "Thor", "Capitão América"],
+    "correta": 0,
+    "explicacao": "O Homem de Ferro foi o primeiro Vingador do MCU, em 2008."
+  },
+  {
+    "id": 265,
+    "pergunta": "Qual vilão da DC é conhecido por usar enigmas e charadas contra o Batman?",
+    "opcoes": ["Charada", "Espantalho", "Duas-Caras", "Pinguim"],
+    "correta": 0,
+    "explicacao": "O Charada (Edward Nigma) é obcecado por enigmas e charadas."
+  },
+  {
+    "id": 266,
+    "pergunta": "Qual joia do infinito estava originalmente na testa do Visão?",
+    "opcoes": ["Joia da Mente", "Joia da Alma", "Joia da Realidade", "Joia do Poder"],
+    "correta": 0,
+    "explicacao": "Visão carrega a Joia da Mente em sua testa, colocada por Ultron nos filmes."
+  },
+  {
+    "id": 267,
+    "pergunta": "Qual Robin se tornou posteriormente o Capuz Vermelho?",
+    "opcoes": ["Jason Todd", "Dick Grayson", "Tim Drake", "Damian Wayne"],
+    "correta": 0,
+    "explicacao": "Jason Todd retorna dos mortos e se torna o anti-herói Capuz Vermelho."
+  },
+  {
+    "id": 268,
+    "pergunta": "Qual é o nome verdadeiro do Pantera Negra?",
+    "opcoes": ["T'Challa", "M'Baku", "N'Jadaka", "Shuri"],
+    "correta": 0,
+    "explicacao": "O Pantera Negra é T’Challa, rei de Wakanda."
+  },
+  {
+    "id": 269,
+    "pergunta": "Qual HQ marcou a primeira aparição do vilão Thanos?",
+    "opcoes": ["Iron Man #55", "Avengers #4", "Captain Marvel #25", "Thor #169"],
+    "correta": 0,
+    "explicacao": "Thanos apareceu pela primeira vez em Iron Man #55, em 1973."
+  },
+  {
+    "id": 270,
+    "pergunta": "Qual é o verdadeiro nome da Mulher-Maravilha?",
+    "opcoes": ["Diana Prince", "Diana Trevor", "Donna Troy", "Hippolyta"],
+    "correta": 0,
+    "explicacao": "A Mulher-Maravilha é Diana, princesa das Amazonas, conhecida na Terra como Diana Prince."
+  },
+  {
+    "id": 270,
+    "pergunta": "Qual é o nome verdadeiro do Flash mais famoso da Liga da Justiça?",
+    "opcoes": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
+    "correta": 0,
+    "explicacao": "O Flash mais famoso da Liga da Justiça é Barry Allen."
+  },
+  {
+    "id": 271,
+    "pergunta": "Qual é a fraqueza mais conhecida do Superman?",
+    "opcoes": ["Vibranium", "Adamantium", "Kryptonita", "Magnetismo"],
+    "correta": 2,
+    "explicacao": "A kryptonita é a maior fraqueza do Superman."
+  },
+  {
+    "id": 272,
+    "pergunta": "Quem é o vingador conhecido como Deus do Trovão?",
+    "opcoes": ["Thor", "Loki", "Odin", "Hércules"],
+    "correta": 0,
+    "explicacao": "Thor é o Deus do Trovão e membro dos Vingadores."
+  },
+  {
+    "id": 273,
+    "pergunta": "Qual membro da Liga da Justiça vem de Atlântida?",
+    "opcoes": ["Aquaman", "Superman", "Cyborg", "Lanterna Verde"],
+    "correta": 0,
+    "explicacao": "Aquaman é o rei de Atlântida e membro da Liga da Justiça."
+  },
+  {
+    "id": 274,
+    "pergunta": "Quem é o gênio bilionário dos Vingadores?",
+    "opcoes": ["Bruce Wayne", "Tony Stark", "Stephen Strange", "Reed Richards"],
+    "correta": 1,
+    "explicacao": "Tony Stark é o Homem de Ferro, gênio bilionário dos Vingadores."
+  },
+  {
+    "id": 275,
+    "pergunta": "Qual herói da DC é conhecido como 'Mulher-Maravilha'?",
+    "opcoes": ["Natasha Romanoff", "Diana Prince", "Jean Grey", "Carol Danvers"],
+    "correta": 1,
+    "explicacao": "Diana Prince é a Mulher-Maravilha da Liga da Justiça."
+  },
+  {
+    "id": 276,
+    "pergunta": "Qual vingador é conhecido como 'Sentinela da Liberdade'?",
+    "opcoes": ["Capitão América", "Homem de Ferro", "Pantera Negra", "Gavião Arqueiro"],
+    "correta": 0,
+    "explicacao": "O Capitão América é chamado de 'Sentinela da Liberdade'."
+  },
+  {
+    "id": 277,
+    "pergunta": "Qual herói da DC usa um anel de poder verde?",
+    "opcoes": ["Lanterna Verde", "Flash", "Shazam", "Batman"],
+    "correta": 0,
+    "explicacao": "O Lanterna Verde possui um anel que cria construções de energia."
+  },
+  {
+    "id": 278,
+    "pergunta": "Qual vingadora é conhecida como Viúva Negra?",
+    "opcoes": ["Natasha Romanoff", "Carol Danvers", "Wanda Maximoff", "Gamora"],
+    "correta": 0,
+    "explicacao": "Natasha Romanoff é a Viúva Negra nos Vingadores."
+  },
+  {
+    "id": 279,
+    "pergunta": "Qual é o herói da Liga da Justiça que tem corpo cibernético?",
+    "opcoes": ["Cyborg", "Flash", "Lanterna Verde", "Aquaman"],
+    "correta": 0,
+    "explicacao": "Cyborg é metade humano e metade máquina, membro da Liga da Justiça."
+  },
+  {
+    "id": 280,
+    "pergunta": "Qual vingador se transforma quando fica com raiva?",
+    "opcoes": ["Hulk", "Thor", "Homem de Ferro", "Homem-Formiga"],
+    "correta": 0,
+    "explicacao": "Bruce Banner se transforma no Hulk quando fica com raiva."
+  },
+  {
+    "id": 281,
+    "pergunta": "Qual herói da DC é chamado de 'Cavaleiro das Trevas'?",
+    "opcoes": ["Batman", "Superman", "Aquaman", "Lanterna Verde"],
+    "correta": 0,
+    "explicacao": "Batman é conhecido como o Cavaleiro das Trevas."
+  },
+  {
+    "id": 282,
+    "pergunta": "Qual vingador pode encolher e se comunicar com formigas?",
+    "opcoes": ["Homem-Formiga", "Homem-Aranha", "Pantera Negra", "Gavião Arqueiro"],
+    "correta": 0,
+    "explicacao": "Scott Lang é o Homem-Formiga e pode encolher e falar com formigas."
+  },
+  {
+    "id": 283,
+    "pergunta": "Qual heroína da Liga da Justiça usa um laço da verdade?",
+    "opcoes": ["Mulher-Maravilha", "Zatanna", "Canário Negro", "Supergirl"],
+    "correta": 0,
+    "explicacao": "Mulher-Maravilha usa o Laço da Verdade como sua arma principal."
+  },
+  {
+    "id": 284,
+    "pergunta": "Qual vingadora é também chamada de Feiticeira Escarlate?",
+    "opcoes": ["Wanda Maximoff", "Jean Grey", "Gamora", "Nebulosa"],
+    "correta": 0,
+    "explicacao": "Wanda Maximoff é a Feiticeira Escarlate dos Vingadores."
+  },
+  {
+    "id": 285,
+    "pergunta": "Qual herói da DC veio do planeta Krypton?",
+    "opcoes": ["Superman", "Batman", "Flash", "Cyborg"],
+    "correta": 0,
+    "explicacao": "Superman nasceu em Krypton e foi enviado à Terra ainda bebê."
+  },
+  {
+    "id": 286,
+    "pergunta": "Qual vingador usa arco e flecha como arma?",
+    "opcoes": ["Gavião Arqueiro", "Thor", "Loki", "Homem de Ferro"],
+    "correta": 0,
+    "explicacao": "Clint Barton é o Gavião Arqueiro e usa arco e flechas especiais."
+  },
+  {
+    "id": 287,
+    "pergunta": "Qual herói da Liga da Justiça é conhecido por sua supervelocidade?",
+    "opcoes": ["Flash", "Lanterna Verde", "Aquaman", "Shazam"],
+    "correta": 0,
+    "explicacao": "Flash é o velocista da Liga da Justiça."
+  },
+  {
+    "id": 288,
+    "pergunta": "Qual vingador tem origem em Wakanda?",
+    "opcoes": ["Pantera Negra", "Homem de Ferro", "Thor", "Capitão América"],
+    "correta": 0,
+    "explicacao": "Pantera Negra é o rei de Wakanda e membro dos Vingadores."
+  },
+  {
+    "id": 289,
+    "pergunta": "Qual é o nome verdadeiro do Batman?",
+    "opcoes": ["Bruce Wayne", "Clark Kent", "Tony Stark", "Steve Rogers"],
+    "correta": 0,
+    "explicacao": "O nome verdadeiro do Batman é Bruce Wayne."
+  },
+  {
+    "id": 290,
+    "pergunta": "Qual vingador tem um escudo feito de vibranium?",
+    "opcoes": ["Capitão América", "Hulk", "Homem de Ferro", "Thor"],
+    "correta": 0,
+    "explicacao": "O escudo do Capitão América é feito de vibranium."
+  },
+  {
+    "id": 291,
+    "pergunta": "Qual herói da DC grita 'Shazam!' para ganhar poderes?",
+    "opcoes": ["Shazam", "Aquaman", "Flash", "Lanterna Verde"],
+    "correta": 0,
+    "explicacao": "Billy Batson se transforma no herói Shazam ao gritar seu nome."
+  },
+  {
+    "id": 292,
+    "pergunta": "Qual vingador é um doutor especialista em artes místicas?",
+    "opcoes": ["Doutor Estranho", "Thor", "Visão", "Homem de Ferro"],
+    "correta": 0,
+    "explicacao": "Stephen Strange é o Doutor Estranho, mestre das artes místicas."
+  },
+  {
+    "id": 293,
+    "pergunta": "Qual heroína da Liga da Justiça é prima do Superman?",
+    "opcoes": ["Supergirl", "Zatanna", "Mulher-Gavião", "Mulher-Maravilha"],
+    "correta": 0,
+    "explicacao": "Kara Zor-El, conhecida como Supergirl, é prima do Superman."
+  },
+  {
+    "id": 294,
+    "pergunta": "Qual vingador é uma criação da inteligência artificial Ultron?",
+    "opcoes": ["Visão", "Homem de Ferro", "Falcão", "Pantera Negra"],
+    "correta": 0,
+    "explicacao": "Visão foi criado por Ultron, mas se juntou aos Vingadores."
+  },
+  {
+    "id": 295,
+    "pergunta": "Qual herói da Liga da Justiça pode falar com animais marinhos?",
+    "opcoes": ["Aquaman", "Superman", "Flash", "Cyborg"],
+    "correta": 0,
+    "explicacao": "Aquaman tem o poder de se comunicar com criaturas do mar."
+  },
+  {
+    "id": 296,
+    "pergunta": "Qual vingador é também conhecido como Falcão?",
+    "opcoes": ["Sam Wilson", "Bucky Barnes", "Scott Lang", "Steve Rogers"],
+    "correta": 0,
+    "explicacao": "Sam Wilson é o herói Falcão e membro dos Vingadores."
+  },
+  {
+    "id": 297,
+    "pergunta": "Qual herói da Liga da Justiça é meio humano e meio máquina?",
+    "opcoes": ["Cyborg", "Lanterna Verde", "Flash", "Shazam"],
+    "correta": 0,
+    "explicacao": "Victor Stone é o Cyborg, metade humano e metade tecnologia."
+  },
+  {
+    "id": 298,
+    "pergunta": "Qual vingador tem a habilidade de mudar de tamanho?",
+    "opcoes": ["Homem-Formiga", "Visão", "Capitão América", "Hulk"],
+    "correta": 0,
+    "explicacao": "O Homem-Formiga pode diminuir ou aumentar de tamanho."
+  },
+  {
+    "id": 299,
+    "pergunta": "Qual herói da DC usa uma capa vermelha e o símbolo 'S' no peito?",
+    "opcoes": ["Superman", "Shazam", "Flash", "Lanterna Verde"],
+    "correta": 0,
+    "explicacao": "Superman é famoso por sua capa vermelha e o 'S' no peito."
+  },
+  {
+    "id": 300,
+    "pergunta": "Quem foi o primeiro imperador do Brasil?",
+    "opcoes": ["Dom Pedro I", "Dom Pedro II", "Tiradentes", "Getúlio Vargas"],
+    "correta": 0,
+    "explicacao": "Dom Pedro I foi proclamado imperador em 1822, após a Independência do Brasil."
+  },
+  {
+    "id": 301,
+    "pergunta": "Qual evento marcou oficialmente o fim da escravidão no Brasil?",
+    "opcoes": ["A Proclamação da República", "Lei Áurea", "Inconfidência Mineira", "Constituição de 1824"],
+    "correta": 1,
+    "explicacao": "A Lei Áurea, assinada pela Princesa Isabel em 1888, aboliu a escravidão no Brasil."
+  },
+  {
+    "id": 302,
+    "pergunta": "Em que cidade ocorreu a Inconfidência Mineira?",
+    "opcoes": ["São Paulo", "Ouro Preto", "Salvador", "Rio de Janeiro"],
+    "correta": 1,
+    "explicacao": "A Inconfidência Mineira ocorreu em Vila Rica, atual Ouro Preto, Minas Gerais."
+  },
+  {
+    "id": 303,
+    "pergunta": "Quem proclamou a Independência do Brasil às margens do Rio Ipiranga?",
+    "opcoes": ["Dom João VI", "Dom Pedro I", "José Bonifácio", "Duque de Caxias"],
+    "correta": 1,
+    "explicacao": "Dom Pedro I proclamou a Independência em 7 de setembro de 1822 no Rio Ipiranga."
+  },
+  {
+    "id": 304,
+    "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
+    "opcoes": ["São Paulo", "Ouro Preto", "Rio de Janeiro", "Salvador"],
+    "correta": 2,
+    "explicacao": "Antes de Brasília, a capital brasileira era o Rio de Janeiro."
+  },
+  {
+    "id": 305,
+    "pergunta": "Quem foi Tiradentes?",
+    "opcoes": ["Líder da Inconfidência Mineira", "Imperador do Brasil", "Presidente da República", "Fundador de Brasília"],
+    "correta": 0,
+    "explicacao": "Tiradentes foi um dos principais líderes da Inconfidência Mineira, movimento de independência."
+  },
+  {
+    "id": 306,
+    "pergunta": "Quem foi o presidente brasileiro durante a construção de Brasília?",
+    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Marechal Deodoro", "Tancredo Neves"],
+    "correta": 0,
+    "explicacao": "Juscelino Kubitschek idealizou e iniciou a construção de Brasília, inaugurada em 1960."
+  },
+  {
+    "id": 307,
+    "pergunta": "Qual tratado definiu as fronteiras entre Brasil e Espanha no período colonial?",
+    "opcoes": ["Tratado de Petrópolis", "Tratado de Tordesilhas", "Tratado de Madri", "Tratado de Paris"],
+    "correta": 2,
+    "explicacao": "O Tratado de Madri (1750) redefiniu as fronteiras entre Portugal e Espanha nas Américas."
+  },
+  {
+    "id": 308,
+    "pergunta": "Qual movimento popular aconteceu em 1835 na Bahia?",
+    "opcoes": ["Revolta dos Malês", "Balaiada", "Sabinada", "Cabanagem"],
+    "correta": 0,
+    "explicacao": "A Revolta dos Malês (1835) foi uma rebelião de escravos muçulmanos em Salvador."
+  },
+  {
+    "id": 309,
+    "pergunta": "Quem foi o líder militar conhecido como Duque de Caxias?",
+    "opcoes": ["Líder da Inconfidência", "Comandante da Guerra do Paraguai", "Presidente do Brasil", "Explorador do sertão"],
+    "correta": 1,
+    "explicacao": "Duque de Caxias foi o comandante das tropas brasileiras na Guerra do Paraguai."
+  },
+  {
+    "id": 310,
+    "pergunta": "Qual presidente do Brasil ficou famoso pelo lema '50 anos em 5'?",
+    "opcoes": ["Getúlio Vargas", "Juscelino Kubitschek", "Tancredo Neves", "Fernando Henrique Cardoso"],
+    "correta": 1,
+    "explicacao": "Juscelino Kubitschek lançou o plano '50 anos em 5', propondo acelerar o desenvolvimento do Brasil."
+  },
+  {
+    "id": 311,
+    "pergunta": "Quem liderou a Revolução Farroupilha no Rio Grande do Sul?",
+    "opcoes": ["Bento Gonçalves", "Tiradentes", "José Bonifácio", "Marechal Deodoro"],
+    "correta": 0,
+    "explicacao": "Bento Gonçalves foi um dos principais líderes da Revolução Farroupilha (1835–1845)."
+  },
+  {
+    "id": 312,
+    "pergunta": "Qual foi o primeiro presidente do Brasil?",
+    "opcoes": ["Deodoro da Fonseca", "Floriano Peixoto", "Getúlio Vargas", "Campos Sales"],
+    "correta": 0,
+    "explicacao": "Marechal Deodoro da Fonseca foi o primeiro presidente após a Proclamação da República em 1889."
+  },
+  {
+    "id": 313,
+    "pergunta": "Em que ano foi proclamada a República no Brasil?",
+    "opcoes": ["1822", "1889", "1930", "1964"],
+    "correta": 1,
+    "explicacao": "A Proclamação da República ocorreu em 15 de novembro de 1889."
+  },
+  {
+    "id": 314,
+    "pergunta": "Quem foi a princesa responsável por assinar a Lei Áurea?",
+    "opcoes": ["Princesa Isabel", "Rainha Carlota Joaquina", "Dona Leopoldina", "Maria da Glória"],
+    "correta": 0,
+    "explicacao": "A Princesa Isabel assinou a Lei Áurea em 13 de maio de 1888, abolindo a escravidão."
+  },
+  {
+    "id": 315,
+    "pergunta": "Qual foi o principal conflito internacional do qual o Brasil participou no século XIX?",
+    "opcoes": ["Guerra do Pacífico", "Guerra do Paraguai", "Guerra da Cisplatina", "Primeira Guerra Mundial"],
+    "correta": 1,
+    "explicacao": "A Guerra do Paraguai (1864–1870) foi o maior conflito da América do Sul, com forte participação do Brasil."
+  },
+  {
+    "id": 316,
+    "pergunta": "Onde começou o movimento conhecido como Cabanagem?",
+    "opcoes": ["Pará", "Bahia", "Rio Grande do Sul", "Minas Gerais"],
+    "correta": 0,
+    "explicacao": "A Cabanagem foi uma revolta popular que ocorreu no Pará entre 1835 e 1840."
+  },
+  {
+    "id": 317,
+    "pergunta": "Quem foi Getúlio Vargas?",
+    "opcoes": ["Imperador do Brasil", "Presidente do Brasil", "Militar da Guerra do Paraguai", "Líder da Inconfidência"],
+    "correta": 1,
+    "explicacao": "Getúlio Vargas governou o Brasil em duas ocasiões, sendo presidente eleito e ditador durante o Estado Novo."
+  },
+  {
+    "id": 318,
+    "pergunta": "Qual foi a capital do Brasil durante o período colonial?",
+    "opcoes": ["Brasília", "Rio de Janeiro", "Ouro Preto", "Salvador"],
+    "correta": 3,
+    "explicacao": "A primeira capital do Brasil foi Salvador, durante o período colonial."
+  },
+  {
+    "id": 319,
+    "pergunta": "Quem foi José Bonifácio de Andrada e Silva?",
+    "opcoes": ["O Patriarca da Independência", "Imperador do Brasil", "General da Guerra do Paraguai", "Presidente do Brasil"],
+    "correta": 0,
+    "explicacao": "José Bonifácio foi um dos principais articuladores da Independência do Brasil, conhecido como Patriarca da Independência."
+  },
+  {
+    "id": 320,
+    "pergunta": "Qual movimento aconteceu em 1922, sendo importante para a cultura brasileira?",
+    "opcoes": ["Semana de Arte Moderna", "Revolta da Chibata", "Intentona Comunista", "Proclamação da República"],
+    "correta": 0,
+    "explicacao": "A Semana de Arte Moderna de 1922 foi um marco na renovação da arte e cultura brasileira."
+  },
+  {
+    "id": 321,
+    "pergunta": "Quem liderou a Coluna Prestes?",
+    "opcoes": ["Luís Carlos Prestes", "Getúlio Vargas", "Floriano Peixoto", "Oswaldo Aranha"],
+    "correta": 0,
+    "explicacao": "Luís Carlos Prestes foi o líder da Coluna Prestes, movimento político-militar da década de 1920."
+  },
+  {
+    "id": 322,
+    "pergunta": "Qual evento histórico ficou conhecido como 'Revolta da Chibata'?",
+    "opcoes": ["Revolta de escravos contra senhores", "Motim de marinheiros contra castigos físicos", "Protesto estudantil", "Revolta camponesa"],
+    "correta": 1,
+    "explicacao": "A Revolta da Chibata (1910) foi um levante de marinheiros contra os castigos físicos aplicados na Marinha."
+  },
+  {
+    "id": 323,
+    "pergunta": "Qual presidente brasileiro ficou conhecido como 'Pai dos Pobres'?",
+    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Tancredo Neves", "Lula"],
+    "correta": 1,
+    "explicacao": "Getúlio Vargas ficou conhecido como 'Pai dos Pobres' por suas políticas trabalhistas."
+  },
+  {
+    "id": 324,
+    "pergunta": "Quem governava Portugal quando a corte portuguesa se transferiu para o Brasil em 1808?",
+    "opcoes": ["Dom João VI", "Dom Pedro I", "Dom José I", "Dom Manuel II"],
+    "correta": 0,
+    "explicacao": "Dom João VI trouxe a corte portuguesa para o Rio de Janeiro em 1808, fugindo das tropas de Napoleão."
+  },
+  {
+    "id": 325,
+    "pergunta": "Qual país foi aliado do Brasil na Guerra do Paraguai?",
+    "opcoes": ["Chile", "Argentina", "Espanha", "Estados Unidos"],
+    "correta": 1,
+    "explicacao": "O Brasil lutou ao lado da Argentina e do Uruguai contra o Paraguai na Guerra do Paraguai."
+  },
+  {
+    "id": 326,
+    "pergunta": "Em que ano foi inaugurada Brasília?",
+    "opcoes": ["1945", "1955", "1960", "1970"],
+    "correta": 2,
+    "explicacao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo de Juscelino Kubitschek."
+  },
+  {
+    "id": 327,
+    "pergunta": "Quem foi Marechal Deodoro da Fonseca?",
+    "opcoes": ["O proclamador da República", "O líder da Independência", "Presidente da Constituinte de 1824", "General da Guerra do Paraguai"],
+    "correta": 0,
+    "explicacao": "Marechal Deodoro da Fonseca proclamou a República em 1889 e foi o primeiro presidente do Brasil."
+  },
+  {
+    "id": 328,
+    "pergunta": "Qual foi a principal atividade econômica do Brasil no período colonial?",
+    "opcoes": ["Mineração", "Pecuária", "Cana-de-açúcar", "Café"],
+    "correta": 2,
+    "explicacao": "Durante boa parte do período colonial, a cana-de-açúcar foi a principal atividade econômica do Brasil."
+  },
+  {
+    "id": 329,
+    "pergunta": "Qual foi o movimento popular que ocorreu em Canudos, na Bahia?",
+    "opcoes": ["Revolta dos Malês", "Revolta da Vacina", "Guerra de Canudos", "Balaiada"],
+    "correta": 2,
+    "explicacao": "A Guerra de Canudos (1896–1897) foi um conflito entre o exército e seguidores de Antônio Conselheiro."
+  },
+  {
+    "id": 300,
+    "pergunta": "Quem foi o primeiro imperador do Brasil?",
+    "opcoes": ["Dom Pedro I", "Dom Pedro II", "Tiradentes", "Getúlio Vargas"],
+    "correta": 0,
+    "explicacao": "Dom Pedro I foi proclamado imperador em 1822, após a Independência do Brasil."
+  },
+  {
+    "id": 301,
+    "pergunta": "Qual evento marcou oficialmente o fim da escravidão no Brasil?",
+    "opcoes": ["A Proclamação da República", "Lei Áurea", "Inconfidência Mineira", "Constituição de 1824"],
+    "correta": 1,
+    "explicacao": "A Lei Áurea, assinada pela Princesa Isabel em 1888, aboliu a escravidão no Brasil."
+  },
+  {
+    "id": 302,
+    "pergunta": "Em que cidade ocorreu a Inconfidência Mineira?",
+    "opcoes": ["São Paulo", "Ouro Preto", "Salvador", "Rio de Janeiro"],
+    "correta": 1,
+    "explicacao": "A Inconfidência Mineira ocorreu em Vila Rica, atual Ouro Preto, Minas Gerais."
+  },
+  {
+    "id": 303,
+    "pergunta": "Quem proclamou a Independência do Brasil às margens do Rio Ipiranga?",
+    "opcoes": ["Dom João VI", "Dom Pedro I", "José Bonifácio", "Duque de Caxias"],
+    "correta": 1,
+    "explicacao": "Dom Pedro I proclamou a Independência em 7 de setembro de 1822 no Rio Ipiranga."
+  },
+  {
+    "id": 304,
+    "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
+    "opcoes": ["São Paulo", "Ouro Preto", "Rio de Janeiro", "Salvador"],
+    "correta": 2,
+    "explicacao": "Antes de Brasília, a capital brasileira era o Rio de Janeiro."
+  },
+  {
+    "id": 305,
+    "pergunta": "Quem foi Tiradentes?",
+    "opcoes": ["Líder da Inconfidência Mineira", "Imperador do Brasil", "Presidente da República", "Fundador de Brasília"],
+    "correta": 0,
+    "explicacao": "Tiradentes foi um dos principais líderes da Inconfidência Mineira, movimento de independência."
+  },
+  {
+    "id": 306,
+    "pergunta": "Quem foi o presidente brasileiro durante a construção de Brasília?",
+    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Marechal Deodoro", "Tancredo Neves"],
+    "correta": 0,
+    "explicacao": "Juscelino Kubitschek idealizou e iniciou a construção de Brasília, inaugurada em 1960."
+  },
+  {
+    "id": 307,
+    "pergunta": "Qual tratado definiu as fronteiras entre Brasil e Espanha no período colonial?",
+    "opcoes": ["Tratado de Petrópolis", "Tratado de Tordesilhas", "Tratado de Madri", "Tratado de Paris"],
+    "correta": 2,
+    "explicacao": "O Tratado de Madri (1750) redefiniu as fronteiras entre Portugal e Espanha nas Américas."
+  },
+  {
+    "id": 308,
+    "pergunta": "Qual movimento popular aconteceu em 1835 na Bahia?",
+    "opcoes": ["Revolta dos Malês", "Balaiada", "Sabinada", "Cabanagem"],
+    "correta": 0,
+    "explicacao": "A Revolta dos Malês (1835) foi uma rebelião de escravos muçulmanos em Salvador."
+  },
+  {
+    "id": 309,
+    "pergunta": "Quem foi o líder militar conhecido como Duque de Caxias?",
+    "opcoes": ["Líder da Inconfidência", "Comandante da Guerra do Paraguai", "Presidente do Brasil", "Explorador do sertão"],
+    "correta": 1,
+    "explicacao": "Duque de Caxias foi o comandante das tropas brasileiras na Guerra do Paraguai."
+  },
+  {
+    "id": 310,
+    "pergunta": "Qual presidente do Brasil ficou famoso pelo lema '50 anos em 5'?",
+    "opcoes": ["Getúlio Vargas", "Juscelino Kubitschek", "Tancredo Neves", "Fernando Henrique Cardoso"],
+    "correta": 1,
+    "explicacao": "Juscelino Kubitschek lançou o plano '50 anos em 5', propondo acelerar o desenvolvimento do Brasil."
+  },
+  {
+    "id": 311,
+    "pergunta": "Quem liderou a Revolução Farroupilha no Rio Grande do Sul?",
+    "opcoes": ["Bento Gonçalves", "Tiradentes", "José Bonifácio", "Marechal Deodoro"],
+    "correta": 0,
+    "explicacao": "Bento Gonçalves foi um dos principais líderes da Revolução Farroupilha (1835–1845)."
+  },
+  {
+    "id": 312,
+    "pergunta": "Qual foi o primeiro presidente do Brasil?",
+    "opcoes": ["Deodoro da Fonseca", "Floriano Peixoto", "Getúlio Vargas", "Campos Sales"],
+    "correta": 0,
+    "explicacao": "Marechal Deodoro da Fonseca foi o primeiro presidente após a Proclamação da República em 1889."
+  },
+  {
+    "id": 313,
+    "pergunta": "Em que ano foi proclamada a República no Brasil?",
+    "opcoes": ["1822", "1889", "1930", "1964"],
+    "correta": 1,
+    "explicacao": "A Proclamação da República ocorreu em 15 de novembro de 1889."
+  },
+  {
+    "id": 314,
+    "pergunta": "Quem foi a princesa responsável por assinar a Lei Áurea?",
+    "opcoes": ["Princesa Isabel", "Rainha Carlota Joaquina", "Dona Leopoldina", "Maria da Glória"],
+    "correta": 0,
+    "explicacao": "A Princesa Isabel assinou a Lei Áurea em 13 de maio de 1888, abolindo a escravidão."
+  },
+  {
+    "id": 315,
+    "pergunta": "Qual foi o principal conflito internacional do qual o Brasil participou no século XIX?",
+    "opcoes": ["Guerra do Pacífico", "Guerra do Paraguai", "Guerra da Cisplatina", "Primeira Guerra Mundial"],
+    "correta": 1,
+    "explicacao": "A Guerra do Paraguai (1864–1870) foi o maior conflito da América do Sul, com forte participação do Brasil."
+  },
+  {
+    "id": 316,
+    "pergunta": "Onde começou o movimento conhecido como Cabanagem?",
+    "opcoes": ["Pará", "Bahia", "Rio Grande do Sul", "Minas Gerais"],
+    "correta": 0,
+    "explicacao": "A Cabanagem foi uma revolta popular que ocorreu no Pará entre 1835 e 1840."
+  },
+  {
+    "id": 317,
+    "pergunta": "Quem foi Getúlio Vargas?",
+    "opcoes": ["Imperador do Brasil", "Presidente do Brasil", "Militar da Guerra do Paraguai", "Líder da Inconfidência"],
+    "correta": 1,
+    "explicacao": "Getúlio Vargas governou o Brasil em duas ocasiões, sendo presidente eleito e ditador durante o Estado Novo."
+  },
+  {
+    "id": 318,
+    "pergunta": "Qual foi a capital do Brasil durante o período colonial?",
+    "opcoes": ["Brasília", "Rio de Janeiro", "Ouro Preto", "Salvador"],
+    "correta": 3,
+    "explicacao": "A primeira capital do Brasil foi Salvador, durante o período colonial."
+  },
+  {
+    "id": 319,
+    "pergunta": "Quem foi José Bonifácio de Andrada e Silva?",
+    "opcoes": ["O Patriarca da Independência", "Imperador do Brasil", "General da Guerra do Paraguai", "Presidente do Brasil"],
+    "correta": 0,
+    "explicacao": "José Bonifácio foi um dos principais articuladores da Independência do Brasil, conhecido como Patriarca da Independência."
+  },
+  {
+    "id": 320,
+    "pergunta": "Qual movimento aconteceu em 1922, sendo importante para a cultura brasileira?",
+    "opcoes": ["Semana de Arte Moderna", "Revolta da Chibata", "Intentona Comunista", "Proclamação da República"],
+    "correta": 0,
+    "explicacao": "A Semana de Arte Moderna de 1922 foi um marco na renovação da arte e cultura brasileira."
+  },
+  {
+    "id": 321,
+    "pergunta": "Quem liderou a Coluna Prestes?",
+    "opcoes": ["Luís Carlos Prestes", "Getúlio Vargas", "Floriano Peixoto", "Oswaldo Aranha"],
+    "correta": 0,
+    "explicacao": "Luís Carlos Prestes foi o líder da Coluna Prestes, movimento político-militar da década de 1920."
+  },
+  {
+    "id": 322,
+    "pergunta": "Qual evento histórico ficou conhecido como 'Revolta da Chibata'?",
+    "opcoes": ["Revolta de escravos contra senhores", "Motim de marinheiros contra castigos físicos", "Protesto estudantil", "Revolta camponesa"],
+    "correta": 1,
+    "explicacao": "A Revolta da Chibata (1910) foi um levante de marinheiros contra os castigos físicos aplicados na Marinha."
+  },
+  {
+    "id": 323,
+    "pergunta": "Qual presidente brasileiro ficou conhecido como 'Pai dos Pobres'?",
+    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Tancredo Neves", "Lula"],
+    "correta": 1,
+    "explicacao": "Getúlio Vargas ficou conhecido como 'Pai dos Pobres' por suas políticas trabalhistas."
+  },
+  {
+    "id": 324,
+    "pergunta": "Quem governava Portugal quando a corte portuguesa se transferiu para o Brasil em 1808?",
+    "opcoes": ["Dom João VI", "Dom Pedro I", "Dom José I", "Dom Manuel II"],
+    "correta": 0,
+    "explicacao": "Dom João VI trouxe a corte portuguesa para o Rio de Janeiro em 1808, fugindo das tropas de Napoleão."
+  },
+  {
+    "id": 325,
+    "pergunta": "Qual país foi aliado do Brasil na Guerra do Paraguai?",
+    "opcoes": ["Chile", "Argentina", "Espanha", "Estados Unidos"],
+    "correta": 1,
+    "explicacao": "O Brasil lutou ao lado da Argentina e do Uruguai contra o Paraguai na Guerra do Paraguai."
+  },
+  {
+    "id": 326,
+    "pergunta": "Em que ano foi inaugurada Brasília?",
+    "opcoes": ["1945", "1955", "1960", "1970"],
+    "correta": 2,
+    "explicacao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo de Juscelino Kubitschek."
+  },
+  {
+    "id": 327,
+    "pergunta": "Quem foi Marechal Deodoro da Fonseca?",
+    "opcoes": ["O proclamador da República", "O líder da Independência", "Presidente da Constituinte de 1824", "General da Guerra do Paraguai"],
+    "correta": 0,
+    "explicacao": "Marechal Deodoro da Fonseca proclamou a República em 1889 e foi o primeiro presidente do Brasil."
+  },
+  {
+    "id": 328,
+    "pergunta": "Qual foi a principal atividade econômica do Brasil no período colonial?",
+    "opcoes": ["Mineração", "Pecuária", "Cana-de-açúcar", "Café"],
+    "correta": 2,
+    "explicacao": "Durante boa parte do período colonial, a cana-de-açúcar foi a principal atividade econômica do Brasil."
+  },
+  {
+    "id": 329,
+    "pergunta": "Qual foi o movimento popular que ocorreu em Canudos, na Bahia?",
+    "opcoes": ["Revolta dos Malês", "Revolta da Vacina", "Guerra de Canudos", "Balaiada"],
+    "correta": 2,
+    "explicacao": "A Guerra de Canudos (1896–1897) foi um conflito entre o exército e seguidores de Antônio Conselheiro."
   }
 ]
