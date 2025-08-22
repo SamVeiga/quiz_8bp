@@ -638,5 +638,145 @@
     "correta": 0,
     "nivel": "facil",
     "explicacao": "Patolino sempre dizia 'Você é desprezível!'."
+  },
+  {
+    "id": 100,
+    "pergunta": "Qual é o nome do robô do filme 'O Exterminador do Futuro'?",
+    "opcoes": ["R2-D2", "C-3PO", "T-800", "Wall-E"],
+    "correta": 2,
+    "explicacao": "O T-800 é o modelo de ciborgue vivido por Arnold Schwarzenegger na franquia 'O Exterminador do Futuro'."
+  },
+  {
+    "id": 101,
+    "pergunta": "Qual é o nome do brinquedo cowboy em 'Toy Story'?",
+    "opcoes": ["Buzz", "Woody", "Andy", "Jessie"],
+    "correta": 1,
+    "explicacao": "Woody é o brinquedo cowboy líder do grupo em 'Toy Story'."
+  },
+  {
+    "id": 102,
+    "pergunta": "Em 'Titanic', qual é o nome do personagem de Leonardo DiCaprio?",
+    "opcoes": ["Jack Dawson", "Mark Spencer", "Luke Harris", "John Carter"],
+    "correta": 0,
+    "explicacao": "Leonardo DiCaprio interpretou Jack Dawson em 'Titanic'."
+  },
+  {
+    "id": 103,
+    "pergunta": "No filme 'Harry Potter', quem é o diretor de Hogwarts?",
+    "opcoes": ["Dumbledore", "Snape", "Voldemort", "Sirius Black"],
+    "correta": 0,
+    "explicacao": "Alvo Dumbledore é o diretor de Hogwarts na maior parte da saga."
+  },
+  {
+    "id": 104,
+    "pergunta": "Qual é o famoso bordão de Buzz Lightyear em 'Toy Story'?",
+    "opcoes": ["Ao infinito e além!", "Eu sou seu pai!", "Hakuna Matata", "Que a Força esteja com você"],
+    "correta": 0,
+    "explicacao": "Buzz Lightyear sempre repete seu bordão: 'Ao infinito e além!'."
+  },
+  {
+    "id": 105,
+    "pergunta": "Quem disse a frase 'Eu sou seu pai' em 'Star Wars'?",
+    "opcoes": ["Luke Skywalker", "Obi-Wan Kenobi", "Darth Vader", "Yoda"],
+    "correta": 2,
+    "explicacao": "Darth Vader revela a Luke Skywalker a famosa frase: 'Eu sou seu pai'."
+  },
+  {
+    "id": 106,
+    "pergunta": "Qual é o nome do leão protagonista em 'O Rei Leão'?",
+    "opcoes": ["Mufasa", "Scar", "Simba", "Nala"],
+    "correta": 2,
+    "explicacao": "Simba é o filhote que cresce para se tornar o rei em 'O Rei Leão'."
+  },
+  {
+    "id": 107,
+    "pergunta": "No filme 'De Volta para o Futuro', qual é o nome do cientista?",
+    "opcoes": ["Doc Brown", "Dr. Who", "Professor X", "Dr. Strange"],
+    "correta": 0,
+    "explicacao": "O cientista é o excêntrico Doc Brown, criador da máquina do tempo DeLorean."
+  },
+  {
+    "id": 108,
+    "pergunta": "Em 'Jurassic Park', que tipo de dinossauro é o mais famoso?",
+    "opcoes": ["Triceratops", "Velociraptor", "Tiranossauro Rex", "Brontossauro"],
+    "correta": 2,
+    "explicacao": "O Tiranossauro Rex é a estrela principal em 'Jurassic Park'."
+  },
+  {
+    "id": 109,
+    "pergunta": "No filme 'Matrix', qual pílula Neo escolhe tomar?",
+    "opcoes": ["Azul", "Vermelha", "Verde", "Amarela"],
+    "correta": 1,
+    "explicacao": "Neo escolhe a pílula vermelha para conhecer a verdade sobre a Matrix."
+  },
+  {
+    "id": 110,
+    "pergunta": "Qual é o nome do peixe-palhaço em 'Procurando Nemo'?",
+    "opcoes": ["Nemo", "Dory", "Marlin", "Bruce"],
+    "correta": 0,
+    "explicacao": "O jovem peixe-palhaço se chama Nemo, protagonista do filme."
+  },
+  {
+    "id": 111,
+    "pergunta": "Em 'Os Caça-Fantasmas', qual é a cor do logotipo?",
+    "opcoes": ["Azul", "Verde", "Vermelho", "Amarelo"],
+    "correta": 2,
+    "explicacao": "O logotipo dos Caça-Fantasmas tem o fantasma com o símbolo de proibido em vermelho."
+  },
+  {
+    "id": 112,
+    "pergunta": "Qual é o super-herói que grita 'Shazam!' para se transformar?",
+    "opcoes": ["Flash", "Capitão Marvel", "Shazam", "Thor"],
+    "correta": 2,
+    "explicacao": "O jovem Billy Batson se transforma em Shazam ao gritar a palavra mágica."
+  },
+  {
+    "id": 113,
+    "pergunta": "No filme 'Homem-Aranha', qual é o verdadeiro nome do herói?",
+    "opcoes": ["Clark Kent", "Tony Stark", "Peter Parker", "Bruce Wayne"],
+    "correta": 2,
+    "explicacao": "O Homem-Aranha é Peter Parker, criado por Stan Lee e Steve Ditko."
+  },
+  {
+    "id": 114,
+    "pergunta": "Quem é o vilão de 'Pantera Negra'?",
+    "opcoes": ["Killmonger", "Thanos", "Ultron", "Loki"],
+    "correta": 0,
+    "explicacao": "Erik Killmonger é o principal vilão de 'Pantera Negra'."
+  },
+  {
+    "id": 115,
+    "pergunta": "Em 'Frozen', qual é o nome da irmã de Elsa?",
+    "opcoes": ["Anna", "Moana", "Rapunzel", "Ariel"],
+    "correta": 0,
+    "explicacao": "Anna é a irmã mais nova de Elsa em 'Frozen'."
+  },
+  {
+    "id": 116,
+    "pergunta": "Qual é o nome do ogro verde protagonista de uma famosa animação?",
+    "opcoes": ["Shrek", "Fiona", "Burro", "Hulk"],
+    "correta": 0,
+    "explicacao": "O ogro verde é Shrek, personagem principal da animação da DreamWorks."
+  },
+  {
+    "id": 117,
+    "pergunta": "Em 'A Bela e a Fera', o que Bela adora fazer?",
+    "opcoes": ["Cantar", "Caçar", "Ler livros", "Dançar"],
+    "correta": 2,
+    "explicacao": "Bela adora ler livros e é conhecida por seu amor pela leitura."
+  },
+  {
+    "id": 118,
+    "pergunta": "No filme 'Gladiador', quem é o ator que interpreta Maximus?",
+    "opcoes": ["Mel Gibson", "Russell Crowe", "Brad Pitt", "Tom Cruise"],
+    "correta": 1,
+    "explicacao": "Russell Crowe interpreta Maximus em 'Gladiador'."
+  },
+  {
+    "id": 119,
+    "pergunta": "Em 'Homens de Preto', qual é a cor dos ternos usados pelos agentes?",
+    "opcoes": ["Cinza", "Azul", "Preto", "Branco"],
+    "correta": 2,
+    "explicacao": "Os agentes J e K usam ternos pretos característicos no filme 'Homens de Preto'."
   }
 ]
