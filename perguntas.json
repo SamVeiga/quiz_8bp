@@ -398,5 +398,245 @@
     "correta": 2,
     "nivel": "facil",
     "explicacao": "Leonardo é o líder das Tartarugas Ninja, com a faixa azul e espadas katanas."
+  },
+  {
+    "id": 51,
+    "pergunta": "Qual era o nome do macaco amigo do He-Man que vivia atrapalhando?",
+    "opcoes": ["Orko", "Cringer", "Mentor", "Gloop"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Orko era o feiticeiro trapalhão que acompanhava He-Man."
+  },
+  {
+    "id": 52,
+    "pergunta": "Em Dragon Ball, qual era o nome do mestre baixinho que treinou Goku?",
+    "opcoes": ["Mestre Kame", "Mestre Karin", "Mestre Kaioh", "Yamcha"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Mestre Kame (ou Mestre Roshi) foi o primeiro treinador de Goku."
+  },
+  {
+    "id": 53,
+    "pergunta": "Qual é o nome da protagonista de Kim Possible?",
+    "opcoes": ["Kim", "Shego", "Rufus", "Bonnie"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Kim Possible era a adolescente espiã que salvava o mundo."
+  },
+  {
+    "id": 54,
+    "pergunta": "Qual era o nome do vilão que enfrentava o Inspetor Bugiganga?",
+    "opcoes": ["Dr. Claw", "Dr. Mad", "Dr. Evil", "Dr. Mask"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Dr. Claw era o misterioso vilão da série."
+  },
+  {
+    "id": 55,
+    "pergunta": "Qual é o nome do esquilo que vivia com o Tico?",
+    "opcoes": ["Teco", "Catatau", "Jerry", "Pluto"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "A dupla clássica era Tico e Teco."
+  },
+  {
+    "id": 56,
+    "pergunta": "Qual era o nome da super-heroína que dizia 'Laços da Verdade!'?",
+    "opcoes": ["Mulher Maravilha", "She-Ra", "Florzinha", "Docinho"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "A Mulher Maravilha usava o Laço da Verdade como arma."
+  },
+  {
+    "id": 57,
+    "pergunta": "Quem era o dono do gato Garfield?",
+    "opcoes": ["Jon", "Tom", "Jerry", "Fred"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Jon Arbuckle era o dono do Garfield."
+  },
+  {
+    "id": 58,
+    "pergunta": "Qual era o nome do amigo nerd do desenho Jimmy Neutron?",
+    "opcoes": ["Carl", "Sheen", "Nick", "Cindy"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Carl Wheezer era o amigo nerd e engraçado de Jimmy."
+  },
+  {
+    "id": 59,
+    "pergunta": "Qual é o nome do pato rico que cuidava dos sobrinhos Huguinho, Zezinho e Luisinho?",
+    "opcoes": ["Tio Patinhas", "Donald", "Patolino", "Pato Lucas"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "O tio deles era o famoso Tio Patinhas."
+  },
+  {
+    "id": 60,
+    "pergunta": "Qual era o nome da casa falante que ajudava os protagonistas em Os Impossíveis?",
+    "opcoes": ["Casa dos Impossíveis", "QG", "Impossible HQ", "Base X"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "A Casa dos Impossíveis era o quartel-general da equipe."
+  },
+  {
+    "id": 61,
+    "pergunta": "Qual era o nome do vilão que gritava 'Eu vou pegar você, He-Man!'?",
+    "opcoes": ["Skeletor", "Mumm-Ra", "Gárgamel", "Vingador"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "O bordão clássico era de Skeletor."
+  },
+  {
+    "id": 62,
+    "pergunta": "Qual era o nome do mordomo dos Batman: Desenho Animado?",
+    "opcoes": ["Alfred", "James", "Higgins", "Arthur"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Alfred Pennyworth era o mordomo e confidente do Batman."
+  },
+  {
+    "id": 63,
+    "pergunta": "Qual era o nome da vilã principal de Carmen Sandiego?",
+    "opcoes": ["Carmen", "Shego", "Madame Rouge", "Hera Venenosa"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Carmen Sandiego era a própria vilã e protagonista do desenho."
+  },
+  {
+    "id": 64,
+    "pergunta": "Quem era o dono da gata Hello Kitty?",
+    "opcoes": ["Ela não tem dono", "Uma menina chamada Cathy", "Uma menina chamada Melody", "Uma menina chamada Mimmy"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Hello Kitty é retratada como uma personagem independente, não tem dono."
+  },
+  {
+    "id": 65,
+    "pergunta": "Qual era o nome do cachorro branco do desenho Johnny Bravo?",
+    "opcoes": ["Brutus", "Whitey", "Scooby", "Não tinha"],
+    "correta": 3,
+    "nivel": "medio",
+    "explicacao": "Johnny Bravo não tinha cachorro fixo, o desenho focava nele mesmo."
+  },
+  {
+    "id": 66,
+    "pergunta": "Quem era o vilão principal de DuckTales?",
+    "opcoes": ["Patacôncio", "Patolino", "Donald", "Gavião Arqueiro"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Patacôncio era o rival do Tio Patinhas em DuckTales."
+  },
+  {
+    "id": 67,
+    "pergunta": "Qual era o nome da pedra que dava poderes em Capitão Planeta?",
+    "opcoes": ["Cristal", "Anel", "Planeta", "Eco"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Os cinco jovens usavam anéis mágicos para invocar o Capitão Planeta."
+  },
+  {
+    "id": 68,
+    "pergunta": "Qual era o bordão clássico do Máskara?",
+    "opcoes": ["Ssssssssmokin’!", "Yabba Dabba Doo!", "Cowabunga!", "Isso, isso, isso!"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Quando colocava a máscara, ele dizia 'Ssssssssmokin’!'."
+  },
+  {
+    "id": 69,
+    "pergunta": "Qual era o nome do protagonista do desenho Samurai X?",
+    "opcoes": ["Kenshin", "Rurouni", "Himura", "Shinta"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "O protagonista era Kenshin Himura, conhecido como Samurai X."
+  },
+  {
+    "id": 70,
+    "pergunta": "Qual era o nome do cavalo falante que aparecia em Hanna-Barbera?",
+    "opcoes": ["Pepe Legal", "Bambam", "Quick Draw McGraw", "BoJack"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Quick Draw McGraw era o cavalo xerife da Hanna-Barbera."
+  },
+  {
+    "id": 71,
+    "pergunta": "Qual era o nome do cachorro do desenho Corrida Maluca que ria esquisito?",
+    "opcoes": ["Muttley", "Pateta", "Catatau", "Jerry"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Muttley era o cachorro do Dick Vigarista, famoso por sua risada."
+  },
+  {
+    "id": 72,
+    "pergunta": "Qual era o nome da personagem ruiva de Scooby-Doo?",
+    "opcoes": ["Velma", "Daphne", "Patty", "Wilma"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Daphne era a integrante ruiva da turma."
+  },
+  {
+    "id": 73,
+    "pergunta": "Qual era o nome da série com uma vaca e um frango?",
+    "opcoes": ["Uma Vaca e Um Frango", "Animaniacs", "Coragem", "Billy e Mandy"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "O desenho se chamava literalmente 'Uma Vaca e Um Frango'."
+  },
+  {
+    "id": 74,
+    "pergunta": "Qual era o nome do personagem que gritava 'Eu tenho a força!'?",
+    "opcoes": ["He-Man", "Lion-O", "Capitão Planeta", "Superman"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "He-Man dizia 'Eu tenho a força!' ao se transformar."
+  },
+  {
+    "id": 75,
+    "pergunta": "Qual era o nome do vilão inimigo das Tartarugas Ninja que usava armadura metálica?",
+    "opcoes": ["Destruidor", "Krang", "Shredder", "Baxter"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Shredder, conhecido como Destruidor, era o vilão principal."
+  },
+  {
+    "id": 76,
+    "pergunta": "Qual era o nome da tartaruga ninja que usava máscara laranja?",
+    "opcoes": ["Donatello", "Leonardo", "Rafael", "Michelangelo"],
+    "correta": 3,
+    "nivel": "facil",
+    "explicacao": "Michelangelo usava a máscara laranja e adorava pizza."
+  },
+  {
+    "id": 77,
+    "pergunta": "Qual era o nome do peixe-palhaço de Procurando Nemo?",
+    "opcoes": ["Nemo", "Dory", "Marlin", "Bruce"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "O protagonista era o peixinho Nemo."
+  },
+  {
+    "id": 78,
+    "pergunta": "Qual era o nome do desenho onde crianças jogavam cartas chamadas Duel Monsters?",
+    "opcoes": ["Yu-Gi-Oh!", "Digimon", "Pokémon", "Beyblade"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Yu-Gi-Oh! era sobre os duelos de cartas mágicas."
+  },
+  {
+    "id": 79,
+    "pergunta": "Qual era o nome do robô azul amigo do menino Nobita?",
+    "opcoes": ["Astro Boy", "Doraemon", "Voltron", "Mega Man"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Doraemon era o gato robô azul que ajudava Nobita."
+  },
+  {
+    "id": 80,
+    "pergunta": "Qual era o bordão clássico do Patolino?",
+    "opcoes": ["Você é desprezível!", "Que que há, velhinho?", "Yabba Dabba Doo!", "Smokin’!"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Patolino sempre dizia 'Você é desprezível!'."
   }
 ]
