@@ -259,7 +259,6 @@ def zerar_ranking_diario():
 # 🔧 INICIAR TUDO
 if __name__ == "__main__":
     carregar_perguntas_feitas()
-    threading.Thread(target=zerar_ranking_diario).start()
-    threading.Thread(target=manter_vivo).start()
-    port = int(os.getenv("PORT", 10000))
-    app.run(host="0.0.0.0", port=port)
+    threading.Thread(target=zerar_ranking_diario, daemon=True).start()
+    threading.Thread(target=manter_vivo, daemon=True).start()
+    bot.infinity_polling()
