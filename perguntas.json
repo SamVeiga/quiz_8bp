@@ -780,405 +780,6 @@
     "explicacao": "Os agentes J e K usam ternos pretos característicos no filme 'Homens de Preto'."
   },
   {
-    "id": 150,
-    "pergunta": "Qual era o nome da empregada vivida por Regina Duarte em 'Rainha da Sucata'?",
-    "opcoes": ["Maria do Carmo", "Lurdes", "Maria do Céu", "Laurinha Figueiroa"],
-    "correta": 0,
-    "explicacao": "Em 'Rainha da Sucata', Regina Duarte interpretava Maria do Carmo."
-  },
-  {
-    "id": 151,
-    "pergunta": "Qual era o bordão de Odete Roitman em 'Vale Tudo'?",
-    "opcoes": ["Eu não sou obrigada!", "Que país é este?", "Me serve!", "Sai da minha frente!"],
-    "correta": 1,
-    "explicacao": "Odete Roitman imortalizou o bordão 'Que país é este?' em 'Vale Tudo'."
-  },
-  {
-    "id": 152,
-    "pergunta": "Quem matou Odete Roitman em 'Vale Tudo'?",
-    "opcoes": ["Leila", "Maria de Fátima", "Raquel", "Heleninha"],
-    "correta": 0,
-    "explicacao": "A assassina de Odete Roitman foi Leila, papel de Cássia Kis."
-  },
-  {
-    "id": 153,
-    "pergunta": "Qual era o apelido de Nazaré Tedesco em 'Senhora do Destino'?",
-    "opcoes": ["Vilã do Brasil", "Naza", "Rainha do Mal", "Nazaré meme"],
-    "correta": 1,
-    "explicacao": "Nazaré Tedesco, interpretada por Renata Sorrah, era chamada de 'Naza'."
-  },
-  {
-    "id": 154,
-    "pergunta": "Em 'Senhora do Destino', qual era o nome da filha sequestrada por Nazaré?",
-    "opcoes": ["Maria do Carmo", "Isabel", "Clara", "Regina"],
-    "correta": 1,
-    "explicacao": "Isabel foi sequestrada por Nazaré em 'Senhora do Destino'."
-  },
-  {
-    "id": 155,
-    "pergunta": "Em 'O Clone', qual era o nome da personagem de Giovanna Antonelli?",
-    "opcoes": ["Jade", "Mel", "Deusa", "Zoraide"],
-    "correta": 0,
-    "explicacao": "Giovanna Antonelli interpretava Jade em 'O Clone'."
-  },
-  {
-    "id": 156,
-    "pergunta": "Qual era o vício de Mel em 'O Clone'?",
-    "opcoes": ["Álcool", "Cigarro", "Drogas", "Jogo"],
-    "correta": 2,
-    "explicacao": "Mel, interpretada por Débora Falabella, sofria com dependência de drogas em 'O Clone'."
-  },
-  {
-    "id": 157,
-    "pergunta": "Em 'Roque Santeiro', qual era o nome da viúva interpretada por Regina Duarte?",
-    "opcoes": ["Viúva Porcina", "Viúva Negra", "Viúva Dona Bela", "Viúva Zefa"],
-    "correta": 0,
-    "explicacao": "Regina Duarte deu vida à famosa Viúva Porcina em 'Roque Santeiro'."
-  },
-  {
-    "id": 158,
-    "pergunta": "Qual era o bordão do personagem Sinhozinho Malta em 'Roque Santeiro'?",
-    "opcoes": ["Tô certo ou tô errado?", "Eita mundo velho!", "Estou aqui!", "Me respeita!"],
-    "correta": 0,
-    "explicacao": "Sinhozinho Malta, interpretado por Lima Duarte, dizia 'Tô certo ou tô errado?'."
-  },
-  {
-    "id": 159,
-    "pergunta": "Qual novela tinha a personagem Carminha como vilã?",
-    "opcoes": ["Avenida Brasil", "Senhora do Destino", "O Clone", "Vale Tudo"],
-    "correta": 0,
-    "explicacao": "Carminha, vivida por Adriana Esteves, foi a grande vilã de 'Avenida Brasil'."
-  },
-  {
-    "id": 160,
-    "pergunta": "Qual era o apelido da mocinha Rita em 'Avenida Brasil'?",
-    "opcoes": ["Ritinha", "Batata", "Carminha", "Nina"],
-    "correta": 3,
-    "explicacao": "Rita cresceu e virou Nina em 'Avenida Brasil'."
-  },
-  {
-    "id": 161,
-    "pergunta": "Quem interpretava Tufão em 'Avenida Brasil'?",
-    "opcoes": ["Murilo Benício", "Tony Ramos", "Cauã Reymond", "Marcelo Novaes"],
-    "correta": 0,
-    "explicacao": "Tufão foi interpretado por Murilo Benício em 'Avenida Brasil'."
-  },
-  {
-    "id": 162,
-    "pergunta": "Qual era o nome da mãe de Juma Marruá em 'Pantanal'?",
-    "opcoes": ["Maria Marruá", "Filó", "Irma", "Zuleica"],
-    "correta": 0,
-    "explicacao": "Maria Marruá, interpretada por Cássia Kis, era mãe de Juma em 'Pantanal'."
-  },
-  {
-    "id": 163,
-    "pergunta": "Qual animal Juma Marruá se transformava em 'Pantanal'?",
-    "opcoes": ["Onça", "Cobra", "Lobo", "Sapo"],
-    "correta": 0,
-    "explicacao": "Juma Marruá tinha o dom de se transformar em onça em 'Pantanal'."
-  },
-  {
-    "id": 164,
-    "pergunta": "Qual era o bordão de Félix em 'Amor à Vida'?",
-    "opcoes": ["Cada mergulho é um flash!", "Ce salve, salve!", "Vocês não valem o que comem!", "Tchau, querida!"],
-    "correta": 2,
-    "explicacao": "Félix, interpretado por Mateus Solano, dizia 'Vocês não valem o que comem!'."
-  },
-  {
-    "id": 165,
-    "pergunta": "Quem era a protagonista de 'Cheias de Charme'?",
-    "opcoes": ["As Empreguetes", "As Patroetes", "As Poderosas", "As Divinas"],
-    "correta": 0,
-    "explicacao": "A novela 'Cheias de Charme' foi protagonizada pelas Empreguetes."
-  },
-  {
-    "id": 166,
-    "pergunta": "Qual era o nome da música mais famosa das Empreguetes?",
-    "opcoes": ["Vida de Empreguete", "Cheias de Charme", "Domésticas Unidas", "Bate o Pano"],
-    "correta": 0,
-    "explicacao": "'Vida de Empreguete' foi o grande hit das Empreguetes em 'Cheias de Charme'."
-  },
-  {
-    "id": 167,
-    "pergunta": "Em 'Tieta', quem interpretava a protagonista?",
-    "opcoes": ["Susana Vieira", "Betty Faria", "Regina Duarte", "Glória Menezes"],
-    "correta": 1,
-    "explicacao": "A protagonista Tieta foi interpretada por Betty Faria."
-  },
-  {
-    "id": 168,
-    "pergunta": "Qual era o apelido de José Inocêncio em 'Renascer'?",
-    "opcoes": ["Sinhô", "Coronel", "Zé Inocêncio", "Velho do Rio"],
-    "correta": 2,
-    "explicacao": "José Inocêncio era conhecido como Zé Inocêncio em 'Renascer'."
-  },
-  {
-    "id": 169,
-    "pergunta": "Em 'Renascer', qual entidade mística aparecia como guardião da floresta?",
-    "opcoes": ["Saci", "Velho do Rio", "Curupira", "Boitatá"],
-    "correta": 1,
-    "explicacao": "O Velho do Rio era o guardião da floresta em 'Renascer'."
-  },
-  {
-    "id": 170,
-    "pergunta": "Qual era o nome da protagonista de 'Laços de Família'?",
-    "opcoes": ["Helena", "Camila", "Irene", "Clara"],
-    "correta": 0,
-    "explicacao": "Helena, interpretada por Vera Fischer, era a protagonista de 'Laços de Família'."
-  },
-  {
-    "id": 171,
-    "pergunta": "Quem raspou a cabeça em 'Laços de Família' para tratar câncer?",
-    "opcoes": ["Helena", "Camila", "Clara", "Íris"],
-    "correta": 1,
-    "explicacao": "Camila, personagem de Carolina Dieckmann, raspou a cabeça em 'Laços de Família'."
-  },
-  {
-    "id": 172,
-    "pergunta": "Qual novela tinha o personagem Crô como mordomo?",
-    "opcoes": ["Fina Estampa", "Império", "Amor à Vida", "O Clone"],
-    "correta": 0,
-    "explicacao": "Crô, interpretado por Marcelo Serrado, era mordomo em 'Fina Estampa'."
-  },
-  {
-    "id": 173,
-    "pergunta": "Qual era o nome verdadeiro de Crô em 'Fina Estampa'?",
-    "opcoes": ["Crocodilo", "Crodoaldo Valério", "Cromácio", "Crovinho"],
-    "correta": 1,
-    "explicacao": "O verdadeiro nome de Crô era Crodoaldo Valério."
-  },
-  {
-    "id": 174,
-    "pergunta": "Qual atriz interpretava a vilã Flora em 'A Favorita'?",
-    "opcoes": ["Patrícia Pillar", "Cláudia Raia", "Adriana Esteves", "Renata Sorrah"],
-    "correta": 0,
-    "explicacao": "Patrícia Pillar interpretava Flora, a vilã de 'A Favorita'."
-  },
-  {
-    "id": 175,
-    "pergunta": "Quem era a rival de Flora em 'A Favorita'?",
-    "opcoes": ["Irene", "Donatela", "Lara", "Silveirinha"],
-    "correta": 1,
-    "explicacao": "Donatela, interpretada por Cláudia Raia, era rival de Flora."
-  },
-  {
-    "id": 176,
-    "pergunta": "Qual novela tinha o casal Lucas e Lara interpretados por Reynaldo Gianecchini e Mariana Ximenes?",
-    "opcoes": ["Passione", "Esperança", "Belíssima", "Terra Nostra"],
-    "correta": 0,
-    "explicacao": "Em 'Passione', Reynaldo Gianecchini e Mariana Ximenes formavam casal."
-  },
-  {
-    "id": 177,
-    "pergunta": "Em 'Esperança', qual era o tema principal?",
-    "opcoes": ["Imigração italiana", "Imigração espanhola", "Imigração alemã", "Imigração japonesa"],
-    "correta": 0,
-    "explicacao": "'Esperança' retratava a imigração italiana no Brasil."
-  },
-  {
-    "id": 178,
-    "pergunta": "Qual era o nome da vilã interpretada por Cláudia Abreu em 'Celebridade'?",
-    "opcoes": ["Maria Clara", "Laura", "Beatriz", "Ingrid"],
-    "correta": 1,
-    "explicacao": "Laura, interpretada por Cláudia Abreu, era a grande vilã de 'Celebridade'."
-  },
-  {
-    "id": 179,
-    "pergunta": "Qual era o bordão de Dona Jura em 'O Clone'?",
-    "opcoes": ["Não é brinquedo, não!", "Olha a faca!", "Cada mergulho é um flash!", "Me serve!"],
-    "correta": 0,
-    "explicacao": "Dona Jura, vivida por Solange Couto, dizia 'Não é brinquedo, não!' em 'O Clone'."
-  },
-  {
-    "id": 210,
-    "pergunta": "Qual é o nome do personagem principal do filme 'O Máskara'?",
-    "opcoes": ["Stanley Ipkiss", "Ace Ventura", "Peter Parker", "Bruce Nolan"],
-    "correta": 0,
-    "explicacao": "Em 'O Máskara', Jim Carrey interpreta Stanley Ipkiss."
-  },
-  {
-    "id": 211,
-    "pergunta": "Quem interpreta o detetive atrapalhado em 'Corra que a Polícia Vem Aí'?",
-    "opcoes": ["Leslie Nielsen", "Jim Carrey", "Eddie Murphy", "Adam Sandler"],
-    "correta": 0,
-    "explicacao": "Leslie Nielsen interpreta o hilário detetive Frank Drebin."
-  },
-  {
-    "id": 212,
-    "pergunta": "Qual é o nome do filme em que um bebê foge de sequestradores pela cidade?",
-    "opcoes": ["Olha Quem Está Falando", "Ninguém Segura Esse Bebê", "Querida, Encolhi as Crianças", "Doze é Demais"],
-    "correta": 1,
-    "explicacao": "'Ninguém Segura Esse Bebê' é a comédia em que o bebê escapa dos sequestradores."
-  },
-  {
-    "id": 213,
-    "pergunta": "No filme 'Esqueceram de Mim', onde Kevin é deixado sozinho?",
-    "opcoes": ["Na escola", "No avião", "Em casa", "No hotel"],
-    "correta": 2,
-    "explicacao": "Kevin fica sozinho em casa em 'Esqueceram de Mim'."
-  },
-  {
-    "id": 214,
-    "pergunta": "Quem protagoniza 'Um Príncipe em Nova York'?",
-    "opcoes": ["Will Smith", "Eddie Murphy", "Martin Lawrence", "Chris Rock"],
-    "correta": 1,
-    "explicacao": "Eddie Murphy vive o príncipe Akeem em 'Um Príncipe em Nova York'."
-  },
-  {
-    "id": 215,
-    "pergunta": "Em 'Click', qual objeto mágico Adam Sandler encontra?",
-    "opcoes": ["Um celular", "Um espelho", "Um controle remoto", "Um relógio"],
-    "correta": 2,
-    "explicacao": "O personagem encontra um controle remoto que controla sua vida."
-  },
-  {
-    "id": 216,
-    "pergunta": "Qual é o nome do filme em que Jack Black forma uma banda com alunos?",
-    "opcoes": ["Escola de Rock", "High School Musical", "Professora Sem Classe", "O Substituto"],
-    "correta": 0,
-    "explicacao": "'Escola de Rock' traz Jack Black ensinando rock para alunos."
-  },
-  {
-    "id": 217,
-    "pergunta": "Em 'Ace Ventura', qual é a profissão do personagem de Jim Carrey?",
-    "opcoes": ["Policial", "Detetive de animais", "Professor", "Mágico"],
-    "correta": 1,
-    "explicacao": "Ace Ventura é um detetive especializado em encontrar animais."
-  },
-  {
-    "id": 218,
-    "pergunta": "Quem interpreta Lloyd em 'Debi & Lóide'?",
-    "opcoes": ["Adam Sandler", "Jim Carrey", "Ben Stiller", "Rob Schneider"],
-    "correta": 1,
-    "explicacao": "Jim Carrey vive Lloyd em 'Debi & Lóide'."
-  },
-  {
-    "id": 219,
-    "pergunta": "Qual comédia mostra Ben Stiller conhecendo os pais da namorada?",
-    "opcoes": ["Quem Vai Ficar com Mary?", "Entrando Numa Fria", "Duplex", "O Paizão"],
-    "correta": 1,
-    "explicacao": "'Entrando Numa Fria' mostra as trapalhadas de Ben Stiller conhecendo os sogros."
-  },
-  {
-    "id": 220,
-    "pergunta": "Em 'As Branquelas', o que os irmãos Wayans fazem?",
-    "opcoes": ["Se disfarçam de mulheres brancas", "Viraram rappers", "Abrem um salão de beleza", "Fingem ser professores"],
-    "correta": 0,
-    "explicacao": "Os dois agentes se disfarçam de socialites loiras em 'As Branquelas'."
-  },
-  {
-    "id": 221,
-    "pergunta": "Qual ator vive Adam Sandler no filme 'Como Se Fosse a Primeira Vez'?",
-    "opcoes": ["Ben Stiller", "Jim Carrey", "Adam Sandler", "Owen Wilson"],
-    "correta": 2,
-    "explicacao": "Adam Sandler interpreta Henry em 'Como Se Fosse a Primeira Vez'."
-  },
-  {
-    "id": 222,
-    "pergunta": "Quem faz par romântico com Adam Sandler em 'Como Se Fosse a Primeira Vez'?",
-    "opcoes": ["Cameron Diaz", "Jennifer Aniston", "Drew Barrymore", "Julia Roberts"],
-    "correta": 2,
-    "explicacao": "Drew Barrymore interpreta Lucy em 'Como Se Fosse a Primeira Vez'."
-  },
-  {
-    "id": 223,
-    "pergunta": "Em 'Se Beber, Não Case!', onde acontece a despedida de solteiro?",
-    "opcoes": ["Las Vegas", "Miami", "Los Angeles", "Nova York"],
-    "correta": 0,
-    "explicacao": "O filme mostra a confusão da despedida em Las Vegas."
-  },
-  {
-    "id": 224,
-    "pergunta": "Qual ator interpreta o segurança Paul Blart em 'Segurança de Shopping'?",
-    "opcoes": ["Adam Sandler", "Kevin James", "Seth Rogen", "Jack Black"],
-    "correta": 1,
-    "explicacao": "Kevin James é o atrapalhado Paul Blart."
-  },
-  {
-    "id": 225,
-    "pergunta": "Em 'Meu Nome Não é Johnny', quem interpreta Johnny?",
-    "opcoes": ["Wagner Moura", "Lázaro Ramos", "Selton Mello", "Rodrigo Santoro"],
-    "correta": 2,
-    "explicacao": "Selton Mello vive Johnny no filme nacional 'Meu Nome Não é Johnny'."
-  },
-  {
-    "id": 226,
-    "pergunta": "Qual filme mostra Robin Williams disfarçado de babá?",
-    "opcoes": ["Uma Babá Quase Perfeita", "Um Tira no Jardim de Infância", "Duplex", "A Creche do Papai"],
-    "correta": 0,
-    "explicacao": "Robin Williams se disfarça em 'Uma Babá Quase Perfeita'."
-  },
-  {
-    "id": 227,
-    "pergunta": "Em 'Um Tira no Jardim de Infância', quem é o protagonista?",
-    "opcoes": ["Sylvester Stallone", "Arnold Schwarzenegger", "Bruce Willis", "Chuck Norris"],
-    "correta": 1,
-    "explicacao": "Arnold Schwarzenegger vive o tira disfarçado de professor."
-  },
-  {
-    "id": 228,
-    "pergunta": "Qual é o nome do panda protagonista do filme de animação 'Kung Fu Panda'?",
-    "opcoes": ["Po", "Ping", "Tai Lung", "Shifu"],
-    "correta": 0,
-    "explicacao": "O panda Po é o herói em 'Kung Fu Panda'."
-  },
-  {
-    "id": 229,
-    "pergunta": "Em 'Norbit', quem interpreta vários personagens ao mesmo tempo?",
-    "opcoes": ["Martin Lawrence", "Eddie Murphy", "Chris Tucker", "Jamie Foxx"],
-    "correta": 1,
-    "explicacao": "Eddie Murphy interpreta múltiplos personagens em 'Norbit'."
-  },
-  {
-    "id": 230,
-    "pergunta": "Quem protagoniza a comédia nacional 'Minha Mãe é uma Peça'?",
-    "opcoes": ["Paulo Gustavo", "Leandro Hassum", "Lázaro Ramos", "Fábio Porchat"],
-    "correta": 0,
-    "explicacao": "Paulo Gustavo vive Dona Hermínia em 'Minha Mãe é uma Peça'."
-  },
-  {
-    "id": 231,
-    "pergunta": "Em 'Até que a Sorte nos Separe', quem interpreta Tino?",
-    "opcoes": ["Fábio Porchat", "Leandro Hassum", "Marcelo Adnet", "Danilo Gentili"],
-    "correta": 1,
-    "explicacao": "Leandro Hassum é Tino na comédia 'Até que a Sorte nos Separe'."
-  },
-  {
-    "id": 232,
-    "pergunta": "Qual filme mostra um grupo de amigos voltando à infância em um parque aquático?",
-    "opcoes": ["Esposa de Mentirinha", "Gente Grande", "Click", "Professora Sem Classe"],
-    "correta": 1,
-    "explicacao": "'Gente Grande' traz Adam Sandler e amigos em clima nostálgico."
-  },
-  {
-    "id": 233,
-    "pergunta": "Em 'Professora Sem Classe', quem interpreta a professora?",
-    "opcoes": ["Sandra Bullock", "Jennifer Aniston", "Cameron Diaz", "Reese Witherspoon"],
-    "correta": 2,
-    "explicacao": "Cameron Diaz é a professora nada exemplar."
-  },
-  {
-    "id": 234,
-    "pergunta": "Em 'O Paizão', quem interpreta o homem que adota uma criança?",
-    "opcoes": ["Adam Sandler", "Ben Stiller", "Jim Carrey", "Owen Wilson"],
-    "correta": 0,
-    "explicacao": "Adam Sandler adota uma criança em 'O Paizão'."
-  },
-  {
-    "id": 235,
-    "pergunta": "Qual ator vive Derek Zoolander em 'Zoolander'",
-    "opcoes": ["Ben Stiller", "Owen Wilson", "Will Ferrell", "Vince Vaughn"],
-    "correta": 0,
-    "explicacao": "Ben Stiller interpreta o modelo Derek Zoolander."
-  },
-  {
-    "id": 236,
-    "pergunta": "Qual comédia mostra um cachorro que causa confusão na família Newton?",
-    "opcoes": ["Beethoven", "Marley & Eu", "101 Dálmatas", "Scooby-Doo"],
-    "correta": 0,
-    "explicacao": "'Beethoven' mostra as trapalhadas do São Bernardo gigante."
-  },
-  {
     "id": 237,
     "pergunta": "Quem protagoniza 'Todo Mundo em Pânico'?",
     "opcoes": ["Shawn Wayans e Marlon Wayans", "Ben Stiller e Owen Wilson", "Adam Sandler e Kevin James", "Jim Carrey e Jeff Daniels"],
@@ -1921,46 +1522,11 @@
     "explicacao": "Marechal Deodoro da Fonseca foi o primeiro presidente após a Proclamação da República em 1889."
   },
   {
-    "id": 313,
-    "pergunta": "Em que ano foi proclamada a República no Brasil?",
-    "opcoes": ["1822", "1889", "1930", "1964"],
-    "correta": 1,
-    "explicacao": "A Proclamação da República ocorreu em 15 de novembro de 1889."
-  },
-  {
-    "id": 314,
-    "pergunta": "Quem foi a princesa responsável por assinar a Lei Áurea?",
-    "opcoes": ["Princesa Isabel", "Rainha Carlota Joaquina", "Dona Leopoldina", "Maria da Glória"],
-    "correta": 0,
-    "explicacao": "A Princesa Isabel assinou a Lei Áurea em 13 de maio de 1888, abolindo a escravidão."
-  },
-  {
-    "id": 315,
-    "pergunta": "Qual foi o principal conflito internacional do qual o Brasil participou no século XIX?",
-    "opcoes": ["Guerra do Pacífico", "Guerra do Paraguai", "Guerra da Cisplatina", "Primeira Guerra Mundial"],
-    "correta": 1,
-    "explicacao": "A Guerra do Paraguai (1864–1870) foi o maior conflito da América do Sul, com forte participação do Brasil."
-  },
-  {
     "id": 316,
     "pergunta": "Onde começou o movimento conhecido como Cabanagem?",
     "opcoes": ["Pará", "Bahia", "Rio Grande do Sul", "Minas Gerais"],
     "correta": 0,
     "explicacao": "A Cabanagem foi uma revolta popular que ocorreu no Pará entre 1835 e 1840."
-  },
-  {
-    "id": 317,
-    "pergunta": "Quem foi Getúlio Vargas?",
-    "opcoes": ["Imperador do Brasil", "Presidente do Brasil", "Militar da Guerra do Paraguai", "Líder da Inconfidência"],
-    "correta": 1,
-    "explicacao": "Getúlio Vargas governou o Brasil em duas ocasiões, sendo presidente eleito e ditador durante o Estado Novo."
-  },
-  {
-    "id": 318,
-    "pergunta": "Qual foi a capital do Brasil durante o período colonial?",
-    "opcoes": ["Brasília", "Rio de Janeiro", "Ouro Preto", "Salvador"],
-    "correta": 3,
-    "explicacao": "A primeira capital do Brasil foi Salvador, durante o período colonial."
   },
   {
     "id": 319,
@@ -1975,13 +1541,6 @@
     "opcoes": ["Semana de Arte Moderna", "Revolta da Chibata", "Intentona Comunista", "Proclamação da República"],
     "correta": 0,
     "explicacao": "A Semana de Arte Moderna de 1922 foi um marco na renovação da arte e cultura brasileira."
-  },
-  {
-    "id": 321,
-    "pergunta": "Quem liderou a Coluna Prestes?",
-    "opcoes": ["Luís Carlos Prestes", "Getúlio Vargas", "Floriano Peixoto", "Oswaldo Aranha"],
-    "correta": 0,
-    "explicacao": "Luís Carlos Prestes foi o líder da Coluna Prestes, movimento político-militar da década de 1920."
   },
   {
     "id": 322,
@@ -2180,13 +1739,6 @@
     "explicacao": "José Bonifácio foi um dos principais articuladores da Independência do Brasil, conhecido como Patriarca da Independência."
   },
   {
-    "id": 320,
-    "pergunta": "Qual movimento aconteceu em 1922, sendo importante para a cultura brasileira?",
-    "opcoes": ["Semana de Arte Moderna", "Revolta da Chibata", "Intentona Comunista", "Proclamação da República"],
-    "correta": 0,
-    "explicacao": "A Semana de Arte Moderna de 1922 foi um marco na renovação da arte e cultura brasileira."
-  },
-  {
     "id": 321,
     "pergunta": "Quem liderou a Coluna Prestes?",
     "opcoes": ["Luís Carlos Prestes", "Getúlio Vargas", "Floriano Peixoto", "Oswaldo Aranha"],
@@ -2229,13 +1781,6 @@
     "explicacao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo de Juscelino Kubitschek."
   },
   {
-    "id": 327,
-    "pergunta": "Quem foi Marechal Deodoro da Fonseca?",
-    "opcoes": ["O proclamador da República", "O líder da Independência", "Presidente da Constituinte de 1824", "General da Guerra do Paraguai"],
-    "correta": 0,
-    "explicacao": "Marechal Deodoro da Fonseca proclamou a República em 1889 e foi o primeiro presidente do Brasil."
-  },
-  {
     "id": 328,
     "pergunta": "Qual foi a principal atividade econômica do Brasil no período colonial?",
     "opcoes": ["Mineração", "Pecuária", "Cana-de-açúcar", "Café"],
@@ -2243,10 +1788,1879 @@
     "explicacao": "Durante boa parte do período colonial, a cana-de-açúcar foi a principal atividade econômica do Brasil."
   },
   {
-    "id": 329,
-    "pergunta": "Qual foi o movimento popular que ocorreu em Canudos, na Bahia?",
-    "opcoes": ["Revolta dos Malês", "Revolta da Vacina", "Guerra de Canudos", "Balaiada"],
+    "id": 401,
+    "pergunta": "Qual país venceu a primeira Copa do Mundo, em 1930?",
+    "opcoes": ["Brasil", "Uruguai", "Alemanha", "Argentina"],
+    "correta": 1,
+    "explicacao": "O Uruguai foi o campeão da primeira Copa do Mundo, em 1930."
+  },
+  {
+    "id": 402,
+    "pergunta": "Qual país tem mais títulos da Copa do Mundo?",
+    "opcoes": ["Brasil", "Itália", "Alemanha", "Argentina"],
+    "correta": 0,
+    "explicacao": "O Brasil é o maior campeão, com 5 Copas do Mundo."
+  },
+  {
+    "id": 403,
+    "pergunta": "Qual jogador é conhecido como 'Rei do Futebol'?",
+    "opcoes": ["Pelé", "Maradona", "Zico", "Romário"],
+    "correta": 0,
+    "explicacao": "Pelé é considerado o Rei do Futebol, tricampeão mundial com o Brasil."
+  },
+  {
+    "id": 404,
+    "pergunta": "Em que país nasceu o jogador Lionel Messi?",
+    "opcoes": ["Espanha", "Brasil", "Argentina", "Uruguai"],
     "correta": 2,
-    "explicacao": "A Guerra de Canudos (1896–1897) foi um conflito entre o exército e seguidores de Antônio Conselheiro."
+    "explicacao": "Messi nasceu em Rosário, na Argentina."
+  },
+  {
+    "id": 405,
+    "pergunta": "Em que clube Pelé jogou a maior parte da sua carreira?",
+    "opcoes": ["Flamengo", "Botafogo", "Santos", "Corinthians"],
+    "correta": 2,
+    "explicacao": "Pelé jogou a maior parte de sua carreira no Santos Futebol Clube."
+  },
+  {
+    "id": 406,
+    "pergunta": "Qual é o apelido da Seleção Brasileira de Futebol?",
+    "opcoes": ["La Roja", "Azzurra", "Canarinho", "Albiceleste"],
+    "correta": 2,
+    "explicacao": "A Seleção Brasileira é conhecida como 'Canarinho', em referência à camisa amarela."
+  },
+  {
+    "id": 407,
+    "pergunta": "Quem foi o artilheiro da Copa de 2002?",
+    "opcoes": ["Ronaldo Fenômeno", "Ronaldinho Gaúcho", "Klose", "Henry"],
+    "correta": 0,
+    "explicacao": "Ronaldo Fenômeno foi o artilheiro da Copa de 2002, com 8 gols."
+  },
+  {
+    "id": 408,
+    "pergunta": "Qual estádio é conhecido como o 'Templo do Futebol' no Brasil?",
+    "opcoes": ["Maracanã", "Mineirão", "Morumbi", "Beira-Rio"],
+    "correta": 0,
+    "explicacao": "O Estádio do Maracanã, no Rio de Janeiro, é considerado o 'Templo do Futebol'."
+  },
+  {
+    "id": 409,
+    "pergunta": "Qual país sediou a Copa do Mundo de 2014?",
+    "opcoes": ["África do Sul", "Brasil", "Alemanha", "Rússia"],
+    "correta": 1,
+    "explicacao": "O Brasil sediou a Copa do Mundo em 2014."
+  },
+  {
+    "id": 410,
+    "pergunta": "Quem marcou o gol do título do Brasil na Copa de 2002?",
+    "opcoes": ["Rivaldo", "Ronaldo Fenômeno", "Ronaldinho Gaúcho", "Cafu"],
+    "correta": 1,
+    "explicacao": "Ronaldo Fenômeno marcou dois gols na final contra a Alemanha em 2002."
+  },
+  {
+    "id": 411,
+    "pergunta": "Quantos jogadores cada time deve ter em campo no início de uma partida de futebol?",
+    "opcoes": ["9", "10", "11", "12"],
+    "correta": 2,
+    "explicacao": "Cada time começa com 11 jogadores em campo."
+  },
+  {
+    "id": 412,
+    "pergunta": "Quem é considerado o maior ídolo da história do Flamengo?",
+    "opcoes": ["Romário", "Zico", "Adriano", "Petkovic"],
+    "correta": 1,
+    "explicacao": "Zico é considerado o maior ídolo da história do Flamengo."
+  },
+  {
+    "id": 413,
+    "pergunta": "Quem foi o capitão do Brasil no título de 1994?",
+    "opcoes": ["Dunga", "Romário", "Bebeto", "Cafu"],
+    "correta": 0,
+    "explicacao": "Dunga foi o capitão da Seleção Brasileira campeã em 1994."
+  },
+  {
+    "id": 414,
+    "pergunta": "Qual é o maior rival do Real Madrid na Espanha?",
+    "opcoes": ["Valencia", "Sevilla", "Barcelona", "Atlético de Madrid"],
+    "correta": 2,
+    "explicacao": "O maior rival do Real Madrid é o Barcelona, no clássico El Clásico."
+  },
+  {
+    "id": 415,
+    "pergunta": "Quantas Copas do Mundo a Argentina já conquistou até 2022?",
+    "opcoes": ["1", "2", "3", "4"],
+    "correta": 2,
+    "explicacao": "A Argentina venceu 3 Copas: 1978, 1986 e 2022."
+  },
+  {
+    "id": 416,
+    "pergunta": "Quem é conhecido como 'Fenômeno' no futebol?",
+    "opcoes": ["Ronaldinho", "Cristiano Ronaldo", "Ronaldo Nazário", "Romário"],
+    "correta": 2,
+    "explicacao": "Ronaldo Nazário é chamado de 'Fenômeno'."
+  },
+  {
+    "id": 417,
+    "pergunta": "Qual seleção perdeu a final da Copa de 1950 para o Uruguai no Maracanã?",
+    "opcoes": ["Argentina", "Brasil", "Alemanha", "Itália"],
+    "correta": 1,
+    "explicacao": "O Brasil perdeu a final de 1950 para o Uruguai, no episódio conhecido como Maracanaço."
+  },
+  {
+    "id": 418,
+    "pergunta": "Qual jogador é apelidado de 'La Pulga'?",
+    "opcoes": ["Cristiano Ronaldo", "Messi", "Neymar", "Mbappé"],
+    "correta": 1,
+    "explicacao": "Lionel Messi é chamado de 'La Pulga', devido à sua baixa estatura e agilidade."
+  },
+  {
+    "id": 419,
+    "pergunta": "Qual clube é conhecido como 'Timão' no Brasil?",
+    "opcoes": ["Palmeiras", "São Paulo", "Corinthians", "Santos"],
+    "correta": 2,
+    "explicacao": "O Corinthians é conhecido como 'Timão'."
+  },
+  {
+    "id": 420,
+    "pergunta": "Qual é o maior estádio do Brasil em capacidade?",
+    "opcoes": ["Mineirão", "Morumbi", "Maracanã", "Arena Corinthians"],
+    "correta": 2,
+    "explicacao": "O Maracanã é o maior estádio do Brasil em capacidade."
+  },
+  {
+    "id": 421,
+    "pergunta": "Qual jogador brasileiro ficou famoso pela comemoração do 'corta-luz' com Bebeto em 1994?",
+    "opcoes": ["Romário", "Taffarel", "Mazinho", "Dunga"],
+    "correta": 0,
+    "explicacao": "Romário era parte da famosa comemoração do 'corta-luz' junto com Bebeto em 1994."
+  },
+  {
+    "id": 422,
+    "pergunta": "Qual clube brasileiro é chamado de 'Verdão'?",
+    "opcoes": ["Palmeiras", "Corinthians", "Fluminense", "Grêmio"],
+    "correta": 0,
+    "explicacao": "O Palmeiras é conhecido como 'Verdão'."
+  },
+  {
+    "id": 423,
+    "pergunta": "Quem é conhecido como 'CR7'?",
+    "opcoes": ["Cristiano Ronaldo", "Cafu", "Kaká", "Pato"],
+    "correta": 0,
+    "explicacao": "Cristiano Ronaldo é conhecido como CR7, referência ao número da camisa."
+  },
+  {
+    "id": 424,
+    "pergunta": "Qual país sediou a Copa do Mundo de 2018?",
+    "opcoes": ["Brasil", "Rússia", "Alemanha", "África do Sul"],
+    "correta": 1,
+    "explicacao": "A Rússia foi a sede da Copa do Mundo de 2018."
+  },
+  {
+    "id": 425,
+    "pergunta": "Qual jogador brasileiro é chamado de 'Ney' pelos torcedores?",
+    "opcoes": ["Ney Franco", "Neymar", "Nei Paraíba", "Nei Santos"],
+    "correta": 1,
+    "explicacao": "Neymar é chamado carinhosamente de 'Ney'."
+  },
+  {
+    "id": 426,
+    "pergunta": "Qual clube brasileiro tem o apelido de 'Imortal Tricolor'?",
+    "opcoes": ["Fluminense", "Grêmio", "Bahia", "São Paulo"],
+    "correta": 1,
+    "explicacao": "O Grêmio é chamado de 'Imortal Tricolor'."
+  },
+  {
+    "id": 427,
+    "pergunta": "Quem marcou o famoso gol de falta contra a Inglaterra na Copa de 2002?",
+    "opcoes": ["Rivaldo", "Ronaldinho Gaúcho", "Kaká", "Cafu"],
+    "correta": 1,
+    "explicacao": "Ronaldinho Gaúcho marcou um gol de falta memorável contra a Inglaterra em 2002."
+  },
+  {
+    "id": 428,
+    "pergunta": "Qual jogador é conhecido como 'O Baixinho'?",
+    "opcoes": ["Romário", "Garrincha", "Sócrates", "Careca"],
+    "correta": 0,
+    "explicacao": "Romário é conhecido como 'O Baixinho'."
+  },
+  {
+    "id": 429,
+    "pergunta": "Qual país ganhou a Copa do Mundo de 2010?",
+    "opcoes": ["Brasil", "Espanha", "Holanda", "Alemanha"],
+    "correta": 1,
+    "explicacao": "A Espanha foi campeã da Copa de 2010, vencendo a Holanda na final."
+  },
+  {
+    "id": 430,
+    "pergunta": "Quem foi o técnico da Seleção Brasileira no título de 2002?",
+    "opcoes": ["Felipão", "Parreira", "Dunga", "Zagallo"],
+    "correta": 0,
+    "explicacao": "Luiz Felipe Scolari, o Felipão, era o técnico da Seleção em 2002."
+  },
+  {
+    "id": 501,
+    "pergunta": "Qual é o maior planeta do Sistema Solar?",
+    "opcoes": ["Terra", "Marte", "Júpiter", "Saturno"],
+    "correta": 2,
+    "explicacao": "Júpiter é o maior planeta do Sistema Solar."
+  },
+  {
+    "id": 502,
+    "pergunta": "Qual oceano banha o litoral brasileiro?",
+    "opcoes": ["Oceano Pacífico", "Oceano Atlântico", "Oceano Índico", "Oceano Glacial"],
+    "correta": 1,
+    "explicacao": "O Brasil é banhado pelo Oceano Atlântico."
+  },
+  {
+    "id": 503,
+    "pergunta": "Quem pintou a obra 'Mona Lisa'?",
+    "opcoes": ["Michelangelo", "Van Gogh", "Leonardo da Vinci", "Picasso"],
+    "correta": 2,
+    "explicacao": "A 'Mona Lisa' foi pintada por Leonardo da Vinci."
+  },
+  {
+    "id": 504,
+    "pergunta": "Em que continente fica o deserto do Saara?",
+    "opcoes": ["Ásia", "América", "África", "Oceania"],
+    "correta": 2,
+    "explicacao": "O deserto do Saara está localizado na África."
+  },
+  {
+    "id": 505,
+    "pergunta": "Qual é o menor país do mundo?",
+    "opcoes": ["Mônaco", "Vaticano", "San Marino", "Andorra"],
+    "correta": 1,
+    "explicacao": "O Vaticano é o menor país do mundo em área e população."
+  },
+  {
+    "id": 506,
+    "pergunta": "Quem escreveu 'Dom Casmurro'?",
+    "opcoes": ["José de Alencar", "Machado de Assis", "Monteiro Lobato", "Cecília Meireles"],
+    "correta": 1,
+    "explicacao": "O romance 'Dom Casmurro' foi escrito por Machado de Assis."
+  },
+  {
+    "id": 507,
+    "pergunta": "Qual é o idioma oficial do México?",
+    "opcoes": ["Português", "Inglês", "Espanhol", "Francês"],
+    "correta": 2,
+    "explicacao": "O idioma oficial do México é o espanhol."
+  },
+  {
+    "id": 508,
+    "pergunta": "Qual é a capital da Argentina?",
+    "opcoes": ["Buenos Aires", "Montevidéu", "Santiago", "Lima"],
+    "correta": 0,
+    "explicacao": "A capital da Argentina é Buenos Aires."
+  },
+  {
+    "id": 509,
+    "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
+    "opcoes": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
+    "correta": 0,
+    "explicacao": "Neil Armstrong foi o primeiro homem a pisar na Lua em 1969."
+  },
+  {
+    "id": 510,
+    "pergunta": "Qual é o rio mais extenso do mundo?",
+    "opcoes": ["Rio Nilo", "Rio Amazonas", "Rio Yangtzé", "Rio Mississipi"],
+    "correta": 1,
+    "explicacao": "O Rio Amazonas é considerado o mais extenso e volumoso do mundo."
+  },
+  {
+    "id": 511,
+    "pergunta": "Qual metal é usado em cabos elétricos por sua alta condução?",
+    "opcoes": ["Ouro", "Alumínio", "Cobre", "Ferro"],
+    "correta": 2,
+    "explicacao": "O cobre é o metal mais usado na condução de energia elétrica."
+  },
+  {
+    "id": 512,
+    "pergunta": "Em que país se encontra a Torre Eiffel?",
+    "opcoes": ["Itália", "Alemanha", "França", "Espanha"],
+    "correta": 2,
+    "explicacao": "A Torre Eiffel fica em Paris, na França."
+  },
+  {
+    "id": 513,
+    "pergunta": "Qual é o continente com o maior número de países?",
+    "opcoes": ["Ásia", "África", "América", "Europa"],
+    "correta": 1,
+    "explicacao": "A África é o continente com mais países reconhecidos, mais de 50."
+  },
+  {
+    "id": 514,
+    "pergunta": "Quem foi o cientista que desenvolveu a teoria da relatividade?",
+    "opcoes": ["Newton", "Einstein", "Galileu", "Darwin"],
+    "correta": 1,
+    "explicacao": "Albert Einstein formulou a teoria da relatividade."
+  },
+  {
+    "id": 515,
+    "pergunta": "Qual é o país conhecido como 'Terra do Sol Nascente'?",
+    "opcoes": ["China", "Japão", "Coreia do Sul", "Tailândia"],
+    "correta": 1,
+    "explicacao": "O Japão é chamado de 'Terra do Sol Nascente'."
+  },
+  {
+    "id": 516,
+    "pergunta": "Qual é a capital de Portugal?",
+    "opcoes": ["Lisboa", "Porto", "Coimbra", "Braga"],
+    "correta": 0,
+    "explicacao": "A capital de Portugal é Lisboa."
+  },
+  {
+    "id": 517,
+    "pergunta": "Em que continente está localizado o Brasil?",
+    "opcoes": ["África", "Ásia", "América do Sul", "Europa"],
+    "correta": 2,
+    "explicacao": "O Brasil está localizado na América do Sul."
+  },
+  {
+    "id": 518,
+    "pergunta": "Quem pintou o teto da Capela Sistina?",
+    "opcoes": ["Rafael", "Donatello", "Michelangelo", "Da Vinci"],
+    "correta": 2,
+    "explicacao": "O teto da Capela Sistina foi pintado por Michelangelo."
+  },
+  {
+    "id": 519,
+    "pergunta": "Qual é o animal terrestre mais rápido do mundo?",
+    "opcoes": ["Leão", "Antílope", "Guepardo", "Cavalo"],
+    "correta": 2,
+    "explicacao": "O guepardo pode atingir velocidades de até 100 km/h."
+  },
+  {
+    "id": 520,
+    "pergunta": "Qual é o idioma oficial da China?",
+    "opcoes": ["Cantonês", "Mandarim", "Japonês", "Coreano"],
+    "correta": 1,
+    "explicacao": "O mandarim é o idioma oficial da China."
+  },
+  {
+    "id": 521,
+    "pergunta": "Qual planeta é conhecido como 'Planeta Vermelho'?",
+    "opcoes": ["Marte", "Vênus", "Saturno", "Mercúrio"],
+    "correta": 0,
+    "explicacao": "Marte é chamado de Planeta Vermelho por causa do óxido de ferro em sua superfície."
+  },
+  {
+    "id": 522,
+    "pergunta": "Qual é a capital da Itália?",
+    "opcoes": ["Milão", "Roma", "Veneza", "Nápoles"],
+    "correta": 1,
+    "explicacao": "A capital da Itália é Roma."
+  },
+  {
+    "id": 523,
+    "pergunta": "Quem foi o autor de 'O Pequeno Príncipe'?",
+    "opcoes": ["Saint-Exupéry", "Victor Hugo", "Balzac", "Camus"],
+    "correta": 0,
+    "explicacao": "O livro 'O Pequeno Príncipe' foi escrito por Antoine de Saint-Exupéry."
+  },
+  {
+    "id": 524,
+    "pergunta": "Qual gás os seres humanos precisam para respirar?",
+    "opcoes": ["Oxigênio", "Nitrogênio", "Gás Carbônico", "Hidrogênio"],
+    "correta": 0,
+    "explicacao": "O ser humano precisa de oxigênio para sobreviver."
+  },
+  {
+    "id": 525,
+    "pergunta": "Em que país nasceu o físico Isaac Newton?",
+    "opcoes": ["França", "Alemanha", "Inglaterra", "Itália"],
+    "correta": 2,
+    "explicacao": "Isaac Newton nasceu na Inglaterra em 1643."
+  },
+  {
+    "id": 526,
+    "pergunta": "Qual é o maior continente do planeta?",
+    "opcoes": ["África", "Ásia", "América", "Europa"],
+    "correta": 1,
+    "explicacao": "A Ásia é o maior continente em área e população."
+  },
+  {
+    "id": 527,
+    "pergunta": "Qual é a moeda oficial do Japão?",
+    "opcoes": ["Yuan", "Won", "Iene", "Dólar"],
+    "correta": 2,
+    "explicacao": "A moeda do Japão é o Iene."
+  },
+  {
+    "id": 528,
+    "pergunta": "Quem inventou a lâmpada elétrica incandescente?",
+    "opcoes": ["Nikola Tesla", "Thomas Edison", "Alexander Bell", "Benjamin Franklin"],
+    "correta": 1,
+    "explicacao": "Thomas Edison aperfeiçoou e popularizou a lâmpada incandescente."
+  },
+  {
+    "id": 529,
+    "pergunta": "Qual é o país mais populoso do mundo?",
+    "opcoes": ["Índia", "China", "EUA", "Indonésia"],
+    "correta": 1,
+    "explicacao": "Até 2022, a China era o país mais populoso, com mais de 1,4 bilhão de habitantes."
+  },
+  {
+    "id": 530,
+    "pergunta": "Qual é a capital do Egito?",
+    "opcoes": ["Cairo", "Alexandria", "Luxor", "Assuã"],
+    "correta": 0,
+    "explicacao": "A capital do Egito é Cairo."
+  },
+  {
+    "id": 601,
+    "pergunta": "Qual é o nome do jogo de sinuca online mais famoso da Miniclip?",
+    "opcoes": ["8 Ball Pool", "Snooker Stars", "Pool Master", "Billiards Club"],
+    "correta": 0,
+    "explicacao": "O jogo mais famoso da Miniclip é o 8 Ball Pool."
+  },
+  {
+    "id": 602,
+    "pergunta": "Qual é a moeda principal usada em 8 Ball Pool?",
+    "opcoes": ["Gemas", "Ouros", "Fichas", "Moedinhas"],
+    "correta": 2,
+    "explicacao": "As fichas são a moeda principal para jogar partidas em 8 Ball Pool."
+  },
+  {
+    "id": 603,
+    "pergunta": "Qual é a moeda mais rara e valiosa no 8 Ball Pool?",
+    "opcoes": ["Fichas", "Cash", "Moedas de Bronze", "Pontos"],
+    "correta": 1,
+    "explicacao": "O Cash é a moeda premium usada para comprar itens especiais."
+  },
+  {
+    "id": 604,
+    "pergunta": "Quantas bolas no total há em uma partida de 8 Ball Pool?",
+    "opcoes": ["15", "16", "12", "10"],
+    "correta": 1,
+    "explicacao": "São 15 bolas numeradas e 1 bola branca, totalizando 16."
+  },
+  {
+    "id": 605,
+    "pergunta": "Qual bola deve ser encaçapada por último para vencer?",
+    "opcoes": ["Bola 1", "Bola 8", "Bola 15", "Bola 16"],
+    "correta": 1,
+    "explicacao": "A bola preta número 8 é sempre a última da partida."
+  },
+  {
+    "id": 606,
+    "pergunta": "O que acontece se você encaçapar a bola 8 antes da hora?",
+    "opcoes": ["Nada", "Ganha bônus", "Perde o jogo", "A rodada reinicia"],
+    "correta": 2,
+    "explicacao": "Encaçapar a bola 8 antes do tempo resulta em derrota imediata."
+  },
+  {
+    "id": 607,
+    "pergunta": "Qual item melhora a força e mira no jogo?",
+    "opcoes": ["Tacos", "Luvas", "Mesas", "Avatares"],
+    "correta": 0,
+    "explicacao": "Tacos melhoram atributos como força, tempo e precisão."
+  },
+  {
+    "id": 608,
+    "pergunta": "O que acontece quando você perde todas as fichas?",
+    "opcoes": ["Não pode jogar mesas caras", "Perde o taco", "Fecha o jogo", "Apaga a conta"],
+    "correta": 0,
+    "explicacao": "Sem fichas, só é possível jogar mesas mais baratas ou resgatar bônus."
+  },
+  {
+    "id": 609,
+    "pergunta": "Qual é a mesa inicial onde os jogadores costumam começar?",
+    "opcoes": ["Las Vegas", "Moscou", "Londres", "Berlim"],
+    "correta": 2,
+    "explicacao": "A mesa de Londres é a primeira e mais barata do jogo."
+  },
+  {
+    "id": 610,
+    "pergunta": "Qual desses modos é comum em 8 Ball Pool?",
+    "opcoes": ["1 vs 1", "Torneio", "Ambos", "Nenhum"],
+    "correta": 2,
+    "explicacao": "O jogo possui tanto partidas 1 vs 1 quanto torneios."
+  },
+  {
+    "id": 611,
+    "pergunta": "O que significa o nível (level) do jogador?",
+    "opcoes": ["Quantidade de vitórias", "Experiência acumulada", "Número de tacos", "Moedas acumuladas"],
+    "correta": 1,
+    "explicacao": "O nível representa a experiência total acumulada."
+  },
+  {
+    "id": 612,
+    "pergunta": "O que acontece se o jogador encaçapar a bola branca?",
+    "opcoes": ["Perde a vez", "Perde fichas", "Ganha pontos", "Acaba a partida"],
+    "correta": 0,
+    "explicacao": "Encaçapar a bola branca resulta em falta e perda de vez."
+  },
+  {
+    "id": 613,
+    "pergunta": "Qual é a função do giro (spin) na bola branca?",
+    "opcoes": ["Deixar a bola mais pesada", "Controlar trajetória após impacto", "Aumentar a força do taco", "Acelerar o tempo"],
+    "correta": 1,
+    "explicacao": "O spin permite controlar para onde a bola branca vai após a tacada."
+  },
+  {
+    "id": 614,
+    "pergunta": "Qual destes lugares NÃO é uma mesa do 8 Ball Pool?",
+    "opcoes": ["Londres", "Tóquio", "Marte", "Miami"],
+    "correta": 2,
+    "explicacao": "Todas as opções são mesas reais, exceto Marte."
+  },
+  {
+    "id": 615,
+    "pergunta": "Como ganhar um taco lendário?",
+    "opcoes": ["Comprando pacotes", "Jogando torneios", "Ambos", "Não existem tacos lendários"],
+    "correta": 2,
+    "explicacao": "Tacos lendários podem ser conquistados em torneios ou comprados em pacotes."
+  },
+  {
+    "id": 616,
+    "pergunta": "O que acontece se o tempo da tacada acabar?",
+    "opcoes": ["Jogo pausa", "Perde a vez", "Perde pontos", "Sai do jogo"],
+    "correta": 1,
+    "explicacao": "Se o tempo acaba, você perde a vez automaticamente."
+  },
+  {
+    "id": 617,
+    "pergunta": "O que é o 'break' no início da partida?",
+    "opcoes": ["Primeira tacada", "Última tacada", "Erros do jogo", "Bônus diário"],
+    "correta": 0,
+    "explicacao": "O break é a primeira tacada que espalha as bolas."
+  },
+  {
+    "id": 618,
+    "pergunta": "Qual é o prêmio de uma partida?",
+    "opcoes": ["Nada", "Fichas", "Cash", "Avatares"],
+    "correta": 1,
+    "explicacao": "O vencedor recebe fichas como prêmio da partida."
+  },
+  {
+    "id": 619,
+    "pergunta": "Qual é a função do bônus diário?",
+    "opcoes": ["Ganhar tacos", "Ganhar fichas", "Ganhar skins", "Ganhar pontos de XP"],
+    "correta": 1,
+    "explicacao": "O bônus diário oferece fichas e às vezes cash."
+  },
+  {
+    "id": 620,
+    "pergunta": "Qual é a mesa mais cara do jogo?",
+    "opcoes": ["Londres", "Berlim", "Moscou", "Mumbai"],
+    "correta": 1,
+    "explicacao": "A mesa de Berlim é uma das mais caras do jogo."
+  },
+  {
+    "id": 621,
+    "pergunta": "O que significa XP em 8 Ball Pool?",
+    "opcoes": ["Extra Points", "Experiência", "Xtra Power", "Exame de Pontaria"],
+    "correta": 1,
+    "explicacao": "XP é a experiência acumulada pelo jogador."
+  },
+  {
+    "id": 622,
+    "pergunta": "O que acontece se o jogador sair da partida?",
+    "opcoes": ["Volta depois", "Perde automaticamente", "Continua contra o PC", "Jogo congela"],
+    "correta": 1,
+    "explicacao": "Ao sair da partida, a derrota é automática."
+  },
+  {
+    "id": 623,
+    "pergunta": "Qual é a cor da bola número 8?",
+    "opcoes": ["Branca", "Preta", "Azul", "Amarela"],
+    "correta": 1,
+    "explicacao": "A bola 8 é preta, símbolo clássico do jogo."
+  },
+  {
+    "id": 624,
+    "pergunta": "Qual é o objetivo principal de cada jogador?",
+    "opcoes": ["Encaçapar todas as bolas do adversário", "Encaçapar todas as suas bolas e depois a 8", "Encaçapar a branca", "Fazer pontos soltos"],
+    "correta": 1,
+    "explicacao": "Cada jogador precisa encaçapar seu grupo (lisas ou listradas) e depois a bola 8."
+  },
+  {
+    "id": 625,
+    "pergunta": "Qual é a diferença entre bolas lisas e listradas?",
+    "opcoes": ["Tamanho", "Peso", "Cor e numeração", "Valor em fichas"],
+    "correta": 2,
+    "explicacao": "As bolas são divididas em lisas (1 a 7) e listradas (9 a 15)."
+  },
+  {
+    "id": 626,
+    "pergunta": "Qual é a consequência de encaçapar a bola 8 junto da branca?",
+    "opcoes": ["Vitória", "Nada acontece", "Derrota", "Jogo reinicia"],
+    "correta": 2,
+    "explicacao": "Encaçapar a bola 8 junto com a branca dá derrota imediata."
+  },
+  {
+    "id": 627,
+    "pergunta": "O que acontece quando você sobe de nível?",
+    "opcoes": ["Recebe fichas", "Recebe cash", "Ganha prêmios", "Todas as anteriores"],
+    "correta": 3,
+    "explicacao": "Ao subir de nível, o jogador pode ganhar fichas, cash e prêmios variados."
+  },
+  {
+    "id": 628,
+    "pergunta": "Qual é a empresa criadora do 8 Ball Pool?",
+    "opcoes": ["King", "Electronic Arts", "Miniclip", "Rovio"],
+    "correta": 2,
+    "explicacao": "O 8 Ball Pool foi desenvolvido pela Miniclip."
+  },
+  {
+    "id": 629,
+    "pergunta": "Qual é o limite de tempo médio para uma jogada?",
+    "opcoes": ["10 segundos", "30 segundos", "1 minuto", "Não tem limite"],
+    "correta": 1,
+    "explicacao": "Cada jogada geralmente tem limite de 30 segundos."
+  },
+  {
+    "id": 630,
+    "pergunta": "Qual é a cor da bola número 1?",
+    "opcoes": ["Amarela", "Azul", "Vermelha", "Verde"],
+    "correta": 0,
+    "explicacao": "A bola 1 é amarela e faz parte das bolas lisas."
+  },
+  {
+    "id": 631,
+    "pergunta": "Em qual ano o jogo 8 Ball Pool foi lançado?",
+    "opcoes": ["2010", "2012", "2014", "2016"],
+    "correta": 1,
+    "explicacao": "O 8 Ball Pool foi lançado oficialmente em 2012 pela Miniclip."
+  },
+  {
+    "id": 632,
+    "pergunta": "Qual é o país de origem da empresa Miniclip?",
+    "opcoes": ["Estados Unidos", "Suíça", "Inglaterra", "Alemanha"],
+    "correta": 1,
+    "explicacao": "A Miniclip foi fundada em Neuchâtel, Suíça."
+  },
+  {
+    "id": 633,
+    "pergunta": "Qual é o nome do recurso que mostra a linha de mira estendida?",
+    "opcoes": ["Mira Pro", "Guia de Linha", "Extended Aim", "Trajetória Plus"],
+    "correta": 2,
+    "explicacao": "O Extended Aim aumenta o alcance da linha de mira."
+  },
+  {
+    "id": 634,
+    "pergunta": "Qual é o limite máximo de nível (level) no 8 Ball Pool?",
+    "opcoes": ["99", "500", "1000", "Não tem limite"],
+    "correta": 1,
+    "explicacao": "O limite de nível é 500."
+  },
+  {
+    "id": 635,
+    "pergunta": "O que acontece ao ganhar um torneio?",
+    "opcoes": ["Recebe fichas", "Recebe cash", "Ganha troféu virtual", "Todas as anteriores"],
+    "correta": 3,
+    "explicacao": "Ganhar torneios concede fichas, cash e troféus virtuais."
+  },
+  {
+    "id": 636,
+    "pergunta": "Qual é a principal diferença entre partidas 1x1 e torneios?",
+    "opcoes": ["Tempo de jogo", "Número de adversários", "Número de bolas", "Tipo de taco"],
+    "correta": 1,
+    "explicacao": "Nos torneios, o jogador enfrenta vários adversários até a final."
+  },
+  {
+    "id": 637,
+    "pergunta": "Qual destes NÃO é atributo de um taco?",
+    "opcoes": ["Força", "Tempo", "Precisão", "Velocidade da bola 8"],
+    "correta": 3,
+    "explicacao": "Os tacos têm atributos como força, tempo e precisão, mas não velocidade da bola 8."
+  },
+  {
+    "id": 638,
+    "pergunta": "O que significa 'All-in' no 8 Ball Pool?",
+    "opcoes": ["Jogar com todas as fichas", "Apostar o dobro", "Entrar no modo treino", "Encaçapar todas as bolas de uma vez"],
+    "correta": 0,
+    "explicacao": "O All-in é um modo onde você aposta todas as suas fichas disponíveis."
+  },
+  {
+    "id": 639,
+    "pergunta": "Qual é a principal vantagem de tacos lendários?",
+    "opcoes": ["Não quebram", "Recuperam força com o tempo", "Geram fichas extras", "São mais leves"],
+    "correta": 1,
+    "explicacao": "Tacos lendários recuperam força ao longo do tempo."
+  },
+  {
+    "id": 640,
+    "pergunta": "Qual é a mesa onde o valor de entrada é um dos mais altos?",
+    "opcoes": ["Cairo", "Berlim", "Tóquio", "Sydney"],
+    "correta": 1,
+    "explicacao": "A mesa de Berlim é uma das mais caras do jogo."
+  },
+  {
+    "id": 641,
+    "pergunta": "O que significa 'Win Streak Challenge'?",
+    "opcoes": ["Ganhar várias seguidas", "Ganhar só com a bola 8", "Ganhar sem faltas", "Ganhar apenas em torneios"],
+    "correta": 0,
+    "explicacao": "O Win Streak Challenge desafia o jogador a ganhar várias seguidas."
+  },
+  {
+    "id": 642,
+    "pergunta": "Qual destes modos NÃO existe no 8 Ball Pool?",
+    "opcoes": ["1 vs 1", "Torneios", "Missões de equipe", "Desafios semanais"],
+    "correta": 2,
+    "explicacao": "Não existem missões de equipe, o jogo é individual."
+  },
+  {
+    "id": 643,
+    "pergunta": "Qual item pode ser personalizado além dos tacos?",
+    "opcoes": ["Mesa", "Avatar", "Cor da bola 8", "Todas as anteriores"],
+    "correta": 1,
+    "explicacao": "É possível personalizar o avatar do jogador."
+  },
+  {
+    "id": 644,
+    "pergunta": "Qual destas cidades NÃO aparece como mesa no 8 Ball Pool?",
+    "opcoes": ["Londres", "Miami", "Paris", "Brasília"],
+    "correta": 3,
+    "explicacao": "Brasília não existe como mesa no jogo."
+  },
+  {
+    "id": 645,
+    "pergunta": "Qual é a função da barra de força ao dar a tacada?",
+    "opcoes": ["Escolher a bola", "Definir potência", "Escolher o taco", "Mudar o tempo"],
+    "correta": 1,
+    "explicacao": "A barra de força define a potência da tacada."
+  },
+  {
+    "id": 646,
+    "pergunta": "Qual é a consequência de cometer 3 faltas seguidas?",
+    "opcoes": ["Perde pontos", "Perde fichas", "Perde a partida", "Não acontece nada"],
+    "correta": 2,
+    "explicacao": "Três faltas seguidas resultam em derrota automática."
+  },
+  {
+    "id": 647,
+    "pergunta": "Qual destes não é um tipo de bola no jogo?",
+    "opcoes": ["Lisas", "Listradas", "Metálicas", "Bola 8"],
+    "correta": 2,
+    "explicacao": "Não existem bolas metálicas no 8 Ball Pool."
+  },
+  {
+    "id": 648,
+    "pergunta": "Qual é a vantagem de conectar o jogo ao Facebook?",
+    "opcoes": ["Ganhar tacos lendários", "Salvar progresso e jogar com amigos", "Ganhar moedas infinitas", "Mudar a cor da mesa"],
+    "correta": 1,
+    "explicacao": "Conectar ao Facebook permite salvar o progresso e jogar com amigos."
+  },
+  {
+    "id": 649,
+    "pergunta": "Qual destes eventos pode aparecer em 8 Ball Pool?",
+    "opcoes": ["Win Streak", "Lucky Shot", "Golden Spin", "Todos"],
+    "correta": 3,
+    "explicacao": "O jogo possui eventos como Win Streak, Lucky Shot e Golden Spin."
+  },
+  {
+    "id": 650,
+    "pergunta": "Qual é a função do 'Golden Spin'?",
+    "opcoes": ["Dar fichas", "Dar cash", "Dar prêmios variados", "Todas as anteriores"],
+    "correta": 3,
+    "explicacao": "O Golden Spin pode dar fichas, cash e até tacos."
+  },
+  {
+    "id": 651,
+    "pergunta": "O que acontece se o jogador encaçapar a bola errada no final?",
+    "opcoes": ["Nada", "Perde o jogo", "Ganha bônus", "Recomeça"],
+    "correta": 1,
+    "explicacao": "Encaçapar a bola errada dá derrota imediata."
+  },
+  {
+    "id": 652,
+    "pergunta": "Qual é o maior prêmio possível em uma tacada de Lucky Shot?",
+    "opcoes": ["Fichas", "Cash", "Taco exclusivo", "Todos"],
+    "correta": 3,
+    "explicacao": "O Lucky Shot pode render fichas, cash e tacos exclusivos."
+  },
+  {
+    "id": 653,
+    "pergunta": "O que acontece se você não se conectar por vários dias?",
+    "opcoes": ["Perde fichas", "Não ganha bônus diário", "Perde tacos", "Perde nível"],
+    "correta": 1,
+    "explicacao": "O bônus diário não acumula se você não jogar."
+  },
+  {
+    "id": 654,
+    "pergunta": "Qual destas recompensas é comum em desafios semanais?",
+    "opcoes": ["Fichas", "Cash", "Tacos", "Todas"],
+    "correta": 3,
+    "explicacao": "Os desafios semanais podem dar fichas, cash e tacos."
+  },
+  {
+    "id": 655,
+    "pergunta": "Qual é a principal forma de subir de nível?",
+    "opcoes": ["Ganhar fichas", "Ganhar cash", "Jogar partidas", "Comprar pacotes"],
+    "correta": 2,
+    "explicacao": "A experiência é obtida jogando partidas."
+  },
+  {
+    "id": 656,
+    "pergunta": "Qual destes é considerado um 'erro de jogo'?",
+    "opcoes": ["Acertar a bola do adversário primeiro", "Não encostar em nenhuma bola", "Encaçapar a bola branca", "Todas as anteriores"],
+    "correta": 3,
+    "explicacao": "Todas as situações são faltas no jogo."
+  },
+  {
+    "id": 657,
+    "pergunta": "Qual é o modo onde se aposta valores altíssimos?",
+    "opcoes": ["Londres", "All-in", "Sydney", "Cairo"],
+    "correta": 1,
+    "explicacao": "O modo All-in permite apostar todas as fichas disponíveis."
+  },
+  {
+    "id": 658,
+    "pergunta": "Qual é a cor da bola número 2?",
+    "opcoes": ["Azul", "Vermelha", "Amarela", "Verde"],
+    "correta": 0,
+    "explicacao": "A bola número 2 é azul lisa."
+  },
+  {
+    "id": 659,
+    "pergunta": "Qual é a cor da bola número 15?",
+    "opcoes": ["Vermelha", "Marrom", "Preta", "Roxa"],
+    "correta": 0,
+    "explicacao": "A bola número 15 é vermelha e listrada."
+  },
+  {
+    "id": 660,
+    "pergunta": "Qual é o objetivo principal em qualquer mesa?",
+    "opcoes": ["Acumular fichas", "Encaçapar todas as suas bolas e depois a 8", "Evitar faltas", "Fazer XP"],
+    "correta": 1,
+    "explicacao": "O objetivo é encaçapar todas as bolas do seu grupo e depois a bola 8."
+  },
+  {
+    "id": 661,
+    "pergunta": "Qual é o maior órgão do corpo humano?",
+    "opcoes": ["Coração", "Pulmão", "Pele", "Fígado"],
+    "correta": 2,
+    "explicacao": "A pele é o maior órgão do corpo humano."
+  },
+  {
+    "id": 662,
+    "pergunta": "Quantos ossos tem o corpo humano adulto?",
+    "opcoes": ["206", "210", "198", "201"],
+    "correta": 0,
+    "explicacao": "Um adulto tem em média 206 ossos."
+  },
+  {
+    "id": 663,
+    "pergunta": "Qual é o órgão responsável por bombear o sangue?",
+    "opcoes": ["Fígado", "Coração", "Pulmão", "Rim"],
+    "correta": 1,
+    "explicacao": "O coração bombeia sangue para todo o corpo."
+  },
+  {
+    "id": 664,
+    "pergunta": "Qual é o maior osso do corpo humano?",
+    "opcoes": ["Fêmur", "Tíbia", "Úmero", "Coluna"],
+    "correta": 0,
+    "explicacao": "O fêmur, localizado na coxa, é o maior osso do corpo humano."
+  },
+  {
+    "id": 665,
+    "pergunta": "Qual órgão é responsável pela produção da bile?",
+    "opcoes": ["Estômago", "Fígado", "Intestino", "Baço"],
+    "correta": 1,
+    "explicacao": "O fígado produz a bile, que auxilia na digestão de gorduras."
+  },
+  {
+    "id": 666,
+    "pergunta": "Qual é a função principal dos rins?",
+    "opcoes": ["Produzir insulina", "Filtrar o sangue", "Regular a pressão", "Digestionar proteínas"],
+    "correta": 1,
+    "explicacao": "Os rins filtram o sangue e eliminam resíduos através da urina."
+  },
+  {
+    "id": 667,
+    "pergunta": "Qual órgão controla todas as funções do corpo?",
+    "opcoes": ["Pulmões", "Cérebro", "Fígado", "Coração"],
+    "correta": 1,
+    "explicacao": "O cérebro é o centro de comando do corpo humano."
+  },
+  {
+    "id": 668,
+    "pergunta": "Quantos dentes permanentes tem um adulto?",
+    "opcoes": ["28", "30", "32", "36"],
+    "correta": 2,
+    "explicacao": "Um adulto possui 32 dentes permanentes, incluindo os sisos."
+  },
+  {
+    "id": 669,
+    "pergunta": "Qual parte do corpo humano continua crescendo durante toda a vida?",
+    "opcoes": ["Olhos", "Cérebro", "Nariz e orelhas", "Fêmur"],
+    "correta": 2,
+    "explicacao": "Nariz e orelhas continuam crescendo lentamente durante toda a vida."
+  },
+  {
+    "id": 670,
+    "pergunta": "Qual é o músculo responsável pela respiração?",
+    "opcoes": ["Diafragma", "Bíceps", "Quadríceps", "Peitorais"],
+    "correta": 0,
+    "explicacao": "O diafragma é o principal músculo responsável pela respiração."
+  },
+  {
+    "id": 671,
+    "pergunta": "Onde se localiza a traqueia?",
+    "opcoes": ["No abdômen", "No pescoço", "No tórax", "Na cabeça"],
+    "correta": 1,
+    "explicacao": "A traqueia fica no pescoço e leva ar até os pulmões."
+  },
+  {
+    "id": 672,
+    "pergunta": "Qual é o órgão responsável por armazenar a urina?",
+    "opcoes": ["Rim", "Vesícula", "Bexiga", "Intestino grosso"],
+    "correta": 2,
+    "explicacao": "A bexiga é responsável por armazenar a urina antes da eliminação."
+  },
+  {
+    "id": 673,
+    "pergunta": "Qual é a principal função do estômago?",
+    "opcoes": ["Bombear sangue", "Produzir hormônios", "Digestionar alimentos", "Filtrar resíduos"],
+    "correta": 2,
+    "explicacao": "O estômago é responsável pela digestão dos alimentos."
+  },
+  {
+    "id": 674,
+    "pergunta": "Qual parte do olho é responsável pela cor?",
+    "opcoes": ["Pupila", "Córnea", "Íris", "Cristalino"],
+    "correta": 2,
+    "explicacao": "A íris é a parte colorida dos olhos."
+  },
+  {
+    "id": 675,
+    "pergunta": "Qual é a função principal dos pulmões?",
+    "opcoes": ["Bombear sangue", "Trocar oxigênio e gás carbônico", "Produzir hormônios", "Filtrar toxinas"],
+    "correta": 1,
+    "explicacao": "Os pulmões realizam as trocas gasosas com o sangue."
+  },
+  {
+    "id": 676,
+    "pergunta": "Quantas costelas tem normalmente um ser humano?",
+    "opcoes": ["22", "24", "26", "28"],
+    "correta": 1,
+    "explicacao": "O corpo humano possui normalmente 24 costelas, 12 de cada lado."
+  },
+  {
+    "id": 677,
+    "pergunta": "Qual é a função da medula espinhal?",
+    "opcoes": ["Produzir glóbulos vermelhos", "Conectar cérebro ao corpo", "Controlar a digestão", "Armazenar gordura"],
+    "correta": 1,
+    "explicacao": "A medula espinhal conecta o cérebro ao resto do corpo e transmite sinais nervosos."
+  },
+  {
+    "id": 678,
+    "pergunta": "Qual é a função das plaquetas no sangue?",
+    "opcoes": ["Transportar oxigênio", "Combater infecções", "Coagulação", "Regular temperatura"],
+    "correta": 2,
+    "explicacao": "As plaquetas ajudam na coagulação do sangue."
+  },
+  {
+    "id": 679,
+    "pergunta": "Onde se localiza o fígado?",
+    "opcoes": ["Lado direito do abdômen", "Lado esquerdo do abdômen", "No tórax", "Na pelve"],
+    "correta": 0,
+    "explicacao": "O fígado fica no lado direito do abdômen, logo abaixo do diafragma."
+  },
+  {
+    "id": 680,
+    "pergunta": "Qual é a função principal do intestino delgado?",
+    "opcoes": ["Absorver nutrientes", "Produzir enzimas", "Filtrar toxinas", "Produzir hormônios"],
+    "correta": 0,
+    "explicacao": "O intestino delgado é responsável pela absorção de nutrientes."
+  },
+  {
+    "id": 681,
+    "pergunta": "Qual órgão é conhecido como 'banco de sangue' do corpo?",
+    "opcoes": ["Coração", "Baço", "Pulmão", "Pâncreas"],
+    "correta": 1,
+    "explicacao": "O baço armazena sangue e auxilia no sistema imunológico."
+  },
+  {
+    "id": 682,
+    "pergunta": "Qual parte do corpo possui as falanges?",
+    "opcoes": ["Nariz", "Dedos", "Coluna", "Orelhas"],
+    "correta": 1,
+    "explicacao": "As falanges são ossos que formam os dedos das mãos e dos pés."
+  },
+  {
+    "id": 683,
+    "pergunta": "Qual é a função dos glóbulos vermelhos?",
+    "opcoes": ["Transportar oxigênio", "Combater bactérias", "Produzir hormônios", "Gerar energia"],
+    "correta": 0,
+    "explicacao": "Os glóbulos vermelhos transportam oxigênio no sangue."
+  },
+  {
+    "id": 684,
+    "pergunta": "Qual é o menor osso do corpo humano?",
+    "opcoes": ["Estribo", "Fêmur", "Tíbia", "Cúbito"],
+    "correta": 0,
+    "explicacao": "O estribo, localizado no ouvido médio, é o menor osso do corpo humano."
+  },
+  {
+    "id": 685,
+    "pergunta": "Onde fica localizado o úmero?",
+    "opcoes": ["Perna", "Braço", "Coluna", "Pescoço"],
+    "correta": 1,
+    "explicacao": "O úmero é o osso longo que fica no braço."
+  },
+  {
+    "id": 686,
+    "pergunta": "Qual parte do corpo humano contém a patela?",
+    "opcoes": ["Ombro", "Joelho", "Cotovelo", "Quadril"],
+    "correta": 1,
+    "explicacao": "A patela é o osso do joelho, conhecido como 'rótula'."
+  },
+  {
+    "id": 687,
+    "pergunta": "Qual glândula é chamada de 'glândula mestra'?",
+    "opcoes": ["Tireoide", "Hipófise", "Suprarrenal", "Pineal"],
+    "correta": 1,
+    "explicacao": "A hipófise controla várias outras glândulas do corpo."
+  },
+  {
+    "id": 688,
+    "pergunta": "Qual é a função da epiglote?",
+    "opcoes": ["Produzir saliva", "Fechar a traqueia ao engolir", "Produzir hormônios", "Controlar a voz"],
+    "correta": 1,
+    "explicacao": "A epiglote evita que alimentos entrem na traqueia durante a deglutição."
+  },
+  {
+    "id": 689,
+    "pergunta": "Qual é a parte do corpo responsável pelo equilíbrio?",
+    "opcoes": ["Cérebro", "Ouvido interno", "Olhos", "Pernas"],
+    "correta": 1,
+    "explicacao": "O ouvido interno contém estruturas que controlam o equilíbrio."
+  },
+  {
+    "id": 690,
+    "pergunta": "Qual é o principal hormônio produzido pelo pâncreas?",
+    "opcoes": ["Insulina", "Adrenalina", "Estrogênio", "Testosterona"],
+    "correta": 0,
+    "explicacao": "O pâncreas produz insulina, que regula os níveis de glicose no sangue."
+  },
+  {
+    "id": 691,
+    "pergunta": "Qual é a molécula essencial para a vida conhecida como 'molécula da hereditariedade'?",
+    "opcoes": ["RNA", "DNA", "Proteína", "Lipídio"],
+    "correta": 1,
+    "explicacao": "O DNA carrega as informações genéticas dos seres vivos."
+  },
+  {
+    "id": 692,
+    "pergunta": "Qual gás é essencial para a respiração celular dos seres humanos?",
+    "opcoes": ["Dióxido de carbono", "Oxigênio", "Nitrogênio", "Hidrogênio"],
+    "correta": 1,
+    "explicacao": "O oxigênio é fundamental para a respiração celular."
+  },
+  {
+    "id": 693,
+    "pergunta": "Qual é o órgão responsável pela fotossíntese nas plantas?",
+    "opcoes": ["Raiz", "Caule", "Folha", "Flor"],
+    "correta": 2,
+    "explicacao": "As folhas contêm clorofila e realizam a fotossíntese."
+  },
+  {
+    "id": 694,
+    "pergunta": "Qual elemento químico é representado pelo símbolo 'Na'?",
+    "opcoes": ["Níquel", "Nitrogênio", "Sódio", "Neônio"],
+    "correta": 2,
+    "explicacao": "O símbolo 'Na' corresponde ao sódio."
+  },
+  {
+    "id": 695,
+    "pergunta": "Qual é a fórmula química da água?",
+    "opcoes": ["H2O", "CO2", "NaCl", "O2"],
+    "correta": 0,
+    "explicacao": "A fórmula da água é H2O, dois átomos de hidrogênio e um de oxigênio."
+  },
+  {
+    "id": 696,
+    "pergunta": "Qual grupo de seres vivos é unicelular?",
+    "opcoes": ["Mamíferos", "Aves", "Bactérias", "Peixes"],
+    "correta": 2,
+    "explicacao": "As bactérias são organismos unicelulares."
+  },
+  {
+    "id": 697,
+    "pergunta": "Qual é o principal gás do efeito estufa liberado pela queima de combustíveis fósseis?",
+    "opcoes": ["O2", "N2", "CO2", "CH4"],
+    "correta": 2,
+    "explicacao": "O dióxido de carbono (CO2) é o principal responsável pelo efeito estufa."
+  },
+  {
+    "id": 698,
+    "pergunta": "Qual é a unidade básica da vida?",
+    "opcoes": ["Molécula", "Célula", "Tecido", "Órgão"],
+    "correta": 1,
+    "explicacao": "A célula é a unidade básica estrutural e funcional dos seres vivos."
+  },
+  {
+    "id": 699,
+    "pergunta": "Qual é o elemento químico essencial presente na hemoglobina?",
+    "opcoes": ["Magnésio", "Ferro", "Cálcio", "Potássio"],
+    "correta": 1,
+    "explicacao": "O ferro está presente na hemoglobina e permite o transporte de oxigênio."
+  },
+  {
+    "id": 700,
+    "pergunta": "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
+    "opcoes": ["Respiração", "Digestão", "Fotossíntese", "Fermentação"],
+    "correta": 2,
+    "explicacao": "A fotossíntese é o processo de produção de glicose pelas plantas."
+  },
+  {
+    "id": 701,
+    "pergunta": "Qual é o pH neutro da água?",
+    "opcoes": ["5", "6", "7", "8"],
+    "correta": 2,
+    "explicacao": "O valor de pH neutro é 7."
+  },
+  {
+    "id": 702,
+    "pergunta": "Qual é a função dos ribossomos na célula?",
+    "opcoes": ["Produção de energia", "Síntese de proteínas", "Digestão celular", "Armazenamento de DNA"],
+    "correta": 1,
+    "explicacao": "Os ribossomos são responsáveis pela síntese de proteínas."
+  },
+  {
+    "id": 703,
+    "pergunta": "Qual elemento químico é representado pelo símbolo 'O'?",
+    "opcoes": ["Osmio", "Oxigênio", "Ouro", "Ozônio"],
+    "correta": 1,
+    "explicacao": "O símbolo 'O' representa o oxigênio."
+  },
+  {
+    "id": 704,
+    "pergunta": "Qual é a molécula que armazena energia nas células?",
+    "opcoes": ["ADN", "ATP", "RNA", "Glicose"],
+    "correta": 1,
+    "explicacao": "O ATP (trifosfato de adenosina) é a moeda de energia das células."
+  },
+  {
+    "id": 705,
+    "pergunta": "Qual é o gás essencial para a fotossíntese?",
+    "opcoes": ["Oxigênio", "Dióxido de carbono", "Hidrogênio", "Nitrogênio"],
+    "correta": 1,
+    "explicacao": "O dióxido de carbono (CO2) é utilizado na fotossíntese."
+  },
+  {
+    "id": 706,
+    "pergunta": "Qual órgão do corpo humano realiza a filtração do sangue?",
+    "opcoes": ["Coração", "Rins", "Fígado", "Pulmões"],
+    "correta": 1,
+    "explicacao": "Os rins são responsáveis por filtrar o sangue."
+  },
+  {
+    "id": 707,
+    "pergunta": "Qual é a camada mais externa da Terra, formada por rochas?",
+    "opcoes": ["Manto", "Crosta", "Núcleo externo", "Núcleo interno"],
+    "correta": 1,
+    "explicacao": "A crosta terrestre é a camada mais externa da Terra."
+  },
+  {
+    "id": 708,
+    "pergunta": "Qual é o nome do açúcar presente nas frutas?",
+    "opcoes": ["Glicose", "Frutose", "Lactose", "Sacarose"],
+    "correta": 1,
+    "explicacao": "A frutose é o açúcar natural das frutas."
+  },
+  {
+    "id": 709,
+    "pergunta": "Qual é o símbolo químico do Potássio?",
+    "opcoes": ["P", "Po", "K", "Pt"],
+    "correta": 2,
+    "explicacao": "O símbolo químico do potássio é K."
+  },
+  {
+    "id": 710,
+    "pergunta": "Qual é o processo em que leveduras transformam açúcar em álcool?",
+    "opcoes": ["Fotossíntese", "Fermentação", "Respiração aeróbica", "Oxidação"],
+    "correta": 1,
+    "explicacao": "A fermentação alcoólica converte açúcares em álcool e gás carbônico."
+  },
+  {
+    "id": 711,
+    "pergunta": "Qual é a principal função dos cloroplastos?",
+    "opcoes": ["Armazenar glicose", "Fotossíntese", "Produzir proteínas", "Respiração celular"],
+    "correta": 1,
+    "explicacao": "Os cloroplastos são organelas responsáveis pela fotossíntese."
+  },
+  {
+    "id": 712,
+    "pergunta": "Qual é a partícula subatômica com carga negativa?",
+    "opcoes": ["Próton", "Nêutron", "Elétron", "Íon"],
+    "correta": 2,
+    "explicacao": "O elétron possui carga elétrica negativa."
+  },
+  {
+    "id": 713,
+    "pergunta": "Qual é o processo de perda de água pelas plantas?",
+    "opcoes": ["Respiração", "Transpiração", "Fotossíntese", "Fermentação"],
+    "correta": 1,
+    "explicacao": "A transpiração é a perda de água pelas folhas."
+  },
+  {
+    "id": 714,
+    "pergunta": "Qual é a fórmula do gás carbônico?",
+    "opcoes": ["CO2", "CO", "C2O", "C2O2"],
+    "correta": 0,
+    "explicacao": "A fórmula correta do dióxido de carbono é CO2."
+  },
+  {
+    "id": 715,
+    "pergunta": "Qual é o nome do processo que converte glicose em energia dentro das células?",
+    "opcoes": ["Fotossíntese", "Respiração celular", "Fermentação", "Digestão"],
+    "correta": 1,
+    "explicacao": "A respiração celular transforma glicose em energia (ATP)."
+  },
+  {
+    "id": 716,
+    "pergunta": "Qual é o nome da molécula que dá cor verde às plantas?",
+    "opcoes": ["Clorofila", "Caroteno", "Hemoglobina", "Melanina"],
+    "correta": 0,
+    "explicacao": "A clorofila é o pigmento verde essencial à fotossíntese."
+  },
+  {
+    "id": 717,
+    "pergunta": "Qual é o elemento químico que forma diamantes e grafite?",
+    "opcoes": ["Carbono", "Silício", "Enxofre", "Ferro"],
+    "correta": 0,
+    "explicacao": "O carbono pode formar diferentes estruturas como diamante e grafite."
+  },
+  {
+    "id": 718,
+    "pergunta": "Qual é a principal fonte de energia para os seres vivos?",
+    "opcoes": ["Proteínas", "Lipídios", "Carboidratos", "Vitaminas"],
+    "correta": 2,
+    "explicacao": "Os carboidratos são a principal fonte de energia para o corpo."
+  },
+  {
+    "id": 719,
+    "pergunta": "Qual é a partícula que fica no núcleo do átomo e não possui carga elétrica?",
+    "opcoes": ["Próton", "Nêutron", "Elétron", "Íon"],
+    "correta": 1,
+    "explicacao": "Os nêutrons ficam no núcleo do átomo e não possuem carga elétrica."
+  },
+  {
+    "id": 720,
+    "pergunta": "Qual é a principal função da clorofila?",
+    "opcoes": ["Absorver luz solar", "Produzir oxigênio", "Fixar nitrogênio", "Armazenar água"],
+    "correta": 0,
+    "explicacao": "A clorofila absorve luz solar para o processo da fotossíntese."
+  },
+  {
+    "id": 721,
+    "pergunta": "Qual é o nome do guia do grupo em Caverna do Dragão?",
+    "opcoes": ["Mestre dos Magos", "Vingador", "Dungeon Master", "Orko"],
+    "correta": 0,
+    "explicacao": "O Mestre dos Magos é quem orienta os jovens na jornada."
+  },
+  {
+    "id": 722,
+    "pergunta": "Qual é o inimigo principal em Caverna do Dragão?",
+    "opcoes": ["Skeletor", "Vingador", "Thanos", "Shrek"],
+    "correta": 1,
+    "explicacao": "O Vingador é o grande vilão da série."
+  },
+  {
+    "id": 723,
+    "pergunta": "Qual é o nome do cavalo voador que ajuda os heróis em Caverna do Dragão?",
+    "opcoes": ["Uni", "Pegasus", "Pégaso", "Shadowfax"],
+    "correta": 0,
+    "explicacao": "Uni é o unicórnio amigo dos heróis."
+  },
+  {
+    "id": 724,
+    "pergunta": "Qual dos jovens de Caverna do Dragão tinha o arco mágico?",
+    "opcoes": ["Hank", "Eric", "Bobby", "Sheila"],
+    "correta": 0,
+    "explicacao": "Hank era o arqueiro do grupo."
+  },
+  {
+    "id": 725,
+    "pergunta": "Quem é a irmã de Bobby, o bárbaro, em Caverna do Dragão?",
+    "opcoes": ["Sheila", "Diana", "Tiamat", "Luna"],
+    "correta": 0,
+    "explicacao": "Sheila, a ladina, é a irmã protetora de Bobby."
+  },
+  {
+    "id": 726,
+    "pergunta": "Qual cavaleiro de bronze usa a armadura de Pégaso?",
+    "opcoes": ["Shiryu", "Hyoga", "Seiya", "Ikki"],
+    "correta": 2,
+    "explicacao": "Seiya é o cavaleiro de Pégaso."
+  },
+  {
+    "id": 727,
+    "pergunta": "Qual cavaleiro de bronze é conhecido por ser o mais calmo e justo?",
+    "opcoes": ["Shiryu de Dragão", "Ikki de Fênix", "Hyoga de Cisne", "Shun de Andrômeda"],
+    "correta": 0,
+    "explicacao": "Shiryu é o cavaleiro mais sábio e calmo do grupo."
+  },
+  {
+    "id": 728,
+    "pergunta": "Qual é o irmão mais velho de Shun de Andrômeda?",
+    "opcoes": ["Seiya", "Ikki", "Hyoga", "Shiryu"],
+    "correta": 1,
+    "explicacao": "Ikki é o irmão mais velho de Shun."
+  },
+  {
+    "id": 729,
+    "pergunta": "Quem é a reencarnação da deusa Atena em Cavaleiros do Zodíaco?",
+    "opcoes": ["Marin", "Saori Kido", "Esmeralda", "Pandora"],
+    "correta": 1,
+    "explicacao": "Saori Kido é a reencarnação da deusa Atena."
+  },
+  {
+    "id": 730,
+    "pergunta": "Qual cavaleiro controla o gelo?",
+    "opcoes": ["Ikki", "Shiryu", "Hyoga", "Shun"],
+    "correta": 2,
+    "explicacao": "Hyoga de Cisne usa técnicas de gelo."
+  },
+  {
+    "id": 731,
+    "pergunta": "Quem é o pai de Goku em Dragon Ball?",
+    "opcoes": ["Raditz", "Bardock", "Vegeta", "Kami-Sama"],
+    "correta": 1,
+    "explicacao": "Bardock é o pai de Goku."
+  },
+  {
+    "id": 732,
+    "pergunta": "Qual é o nome do planeta natal de Goku?",
+    "opcoes": ["Namekusei", "Terra", "Vegeta", "Saiyan"],
+    "correta": 2,
+    "explicacao": "O planeta natal dos Saiyajins é o Planeta Vegeta."
+  },
+  {
+    "id": 733,
+    "pergunta": "Quem foi o primeiro mestre de artes marciais de Goku?",
+    "opcoes": ["Kami-Sama", "Mestre Kame", "Mr. Popo", "Kuririn"],
+    "correta": 1,
+    "explicacao": "Mestre Kame foi quem treinou Goku e Kuririn."
+  },
+  {
+    "id": 734,
+    "pergunta": "Qual técnica famosa Goku aprendeu com Mestre Kame?",
+    "opcoes": ["Galick Gun", "Kamehameha", "Final Flash", "Makankosappo"],
+    "correta": 1,
+    "explicacao": "O Kamehameha é a técnica clássica ensinada por Mestre Kame."
+  },
+  {
+    "id": 735,
+    "pergunta": "Qual é o irmão mais velho de Goku?",
+    "opcoes": ["Raditz", "Vegeta", "Gohan", "Trunks"],
+    "correta": 0,
+    "explicacao": "Raditz é o irmão mais velho de Goku."
+  },
+  {
+    "id": 736,
+    "pergunta": "Qual vilão foi o responsável pela destruição do Planeta Vegeta?",
+    "opcoes": ["Cell", "Freeza", "Majin Boo", "Broly"],
+    "correta": 1,
+    "explicacao": "Freeza foi o responsável por destruir o planeta Vegeta."
+  },
+  {
+    "id": 737,
+    "pergunta": "Quem foi o primeiro Super Saiyajin mostrado em Dragon Ball Z?",
+    "opcoes": ["Goku", "Vegeta", "Gohan", "Trunks"],
+    "correta": 0,
+    "explicacao": "Goku foi o primeiro a alcançar a forma de Super Saiyajin contra Freeza."
+  },
+  {
+    "id": 738,
+    "pergunta": "Qual é o nome do filho de Goku?",
+    "opcoes": ["Vegeta", "Raditz", "Gohan", "Goten"],
+    "correta": 2,
+    "explicacao": "O primeiro filho de Goku é Gohan."
+  },
+  {
+    "id": 739,
+    "pergunta": "Qual é o nome do filho mais novo de Goku?",
+    "opcoes": ["Trunks", "Vegeta Jr.", "Goten", "Pan"],
+    "correta": 2,
+    "explicacao": "O filho mais novo de Goku é Goten."
+  },
+  {
+    "id": 740,
+    "pergunta": "Qual é o nome do vilão que absorve os androides em Dragon Ball Z?",
+    "opcoes": ["Cell", "Babidi", "Boo", "Freeza"],
+    "correta": 0,
+    "explicacao": "Cell é o vilão que absorve os androides 17 e 18."
+  },
+  {
+    "id": 741,
+    "pergunta": "Qual era a cor do uniforme original dos Mighty Morphin Power Rangers?",
+    "opcoes": ["Vermelho, Azul, Verde, Branco, Preto, Rosa", "Vermelho, Azul, Preto, Amarelo, Rosa", "Verde, Branco, Preto, Amarelo, Roxo", "Somente vermelho e azul"],
+    "correta": 1,
+    "explicacao": "Os cinco Power Rangers originais eram vermelho, azul, preto, amarelo e rosa."
+  },
+  {
+    "id": 742,
+    "pergunta": "Quem era o líder dos Power Rangers originais?",
+    "opcoes": ["Billy", "Jason", "Tommy", "Zack"],
+    "correta": 1,
+    "explicacao": "Jason, o Ranger Vermelho, era o líder original."
+  },
+  {
+    "id": 743,
+    "pergunta": "Qual Ranger era conhecido como o 'Cérebro do grupo'?",
+    "opcoes": ["Billy", "Jason", "Zack", "Kimberly"],
+    "correta": 0,
+    "explicacao": "Billy, o Ranger Azul, era o mais inteligente do grupo."
+  },
+  {
+    "id": 744,
+    "pergunta": "Quem foi o primeiro Ranger Verde?",
+    "opcoes": ["Zack", "Tommy", "Jason", "Adam"],
+    "correta": 1,
+    "explicacao": "Tommy Oliver foi o primeiro Ranger Verde."
+  },
+  {
+    "id": 745,
+    "pergunta": "Qual é o nome do robô assistente dos Power Rangers?",
+    "opcoes": ["R2-D2", "Alpha 5", "C-3PO", "Zordon"],
+    "correta": 1,
+    "explicacao": "Alpha 5 era o simpático robô ajudante dos Rangers."
+  },
+  {
+    "id": 746,
+    "pergunta": "Qual entidade dava os poderes aos Power Rangers?",
+    "opcoes": ["Alpha 5", "Zordon", "Rita Repulsa", "Lord Zedd"],
+    "correta": 1,
+    "explicacao": "Zordon era quem concedia os poderes e guiava os Rangers."
+  },
+  {
+    "id": 747,
+    "pergunta": "Qual era a arma principal dos Power Rangers quando unidos?",
+    "opcoes": ["Sabres", "Blasters", "Megazord", "Chicotes"],
+    "correta": 2,
+    "explicacao": "Os Rangers combinavam seus Zords para formar o Megazord."
+  },
+  {
+    "id": 748,
+    "pergunta": "Qual vilã queria conquistar a Terra nos Power Rangers originais?",
+    "opcoes": ["Rita Repulsa", "Astronema", "Divatox", "Scorpina"],
+    "correta": 0,
+    "explicacao": "Rita Repulsa era a vilã principal da primeira temporada."
+  },
+  {
+    "id": 749,
+    "pergunta": "Quem foi o Ranger que mais vezes voltou em diferentes gerações?",
+    "opcoes": ["Jason", "Tommy", "Zack", "Billy"],
+    "correta": 1,
+    "explicacao": "Tommy apareceu em várias gerações, como Ranger Verde, Branco, Vermelho e Preto."
+  },
+  {
+    "id": 750,
+    "pergunta": "Qual era o lema dos Power Rangers?",
+    "opcoes": ["Go Go Power Rangers!", "Unidos venceremos!", "Mais rápido que a luz!", "Sempre alerta!"],
+    "correta": 0,
+    "explicacao": "O lema clássico era 'Go Go Power Rangers!'"
+  },
+  {
+    "id": 751,
+    "pergunta": "Quem é o deus do trovão na mitologia grega?",
+    "opcoes": ["Ares", "Zeus", "Hades", "Apolo"],
+    "correta": 1,
+    "explicacao": "Zeus é o rei dos deuses e controla os céus e o trovão."
+  },
+  {
+    "id": 752,
+    "pergunta": "Quem é a deusa do amor e da beleza?",
+    "opcoes": ["Hera", "Afrodite", "Artemis", "Deméter"],
+    "correta": 1,
+    "explicacao": "Afrodite é a deusa do amor e da beleza."
+  },
+  {
+    "id": 753,
+    "pergunta": "Qual deus grego governa o submundo?",
+    "opcoes": ["Hades", "Poseidon", "Zeus", "Ares"],
+    "correta": 0,
+    "explicacao": "Hades é o deus do submundo e dos mortos."
+  },
+  {
+    "id": 754,
+    "pergunta": "Quem é a deusa da sabedoria e da guerra estratégica?",
+    "opcoes": ["Athena", "Hera", "Artemis", "Deméter"],
+    "correta": 0,
+    "explicacao": "Athena é a deusa da sabedoria, artes e estratégia militar."
+  },
+  {
+    "id": 755,
+    "pergunta": "Qual deus é irmão de Zeus e deus do mar?",
+    "opcoes": ["Hades", "Hermes", "Poseidon", "Ares"],
+    "correta": 2,
+    "explicacao": "Poseidon é o deus do mar e irmão de Zeus e Hades."
+  },
+  {
+    "id": 756,
+    "pergunta": "Quem é a deusa da caça e protetora dos animais selvagens?",
+    "opcoes": ["Artemis", "Athena", "Afrodite", "Hera"],
+    "correta": 0,
+    "explicacao": "Artemis é a deusa da caça e da vida selvagem."
+  },
+  {
+    "id": 757,
+    "pergunta": "Qual deus grego é conhecido como o deus da guerra?",
+    "opcoes": ["Ares", "Hermes", "Dionísio", "Apolo"],
+    "correta": 0,
+    "explicacao": "Ares é o deus da guerra e da violência."
+  },
+  {
+    "id": 758,
+    "pergunta": "Quem é o deus do vinho e do teatro?",
+    "opcoes": ["Apolo", "Dionísio", "Hefesto", "Hermes"],
+    "correta": 1,
+    "explicacao": "Dionísio é o deus do vinho, do prazer e do teatro."
+  },
+  {
+    "id": 759,
+    "pergunta": "Qual deusa é esposa de Zeus e deusa do casamento?",
+    "opcoes": ["Hera", "Athena", "Afrodite", "Deméter"],
+    "correta": 0,
+    "explicacao": "Hera é a rainha dos deuses e deusa do casamento."
+  },
+  {
+    "id": 760,
+    "pergunta": "Quem é o mensageiro dos deuses, conhecido por suas sandálias aladas?",
+    "opcoes": ["Hermes", "Apolo", "Ares", "Hefesto"],
+    "correta": 0,
+    "explicacao": "Hermes é o mensageiro divino, deus do comércio e viajantes."
+  },
+  {
+    "id": 761,
+    "pergunta": "Qual deus é o ferreiro dos deuses, responsável pelas armas?",
+    "opcoes": ["Ares", "Hefesto", "Apolo", "Poseidon"],
+    "correta": 1,
+    "explicacao": "Hefesto é o deus do fogo e da forja, criador de armas e armaduras."
+  },
+  {
+    "id": 762,
+    "pergunta": "Quem é a deusa da agricultura e da colheita?",
+    "opcoes": ["Deméter", "Artemis", "Hera", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Deméter é a deusa da agricultura e das estações."
+  },
+  {
+    "id": 763,
+    "pergunta": "Qual deus é associado ao sol e à música?",
+    "opcoes": ["Apolo", "Ares", "Hermes", "Dionísio"],
+    "correta": 0,
+    "explicacao": "Apolo é o deus do sol, da música e da profecia."
+  },
+  {
+    "id": 764,
+    "pergunta": "Quem é a deusa da lua na mitologia grega?",
+    "opcoes": ["Artemis", "Selene", "Hera", "Afrodite"],
+    "correta": 1,
+    "explicacao": "Selene é a deusa da lua; Artemis também é associada à lua e caça."
+  },
+  {
+    "id": 765,
+    "pergunta": "Qual deus grego tinha o caduceu como símbolo?",
+    "opcoes": ["Hermes", "Apolo", "Ares", "Hades"],
+    "correta": 0,
+    "explicacao": "Hermes carrega o caduceu, símbolo de comércio e comunicação."
+  },
+  {
+    "id": 766,
+    "pergunta": "Quem é a deusa da destruição e vingança?",
+    "opcoes": ["Nêmesis", "Hera", "Atena", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Nêmesis é a deusa da justiça, vingança e retribuição."
+  },
+  {
+    "id": 767,
+    "pergunta": "Qual deus é conhecido por seu arco e flechas e associado à juventude e amor?",
+    "opcoes": ["Eros", "Ares", "Hermes", "Apolo"],
+    "correta": 0,
+    "explicacao": "Eros é o deus do amor e da paixão."
+  },
+  {
+    "id": 768,
+    "pergunta": "Quem é a deusa que protege os marinheiros e viajantes?",
+    "opcoes": ["Hera", "Atena", "Posídon", "Aphrodite"],
+    "correta": 1,
+    "explicacao": "Athena também era invocada por viajantes e para proteção estratégica."
+  },
+  {
+    "id": 769,
+    "pergunta": "Qual deus grego era responsável por controlar os ventos?",
+    "opcoes": ["Bóreas", "Ares", "Zeus", "Hades"],
+    "correta": 0,
+    "explicacao": "Bóreas é o deus do vento norte; outros deuses também controlavam ventos menores."
+  },
+  {
+    "id": 770,
+    "pergunta": "Quem é a deusa da magia e encantamentos?",
+    "opcoes": ["Hécate", "Artemis", "Athena", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Hécate é a deusa da magia, bruxaria e encruzilhadas."
+  },
+  {
+    "id": 771,
+    "pergunta": "Qual deus grego é associado à sorte e ao destino?",
+    "opcoes": ["Tyche", "Ares", "Hermes", "Hades"],
+    "correta": 0,
+    "explicacao": "Tyche é a deusa da sorte e fortuna."
+  },
+  {
+    "id": 772,
+    "pergunta": "Quem era o deus grego da música e da poesia?",
+    "opcoes": ["Apolo", "Eros", "Dionísio", "Hermes"],
+    "correta": 0,
+    "explicacao": "Apolo é o deus das artes, incluindo música, poesia e profecias."
+  },
+  {
+    "id": 773,
+    "pergunta": "Qual deus grego é conhecido por seu escudo indestrutível e capacete?",
+    "opcoes": ["Ares", "Athena", "Hades", "Hefesto"],
+    "correta": 1,
+    "explicacao": "Athena é a deusa da guerra estratégica e é frequentemente representada com escudo e capacete."
+  },
+  {
+    "id": 774,
+    "pergunta": "Quem é o deus do sono?",
+    "opcoes": ["Hipnos", "Morfeu", "Zeus", "Thanatos"],
+    "correta": 0,
+    "explicacao": "Hipnos é o deus do sono; Morfeu é seu filho e mensageiro dos sonhos."
+  },
+  {
+    "id": 775,
+    "pergunta": "Qual deus é responsável por guiar as almas dos mortos?",
+    "opcoes": ["Hermes", "Hades", "Thanatos", "Hypnos"],
+    "correta": 2,
+    "explicacao": "Thanatos é o deus da morte pacífica e guia as almas ao submundo."
+  },
+  {
+    "id": 776,
+    "pergunta": "Quem era a deusa que punia os mortais arrogantes?",
+    "opcoes": ["Nêmesis", "Hera", "Athena", "Hécate"],
+    "correta": 0,
+    "explicacao": "Nêmesis punia aqueles que se mostravam arrogantes ou desafiavam os deuses."
+  },
+  {
+    "id": 777,
+    "pergunta": "Qual deus grego é associado à comunicação e ao comércio?",
+    "opcoes": ["Hermes", "Apolo", "Ares", "Dionísio"],
+    "correta": 0,
+    "explicacao": "Hermes é o deus mensageiro, padroeiro do comércio e viajantes."
+  },
+  {
+    "id": 778,
+    "pergunta": "Quem é o deus dos animais selvagens e da caça?",
+    "opcoes": ["Ares", "Artemis", "Pan", "Hades"],
+    "correta": 2,
+    "explicacao": "Pan é o deus dos bosques, animais e da natureza selvagem."
+  },
+  {
+    "id": 779,
+    "pergunta": "Quem é a deusa da fertilidade e da natureza?",
+    "opcoes": ["Deméter", "Afrodite", "Hera", "Artemis"],
+    "correta": 0,
+    "explicacao": "Deméter é a deusa da agricultura, fertilidade e ciclos da natureza."
+  },
+  {
+    "id": 780,
+    "pergunta": "Qual deus grego era associado à música selvagem e festas?",
+    "opcoes": ["Dionísio", "Apolo", "Hermes", "Ares"],
+    "correta": 0,
+    "explicacao": "Dionísio é o deus do vinho, festas e celebrações selvagens."
+  },
+  {
+    "id": 781,
+    "pergunta": "Quem é conhecido como o deus da travessura e confusão?",
+    "opcoes": ["Tó", "Loki", "Vishu", "Ares"],
+    "correta": 1,
+    "explicacao": "Na mitologia nórdica, Loki é o deus da travessura, astúcia e confusão."
+  },
+  {
+    "id": 782,
+    "pergunta": "Quem é a deusa do submundo e rainha da primavera?",
+    "opcoes": ["Perséfone", "Afrodite", "Diana", "Hera"],
+    "correta": 0,
+    "explicacao": "Perséfone é a deusa do submundo e filha de Deméter, associada às estações."
+  },
+  {
+    "id": 783,
+    "pergunta": "Qual deusa protege e caça animais selvagens?",
+    "opcoes": ["Artemis", "Afrodite", "Hestia", "Diana"],
+    "correta": 0,
+    "explicacao": "Artemis é a deusa da caça, da lua e protetora da vida selvagem."
+  },
+  {
+    "id": 784,
+    "pergunta": "Qual deus é parte da trindade hindu e preservador do universo?",
+    "opcoes": ["Vishu", "Shiva", "Brahma", "Ares"],
+    "correta": 0,
+    "explicacao": "Vishu é o deus preservador no hinduísmo, responsável pela manutenção do universo."
+  },
+  {
+    "id": 785,
+    "pergunta": "Quem é a deusa romana da caça e da lua?",
+    "opcoes": ["Diana", "Artemis", "Hera", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Diana é a deusa romana da caça e da lua, equivalente à Artemis grega."
+  },
+  {
+    "id": 786,
+    "pergunta": "Qual deusa grega é associada à lareira e ao lar?",
+    "opcoes": ["Hestia", "Athena", "Hera", "Durga"],
+    "correta": 0,
+    "explicacao": "Hestia é a deusa do lar, da família e da harmonia doméstica."
+  },
+  {
+    "id": 787,
+    "pergunta": "Qual deusa hindu é conhecida como guerreira protetora?",
+    "opcoes": ["Durga", "Isis", "Afrodite", "Hera"],
+    "correta": 0,
+    "explicacao": "Durga é a deusa guerreira que combate o mal e protege os justos."
+  },
+  {
+    "id": 788,
+    "pergunta": "Quem é a deusa egípcia da magia e fertilidade?",
+    "opcoes": ["Isis", "Perséfone", "Athena", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Isis é a deusa egípcia da magia, fertilidade e maternidade."
+  },
+  {
+    "id": 789,
+    "pergunta": "Qual cidade grega é famosa por seus guerreiros espartanos?",
+    "opcoes": ["Esparta", "Atenas", "Corinto", "Micenas"],
+    "correta": 0,
+    "explicacao": "Esparta era conhecida por sua disciplina militar e guerreiros treinados."
+  },
+  {
+    "id": 790,
+    "pergunta": "Quem é o deus grego do sol e da música?",
+    "opcoes": ["Apolo", "Ares", "Hermes", "Vishu"],
+    "correta": 0,
+    "explicacao": "Apolo é o deus do sol, da música, da profecia e das artes."
+  },
+  {
+    "id": 791,
+    "pergunta": "Qual deusa é conhecida como a deusa do amor e da beleza?",
+    "opcoes": ["Afrodite", "Hera", "Artemis", "Diana"],
+    "correta": 0,
+    "explicacao": "Afrodite é a deusa do amor, da beleza e do desejo."
+  },
+  {
+    "id": 792,
+    "pergunta": "Qual deus grego é mensageiro dos deuses?",
+    "opcoes": ["Hermes", "Apolo", "Ares", "Loki"],
+    "correta": 0,
+    "explicacao": "Hermes é o mensageiro dos deuses e deus do comércio e viagens."
+  },
+  {
+    "id": 793,
+    "pergunta": "Quem é a rainha dos deuses e deusa do casamento?",
+    "opcoes": ["Hera", "Athena", "Afrodite", "Hestia"],
+    "correta": 0,
+    "explicacao": "Hera é a rainha dos deuses e deusa do casamento e da família."
+  },
+  {
+    "id": 794,
+    "pergunta": "Qual deusa inventada você escolheu para representar o poder feminino, chamada Mate?",
+    "opcoes": ["Mate", "Shakira", "Artemis", "Diana"],
+    "correta": 0,
+    "explicacao": "Mate é uma deusa inventada neste quiz, representando criatividade e força feminina."
+  },
+  {
+    "id": 795,
+    "pergunta": "Qual deusa pop foi adicionada como deusa divertida para o quiz?",
+    "opcoes": ["Shakira", "Mate", "Afrodite", "Hera"],
+    "correta": 0,
+    "explicacao": "Shakira foi incluída como deusa inventada neste quiz, de forma lúdica."
+  },
+  {
+    "id": 796,
+    "pergunta": "Qual deusa romana da caça e da lua corresponde à grega Artemis?",
+    "opcoes": ["Diana", "Hestia", "Hera", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Diana é a versão romana da deusa Artemis grega."
+  },
+  {
+    "id": 797,
+    "pergunta": "Qual deus ou deusa é associado(a) à proteção e à justiça?",
+    "opcoes": ["Tó", "Perséfone", "Artemis", "Ator"],
+    "correta": 2,
+    "explicacao": "Artemis também protegia os inocentes e era guardiã da justiça."
+  },
+  {
+    "id": 798,
+    "pergunta": "Qual deus hindu é responsável pela manutenção do mundo?",
+    "opcoes": ["Vishu", "Shiva", "Brahma", "Loki"],
+    "correta": 0,
+    "explicacao": "Vishu é o deus preservador, mantendo a ordem do universo."
+  },
+  {
+    "id": 799,
+    "pergunta": "Qual deusa inventada foi incluída como guerreira chamada Ator?",
+    "opcoes": ["Ator", "Durga", "Hestia", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Ator é uma deusa inventada para fins deste quiz, representando guerra e força."
+  },
+  {
+    "id": 800,
+    "pergunta": "Quem é o deus da música e da arte na mitologia grega?",
+    "opcoes": ["Apolo", "Ares", "Hermes", "Vishu"],
+    "correta": 0,
+    "explicacao": "Apolo é o deus da música, artes e profecias."
+  },
+  {
+    "id": 801,
+    "pergunta": "Qual deusa grega protege a fertilidade e a agricultura?",
+    "opcoes": ["Deméter", "Artemis", "Hera", "Afrodite"],
+    "correta": 0,
+    "explicacao": "Deméter é a deusa da agricultura e fertilidade."
+  },
+  {
+    "id": 802,
+    "pergunta": "Qual deusa egípcia da magia também protege os mortos?",
+    "opcoes": ["Isis", "Perséfone", "Athena", "Hestia"],
+    "correta": 0,
+    "explicacao": "Isis é a deusa da magia, fertilidade e protetora dos mortos."
+  },
+  {
+    "id": 803,
+    "pergunta": "Quem é a deusa inventada que representa proteção e força, chamada Antena?",
+    "opcoes": ["Antena", "Mate", "Shakira", "Ator"],
+    "correta": 0,
+    "explicacao": "Antena é uma deusa inventada para o quiz, simbolizando proteção e estratégia."
+  },
+  {
+    "id": 804,
+    "pergunta": "Qual deus grego é conhecido como deus da guerra e da violência?",
+    "opcoes": ["Ares", "Hermes", "Apolo", "Loki"],
+    "correta": 0,
+    "explicacao": "Ares é o deus da guerra e da violência."
+  },
+  {
+    "id": 805,
+    "pergunta": "Qual deus ou deusa é mensageiro(a) e também associado(a) ao comércio?",
+    "opcoes": ["Hermes", "Apolo", "Ares", "Vishu"],
+    "correta": 0,
+    "explicacao": "Hermes é o deus mensageiro e protetor do comércio."
+  },
+  {
+    "id": 806,
+    "pergunta": "Qual deusa é conhecida como rainha do amor e do casamento?",
+    "opcoes": ["Hera", "Afrodite", "Diana", "Artemis"],
+    "correta": 0,
+    "explicacao": "Hera é a rainha dos deuses e deusa do casamento."
+  },
+  {
+    "id": 807,
+    "pergunta": "Qual deusa inventada do quiz representa charme e dança, chamada Shakira?",
+    "opcoes": ["Shakira", "Mate", "Antena", "Ator"],
+    "correta": 0,
+    "explicacao": "Shakira é uma deusa inventada, adicionada de forma lúdica ao quiz."
+  },
+  {
+    "id": 808,
+    "pergunta": "Qual deusa romana corresponde a Artemis, deusa da caça?",
+    "opcoes": ["Diana", "Afrodite", "Hera", "Hestia"],
+    "correta": 0,
+    "explicacao": "Diana é a versão romana de Artemis."
   }
 ]
