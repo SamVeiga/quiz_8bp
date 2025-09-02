@@ -12,6 +12,8 @@ from datetime import datetime
 GRUPO_ID = -1002363575666
 DONO_ID = 1481389775
 TOKEN = os.getenv("TELEGRAM_TOKEN")
+# 🚀 AUTORIZADOS A FORÇAR PERGUNTA
+AUTORIZADOS = {DONO_ID, 7889195722}  # adicione mais IDs aqui se quiser
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
 bot = telebot.TeleBot(TOKEN)
@@ -147,17 +149,21 @@ while len(mensagens_anteriores) > 3:
         bot.delete_message(GRUPO_ID, msg_id)
     except:
         pass
-
-# 🚀 /FORCAR SÓ DONO
-@bot.message_handler(commands=["quiz"])
-def forcar_pergunta(m):
-    if m.from_user.id != DONO_ID:
-        return bot.reply_to(m, "Sem permissão!")
+# 🔧 Função centralizada para fechar a pergunta anterior e mandar uma nova
+def fechar_e_mandar():
     if respostas_pendentes:
         pid = next(iter(respostas_pendentes))
         revelar_resposta(pid)
         time.sleep(30)
+        respostas_pendentes.clear()  # garante que não sobra pergunta velha
     mandar_pergunta()
+
+# 🚀 /QUIZ (autorizados)
+@bot.message_handler(commands=["quiz"])
+def forcar_pergunta(m):
+    if m.from_user.id not in AUTORIZADOS:
+        return bot.reply_to(m, "Sem permissão!")
+    fechar_e_mandar()
 
 # 📊 RESPOSTA DO QUIZ
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
@@ -195,11 +201,7 @@ def desafio_callback(call):
         restante = int(300 - (agora - ultimo_pedido))
         return bot.answer_callback_query(call.id, f"Aguarde {restante}s para novo desafio.", show_alert=True)
     ultimo_pedido = agora
-    if respostas_pendentes:
-        pid = next(iter(respostas_pendentes))
-        revelar_resposta(pid)
-        time.sleep(30)
-    mandar_pergunta()
+    fechar_e_mandar()
     bot.answer_callback_query(call.id, "Novo desafio enviado!")
 
 # 🚀 WEBHOOK
