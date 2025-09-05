@@ -9,7 +9,7 @@ import random
 # =======================================
 # CONFIGURAÇÕES INICIAIS
 # =======================================
-TOKEN = os.getenv("BOT_TOKEN")  # ou coloque seu token direto aqui
+TOKEN = "8122136368:AAEjBCHLXbMaqchyy7WoNhqVIBVJOXqfZzw"  # seu token aqui
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
