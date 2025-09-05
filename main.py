@@ -149,7 +149,7 @@ def mandar_pergunta_privada(call):
         "pergunta": pergunta,
         "respostas": {},
         "user": user_id,
-        "limite": time.time() + 10  # prazo de 10 segundos
+        "limite": None  # ainda não começou a contar
     }
 
     markup = telebot.types.InlineKeyboardMarkup()
@@ -192,6 +192,10 @@ def responder_privado(call):
     pend = respostas_pendentes[pid]
     if call.from_user.id != pend["user"]:
         return bot.answer_callback_query(call.id, "Essa pergunta não é sua!")
+
+    # 🔴 Inicia o tempo apenas quando o usuário clica pela primeira vez
+    if pend["limite"] is None:
+        pend["limite"] = time.time() + 10  # começa a contar agora 10 segundos
 
     # 🔴 Verifica se passou do tempo
     if time.time() > pend["limite"]:
