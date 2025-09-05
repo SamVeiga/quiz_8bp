@@ -66,7 +66,7 @@ def escolher_pergunta():
 def mandar_desafio_grupo():
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("🎯 Novo Desafio", callback_data="novo_desafio"))
-    msg = bot.send_message(GRUPO_ID, "👉 Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
+    msg = bot.send_message(GRUPO_ID, "👉 Clique abaixo para pedir um novo Desafio. A pergunta será enviada para o seu PRIVADO!", reply_markup=desafio)
     mensagens_anteriores.append(msg.message_id)
 
     while len(mensagens_anteriores) > 3:
