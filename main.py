@@ -1,229 +1,185 @@
 from flask import Flask, request
 import telebot
 import os
-import time
-import json
-import threading
 import random
+import time
 
 # =======================================
 # CONFIGURAÇÕES INICIAIS
 # =======================================
-TOKEN = "8122136368:AAEjBCHLXbMaqchyy7WoNhqVIBVJOXqfZzw"  # seu token aqui
+TOKEN = os.getenv("BOT_TOKEN") or os.getenv("TELEGRAM_TOKEN")
+if not TOKEN:
+    raise Exception("❌ Bot token não definido. Configure BOT_TOKEN no Render.")
+
+# IDs dos donos
+OWNER_IDS = {1481389775, 7889195722}  # você e Mateus
+
+# URL base do Render (configure no seu serviço Render)
+RENDER_URL = os.getenv("RENDER_URL")  # ex: "https://quiz-8bp.onrender.com"
+
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
-GRUPO_ID = -100123456789  # ID do grupo
-DONO_ID = 1481389775
-MATEUS_ID = 7889195722
-AUTORIZADOS = {DONO_ID, MATEUS_ID}
-
 # =======================================
-# VARIÁVEIS DE CONTROLE
+# ESTADOS DO JOGO
 # =======================================
-desafio_ativo = None
-respostas_pendentes = {}  # {pid: {"pergunta": {}, "respostas": {}, "limites": {}, "revelar_em": float}}
-pontuacoes = {}
-mensagens_privadas = {}  # {user_id: [msg_ids]}
-perguntas_feitas = []
+current_challenge = None  # desafio atual
+user_answers = {}         # respostas por usuário
+private_msgs = {}         # mensagens enviadas no privado (para apagar depois)
+challenge_start_time = 0  # horário que começou
+CHALLENGE_DURATION = 300  # 5 minutos
 
 # =======================================
 # FUNÇÕES AUXILIARES
 # =======================================
-def carregar_perguntas():
-    with open("perguntas.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_questions():
+    # exemplo básico
+    return [
+        {
+            "pergunta": "Quem é o deus do trovão?",
+            "opcoes": ["Zeus", "Loki", "Thor", "Odin"],
+            "resposta": "Thor",
+            "explicacao": "Na mitologia nórdica, Thor é o deus do trovão."
+        },
+        {
+            "pergunta": "Qual deusa é associada à sabedoria?",
+            "opcoes": ["Afrodite", "Atena", "Hera", "Deméter"],
+            "resposta": "Atena",
+            "explicacao": "Atena é a deusa da sabedoria, estratégia e justiça."
+        }
+    ]
 
-def salvar_perguntas_feitas():
-    with open("perguntas_feitas.json", "w", encoding="utf-8") as f:
-        json.dump(perguntas_feitas, f)
+QUESTIONS = load_questions()
 
-def escolher_pergunta():
-    perguntas = carregar_perguntas()
-    usadas = {p["id"] for p in perguntas_feitas}
-    disponiveis = [p for p in perguntas if p["id"] not in usadas]
-    return random.choice(disponiveis) if disponiveis else None
-
-# =======================================
-# ENVIO DE PERGUNTA NO PRIVADO
-# =======================================
-def enviar_pergunta_privada(user_id, pid, pergunta):
-    global mensagens_privadas
-
-    # apaga perguntas antigas no privado
-    if user_id in mensagens_privadas:
-        for msg_id in mensagens_privadas[user_id]:
-            try:
-                bot.delete_message(user_id, msg_id)
-            except:
-                pass
-    mensagens_privadas[user_id] = []
-
-    # monta opções
-    markup = telebot.types.InlineKeyboardMarkup()
-    for i, opc in enumerate(pergunta["opcoes"]):
-        markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
-
-    msg = bot.send_message(
-        user_id,
-        f"⏳ Você tem *10 segundos* para responder:\n\n❓ {pergunta['pergunta']}",
-        parse_mode="Markdown",
-        reply_markup=markup,
-    )
-    mensagens_privadas[user_id].append(msg.message_id)
-
-    # timer individual
-    respostas_pendentes[pid]["limites"][user_id] = time.time() + 10
-
-    def timeout():
-        time.sleep(10)
-        if user_id not in respostas_pendentes[pid]["respostas"]:
-            nome = bot.get_chat(user_id).first_name or bot.get_chat(user_id).username or "Alguém"
-            bot.send_message(user_id, "⏰ Seu tempo expirou! Você não pode mais responder.")
-            bot.send_message(GRUPO_ID, f"⏰ {nome} perdeu a vez. Aguarde resultado final.")
-
-    threading.Thread(target=timeout).start()
+def new_challenge():
+    global current_challenge, user_answers, challenge_start_time
+    current_challenge = random.choice(QUESTIONS)
+    user_answers = {}
+    challenge_start_time = time.time()
+    return current_challenge
 
 # =======================================
-# CALLBACK: NOVO DESAFIO
-# =======================================
-@bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
-def desafio_callback(call):
-    global desafio_ativo
-
-    agora = time.time()
-
-    # Se já existe desafio ativo → só manda pergunta ao jogador
-    if desafio_ativo is not None:
-        pid = desafio_ativo
-        pend = respostas_pendentes.get(pid)
-        if pend and agora < pend["revelar_em"]:
-            return enviar_pergunta_privada(call.from_user.id, pid, pend["pergunta"])
-        else:
-            return bot.answer_callback_query(call.id, "⏳ Aguarde o próximo desafio.")
-
-    # Se não existe desafio → cria um novo
-    pergunta = escolher_pergunta()
-    if not pergunta:
-        return bot.send_message(call.from_user.id, "❌ Não há perguntas disponíveis.")
-
-    pid = str(time.time())
-    respostas_pendentes[pid] = {
-        "pergunta": pergunta,
-        "respostas": {},
-        "limites": {},
-        "revelar_em": agora + 300
-    }
-    desafio_ativo = pid
-
-    perguntas_feitas.append({"id": pergunta["id"], "tempo": agora})
-    salvar_perguntas_feitas()
-
-    def revelar():
-        time.sleep(300)
-        revelar_resposta(pid)
-
-    threading.Thread(target=revelar).start()
-
-    return enviar_pergunta_privada(call.from_user.id, pid, pergunta)
-
-# =======================================
-# CALLBACK: RESPOSTA DO JOGADOR
-# =======================================
-@bot.callback_query_handler(func=lambda c: "|" in c.data)
-def resposta_callback(call):
-    global respostas_pendentes
-
-    pid, idx = call.data.split("|")
-    idx = int(idx)
-
-    if pid not in respostas_pendentes:
-        return bot.answer_callback_query(call.id, "⏳ Esse desafio já encerrou.")
-
-    pend = respostas_pendentes[pid]
-    agora = time.time()
-    limite = pend["limites"].get(call.from_user.id, 0)
-
-    # expirou
-    if agora > limite:
-        return bot.send_message(call.from_user.id, "⏰ Seu tempo expirou! Você não pode mais responder.")
-
-    # já respondeu
-    if call.from_user.id in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "⚠️ Você já respondeu!")
-
-    # registra resposta
-    pend["respostas"][call.from_user.id] = idx
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
-
-    bot.send_message(call.from_user.id, f"✅ Você respondeu: {pend['pergunta']['opcoes'][idx]}\n\n👀 Aguarde 5 minutos para saber se acertou!")
-    bot.send_message(GRUPO_ID, f"✍️ {nome} respondeu.")
-
-# =======================================
-# REVELAR RESPOSTA
-# =======================================
-def revelar_resposta(pid):
-    global desafio_ativo, respostas_pendentes, pontuacoes
-
-    if pid not in respostas_pendentes:
-        return
-
-    pend = respostas_pendentes[pid]
-    pergunta = pend["pergunta"]
-    corretas = []
-    for uid, resp in pend["respostas"].items():
-        if resp == pergunta["correta"]:
-            pontuacoes[uid] = pontuacoes.get(uid, 0) + 1
-            nome = bot.get_chat(uid).first_name or bot.get_chat(uid).username or "Alguém"
-            corretas.append(nome)
-
-    texto = f"📢 Desafio encerrado!\n\n❓ Pergunta: {pergunta['pergunta']}\n✅ Resposta correta: {pergunta['opcoes'][pergunta['correta']]}\n\n📖 Explicação: {pergunta['explicacao']}\n\n🏆 Quem acertou: {', '.join(corretas) if corretas else 'Ninguém 😢'}"
-
-    # ranking
-    ranking = sorted(pontuacoes.items(), key=lambda x: x[1], reverse=True)
-    if ranking:
-        texto += "\n\n📊 Ranking:\n"
-        for i, (uid, pts) in enumerate(ranking, start=1):
-            nome = bot.get_chat(uid).first_name or bot.get_chat(uid).username or "Alguém"
-            texto += f"{i}. {nome} — {pts} ponto(s)\n"
-
-    markup = telebot.types.InlineKeyboardMarkup()
-    markup.add(telebot.types.InlineKeyboardButton("🆕 Novo Desafio", callback_data="novo_desafio"))
-
-    bot.send_message(GRUPO_ID, texto, reply_markup=markup)
-
-    # limpa estado
-    del respostas_pendentes[pid]
-    desafio_ativo = None
-
-# =======================================
-# COMANDO /quiz (apenas autorizados)
+# HANDLERS
 # =======================================
 @bot.message_handler(commands=["quiz"])
-def comando_quiz(message):
-    if message.from_user.id in AUTORIZADOS:
-        markup = telebot.types.InlineKeyboardMarkup()
-        markup.add(telebot.types.InlineKeyboardButton("🆕 Novo Desafio", callback_data="novo_desafio"))
-        bot.send_message(GRUPO_ID, "🎮 Iniciando desafio!", reply_markup=markup)
+def cmd_quiz(message):
+    if message.chat.type != "private":
+        if message.from_user.id not in OWNER_IDS:
+            bot.reply_to(message, "🚫 Apenas os administradores podem iniciar o quiz com /quiz.")
+            return
+
+    challenge = new_challenge()
+
+    markup = telebot.types.InlineKeyboardMarkup()
+    for opt in challenge["opcoes"]:
+        markup.add(telebot.types.InlineKeyboardButton(opt, callback_data=f"answer:{opt}"))
+
+    if message.chat.type == "private":
+        bot.send_message(message.chat.id, "⚡ Novo desafio iniciado no grupo! Vá até lá para participar.")
     else:
-        bot.reply_to(message, "🚫 Você não tem permissão para iniciar desafios.")
+        bot.send_message(message.chat.id, f"📢 Novo Desafio!\n\n❓ {challenge['pergunta']}", reply_markup=markup)
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith("answer:"))
+def handle_answer(call):
+    global user_answers
+
+    if not current_challenge:
+        bot.answer_callback_query(call.id, "❌ Nenhum desafio ativo.")
+        return
+
+    user_id = call.from_user.id
+    chat_id = call.message.chat.id
+    escolha = call.data.split(":", 1)[1]
+
+    elapsed = time.time() - challenge_start_time
+    if elapsed > CHALLENGE_DURATION:
+        bot.answer_callback_query(call.id, "⏰ Seu tempo expirou!")
+        try:
+            bot.send_message(user_id, "⏰ Seu tempo expirou! Aguarde o próximo desafio.")
+        except:
+            pass
+        return
+
+    if user_id in user_answers:
+        bot.answer_callback_query(call.id, "❌ Você já respondeu!")
+        return
+
+    user_answers[user_id] = escolha
+
+    # apagar pergunta anterior no privado
+    if user_id in private_msgs:
+        try:
+            bot.delete_message(user_id, private_msgs[user_id])
+        except:
+            pass
+
+    # manda confirmação no privado
+    try:
+        msg = bot.send_message(user_id, f"✅ Você respondeu: *{escolha}*\n\nAguarde 5 minutos para saber se acertou 👀", parse_mode="Markdown")
+        private_msgs[user_id] = msg.message_id
+    except:
+        pass
+
+    # notifica no grupo
+    if chat_id < 0:  # grupo
+        bot.send_message(chat_id, f"👤 {call.from_user.first_name} respondeu ao desafio!")
 
 # =======================================
-# FLASK ENDPOINT
+# FINALIZAÇÃO DO DESAFIO
+# =======================================
+def finalize_challenge(group_id):
+    global current_challenge
+    if not current_challenge:
+        return
+
+    correct = current_challenge["resposta"]
+    winners = [uid for uid, ans in user_answers.items() if ans == correct]
+
+    txt = f"🏁 Fim do desafio!\n\n❓ {current_challenge['pergunta']}\n"
+    txt += f"✅ Resposta correta: *{correct}*\n"
+    txt += f"📖 Explicação: {current_challenge['explicacao']}\n\n"
+
+    if winners:
+        txt += "🎉 Acertaram:\n" + "\n".join([f"• {bot.get_chat(uid).first_name}" for uid in winners])
+    else:
+        txt += "😢 Ninguém acertou."
+
+    markup = telebot.types.InlineKeyboardMarkup()
+    markup.add(telebot.types.InlineKeyboardButton("➡️ Novo Desafio", callback_data="novo_desafio"))
+
+    bot.send_message(group_id, txt, parse_mode="Markdown", reply_markup=markup)
+    current_challenge = None
+
+@bot.callback_query_handler(func=lambda call: call.data == "novo_desafio")
+def novo_desafio(call):
+    if call.message.chat.type == "private":
+        bot.answer_callback_query(call.id, "🚫 Esse botão só funciona no grupo.")
+        return
+    cmd_quiz(call.message)
+
+# =======================================
+# FLASK (WEBHOOK)
 # =======================================
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
-    update = telebot.types.Update.de_json(request.stream.read().decode("utf-8"))
-    bot.process_new_updates([update])
-    return "OK"
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "OK", 200
 
-@app.route("/")
-def index():
-    return "Bot ativo!"
+@app.route("/", methods=["GET"])
+def home():
+    url = f"{RENDER_URL}/{TOKEN}"
+    if bot.get_webhook_info().url != url:
+        bot.remove_webhook()
+        bot.set_webhook(url=url)
+    return "Bot rodando com webhook ✅", 200
 
 # =======================================
-# MAIN
+# FINALIZAÇÃO AUTOMÁTICA DO DESAFIO
 # =======================================
-if __name__ == "__main__":
-    bot.remove_webhook()
-    bot.polling(none_stop=True)
+@app.before_request
+def check_challenge_timeout():
+    global current_challenge
+    if current_challenge:
+        elapsed = time.time() - challenge_start_time
+        if elapsed > CHALLENGE_DURATION:
+            finalize_challenge(-1001234567890)  # substitua pelo ID do grupo onde roda
