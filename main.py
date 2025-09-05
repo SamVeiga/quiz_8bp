@@ -8,27 +8,25 @@ import threading
 import time
 from datetime import datetime
 
-# ⛔ CONFIGURAÇÕES DO GRUPO E TOKENS (PODE ALTERAR SOMENTE O GRUPO_ID E DONO_ID)
+# ⛔ CONFIGURAÇÕES DO GRUPO E TOKENS
 GRUPO_ID = -1002363575666
 DONO_ID = 1481389775
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-# 🚀 AUTORIZADOS A FORÇAR PERGUNTA
-AUTORIZADOS = {DONO_ID, 7889195722}  # adicione mais IDs aqui se quiser
+AUTORIZADOS = {DONO_ID, 7889195722}
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
-# ⛔ CAMINHOS DE ARQUIVOS (NÃO ALTERAR)
+# ⛔ CAMINHOS DE ARQUIVOS
 PERGUNTAS_PATH = "perguntas.json"
 RANKING_PATH = "ranking.json"
 respostas_pendentes = {}
 perguntas_feitas = []
-mensagens_anteriores = []  # Armazena mensagens para referência futura (sem exclusão agora)
-mensagens_respostas = []  # Armazena mensagens "Fulano respondeu" para futura limpeza
+mensagens_anteriores = []
+mensagens_respostas = []
 
-
-# ⛔ CARREGAMENTO INICIAL DE DADOS (NÃO ALTERAR)
+# ⛔ CARREGAMENTO INICIAL
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
 except:
@@ -55,7 +53,7 @@ def carregar_perguntas_feitas():
     except:
         perguntas_feitas = []
 
-# 🔐 BLOCO DE ESCOLHA DE PERGUNTAS (NÃO ALTERAR)
+# 🔐 Escolha de perguntas
 def escolher_pergunta():
     agora = time.time()
     ultimos_3_dias = agora - (3 * 86400)
@@ -64,33 +62,13 @@ def escolher_pergunta():
     candidatas = [p for p in perguntas if p["id"] not in ids_recentes]
     return random.choice(candidatas) if candidatas else None
 
-# 🌟 ENVIO DA PRÓXIMA PERGUNTA
-
-def mandar_pergunta():
-    pergunta = escolher_pergunta()
-    if not pergunta:
-        return
-
-    pid = str(time.time())
-    respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}}
-
-    markup = telebot.types.InlineKeyboardMarkup()
-    for i, opc in enumerate(pergunta["opcoes"]):
-        markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
-
-    msg = bot.send_message(GRUPO_ID, f"❓ *Pergunta:* {pergunta['pergunta']}", parse_mode="Markdown", reply_markup=markup)
-    mensagens_anteriores.append(msg.message_id)
-
-    # Botão "Novo Desafio"
+# 🌟 Enviar botão de desafio no grupo
+def mandar_desafio_grupo():
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("🎯 Novo Desafio", callback_data="novo_desafio"))
-    desafio_msg = bot.send_message(GRUPO_ID, "Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
-    mensagens_anteriores.append(desafio_msg.message_id)
+    msg = bot.send_message(GRUPO_ID, "👉 Clique abaixo para pedir um novo desafio!", reply_markup=desafio)
+    mensagens_anteriores.append(msg.message_id)
 
-    perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
-    salvar_perguntas_feitas()
-
-    # 🧹 Apagar mensagens antigas (mantém só as 3 mais recentes)
     while len(mensagens_anteriores) > 3:
         msg_id = mensagens_anteriores.pop(0)
         try:
@@ -98,8 +76,7 @@ def mandar_pergunta():
         except:
             pass
 
-# ⚖️ RANKING + BALÃO DE RESPOSTA
-
+# ⚖️ Revelar resposta no grupo
 def revelar_resposta(pid):
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
@@ -121,12 +98,9 @@ def revelar_resposta(pid):
     salvar_ranking()
 
     resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
-
-    # Mostra a explicação se existir
     if "explicacao" in pergunta and pergunta["explicacao"].strip():
         resp += f"💡 *Explicação:* {pergunta['explicacao']}\n\n"
-    
-    resp += "\U0001f389 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) if acertadores else "😢 Ninguém acertou.\n"
+    resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) if acertadores else "😢 Ninguém acertou.\n"
 
     if ranking:
         resp += "\n🏆 *Ranking atual:*\n"
@@ -142,67 +116,86 @@ def revelar_resposta(pid):
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
-# 🧹 Limpeza: manter apenas as 3 últimas mensagens (botão, pergunta e ranking)
-while len(mensagens_anteriores) > 3:
-    msg_id = mensagens_anteriores.pop(0)
-    try:
-        bot.delete_message(GRUPO_ID, msg_id)
-    except:
-        pass
-# 🔧 Função centralizada para fechar a pergunta anterior e mandar uma nova
-def fechar_e_mandar():
-    if respostas_pendentes:
-        pid = next(iter(respostas_pendentes))
+# 🎯 Botão "Novo Desafio" → abre privado
+@bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
+def desafio_callback(call):
+    bot.answer_callback_query(call.id)
+    user_id = call.from_user.id
+    bot.send_message(
+        user_id,
+        "🎯 Clique abaixo para receber sua nova pergunta:",
+        reply_markup=telebot.types.InlineKeyboardMarkup().add(
+            telebot.types.InlineKeyboardButton("👉 Nova Pergunta", callback_data="pergunta_privada")
+        ),
+    )
+
+# 🚀 Pergunta no privado
+@bot.callback_query_handler(func=lambda c: c.data == "pergunta_privada")
+def mandar_pergunta_privada(call):
+    user_id = call.from_user.id
+    pergunta = escolher_pergunta()
+    if not pergunta:
+        return bot.send_message(user_id, "❌ Não há perguntas disponíveis.")
+
+    pid = str(time.time())
+    respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}, "user": user_id}
+
+    markup = telebot.types.InlineKeyboardMarkup()
+    for i, opc in enumerate(pergunta["opcoes"]):
+        markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
+
+    bot.send_message(
+        user_id,
+        f"⏳ Você tem *10 segundos* para responder:\n\n❓ {pergunta['pergunta']}",
+        parse_mode="Markdown",
+        reply_markup=markup,
+    )
+
+    perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
+    salvar_perguntas_feitas()
+
+    # Timer 10s
+    def timeout():
+        time.sleep(10)
+        if user_id not in respostas_pendentes[pid]["respostas"]:
+            nome = call.from_user.first_name or call.from_user.username or "Alguém"
+            bot.send_message(GRUPO_ID, f"⏰ {nome} perdeu a vez. Aguarde resultado final.")
+
+    threading.Thread(target=timeout).start()
+
+    # Revelar resposta após 5 minutos
+    def revelar():
+        time.sleep(300)
         revelar_resposta(pid)
-        time.sleep(30)
-        respostas_pendentes.clear()  # garante que não sobra pergunta velha
-    mandar_pergunta()
 
-# 🚀 /QUIZ (autorizados)
-@bot.message_handler(commands=["quiz"])
-def forcar_pergunta(m):
-    if m.from_user.id not in AUTORIZADOS:
-        return bot.reply_to(m, "Sem permissão!")
-    fechar_e_mandar()
+    threading.Thread(target=revelar).start()
 
-# 📊 RESPOSTA DO QUIZ
+# 📊 Resposta do quiz (somente no privado)
 @bot.callback_query_handler(func=lambda c: "|" in c.data)
-def responder_quiz(call):
+def responder_privado(call):
     pid, opcao = call.data.split("|")
     if pid not in respostas_pendentes:
         return bot.answer_callback_query(call.id, "Pergunta expirada.")
-    pend = respostas_pendentes[pid]
-    user = call.from_user.id
-    if user in pend["respostas"]:
-        return bot.answer_callback_query(call.id, "Já respondeu!")
-    pend["respostas"][user] = int(opcao)
-    bot.answer_callback_query(call.id, "✅ Resposta salva!")
-    nome = call.from_user.first_name or call.from_user.username or "Alguém"
-    msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu.")
 
-    # Salva o ID da mensagem de resposta
+    pend = respostas_pendentes[pid]
+    if call.from_user.id != pend["user"]:
+        return bot.answer_callback_query(call.id, "Essa pergunta não é sua!")
+    if call.from_user.id in pend["respostas"]:
+        return bot.answer_callback_query(call.id, "Você já respondeu!")
+
+    pend["respostas"][call.from_user.id] = int(opcao)
+    bot.answer_callback_query(call.id, "✅ Resposta registrada!")
+
+    nome = call.from_user.first_name or call.from_user.username or "Alguém"
+    msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu. Aguarde resultado final.")
     mensagens_respostas.append(msg.message_id)
 
-    # Limpa mensagens antigas de "Fulano respondeu" (mantém só as 10 últimas)
     while len(mensagens_respostas) > 10:
         msg_id = mensagens_respostas.pop(0)
         try:
             bot.delete_message(GRUPO_ID, msg_id)
         except:
             pass
-
-# 🎯 BOTÃO NOVO DESAFIO
-ultimo_pedido = 0
-@bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
-def desafio_callback(call):
-    global ultimo_pedido
-    agora = time.time()
-    if agora - ultimo_pedido < 300:
-        restante = int(300 - (agora - ultimo_pedido))
-        return bot.answer_callback_query(call.id, f"Aguarde {restante}s para novo desafio.", show_alert=True)
-    ultimo_pedido = agora
-    fechar_e_mandar()
-    bot.answer_callback_query(call.id, "Novo desafio enviado!")
 
 # 🚀 WEBHOOK
 @app.route(f"/{TOKEN}", methods=["POST"])
@@ -227,10 +220,7 @@ def manter_vivo():
             pass
         time.sleep(600)
 
-# ❌ SEM PERGUNTAS AUTOMÁTICAS AGORA
-
-# ⏰ ZERAR RANKING MEIA-NOITE
-
+# ⏰ Zerar ranking diário
 def zerar_ranking_diario():
     while True:
         agora = datetime.now()
@@ -243,8 +233,8 @@ def zerar_ranking_diario():
                     nome = user.first_name or user.username or str(vencedor)
                 except:
                     nome = str(vencedor)
-                texto = f"\U0001f389 *Vitória do Dia!* \U0001f389\n\nParabéns {nome}! Você foi o melhor do dia!\n\n"
-                texto += "🎖️ *Top 3 do Dia:*\n"
+                texto = f"🎉 *Vitória do Dia!*\n\nParabéns {nome}! Você foi o melhor do dia!\n\n"
+                texto += "🥇 *Top 3 do Dia:*\n"
                 for i, (u, p) in enumerate(top[:3], 1):
                     try:
                         user = bot.get_chat(u)
@@ -258,9 +248,10 @@ def zerar_ranking_diario():
             time.sleep(60)
         time.sleep(30)
 
-# 🔧 INICIAR TUDO
+# 🔧 Iniciar tudo
 if __name__ == "__main__":
     carregar_perguntas_feitas()
+    mandar_desafio_grupo()  # já manda um balão no início
     threading.Thread(target=zerar_ranking_diario).start()
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
