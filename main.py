@@ -29,6 +29,9 @@ mensagens_respostas = []
 # Variável para controlar apenas um desafio ativo por vez
 desafio_ativo = None
 
+# Para apagar mensagens privadas por usuário
+mensagens_privadas = {}
+
 # ⛔ CARREGAMENTO INICIAL
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
@@ -168,7 +171,7 @@ def desafio_callback(call):
 # 🚀 Pergunta no privado
 @bot.callback_query_handler(func=lambda c: c.data == "pergunta_privada")
 def mandar_pergunta_privada(call):
-    global desafio_ativo
+    global desafio_ativo, mensagens_privadas
     user_id = call.from_user.id
     pergunta = escolher_pergunta()
     if not pergunta:
@@ -179,21 +182,32 @@ def mandar_pergunta_privada(call):
         "pergunta": pergunta,
         "respostas": {},
         "user": user_id,
-        "limite": None,          # ainda não começou a contar
-        "revelar_em": time.time() + 300  # 5 minutos para revelar
+        "limite": None,
+        "revelar_em": time.time() + 300  # 5 minutos
     }
     desafio_ativo = pid  # marca desafio ativo
 
+    # Apagar mensagem anterior no privado
+    if user_id in mensagens_privadas:
+        for msg_id in mensagens_privadas[user_id]:
+            try:
+                bot.delete_message(user_id, msg_id)
+            except:
+                pass
+    mensagens_privadas[user_id] = []
+
+    # Envia nova pergunta
     markup = telebot.types.InlineKeyboardMarkup()
     for i, opc in enumerate(pergunta["opcoes"]):
         markup.add(telebot.types.InlineKeyboardButton(opc, callback_data=f"{pid}|{i}"))
 
-    bot.send_message(
+    msg = bot.send_message(
         user_id,
         f"⏳ Você tem *10 segundos* para responder:\n\n❓ {pergunta['pergunta']}",
         parse_mode="Markdown",
         reply_markup=markup,
     )
+    mensagens_privadas[user_id].append(msg.message_id)
 
     perguntas_feitas.append({"id": pergunta["id"], "tempo": time.time()})
     salvar_perguntas_feitas()
@@ -225,11 +239,9 @@ def responder_privado(call):
     if call.from_user.id != pend["user"]:
         return bot.answer_callback_query(call.id, "Essa pergunta não é sua!")
 
-    # 🔴 Inicia o tempo apenas quando o usuário clica pela primeira vez
     if pend["limite"] is None:
-        pend["limite"] = time.time() + 10  # começa a contar agora 10 segundos
+        pend["limite"] = time.time() + 10
 
-    # 🔴 Verifica se passou do tempo
     if time.time() > pend["limite"]:
         return bot.answer_callback_query(call.id, "⏰ Seu tempo expirou! Você não pode mais responder.")
 
@@ -239,7 +251,7 @@ def responder_privado(call):
     pend["respostas"][call.from_user.id] = int(opcao)
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
 
-    # 🔹 Feedback no privado
+    # Feedback no privado
     pergunta = pend["pergunta"]
     resposta_escolhida = pergunta["opcoes"][int(opcao)]
     bot.send_message(
@@ -248,17 +260,15 @@ def responder_privado(call):
         parse_mode="Markdown"
     )
 
-    # 🔹 Grupo: confirma resposta
+    # Grupo confirma resposta
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
     msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu. Aguarde resultado final.")
     mensagens_respostas.append(msg.message_id)
 
-    # 🔹 Grupo: lembrete de resultado (apenas uma vez por pergunta)
     if "lembrete_enviado" not in pend:
         bot.send_message(GRUPO_ID, "⏳ Resultado sai em 5 minutos...")
         pend["lembrete_enviado"] = True
 
-    # Limpeza das mensagens de resposta antigas
     while len(mensagens_respostas) > 10:
         msg_id = mensagens_respostas.pop(0)
         try:
@@ -320,7 +330,7 @@ def zerar_ranking_diario():
 # 🔧 Iniciar tudo
 if __name__ == "__main__":
     carregar_perguntas_feitas()
-    mandar_desafio_grupo()  # já manda um balão no início
+    mandar_desafio_grupo()
     threading.Thread(target=zerar_ranking_diario).start()
     threading.Thread(target=manter_vivo).start()
     port = int(os.getenv("PORT", 10000))
