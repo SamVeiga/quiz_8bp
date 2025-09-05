@@ -97,9 +97,13 @@ def revelar_resposta(pid):
 
     salvar_ranking()
 
-    resp = f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+    # 🔹 Inclui a pergunta no resultado
+    resp = f"❓ *Pergunta:* {pergunta['pergunta']}\n\n"
+    resp += f"✅ *Resposta correta:* {pergunta['opcoes'][pergunta['correta']]}\n\n"
+
     if "explicacao" in pergunta and pergunta["explicacao"].strip():
         resp += f"💡 *Explicação:* {pergunta['explicacao']}\n\n"
+
     resp += "🎉 *Quem acertou:*\n" + "\n".join(f"• {nome}" for nome in acertadores) if acertadores else "😢 Ninguém acertou.\n"
 
     if ranking:
@@ -186,10 +190,26 @@ def responder_privado(call):
     pend["respostas"][call.from_user.id] = int(opcao)
     bot.answer_callback_query(call.id, "✅ Resposta registrada!")
 
+    # 🔹 Feedback no privado
+    pergunta = pend["pergunta"]
+    resposta_escolhida = pergunta["opcoes"][int(opcao)]
+    bot.send_message(
+        call.from_user.id,
+        f"📩 Você respondeu: *{resposta_escolhida}*\n\n⏳ Aguarde 5 minutos para saber se acertou 👀",
+        parse_mode="Markdown"
+    )
+
+    # 🔹 Grupo: confirma resposta
     nome = call.from_user.first_name or call.from_user.username or "Alguém"
     msg = bot.send_message(GRUPO_ID, f"✅ {nome} respondeu. Aguarde resultado final.")
     mensagens_respostas.append(msg.message_id)
 
+    # 🔹 Grupo: lembrete de resultado (apenas uma vez por pergunta)
+    if "lembrete_enviado" not in pend:
+        bot.send_message(GRUPO_ID, "⏳ Resultado sai em 5 minutos...")
+        pend["lembrete_enviado"] = True
+
+    # Limpeza das mensagens de resposta antigas
     while len(mensagens_respostas) > 10:
         msg_id = mensagens_respostas.pop(0)
         try:
