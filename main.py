@@ -120,6 +120,9 @@ def revelar_resposta(pid):
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
+    # 🚀 🔥 Depois de mostrar a resposta, manda novo botão "Novo Desafio"
+    mandar_desafio_grupo()
+
 # 🎯 Botão "Novo Desafio" → abre privado
 @bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
 def desafio_callback(call):
