@@ -26,6 +26,9 @@ perguntas_feitas = []
 mensagens_anteriores = []
 mensagens_respostas = []
 
+# Variável para controlar apenas um desafio ativo por vez
+desafio_ativo = None
+
 # ⛔ CARREGAMENTO INICIAL
 try:
     perguntas = json.load(open(PERGUNTAS_PATH, encoding="utf-8"))
@@ -64,11 +67,17 @@ def escolher_pergunta():
 
 # 🌟 Enviar botão de desafio no grupo
 def mandar_desafio_grupo():
+    global desafio_ativo
+    if desafio_ativo is not None:
+        # Já existe um desafio ativo, não enviar botão
+        return
+
     desafio = telebot.types.InlineKeyboardMarkup()
     desafio.add(telebot.types.InlineKeyboardButton("🎯 Novo Desafio", callback_data="novo_desafio"))
     msg = bot.send_message(GRUPO_ID, "👉 Clique abaixo para pedir um novo Desafio. A pergunta será enviada para o seu PRIVADO!", reply_markup=desafio)
     mensagens_anteriores.append(msg.message_id)
 
+    # Limpa mensagens antigas do grupo
     while len(mensagens_anteriores) > 3:
         msg_id = mensagens_anteriores.pop(0)
         try:
@@ -78,6 +87,7 @@ def mandar_desafio_grupo():
 
 # ⚖️ Revelar resposta no grupo
 def revelar_resposta(pid):
+    global desafio_ativo
     pend = respostas_pendentes.pop(pid, None)
     if not pend:
         return
@@ -120,12 +130,31 @@ def revelar_resposta(pid):
     msg = bot.send_message(GRUPO_ID, resp, parse_mode="Markdown")
     mensagens_anteriores.append(msg.message_id)
 
-    # 🚀 🔥 Depois de mostrar a resposta, manda novo botão "Novo Desafio"
+    # 🔹 Libera novo desafio
+    desafio_ativo = None
     mandar_desafio_grupo()
 
 # 🎯 Botão "Novo Desafio" → abre privado
 @bot.callback_query_handler(func=lambda c: c.data == "novo_desafio")
 def desafio_callback(call):
+    global desafio_ativo
+    agora = time.time()
+
+    # Se já existe desafio ativo
+    if desafio_ativo is not None:
+        pend = respostas_pendentes.get(desafio_ativo)
+        if pend:
+            restante = int(pend['revelar_em'] - agora)
+            if restante > 0:
+                minutos = restante // 60
+                segundos = restante % 60
+                return bot.answer_callback_query(
+                    call.id,
+                    f"⏳ Aguarde {minutos}m {segundos}s para a próxima pergunta.",
+                    show_alert=True
+                )
+
+    # Caso não exista desafio ativo, libera para privado
     bot.answer_callback_query(call.id)
     user_id = call.from_user.id
     bot.send_message(
@@ -139,6 +168,7 @@ def desafio_callback(call):
 # 🚀 Pergunta no privado
 @bot.callback_query_handler(func=lambda c: c.data == "pergunta_privada")
 def mandar_pergunta_privada(call):
+    global desafio_ativo
     user_id = call.from_user.id
     pergunta = escolher_pergunta()
     if not pergunta:
@@ -149,8 +179,10 @@ def mandar_pergunta_privada(call):
         "pergunta": pergunta,
         "respostas": {},
         "user": user_id,
-        "limite": None  # ainda não começou a contar
+        "limite": None,          # ainda não começou a contar
+        "revelar_em": time.time() + 300  # 5 minutos para revelar
     }
+    desafio_ativo = pid  # marca desafio ativo
 
     markup = telebot.types.InlineKeyboardMarkup()
     for i, opc in enumerate(pergunta["opcoes"]):
