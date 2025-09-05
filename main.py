@@ -142,7 +142,12 @@ def mandar_pergunta_privada(call):
         return bot.send_message(user_id, "❌ Não há perguntas disponíveis.")
 
     pid = str(time.time())
-    respostas_pendentes[pid] = {"pergunta": pergunta, "respostas": {}, "user": user_id}
+    respostas_pendentes[pid] = {
+        "pergunta": pergunta,
+        "respostas": {},
+        "user": user_id,
+        "limite": time.time() + 10  # prazo de 10 segundos
+    }
 
     markup = telebot.types.InlineKeyboardMarkup()
     for i, opc in enumerate(pergunta["opcoes"]):
@@ -184,6 +189,11 @@ def responder_privado(call):
     pend = respostas_pendentes[pid]
     if call.from_user.id != pend["user"]:
         return bot.answer_callback_query(call.id, "Essa pergunta não é sua!")
+
+    # 🔴 Verifica se passou do tempo
+    if time.time() > pend["limite"]:
+        return bot.answer_callback_query(call.id, "⏰ Seu tempo expirou! Você não pode mais responder.")
+
     if call.from_user.id in pend["respostas"]:
         return bot.answer_callback_query(call.id, "Você já respondeu!")
 
