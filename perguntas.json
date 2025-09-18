@@ -1,3666 +1,1202 @@
 [
   {
     "id": 1,
-    "pergunta": "Qual é o nome do cachorro da família Simpson?",
-    "opcoes": ["Dino", "Ajudante de Papai Noel", "Scooby-Doo", "Brian"],
-    "correta": 1,
+    "pergunta": "Qual é a moeda principal usada no 8 Ball Pool?",
+    "opcoes": ["Ouro", "Cash", "Fichas", "Gemas"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "O cachorro da família Simpson se chama Ajudante de Papai Noel (Santa’s Little Helper)."
+    "explicacao": "A moeda principal do 8 Ball Pool são as fichas, usadas para entrar em mesas e apostar contra outros jogadores."
   },
   {
     "id": 2,
-    "pergunta": "Qual vegetal dava força ao marinheiro Popeye?",
-    "opcoes": ["Cenoura", "Espinafre", "Batata", "Tomate"],
-    "correta": 1,
+    "pergunta": "Qual é o nível mínimo para poder jogar na mesa de Londres?",
+    "opcoes": ["Nível 1", "Nível 5", "Nível 10", "Nível 15"],
+    "correta": 0,
     "nivel": "facil",
-    "explicacao": "Popeye ficava super forte ao comer espinafre."
+    "explicacao": "A mesa de Londres é a primeira disponível no jogo e pode ser acessada já a partir do nível 1."
   },
   {
     "id": 3,
-    "pergunta": "Quem era o dono e melhor amigo do cachorro Scooby-Doo?",
-    "opcoes": ["Salsicha", "Fred", "Velma", "Daphne"],
-    "correta": 0,
+    "pergunta": "Qual é a moeda premium do jogo?",
+    "opcoes": ["Fichas", "Cash", "Gemas", "Estrelas"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "Salsicha é o melhor amigo e dono do Scooby-Doo."
+    "explicacao": "O Cash é a moeda premium usada para comprar tacos especiais, giros e itens exclusivos."
   },
   {
     "id": 4,
-    "pergunta": "Qual é o nome do ratinho que sempre fugia do gato Tom?",
-    "opcoes": ["Jerry", "Speedy Gonzalez", "Pinky", "Mickey"],
-    "correta": 0,
+    "pergunta": "O que acontece se um jogador derrubar a bola 8 antes da hora?",
+    "opcoes": ["Ganha automaticamente", "Perde automaticamente", "Recebe pontos extras", "A rodada é reiniciada"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "O desenho clássico é Tom & Jerry, em que Tom tenta capturar Jerry sem sucesso."
+    "explicacao": "No 8 Ball Pool, se o jogador encaçapa a bola 8 antes de terminar seu grupo, perde automaticamente a partida."
   },
   {
     "id": 5,
-    "pergunta": "Qual era o bordão característico do Pica-Pau?",
-    "opcoes": ["Haha-haha-haha!", "Yabba Dabba Doo!", "D'oh!", "Isso, isso, isso!"],
-    "correta": 0,
+    "pergunta": "Qual desses modos existe além do clássico 8 Ball?",
+    "opcoes": ["Snooker", "9 Ball", "Trickshot", "Carom"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "O riso característico do Pica-Pau é sua marca registrada."
+    "explicacao": "Além do modo 8 Ball, também existe o modo 9 Ball dentro do jogo."
   },
   {
     "id": 6,
-    "pergunta": "Em Cavaleiros do Zodíaco, quem é o cavaleiro de Pégaso?",
-    "opcoes": ["Shiryu", "Hyoga", "Ikki", "Seiya"],
-    "correta": 3,
-    "nivel": "medio",
-    "explicacao": "Seiya é o Cavaleiro de Pégaso e protagonista do anime."
+    "pergunta": "Qual mesa é conhecida por ter a aposta inicial mais baixa?",
+    "opcoes": ["Londres", "Sydney", "Moscou", "Tóquio"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "A mesa de Londres tem a menor aposta inicial do jogo."
   },
   {
     "id": 7,
-    "pergunta": "Qual é o nome do amigo rosa do Bob Esponja?",
-    "opcoes": ["Patrick", "Lula Molusco", "Sandy", "Plankton"],
-    "correta": 0,
+    "pergunta": "Quantas bolas coloridas (excluindo a branca e a 8) existem no jogo clássico?",
+    "opcoes": ["10", "12", "14", "15"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "Patrick Estrela é o melhor amigo do Bob Esponja."
+    "explicacao": "No 8 Ball existem 7 lisas e 7 listradas, totalizando 14 bolas coloridas, além da branca e da 8."
   },
   {
     "id": 8,
-    "pergunta": "Quem era o vilão que sempre tentava capturar o Papa-Léguas?",
-    "opcoes": ["Coiote", "Patolino", "Frajola", "Pernalonga"],
-    "correta": 0,
+    "pergunta": "Qual taco básico todo jogador recebe no início?",
+    "opcoes": ["Taco Standard", "Taco Básico", "Taco Inicial", "Taco de Madeira"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "O Coiote passava episódios inteiros tentando capturar o Papa-Léguas sem sucesso."
+    "explicacao": "Todos os jogadores começam com o Taco Básico."
   },
   {
     "id": 9,
-    "pergunta": "Qual é o nome da cidade onde se passa 'Os Flintstones'?",
-    "opcoes": ["Bedrock", "Springfield", "Stoneville", "Granite City"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Os Flintstones vivem na cidade pré-histórica de Bedrock."
+    "pergunta": "Qual destes pode ser ganho no 'Spin & Win' diário?",
+    "opcoes": ["Carros", "Cash", "Skins de personagem", "Cristais"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "No Spin & Win é possível ganhar Cash, fichas e até tacos especiais."
   },
   {
     "id": 10,
-    "pergunta": "Qual era a cor do uniforme dos Smurfs?",
-    "opcoes": ["Azul e branco", "Verde e preto", "Vermelho e amarelo", "Azul e vermelho"],
-    "correta": 0,
+    "pergunta": "Qual é o objetivo final de cada partida de 8 Ball?",
+    "opcoes": ["Encaçapar todas as bolas lisas", "Encaçapar todas as bolas listradas", "Encaçapar todas as do seu grupo e depois a 8", "Acertar a bola branca por último"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "Os Smurfs são azuis e usam roupas brancas."
+    "explicacao": "O objetivo é derrubar todas as bolas do seu grupo (lisas ou listradas) e por último a bola 8."
   },
   {
     "id": 11,
-    "pergunta": "Qual é o nome do vilão principal dos Smurfs?",
-    "opcoes": ["Gárgamel", "Plankton", "Coiote", "Patolino"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Gárgamel é o mago que sempre tenta capturar os Smurfs."
+    "pergunta": "Qual é a função do Cash no jogo?",
+    "opcoes": ["Comprar fichas", "Comprar tacos premium e giros", "Entrar em mesas", "Desbloquear níveis"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "O Cash serve principalmente para comprar tacos premium, giros e alguns recursos especiais."
   },
   {
     "id": 12,
-    "pergunta": "Qual é a profissão do pai da família Jetsons?",
-    "opcoes": ["Operário de fábrica", "Executivo de escritório", "Piloto espacial", "Inventor"],
-    "correta": 1,
+    "pergunta": "Qual mesa é famosa por ter prêmios altíssimos e nível mínimo elevado?",
+    "opcoes": ["Londres", "Miami", "Las Vegas", "Venice"],
+    "correta": 3,
     "nivel": "medio",
-    "explicacao": "George Jetson trabalhava em um escritório futurista, apertando botões."
+    "explicacao": "A mesa Venice é uma das mais conhecidas por exigir nível alto e oferecer prêmios milionários."
   },
   {
     "id": 13,
-    "pergunta": "Qual era o superpoder da Docinho nas Meninas Superpoderosas?",
-    "opcoes": ["Força", "Supervelocidade", "Raio laser", "Invisibilidade"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Docinho era a mais forte e durona do trio."
+    "pergunta": "O que acontece se a bola branca cair junto com a 8 na jogada final?",
+    "opcoes": ["O jogador vence", "O jogo empata", "O jogador perde", "A partida reinicia"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Se a branca cai junto com a 8, o jogador perde automaticamente a partida."
   },
   {
     "id": 14,
-    "pergunta": "Em Dragon Ball Z, quem foi o primeiro a se transformar em Super Saiyajin?",
-    "opcoes": ["Vegeta", "Gohan", "Goku", "Trunks"],
-    "correta": 2,
+    "pergunta": "Qual destes atributos os tacos possuem?",
+    "opcoes": ["Força, Precisão, Giro, Tempo", "Velocidade, Defesa, Poder, Sorte", "Ataque, Defesa, Velocidade, Estamina", "Força, Energia, Resistência, Sorte"],
+    "correta": 0,
     "nivel": "medio",
-    "explicacao": "Goku foi o primeiro a alcançar a forma de Super Saiyajin na luta contra Freeza."
+    "explicacao": "Os tacos têm atributos como Força, Precisão, Giro e Tempo."
   },
   {
     "id": 15,
-    "pergunta": "Quem era o cientista que ajudava o He-Man?",
-    "opcoes": ["Mentor", "Orko", "Esqueleto", "Adam"],
-    "correta": 0,
+    "pergunta": "Qual é o limite máximo de nível no 8 Ball Pool?",
+    "opcoes": ["100", "500", "999", "200"],
+    "correta": 1,
     "nivel": "medio",
-    "explicacao": "Mentor era o conselheiro e cientista que ajudava He-Man."
+    "explicacao": "O nível máximo alcançável no 8 Ball Pool é 500."
   },
   {
     "id": 16,
-    "pergunta": "Qual era o bordão dos Thundercats?",
-    "opcoes": ["Ho!", "Go Go!", "Avante!", "Força!"],
+    "pergunta": "Qual desses recursos ajuda a alinhar melhor a tacada?",
+    "opcoes": ["Linha de mira", "Boost de velocidade", "Redução de tempo", "Replay"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O bordão era 'Thundercats, Ho!' gritado por Lion-O."
+    "nivel": "medio",
+    "explicacao": "A linha de mira ajuda a visualizar a trajetória da bola."
   },
   {
     "id": 17,
-    "pergunta": "Qual é o nome da filha dos Jetsons?",
-    "opcoes": ["Luna", "Judy", "Elroy", "Rosie"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Judy é a filha adolescente dos Jetsons."
+    "pergunta": "Qual mesa é conhecida como 'Downtown London Pub'?",
+    "opcoes": ["Londres", "Sydney", "Moscou", "Berlim"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "O nome oficial da primeira mesa é Downtown London Pub."
   },
   {
     "id": 18,
-    "pergunta": "Qual era o apelido do amigo magrelo do Caverna do Dragão?",
-    "opcoes": ["Mestre dos Magos", "Presto", "Eric", "Bobby"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Presto era o mago atrapalhado do grupo."
+    "pergunta": "Qual é a consequência de estourar (break) e não encaçapar nenhuma bola?",
+    "opcoes": ["Oponente joga", "Perde a vez e paga fichas extras", "Ganha um giro bônus", "O jogo reinicia"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Se no break nenhuma bola é encaçapada, a vez passa para o adversário."
   },
   {
     "id": 19,
-    "pergunta": "Quem era o arqui-inimigo do He-Man?",
-    "opcoes": ["Skeletor", "Hordak", "Mumm-Ra", "Lex Luthor"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Skeletor era o vilão clássico do desenho He-Man."
+    "pergunta": "Qual mesa exige mais de 1 milhão de fichas para entrar?",
+    "opcoes": ["Londres", "Tóquio", "Las Vegas", "Moscou"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "A mesa de Las Vegas exige uma aposta muito alta para participar."
   },
   {
     "id": 20,
-    "pergunta": "Qual era o nome do carro do Dick Vigarista na Corrida Maluca?",
-    "opcoes": ["Máquina Voadora", "Carro da Trapaça", "Carroça do Mal", "Máquina do Mal"],
-    "correta": 1,
+    "pergunta": "Qual destes NÃO é um taco real do jogo?",
+    "opcoes": ["Taco Dragão", "Taco Fênix", "Taco Infinito", "Taco Vento"],
+    "correta": 2,
     "nivel": "medio",
-    "explicacao": "Dick Vigarista pilotava o Carro da Trapaça (00)."
+    "explicacao": "O Taco Infinito não existe no jogo, os outros são exemplos de tacos temáticos."
   },
   {
     "id": 21,
-    "pergunta": "Qual era o nome do leão líder dos Thundercats?",
-    "opcoes": ["Panthro", "Lion-O", "Tygra", "Snarf"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Lion-O era o líder dos Thundercats e portador da Espada Justiceira."
+    "pergunta": "Qual destas mesas só pode ser desbloqueada em níveis muito altos?",
+    "opcoes": ["Mumbai", "Cairo", "Venice", "Sydney"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "A mesa Venice exige nível elevado e tem requisitos especiais para jogar."
   },
   {
     "id": 22,
-    "pergunta": "Quem era o vilão que sempre perseguia o Piu-Piu?",
-    "opcoes": ["Coiote", "Frajola", "Tom", "Patolino"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "O gato Frajola vivia tentando capturar o passarinho Piu-Piu."
+    "pergunta": "Qual é o máximo de pontos de experiência (XP) que um jogador pode alcançar?",
+    "opcoes": ["500.000", "750.000", "1.000.000", "Mais de 1 bilhão"],
+    "correta": 3,
+    "nivel": "dificil",
+    "explicacao": "O sistema de níveis permite acumular bilhões de pontos de experiência até o nível 500."
   },
   {
     "id": 23,
-    "pergunta": "Qual era o nome do protagonista de Doug Funnie?",
-    "opcoes": ["Doug", "Roger", "Porkchop", "Skeeter"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O desenho era sobre a vida do garoto Doug Funnie."
+    "pergunta": "Qual destes modos competitivos foi introduzido em atualizações mais recentes?",
+    "opcoes": ["Torneios", "1 vs 1", "Liga Mundial", "Eventos Semanais"],
+    "correta": 3,
+    "nivel": "dificil",
+    "explicacao": "Os eventos semanais foram introduzidos para dar recompensas exclusivas e incentivar competitividade."
   },
   {
     "id": 24,
-    "pergunta": "Qual é o nome do esquilo que formava dupla com o Catatau?",
-    "opcoes": ["Ligeirinho", "Zeca Urubu", "Zé Colmeia", "Pica-Pau"],
+    "pergunta": "Qual é a maior série de vitórias consecutivas que um jogador pode exibir no perfil?",
+    "opcoes": ["5", "10", "20", "50"],
     "correta": 2,
-    "nivel": "facil",
-    "explicacao": "Zé Colmeia era o urso do Parque Jellystone e Catatau seu amigo."
+    "nivel": "dificil",
+    "explicacao": "O jogo mostra até 20 vitórias consecutivas no histórico do jogador."
   },
   {
     "id": 25,
-    "pergunta": "Qual é o nome do planeta natal do Superman em Superamigos?",
-    "opcoes": ["Krypton", "Marte", "Terra", "Namekusei"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Superman nasceu no planeta Krypton."
+    "pergunta": "Em qual país está localizada a mesa Jakarta Volcano?",
+    "opcoes": ["Índia", "Indonésia", "Tailândia", "Filipinas"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "A mesa Jakarta Volcano faz referência à Indonésia e seus vulcões."
   },
   {
     "id": 26,
-    "pergunta": "Qual é o nome do ratinho mexicano super veloz?",
-    "opcoes": ["Jerry", "Speedy Gonzalez", "Mickey", "Pinky"],
+    "pergunta": "O que diferencia os tacos lendários dos tacos normais?",
+    "opcoes": ["Não quebram nunca", "Têm atributos máximos e design exclusivo", "São comprados apenas com fichas", "Podem ser usados sem limite de tempo"],
     "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Speedy Gonzalez era conhecido como o rato mais rápido do México."
+    "nivel": "dificil",
+    "explicacao": "Os tacos lendários têm atributos muito superiores e são exclusivos."
   },
   {
     "id": 27,
-    "pergunta": "Qual era a profissão do pai do Dexter em O Laboratório de Dexter?",
-    "opcoes": ["Nunca aparecia", "Policial", "Motorista", "Professor"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Os pais em O Laboratório de Dexter raramente tinham destaque, a ênfase era no garoto gênio."
+    "pergunta": "Qual destes eventos foi criado em parceria oficial dentro do jogo?",
+    "opcoes": ["Mundial de Sinuca", "Eventos FIFA", "Eventos UFC", "Nenhum"],
+    "correta": 3,
+    "nivel": "dificil",
+    "explicacao": "O jogo nunca teve parcerias oficiais desse tipo, os eventos são sempre internos da Miniclip."
   },
   {
     "id": 28,
-    "pergunta": "Qual era o bordão dos Autobots em Transformers?",
-    "opcoes": ["Autobots, transformar e rodar!", "Morfar!", "Avante!", "Heróis unidos!"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "O comando clássico era 'Autobots, transformar e rodar!'."
+    "pergunta": "Quantos tipos de taco o jogador pode colecionar?",
+    "opcoes": ["Menos de 50", "Cerca de 100", "Mais de 100", "Número ilimitado"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Existem mais de 100 tacos colecionáveis no jogo atualmente."
   },
   {
     "id": 29,
-    "pergunta": "Qual é o nome da garota que andava com Scooby-Doo e usava óculos?",
-    "opcoes": ["Velma", "Daphne", "Betty", "Wilma"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Velma era a inteligente da turma e usava óculos."
+    "pergunta": "Qual recurso permite recuperar tacos quebrados?",
+    "opcoes": ["Cash", "Fichas", "Cartas de taco", "Pontos de experiência"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "As cartas de taco permitem reparar tacos e evoluí-los."
   },
   {
     "id": 30,
-    "pergunta": "Qual era o bordão de Chapolin Colorado, exibido junto de Chaves?",
-    "opcoes": ["Ninguém tem paciência comigo!", "Sigam-me os bons!", "Isso, isso, isso!", "Ai, ai, ai!"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Chapolin Colorado sempre dizia 'Sigam-me os bons!'."
+    "pergunta": "Qual é a origem da desenvolvedora Miniclip?",
+    "opcoes": ["EUA", "Brasil", "Suíça", "Japão"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "A Miniclip foi fundada na Suíça em 2001."
   },
   {
     "id": 31,
-    "pergunta": "Qual é o nome do vilão principal em Caverna do Dragão?",
-    "opcoes": ["Vingador", "Skeletor", "Mumm-Ra", "Gárgamel"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Vingador era o grande vilão que enfrentava os jovens no Reino."
+    "pergunta": "Qual mesa do 8 Ball Pool é ambientada em uma praia tropical?",
+    "opcoes": ["Sydney Marina", "Miami Beach", "Bangkok Temple", "Toronto Pub"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "A mesa Miami Beach tem como tema uma praia ensolarada."
   },
   {
     "id": 32,
-    "pergunta": "Qual é o nome do peixe dourado do desenho Gumball?",
-    "opcoes": ["Nemo", "Darwin", "Patrick", "Junior"],
+    "pergunta": "O que acontece se o tempo acabar durante a sua tacada?",
+    "opcoes": ["Você perde a partida", "Você perde a vez", "O jogo reinicia", "Você ganha pontos extras"],
     "correta": 1,
     "nivel": "facil",
-    "explicacao": "Darwin é o peixe dourado de estimação que virou irmão de Gumball."
+    "explicacao": "Se o tempo de jogada acaba, a vez passa automaticamente para o adversário."
   },
   {
     "id": 33,
-    "pergunta": "Qual é o nome da vilã em As Meninas Superpoderosas que é um macaco mutante?",
-    "opcoes": ["Ele", "Mojo Jojo", "Mandrake", "Gárgamel"],
-    "correta": 1,
+    "pergunta": "Qual destes países NÃO possui mesa temática no jogo?",
+    "opcoes": ["Espanha", "Japão", "Rússia", "Egito"],
+    "correta": 0,
     "nivel": "facil",
-    "explicacao": "Mojo Jojo é o macaco vilão que vive tentando derrotar as meninas."
+    "explicacao": "Não existe uma mesa Espanha, mas há mesas de Japão, Rússia e Egito."
   },
   {
     "id": 34,
-    "pergunta": "Quem era o melhor amigo do personagem Doug Funnie?",
-    "opcoes": ["Skeeter", "Roger", "Patty", "Arnold"],
-    "correta": 0,
+    "pergunta": "O que é necessário para evoluir um taco além do nível inicial?",
+    "opcoes": ["XP de jogador", "Cartas de taco", "Fichas", "Cash"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "Skeeter era o melhor amigo do Doug no desenho."
+    "explicacao": "As cartas de taco permitem evoluir atributos e reparar tacos."
   },
   {
     "id": 35,
-    "pergunta": "Qual é o nome do cachorro falante em Family Guy?",
-    "opcoes": ["Brian", "Scooby-Doo", "Pluto", "Ajudante de Papai Noel"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Brian é o cachorro falante da família Griffin."
+    "pergunta": "Qual mesa tem como tema um templo oriental?",
+    "opcoes": ["Mumbai Mahal", "Bangkok Temple", "Seoul Hall", "Tokyo Spirit"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Bangkok Temple é a mesa com tema de templo oriental."
   },
   {
     "id": 36,
-    "pergunta": "Qual era o nome da cidade onde vivia o Pica-Pau em muitos episódios?",
-    "opcoes": ["Pineville", "Peckville", "Cidade Lenhador", "San Francisco"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Pica-Pau vivia em uma cidade fictícia chamada Pineville em alguns episódios."
+    "pergunta": "Qual destes recursos o jogador pode coletar diariamente?",
+    "opcoes": ["Moedas de ouro", "Fichas grátis", "Gemas", "Avatares exclusivos"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Todos os dias o jogador pode coletar fichas grátis no jogo."
   },
   {
     "id": 37,
-    "pergunta": "Qual é o nome do menino loiro protagonista de Rugrats (Os Anjinhos)?",
-    "opcoes": ["Tommy", "Chuckie", "Phil", "Dil"],
+    "pergunta": "Qual item define a cor e estilo do perfil do jogador?",
+    "opcoes": ["Avatar", "Mesa", "Taco", "Medalha"],
     "correta": 0,
     "nivel": "facil",
-    "explicacao": "Tommy Pickles é o protagonista de Rugrats."
+    "explicacao": "O avatar é o que aparece no perfil e na tela de jogo."
   },
   {
     "id": 38,
-    "pergunta": "Qual é o nome da irmã mais velha mandona em Rugrats?",
-    "opcoes": ["Lilian", "Angélica", "Susie", "Kimi"],
-    "correta": 1,
+    "pergunta": "Qual destes modos permite jogar contra várias pessoas até a final?",
+    "opcoes": ["Torneio", "Partida 1x1", "Prática", "Eventos Diários"],
+    "correta": 0,
     "nivel": "facil",
-    "explicacao": "Angélica Pickles era a prima mais velha que mandava nas crianças."
+    "explicacao": "O modo Torneio coloca vários jogadores competindo até a final."
   },
   {
     "id": 39,
-    "pergunta": "Qual era o bordão do Pernalonga?",
-    "opcoes": ["E aí, doutor?", "Que que há, velhinho?", "Isso, isso, isso!", "Eu sou mais eu!"],
+    "pergunta": "Qual bola deve ser derrubada por último em todas as partidas de 8 Ball?",
+    "opcoes": ["Branca", "8", "7", "1"],
     "correta": 1,
     "nivel": "facil",
-    "explicacao": "Pernalonga sempre dizia 'Que que há, velhinho?'."
+    "explicacao": "A bola 8 deve sempre ser a última a ser encaçapada."
   },
   {
     "id": 40,
-    "pergunta": "Qual era o apelido do alter ego de Doug Funnie quando ele se imaginava super-herói?",
-    "opcoes": ["Capitão Fantástico", "Homem Codorna", "Super Doug", "Homem Borracha"],
-    "correta": 1,
-    "nivel": "medio",
-    "explicacao": "Doug se imaginava como o super-herói Homem Codorna."
+    "pergunta": "Qual destes itens NÃO existe dentro do jogo?",
+    "opcoes": ["Tacos", "Fichas", "Cash", "Capas de mesa personalizadas"],
+    "correta": 3,
+    "nivel": "facil",
+    "explicacao": "Não há customização de capas de mesa, apenas mesas temáticas fixas."
   },
   {
     "id": 41,
-    "pergunta": "Qual é o nome do avô do Arnold em Hey Arnold?",
-    "opcoes": ["Phil", "George", "Stanley", "Bob"],
+    "pergunta": "Qual mesa tem como cenário uma cidade iluminada por neon?",
+    "opcoes": ["Tóquio", "Las Vegas", "Moscou", "Seoul"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O avô de Arnold se chamava Phil."
+    "nivel": "medio",
+    "explicacao": "A mesa de Tóquio traz o tema da cidade iluminada por neon."
   },
   {
     "id": 42,
-    "pergunta": "Qual é o nome da garota apaixonada pelo Arnold, mas que disfarçava sendo grossa?",
-    "opcoes": ["Helga", "Phoebe", "Patty", "Angélica"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Helga Pataki era apaixonada pelo Arnold, mas escondia com implicâncias."
+    "pergunta": "O que significa o termo 'scratch' no jogo?",
+    "opcoes": ["Acertar a bola errada", "Encaçapar a bola branca", "Errar a tacada", "Bater duas vezes"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "Scratch é o termo usado quando a bola branca é encaçapada."
   },
   {
     "id": 43,
-    "pergunta": "Qual era o nome do grupo musical dos Animaniacs?",
-    "opcoes": ["Warner Trio", "Animaniacs", "Yakko, Wakko e Dot", "Toon Squad"],
-    "correta": 2,
+    "pergunta": "Qual mesa exige o maior número de fichas para participar atualmente?",
+    "opcoes": ["Venice", "Berlin", "Dubai", "Mumbai"],
+    "correta": 1,
     "nivel": "medio",
-    "explicacao": "Os três irmãos malucos eram Yakko, Wakko e Dot."
+    "explicacao": "A mesa Berlin Platz é uma das que exigem mais fichas para jogar."
   },
   {
     "id": 44,
-    "pergunta": "Qual é o nome do personagem principal de Samurai Jack?",
-    "opcoes": ["Jack", "Hiro", "Sam", "Aku"],
-    "correta": 0,
+    "pergunta": "Qual desses atributos não pertence aos tacos?",
+    "opcoes": ["Força", "Precisão", "Velocidade", "Giro"],
+    "correta": 2,
     "nivel": "medio",
-    "explicacao": "Samurai Jack era o nome do herói que enfrentava Aku."
+    "explicacao": "Os atributos oficiais dos tacos são Força, Precisão, Giro e Tempo."
   },
   {
     "id": 45,
-    "pergunta": "Qual era o nome do vilão em Inspetor Bugiganga?",
-    "opcoes": ["Dr. Claw", "Dr. Evil", "Dr. Malvado", "Dr. Steel"],
-    "correta": 0,
+    "pergunta": "O que acontece se você derrubar uma bola do adversário sem querer?",
+    "opcoes": ["O adversário ganha pontos", "A bola volta para a mesa", "Conta como ponto para o adversário", "Nada acontece"],
+    "correta": 2,
     "nivel": "medio",
-    "explicacao": "O vilão principal era o misterioso Dr. Claw."
+    "explicacao": "Se você derruba bola do adversário, ela conta para o grupo dele."
   },
   {
     "id": 46,
-    "pergunta": "Qual é o nome da garota cientista em As Meninas Superpoderosas?",
-    "opcoes": ["Sandy", "Florzinha", "Docinho", "Lindinha"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Florzinha era a líder e a mais inteligente das meninas."
+    "pergunta": "Qual destes prêmios você pode ganhar em torneios?",
+    "opcoes": ["Cash", "Fichas", "Avatares", "Todos os anteriores"],
+    "correta": 3,
+    "nivel": "medio",
+    "explicacao": "Nos torneios você pode ganhar fichas, cash e até avatares exclusivos."
   },
   {
     "id": 47,
-    "pergunta": "Qual era o nome do cachorro do desenho Coragem, o Cão Covarde?",
-    "opcoes": ["Coragem", "Covardão", "Salsicha", "Scooby"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O cachorro se chamava Coragem, apesar de ser medroso."
+    "pergunta": "Qual mesa representa a capital da Rússia?",
+    "opcoes": ["São Petersburgo", "Moscou", "Sochi", "Kazan"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "A mesa Moscow Winter Club é inspirada na capital russa."
   },
   {
     "id": 48,
-    "pergunta": "Qual é o nome do macaco ajudante do Aladdin?",
-    "opcoes": ["Abu", "Rajah", "Genie", "Iago"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Abu era o macaco companheiro de Aladdin."
+    "pergunta": "Qual destes tacos é considerado lendário?",
+    "opcoes": ["Taco de Ferro", "Taco Galaxy", "Taco Dragão", "Taco Baseline"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "O Taco Dragão é um dos lendários mais conhecidos do jogo."
   },
   {
     "id": 49,
-    "pergunta": "Qual era o nome do vilão que enfrentava o Pantera Cor-de-Rosa?",
-    "opcoes": ["Não tinha vilão fixo", "Coiote", "Inspector Clouseau", "Skeletor"],
-    "correta": 0,
+    "pergunta": "O que acontece se você não tocar nenhuma bola em uma jogada?",
+    "opcoes": ["Nada acontece", "O adversário ganha a vez com vantagem", "Você perde fichas", "O jogo reinicia"],
+    "correta": 1,
     "nivel": "medio",
-    "explicacao": "A Pantera Cor-de-Rosa não tinha um vilão fixo, cada episódio era diferente."
+    "explicacao": "Se nenhuma bola for tocada, é falta e o adversário ganha a vez."
   },
   {
     "id": 50,
-    "pergunta": "Qual era o nome da tartaruga líder das Tartarugas Ninja?",
-    "opcoes": ["Donatello", "Michelangelo", "Leonardo", "Rafael"],
-    "correta": 2,
-    "nivel": "facil",
-    "explicacao": "Leonardo é o líder das Tartarugas Ninja, com a faixa azul e espadas katanas."
+    "pergunta": "Qual é a mesa inspirada em um vulcão?",
+    "opcoes": ["Jakarta Volcano", "Tokyo Spirit", "Bangkok Fire", "Mumbai Heat"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "Jakarta Volcano é a mesa com tema de vulcão."
   },
   {
     "id": 51,
-    "pergunta": "Qual era o nome do macaco amigo do He-Man que vivia atrapalhando?",
-    "opcoes": ["Orko", "Cringer", "Mentor", "Gloop"],
+    "pergunta": "Qual destes recursos é usado para participar de eventos semanais?",
+    "opcoes": ["Tickets", "Cash", "Fichas", "XP"],
     "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Orko era o feiticeiro trapalhão que acompanhava He-Man."
+    "nivel": "dificil",
+    "explicacao": "Alguns eventos exigem tickets para participar."
   },
   {
     "id": 52,
-    "pergunta": "Em Dragon Ball, qual era o nome do mestre baixinho que treinou Goku?",
-    "opcoes": ["Mestre Kame", "Mestre Karin", "Mestre Kaioh", "Yamcha"],
+    "pergunta": "Qual foi um dos primeiros eventos especiais adicionados ao jogo?",
+    "opcoes": ["Halloween Cup", "Summer Shot", "New Year Clash", "Winter Games"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Mestre Kame (ou Mestre Roshi) foi o primeiro treinador de Goku."
+    "nivel": "dificil",
+    "explicacao": "O Halloween Cup foi um dos primeiros eventos temáticos lançados."
   },
   {
     "id": 53,
-    "pergunta": "Qual é o nome da protagonista de Kim Possible?",
-    "opcoes": ["Kim", "Shego", "Rufus", "Bonnie"],
+    "pergunta": "Qual mesa é inspirada em uma luxuosa cidade dos Emirados Árabes?",
+    "opcoes": ["Dubai", "Abu Dhabi", "Qatar", "Sharjah"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Kim Possible era a adolescente espiã que salvava o mundo."
+    "nivel": "dificil",
+    "explicacao": "Dubai é uma das mesas mais caras e luxuosas do jogo."
   },
   {
     "id": 54,
-    "pergunta": "Qual era o nome do vilão que enfrentava o Inspetor Bugiganga?",
-    "opcoes": ["Dr. Claw", "Dr. Mad", "Dr. Evil", "Dr. Mask"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Dr. Claw era o misterioso vilão da série."
+    "pergunta": "Quantos segundos um jogador normalmente tem para fazer a tacada?",
+    "opcoes": ["10", "15", "20", "30"],
+    "correta": 3,
+    "nivel": "dificil",
+    "explicacao": "O tempo padrão para uma tacada é de 30 segundos, podendo variar em mesas especiais."
   },
   {
     "id": 55,
-    "pergunta": "Qual é o nome do esquilo que vivia com o Tico?",
-    "opcoes": ["Teco", "Catatau", "Jerry", "Pluto"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "A dupla clássica era Tico e Teco."
+    "pergunta": "Qual destes tacos foi lançado em um evento limitado?",
+    "opcoes": ["Taco Fênix", "Taco Samurai", "Taco Tigre", "Taco Marinho"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "O Taco Samurai foi lançado como parte de um evento temático limitado."
   },
   {
     "id": 56,
-    "pergunta": "Qual era o nome da super-heroína que dizia 'Laços da Verdade!'?",
-    "opcoes": ["Mulher Maravilha", "She-Ra", "Florzinha", "Docinho"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "A Mulher Maravilha usava o Laço da Verdade como arma."
+    "pergunta": "Qual é a principal recompensa por subir de nível?",
+    "opcoes": ["Cash", "Avatares", "Fichas e acesso a novas mesas", "Medalhas"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Ao subir de nível, o jogador ganha fichas e desbloqueia novas mesas."
   },
   {
     "id": 57,
-    "pergunta": "Quem era o dono do gato Garfield?",
-    "opcoes": ["Jon", "Tom", "Jerry", "Fred"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Jon Arbuckle era o dono do Garfield."
+    "pergunta": "O que diferencia a mesa Berlin Platz das demais?",
+    "opcoes": ["Regras especiais", "Aposta altíssima", "Formato diferente", "Não usa a bola branca"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "A mesa Berlin Platz é famosa pelas apostas altíssimas."
   },
   {
     "id": 58,
-    "pergunta": "Qual era o nome do amigo nerd do desenho Jimmy Neutron?",
-    "opcoes": ["Carl", "Sheen", "Nick", "Cindy"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Carl Wheezer era o amigo nerd e engraçado de Jimmy."
+    "pergunta": "Qual destes modos NÃO existe no jogo?",
+    "opcoes": ["1x1 Clássico", "Torneios", "Modo Aventura", "9 Ball"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Não existe Modo Aventura, apenas modos competitivos de sinuca."
   },
   {
     "id": 59,
-    "pergunta": "Qual é o nome do pato rico que cuidava dos sobrinhos Huguinho, Zezinho e Luisinho?",
-    "opcoes": ["Tio Patinhas", "Donald", "Patolino", "Pato Lucas"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O tio deles era o famoso Tio Patinhas."
+    "pergunta": "Qual destes fatores aumenta a precisão da mira?",
+    "opcoes": ["Tempo do taco", "Força do taco", "Giro do taco", "Precisão do taco"],
+    "correta": 3,
+    "nivel": "dificil",
+    "explicacao": "O atributo Precisão dos tacos aumenta o alcance da linha de mira."
   },
   {
     "id": 60,
-    "pergunta": "Qual era o nome da casa falante que ajudava os protagonistas em Os Impossíveis?",
-    "opcoes": ["Casa dos Impossíveis", "QG", "Impossible HQ", "Base X"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "A Casa dos Impossíveis era o quartel-general da equipe."
+    "pergunta": "Qual é o objetivo principal dos eventos semanais?",
+    "opcoes": ["Ganhar troféus", "Subir no ranking e coletar recompensas", "Desbloquear mesas", "Liberar modos secretos"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "Nos eventos semanais, os jogadores competem em rankings para ganhar recompensas exclusivas."
   },
   {
     "id": 61,
-    "pergunta": "Qual era o nome do vilão que gritava 'Eu vou pegar você, He-Man!'?",
-    "opcoes": ["Skeletor", "Mumm-Ra", "Gárgamel", "Vingador"],
-    "correta": 0,
+    "pergunta": "Qual empresa desenvolveu o jogo 8 Ball Pool?",
+    "opcoes": ["EA Games", "Ubisoft", "Miniclip", "Activision"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "O bordão clássico era de Skeletor."
+    "explicacao": "O jogo 8 Ball Pool foi desenvolvido e lançado pela Miniclip."
   },
   {
     "id": 62,
-    "pergunta": "Qual era o nome do mordomo dos Batman: Desenho Animado?",
-    "opcoes": ["Alfred", "James", "Higgins", "Arthur"],
-    "correta": 0,
+    "pergunta": "Em que ano o 8 Ball Pool foi lançado oficialmente?",
+    "opcoes": ["2005", "2010", "2013", "2015"],
+    "correta": 1,
     "nivel": "facil",
-    "explicacao": "Alfred Pennyworth era o mordomo e confidente do Batman."
+    "explicacao": "O 8 Ball Pool foi lançado em 2010 pela Miniclip."
   },
   {
     "id": 63,
-    "pergunta": "Qual era o nome da vilã principal de Carmen Sandiego?",
-    "opcoes": ["Carmen", "Shego", "Madame Rouge", "Hera Venenosa"],
+    "pergunta": "Qual mesa possui como tema o Egito Antigo?",
+    "opcoes": ["Cairo Casbah", "Mumbai Mahal", "Bangkok Temple", "Jakarta Volcano"],
     "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Carmen Sandiego era a própria vilã e protagonista do desenho."
+    "nivel": "facil",
+    "explicacao": "A mesa Cairo Casbah é inspirada no Egito Antigo."
   },
   {
     "id": 64,
-    "pergunta": "Quem era o dono da gata Hello Kitty?",
-    "opcoes": ["Ela não tem dono", "Uma menina chamada Cathy", "Uma menina chamada Melody", "Uma menina chamada Mimmy"],
+    "pergunta": "Qual mesa é ambientada na Índia?",
+    "opcoes": ["Mumbai Mahal", "Sydney Marina", "Tokyo Spirit", "Berlin Platz"],
     "correta": 0,
     "nivel": "facil",
-    "explicacao": "Hello Kitty é retratada como uma personagem independente, não tem dono."
+    "explicacao": "Mumbai Mahal é a mesa com tema da Índia."
   },
   {
     "id": 65,
-    "pergunta": "Qual era o nome do cachorro branco do desenho Johnny Bravo?",
-    "opcoes": ["Brutus", "Whitey", "Scooby", "Não tinha"],
-    "correta": 3,
-    "nivel": "medio",
-    "explicacao": "Johnny Bravo não tinha cachorro fixo, o desenho focava nele mesmo."
+    "pergunta": "Qual mesa tem o nome inspirado em uma cidade da Alemanha?",
+    "opcoes": ["Berlin Platz", "Venice", "Moscow Winter", "Tokyo Neon"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Berlin Platz é a mesa inspirada na cidade de Berlim."
   },
   {
     "id": 66,
-    "pergunta": "Quem era o vilão principal de DuckTales?",
-    "opcoes": ["Patacôncio", "Patolino", "Donald", "Gavião Arqueiro"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "Patacôncio era o rival do Tio Patinhas em DuckTales."
+    "pergunta": "Qual é a mesa mais básica do jogo?",
+    "opcoes": ["Sydney Marina", "London Pub", "Jakarta Volcano", "Cairo Casbah"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "A primeira mesa disponível é a London Pub."
   },
   {
     "id": 67,
-    "pergunta": "Qual era o nome da pedra que dava poderes em Capitão Planeta?",
-    "opcoes": ["Cristal", "Anel", "Planeta", "Eco"],
+    "pergunta": "Qual é a função principal de um Clube no 8 Ball Pool?",
+    "opcoes": ["Jogar sozinho", "Unir jogadores para competir e ganhar recompensas", "Vender tacos", "Trocar fichas"],
     "correta": 1,
     "nivel": "facil",
-    "explicacao": "Os cinco jovens usavam anéis mágicos para invocar o Capitão Planeta."
+    "explicacao": "Os clubes permitem reunir jogadores para competir juntos e ganhar recompensas."
   },
   {
     "id": 68,
-    "pergunta": "Qual era o bordão clássico do Máskara?",
-    "opcoes": ["Ssssssssmokin’!", "Yabba Dabba Doo!", "Cowabunga!", "Isso, isso, isso!"],
-    "correta": 0,
+    "pergunta": "Qual cargo é o mais alto dentro de um clube?",
+    "opcoes": ["Vice-líder", "Oficial", "Líder", "Membro"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "Quando colocava a máscara, ele dizia 'Ssssssssmokin’!'."
+    "explicacao": "O cargo mais alto em um clube é o de Líder."
   },
   {
     "id": 69,
-    "pergunta": "Qual era o nome do protagonista do desenho Samurai X?",
-    "opcoes": ["Kenshin", "Rurouni", "Himura", "Shinta"],
-    "correta": 0,
-    "nivel": "medio",
-    "explicacao": "O protagonista era Kenshin Himura, conhecido como Samurai X."
+    "pergunta": "Qual é a responsabilidade de um Líder em um clube?",
+    "opcoes": ["Apenas jogar partidas", "Administrar o clube e definir regras", "Dar giros grátis", "Comprar tacos para membros"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "O Líder é responsável por gerenciar o clube, regras e convites."
   },
   {
     "id": 70,
-    "pergunta": "Qual era o nome do cavalo falante que aparecia em Hanna-Barbera?",
-    "opcoes": ["Pepe Legal", "Bambam", "Quick Draw McGraw", "BoJack"],
-    "correta": 2,
-    "nivel": "medio",
-    "explicacao": "Quick Draw McGraw era o cavalo xerife da Hanna-Barbera."
+    "pergunta": "Qual cargo pode ajudar o Líder a organizar o clube?",
+    "opcoes": ["Oficial", "Vice-líder", "Membro", "Jogador convidado"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "O Vice-líder auxilia o Líder na administração do clube."
   },
   {
     "id": 71,
-    "pergunta": "Qual era o nome do cachorro do desenho Corrida Maluca que ria esquisito?",
-    "opcoes": ["Muttley", "Pateta", "Catatau", "Jerry"],
+    "pergunta": "O que um Oficial pode fazer dentro de um clube?",
+    "opcoes": ["Expulsar membros e convidar novos", "Comprar tacos", "Aumentar recompensas", "Mudar o nome do clube"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "Muttley era o cachorro do Dick Vigarista, famoso por sua risada."
+    "nivel": "medio",
+    "explicacao": "Oficiais podem convidar e expulsar membros, ajudando na moderação do clube."
   },
   {
     "id": 72,
-    "pergunta": "Qual era o nome da personagem ruiva de Scooby-Doo?",
-    "opcoes": ["Velma", "Daphne", "Patty", "Wilma"],
+    "pergunta": "O que diferencia um Vice-líder de um Oficial?",
+    "opcoes": ["Nada, são iguais", "O Vice-líder tem mais autoridade", "O Oficial tem mais poder", "O Vice-líder não pode administrar nada"],
     "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Daphne era a integrante ruiva da turma."
+    "nivel": "medio",
+    "explicacao": "O Vice-líder possui mais autoridade que o Oficial e pode assumir em lugar do Líder."
   },
   {
     "id": 73,
-    "pergunta": "Qual era o nome da série com uma vaca e um frango?",
-    "opcoes": ["Uma Vaca e Um Frango", "Animaniacs", "Coragem", "Billy e Mandy"],
+    "pergunta": "Qual deve ser o comportamento esperado de membros em um clube?",
+    "opcoes": ["Ajudar nas contribuições semanais", "Ignorar o chat", "Jogar sozinho sempre", "Ficar sem participar"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O desenho se chamava literalmente 'Uma Vaca e Um Frango'."
+    "nivel": "medio",
+    "explicacao": "Espera-se que os membros contribuam para o clube jogando e somando pontos semanais."
   },
   {
     "id": 74,
-    "pergunta": "Qual era o nome do personagem que gritava 'Eu tenho a força!'?",
-    "opcoes": ["He-Man", "Lion-O", "Capitão Planeta", "Superman"],
+    "pergunta": "Qual é o benefício de participar de um clube ativo?",
+    "opcoes": ["Ganhar recompensas semanais", "Ganhar tacos automáticos", "Subir de nível mais rápido", "Comprar Cash mais barato"],
     "correta": 0,
-    "nivel": "facil",
-    "explicacao": "He-Man dizia 'Eu tenho a força!' ao se transformar."
+    "nivel": "medio",
+    "explicacao": "Os clubes ativos dão recompensas semanais com base na contribuição dos membros."
   },
   {
     "id": 75,
-    "pergunta": "Qual era o nome do vilão inimigo das Tartarugas Ninja que usava armadura metálica?",
-    "opcoes": ["Destruidor", "Krang", "Shredder", "Baxter"],
-    "correta": 2,
+    "pergunta": "Qual desses cargos pode mudar a descrição do clube?",
+    "opcoes": ["Membro", "Oficial", "Vice-líder", "Líder"],
+    "correta": 3,
     "nivel": "medio",
-    "explicacao": "Shredder, conhecido como Destruidor, era o vilão principal."
+    "explicacao": "Somente o Líder pode editar a descrição do clube."
   },
   {
     "id": 76,
-    "pergunta": "Qual era o nome da tartaruga ninja que usava máscara laranja?",
-    "opcoes": ["Donatello", "Leonardo", "Rafael", "Michelangelo"],
-    "correta": 3,
-    "nivel": "facil",
-    "explicacao": "Michelangelo usava a máscara laranja e adorava pizza."
+    "pergunta": "Quantos jogadores podem participar de um clube?",
+    "opcoes": ["10", "20", "50", "100"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Um clube pode ter até 50 jogadores."
   },
   {
     "id": 77,
-    "pergunta": "Qual era o nome do peixe-palhaço de Procurando Nemo?",
-    "opcoes": ["Nemo", "Dory", "Marlin", "Bruce"],
-    "correta": 0,
-    "nivel": "facil",
-    "explicacao": "O protagonista era o peixinho Nemo."
+    "pergunta": "Qual cargo pode aceitar novos membros no clube?",
+    "opcoes": ["Apenas o Líder", "Líder e Vice-líder", "Líder, Vice-líder e Oficiais", "Todos os membros"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Líder, Vice-líder e Oficiais podem aceitar convites de novos membros."
   },
   {
     "id": 78,
-    "pergunta": "Qual era o nome do desenho onde crianças jogavam cartas chamadas Duel Monsters?",
-    "opcoes": ["Yu-Gi-Oh!", "Digimon", "Pokémon", "Beyblade"],
-    "correta": 0,
+    "pergunta": "O que acontece se um clube não for ativo por semanas?",
+    "opcoes": ["Nada", "Ele pode perder recompensas semanais", "É excluído automaticamente", "Ganha pontos negativos"],
+    "correta": 1,
     "nivel": "medio",
-    "explicacao": "Yu-Gi-Oh! era sobre os duelos de cartas mágicas."
+    "explicacao": "Clubes inativos deixam de acumular recompensas semanais."
   },
   {
     "id": 79,
-    "pergunta": "Qual era o nome do robô azul amigo do menino Nobita?",
-    "opcoes": ["Astro Boy", "Doraemon", "Voltron", "Mega Man"],
-    "correta": 1,
-    "nivel": "facil",
-    "explicacao": "Doraemon era o gato robô azul que ajudava Nobita."
+    "pergunta": "Qual é o principal critério para subir de ranking nos clubes?",
+    "opcoes": ["Vitórias consecutivas", "Quantidade de fichas apostadas", "Pontos de clube acumulados pelos membros", "Nível dos jogadores"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "O ranking do clube depende da soma dos pontos de todos os membros."
   },
   {
     "id": 80,
-    "pergunta": "Qual era o bordão clássico do Patolino?",
-    "opcoes": ["Você é desprezível!", "Que que há, velhinho?", "Yabba Dabba Doo!", "Smokin’!"],
+    "pergunta": "Quem pode expulsar membros inativos de um clube?",
+    "opcoes": ["Somente o Líder", "Líder e Vice-líder", "Líder, Vice-líder e Oficiais", "Qualquer membro"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "Líder, Vice-líder e Oficiais podem expulsar jogadores inativos."
+  },
+  {
+    "id": 81,
+    "pergunta": "Qual é a principal função do chat dentro do clube?",
+    "opcoes": ["Trocar fichas", "Comunicar estratégias e socializar", "Enviar recompensas", "Ganhar XP extra"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "O chat de clube serve para comunicação e organização entre os jogadores."
+  },
+  {
+    "id": 82,
+    "pergunta": "O que um Líder pode fazer que nenhum outro cargo pode?",
+    "opcoes": ["Expulsar membros", "Mudar o nome e a bandeira do clube", "Convidar jogadores", "Banir jogadores de outros clubes"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "Somente o Líder pode mudar o nome e a bandeira do clube."
+  },
+  {
+    "id": 83,
+    "pergunta": "Qual é o limite de Vice-líderes em um clube?",
+    "opcoes": ["1", "2", "3", "Ilimitado"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "Um clube pode ter até 2 vice-líderes."
+  },
+  {
+    "id": 84,
+    "pergunta": "Qual é o limite de Oficiais em um clube?",
+    "opcoes": ["2", "3", "5", "10"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Um clube pode ter até 5 Oficiais."
+  },
+  {
+    "id": 85,
+    "pergunta": "O que acontece se o Líder de um clube sair?",
+    "opcoes": ["O clube acaba", "Um Vice-líder assume automaticamente", "Um Oficial assume", "O clube fica sem líder"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "Se o Líder sai, um dos Vice-líderes assume o cargo principal."
+  },
+  {
+    "id": 86,
+    "pergunta": "Qual é a principal vantagem de ter oficiais ativos em um clube?",
+    "opcoes": ["Mais recompensas", "Ajuda na moderação e organização", "Descontos em tacos", "Mais giros grátis"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "Oficiais ativos ajudam a manter o clube organizado e moderado."
+  },
+  {
+    "id": 87,
+    "pergunta": "Quem pode definir se o clube é aberto ou fechado?",
+    "opcoes": ["Membros", "Oficiais", "Líder", "Vice-líder"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Somente o Líder pode definir se o clube é aberto ou fechado para inscrições."
+  },
+  {
+    "id": 88,
+    "pergunta": "O que significa um clube estar no Top Global?",
+    "opcoes": ["Que tem o maior número de jogadores", "Que ganhou torneios oficiais", "Que acumula mais pontos semanais entre todos os clubes do mundo", "Que tem o líder mais rico"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "Estar no Top Global significa estar entre os clubes com mais pontos semanais acumulados."
+  },
+  {
+    "id": 89,
+    "pergunta": "Qual é a função principal de um Vice-líder?",
+    "opcoes": ["Substituir o Líder em sua ausência", "Dar fichas aos membros", "Comprar tacos exclusivos", "Modificar avatares dos jogadores"],
     "correta": 0,
+    "nivel": "dificil",
+    "explicacao": "O Vice-líder serve como substituto direto do Líder."
+  },
+  {
+    "id": 90,
+    "pergunta": "Qual é a principal forma de contribuir para um clube?",
+    "opcoes": ["Comprando tacos", "Jogando partidas e somando pontos semanais", "Gastando Cash", "Mudando avatar"],
+    "correta": 1,
+    "nivel": "dificil",
+    "explicacao": "A melhor forma de ajudar o clube é jogando e acumulando pontos semanais."
+  },
+  {
+    "id": 91,
+    "pergunta": "Qual é a principal moeda usada para apostar em partidas de 8 Ball Pool?",
+    "opcoes": ["Cash", "Moedas de ouro", "Fichas", "Pontos de clube"],
+    "correta": 2,
     "nivel": "facil",
-    "explicacao": "Patolino sempre dizia 'Você é desprezível!'."
+    "explicacao": "As fichas são a moeda básica usada para apostar nas mesas do 8 Ball Pool."
+  },
+  {
+    "id": 92,
+    "pergunta": "Qual moeda é usada para comprar itens premium, como tacos especiais?",
+    "opcoes": ["Fichas", "Cash", "Moedas de prata", "Tickets"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "O Cash é a moeda premium usada para adquirir tacos, emojis e itens especiais."
+  },
+  {
+    "id": 93,
+    "pergunta": "Qual é o modo de jogo em que vários jogadores competem até restar apenas um campeão?",
+    "opcoes": ["Partida rápida", "Desafio 1x1", "Torneio", "Modo treino"],
+    "correta": 2,
+    "nivel": "facil",
+    "explicacao": "Nos torneios, jogadores competem em eliminatórias até que apenas um campeão permaneça."
+  },
+  {
+    "id": 94,
+    "pergunta": "Em que nível um jogador desbloqueia a possibilidade de participar de torneios?",
+    "opcoes": ["Nível 5", "Nível 10", "Nível 15", "Nível 20"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "Os torneios ficam disponíveis a partir do nível 10 do jogador."
+  },
+  {
+    "id": 95,
+    "pergunta": "O que acontece se um jogador sai no meio de uma partida?",
+    "opcoes": ["Nada acontece", "Perde automaticamente", "A partida congela", "O adversário perde pontos"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Se o jogador sair da partida, a vitória é concedida automaticamente ao adversário."
+  },
+  {
+    "id": 96,
+    "pergunta": "Qual é a função da barra de força ao executar uma tacada?",
+    "opcoes": ["Escolher a bola", "Definir a intensidade da tacada", "Escolher o taco", "Aumentar XP"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "A barra de força controla a intensidade da tacada do jogador."
+  },
+  {
+    "id": 97,
+    "pergunta": "O que significa o termo 'spin' no 8 Ball Pool?",
+    "opcoes": ["Força da tacada", "Efeito colocado na bola branca", "Velocidade da mesa", "Modo torneio"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "O 'spin' é o efeito aplicado na bola branca, alterando sua trajetória após o impacto."
+  },
+  {
+    "id": 98,
+    "pergunta": "Qual é o objetivo principal do modo treino?",
+    "opcoes": ["Ganhar fichas", "Testar jogadas sem riscos", "Subir no ranking", "Jogar torneios grátis"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "No modo treino, o jogador pode praticar jogadas sem gastar fichas."
+  },
+  {
+    "id": 99,
+    "pergunta": "Qual é a vantagem de um taco com mais pontos em 'força'?",
+    "opcoes": ["Aumenta o tempo do turno", "Permite tacadas mais fortes", "Garante vitória automática", "Muda a cor da bola"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "Quanto mais força o taco tem, mais potente será a tacada aplicada na bola."
   },
   {
     "id": 100,
-    "pergunta": "Qual é o nome do robô do filme 'O Exterminador do Futuro'?",
-    "opcoes": ["R2-D2", "C-3PO", "T-800", "Wall-E"],
+    "pergunta": "O que representa o atributo 'controle de bola' em um taco?",
+    "opcoes": ["Velocidade do jogo", "Precisão na mira", "Capacidade de controlar a bola branca após o impacto", "Aumentar o tempo de rodada"],
     "correta": 2,
-    "explicacao": "O T-800 é o modelo de ciborgue vivido por Arnold Schwarzenegger na franquia 'O Exterminador do Futuro'."
+    "nivel": "medio",
+    "explicacao": "Esse atributo define o quanto o jogador consegue controlar o posicionamento da bola branca após a tacada."
   },
   {
     "id": 101,
-    "pergunta": "Qual é o nome do brinquedo cowboy em 'Toy Story'?",
-    "opcoes": ["Buzz", "Woody", "Andy", "Jessie"],
-    "correta": 1,
-    "explicacao": "Woody é o brinquedo cowboy líder do grupo em 'Toy Story'."
+    "pergunta": "Qual é a raridade máxima que um taco pode ter no jogo?",
+    "opcoes": ["Comum", "Raro", "Épico", "Lendário"],
+    "correta": 3,
+    "nivel": "facil",
+    "explicacao": "Os tacos mais poderosos do jogo são classificados como Lendários."
   },
   {
     "id": 102,
-    "pergunta": "Em 'Titanic', qual é o nome do personagem de Leonardo DiCaprio?",
-    "opcoes": ["Jack Dawson", "Mark Spencer", "Luke Harris", "John Carter"],
-    "correta": 0,
-    "explicacao": "Leonardo DiCaprio interpretou Jack Dawson em 'Titanic'."
+    "pergunta": "Qual é a função do 'taco lendário' em comparação aos outros?",
+    "opcoes": ["É apenas visual", "Tem atributos superiores", "Dura menos tempo", "Não pode ser usado em torneios"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "Os tacos lendários possuem atributos muito superiores em comparação aos comuns."
   },
   {
     "id": 103,
-    "pergunta": "No filme 'Harry Potter', quem é o diretor de Hogwarts?",
-    "opcoes": ["Dumbledore", "Snape", "Voldemort", "Sirius Black"],
-    "correta": 0,
-    "explicacao": "Alvo Dumbledore é o diretor de Hogwarts na maior parte da saga."
+    "pergunta": "Como um jogador pode conseguir tacos lendários?",
+    "opcoes": ["Somente no nível 100", "Em caixas e eventos especiais", "Apenas comprando com fichas", "Recebendo de amigos"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "Tacos lendários são conquistados em caixas e eventos especiais do jogo."
   },
   {
     "id": 104,
-    "pergunta": "Qual é o famoso bordão de Buzz Lightyear em 'Toy Story'?",
-    "opcoes": ["Ao infinito e além!", "Eu sou seu pai!", "Hakuna Matata", "Que a Força esteja com você"],
+    "pergunta": "Qual é a consequência de errar a bola branca durante a tacada?",
+    "opcoes": ["Perde a vez", "Perde fichas", "Ganha uma bola extra", "A partida acaba"],
     "correta": 0,
-    "explicacao": "Buzz Lightyear sempre repete seu bordão: 'Ao infinito e além!'."
+    "nivel": "facil",
+    "explicacao": "Se a bola branca cai, o jogador perde a vez e o adversário pode colocar a bola em qualquer lugar da mesa."
   },
   {
     "id": 105,
-    "pergunta": "Quem disse a frase 'Eu sou seu pai' em 'Star Wars'?",
-    "opcoes": ["Luke Skywalker", "Obi-Wan Kenobi", "Darth Vader", "Yoda"],
+    "pergunta": "Qual é o recurso usado para personalizar o avatar do jogador?",
+    "opcoes": ["Figurinhas", "Emojis", "Ícones e fotos de perfil", "Caixas misteriosas"],
     "correta": 2,
-    "explicacao": "Darth Vader revela a Luke Skywalker a famosa frase: 'Eu sou seu pai'."
+    "nivel": "facil",
+    "explicacao": "O jogador pode personalizar seu perfil escolhendo ícones e fotos de avatar."
   },
   {
     "id": 106,
-    "pergunta": "Qual é o nome do leão protagonista em 'O Rei Leão'?",
-    "opcoes": ["Mufasa", "Scar", "Simba", "Nala"],
-    "correta": 2,
-    "explicacao": "Simba é o filhote que cresce para se tornar o rei em 'O Rei Leão'."
+    "pergunta": "O que são as 'caixas misteriosas' no jogo?",
+    "opcoes": ["Caixas que dão XP extra", "Recompensas aleatórias que podem conter tacos, fichas e cash", "Caixas de chat", "Premiações fixas"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "As caixas misteriosas oferecem recompensas variadas, como tacos, fichas e cash."
   },
   {
     "id": 107,
-    "pergunta": "No filme 'De Volta para o Futuro', qual é o nome do cientista?",
-    "opcoes": ["Doc Brown", "Dr. Who", "Professor X", "Dr. Strange"],
+    "pergunta": "Qual desses é um tipo de caixa misteriosa?",
+    "opcoes": ["Caixa de bronze", "Caixa de ferro", "Caixa de vidro", "Caixa de madeira"],
     "correta": 0,
-    "explicacao": "O cientista é o excêntrico Doc Brown, criador da máquina do tempo DeLorean."
+    "nivel": "medio",
+    "explicacao": "Entre os tipos de caixa, a de bronze é uma das mais comuns."
   },
   {
     "id": 108,
-    "pergunta": "Em 'Jurassic Park', que tipo de dinossauro é o mais famoso?",
-    "opcoes": ["Triceratops", "Velociraptor", "Tiranossauro Rex", "Brontossauro"],
-    "correta": 2,
-    "explicacao": "O Tiranossauro Rex é a estrela principal em 'Jurassic Park'."
+    "pergunta": "Qual é o maior prêmio possível ao abrir uma caixa lendária?",
+    "opcoes": ["Um taco lendário", "Moedas de ouro", "Tickets de torneio", "Aumentar nível automaticamente"],
+    "correta": 0,
+    "nivel": "dificil",
+    "explicacao": "As caixas lendárias podem conceder tacos lendários exclusivos."
   },
   {
     "id": 109,
-    "pergunta": "No filme 'Matrix', qual pílula Neo escolhe tomar?",
-    "opcoes": ["Azul", "Vermelha", "Verde", "Amarela"],
+    "pergunta": "Qual estatística mostra a proporção de vitórias de um jogador?",
+    "opcoes": ["XP", "Taxa de vitórias", "Ranking global", "Moedas acumuladas"],
     "correta": 1,
-    "explicacao": "Neo escolhe a pílula vermelha para conhecer a verdade sobre a Matrix."
+    "nivel": "facil",
+    "explicacao": "A taxa de vitórias mostra o percentual de partidas vencidas pelo jogador."
   },
   {
     "id": 110,
-    "pergunta": "Qual é o nome do peixe-palhaço em 'Procurando Nemo'?",
-    "opcoes": ["Nemo", "Dory", "Marlin", "Bruce"],
-    "correta": 0,
-    "explicacao": "O jovem peixe-palhaço se chama Nemo, protagonista do filme."
+    "pergunta": "Qual é o limite máximo de nível que um jogador pode alcançar atualmente?",
+    "opcoes": ["100", "500", "999", "150"],
+    "correta": 2,
+    "nivel": "dificil",
+    "explicacao": "O limite máximo de nível em 8 Ball Pool é 999."
   },
   {
     "id": 111,
-    "pergunta": "Em 'Os Caça-Fantasmas', qual é a cor do logotipo?",
-    "opcoes": ["Azul", "Verde", "Vermelho", "Amarelo"],
-    "correta": 2,
-    "explicacao": "O logotipo dos Caça-Fantasmas tem o fantasma com o símbolo de proibido em vermelho."
+    "pergunta": "Qual é a vantagem de se conectar via Facebook no jogo?",
+    "opcoes": ["Ganhar tacos grátis", "Jogar com amigos e salvar progresso", "Receber fichas infinitas", "Ganhar cash ilimitado"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Conectar-se ao Facebook permite jogar com amigos e salvar o progresso."
   },
   {
     "id": 112,
-    "pergunta": "Qual é o super-herói que grita 'Shazam!' para se transformar?",
-    "opcoes": ["Flash", "Capitão Marvel", "Shazam", "Thor"],
-    "correta": 2,
-    "explicacao": "O jovem Billy Batson se transforma em Shazam ao gritar a palavra mágica."
+    "pergunta": "O que significa o ícone de coroa ao lado do nome de um jogador?",
+    "opcoes": ["Que ele é VIP", "Que é Líder de clube", "Que venceu um torneio", "Que possui taco lendário"],
+    "correta": 1,
+    "nivel": "medio",
+    "explicacao": "A coroa representa que o jogador é Líder de um clube."
   },
   {
     "id": 113,
-    "pergunta": "No filme 'Homem-Aranha', qual é o verdadeiro nome do herói?",
-    "opcoes": ["Clark Kent", "Tony Stark", "Peter Parker", "Bruce Wayne"],
-    "correta": 2,
-    "explicacao": "O Homem-Aranha é Peter Parker, criado por Stan Lee e Steve Ditko."
+    "pergunta": "O que acontece quando um jogador sobe de nível?",
+    "opcoes": ["Ganha fichas e desbloqueia recompensas", "Perde fichas", "Ganha tacos automáticos", "Reseta a conta"],
+    "correta": 0,
+    "nivel": "facil",
+    "explicacao": "Ao subir de nível, o jogador ganha fichas e pode desbloquear recompensas."
   },
   {
     "id": 114,
-    "pergunta": "Quem é o vilão de 'Pantera Negra'?",
-    "opcoes": ["Killmonger", "Thanos", "Ultron", "Loki"],
-    "correta": 0,
-    "explicacao": "Erik Killmonger é o principal vilão de 'Pantera Negra'."
+    "pergunta": "Qual é a principal forma de ganhar XP no jogo?",
+    "opcoes": ["Apostando cash", "Vencendo partidas", "Comprando tacos", "Usando emojis"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "A experiência (XP) é conquistada principalmente ao vencer partidas."
   },
   {
     "id": 115,
-    "pergunta": "Em 'Frozen', qual é o nome da irmã de Elsa?",
-    "opcoes": ["Anna", "Moana", "Rapunzel", "Ariel"],
-    "correta": 0,
-    "explicacao": "Anna é a irmã mais nova de Elsa em 'Frozen'."
+    "pergunta": "O que representa o ranking semanal?",
+    "opcoes": ["Quem tem mais cash", "Quem ganhou mais fichas em torneios", "Quem acumulou mais pontos durante a semana", "Quem comprou mais tacos"],
+    "correta": 2,
+    "nivel": "medio",
+    "explicacao": "O ranking semanal mostra os jogadores que mais acumularam pontos durante a semana."
   },
   {
     "id": 116,
-    "pergunta": "Qual é o nome do ogro verde protagonista de uma famosa animação?",
-    "opcoes": ["Shrek", "Fiona", "Burro", "Hulk"],
-    "correta": 0,
-    "explicacao": "O ogro verde é Shrek, personagem principal da animação da DreamWorks."
+    "pergunta": "Qual é a principal função dos emojis durante as partidas?",
+    "opcoes": ["Dar XP extra", "Se comunicar com o adversário", "Ganhar fichas", "Diminuir tempo do turno"],
+    "correta": 1,
+    "nivel": "facil",
+    "explicacao": "Os emojis são usados para comunicação rápida entre os jogadores."
   },
   {
     "id": 117,
-    "pergunta": "Em 'A Bela e a Fera', o que Bela adora fazer?",
-    "opcoes": ["Cantar", "Caçar", "Ler livros", "Dançar"],
-    "correta": 2,
-    "explicacao": "Bela adora ler livros e é conhecida por seu amor pela leitura."
+    "pergunta": "O que é necessário para participar das mesas de maior aposta?",
+    "opcoes": ["Ter nível alto e muitas fichas", "Ser VIP", "Ser líder de clube", "Ter taco lendário"],
+    "correta": 0,
+    "nivel": "medio",
+    "explicacao": "As mesas de alto valor exigem nível elevado e muitas fichas disponíveis."
   },
   {
     "id": 118,
-    "pergunta": "No filme 'Gladiador', quem é o ator que interpreta Maximus?",
-    "opcoes": ["Mel Gibson", "Russell Crowe", "Brad Pitt", "Tom Cruise"],
+    "pergunta": "O que acontece se um jogador ficar sem fichas?",
+    "opcoes": ["Não pode jogar até recarregar", "Recebe fichas grátis após certo tempo", "Ganha cash automático", "O jogo trava"],
     "correta": 1,
-    "explicacao": "Russell Crowe interpreta Maximus em 'Gladiador'."
+    "nivel": "facil",
+    "explicacao": "Quando as fichas acabam, o jogador pode esperar o bônus gratuito para continuar jogando."
   },
   {
     "id": 119,
-    "pergunta": "Em 'Homens de Preto', qual é a cor dos ternos usados pelos agentes?",
-    "opcoes": ["Cinza", "Azul", "Preto", "Branco"],
-    "correta": 2,
-    "explicacao": "Os agentes J e K usam ternos pretos característicos no filme 'Homens de Preto'."
-  },
-  {
-    "id": 237,
-    "pergunta": "Quem protagoniza 'Todo Mundo em Pânico'?",
-    "opcoes": ["Shawn Wayans e Marlon Wayans", "Ben Stiller e Owen Wilson", "Adam Sandler e Kevin James", "Jim Carrey e Jeff Daniels"],
-    "correta": 0,
-    "explicacao": "Shawn e Marlon Wayans são os protagonistas de 'Todo Mundo em Pânico'."
-  },
-  {
-    "id": 238,
-    "pergunta": "Em 'Loucas por Amor, Viciadas em Dinheiro', qual é o plano das protagonistas?",
-    "opcoes": ["Assaltar um carro-forte", "Ganhar na loteria", "Se casar com milionários", "Abrir uma loja"],
-    "correta": 0,
-    "explicacao": "Elas tentam roubar um carro-forte no filme."
-  },
-  {
-    "id": 239,
-    "pergunta": "Em 'Shrek', qual é o nome do burro falante?",
-    "opcoes": ["Burro", "Domkey", "Asno", "Mula"],
-    "correta": 0,
-    "explicacao": "O companheiro de Shrek é simplesmente chamado de Burro."
-  },
-  {
-    "id": 300,
-    "pergunta": "Qual é o nome verdadeiro do Homem de Ferro?",
-    "opcoes": ["Bruce Wayne", "Tony Stark", "Steve Rogers", "Peter Parker"],
-    "correta": 1,
-    "explicacao": "O Homem de Ferro é Tony Stark, um gênio bilionário e inventor."
-  },
-  {
-    "id": 301,
-    "pergunta": "Qual herói da DC é conhecido como 'Homem de Aço'?",
-    "opcoes": ["Batman", "Superman", "Flash", "Lanterna Verde"],
-    "correta": 1,
-    "explicacao": "Superman é conhecido como o 'Homem de Aço'."
-  },
-  {
-    "id": 302,
-    "pergunta": "Qual vingador carrega um escudo feito de vibranium?",
-    "opcoes": ["Thor", "Capitão América", "Hulk", "Pantera Negra"],
-    "correta": 1,
-    "explicacao": "O Capitão América usa um escudo de vibranium, vindo de Wakanda."
-  },
-  {
-    "id": 303,
-    "pergunta": "Qual membro da Liga da Justiça é o Cavaleiro das Trevas?",
-    "opcoes": ["Aquaman", "Flash", "Batman", "Superman"],
-    "correta": 2,
-    "explicacao": "Batman é chamado de Cavaleiro das Trevas e protege Gotham."
-  },
-  {
-    "id": 304,
-    "pergunta": "Quem é o Deus do Trovão entre os Vingadores?",
-    "opcoes": ["Thor", "Loki", "Hulk", "Capitão América"],
-    "correta": 0,
-    "explicacao": "Thor é o Deus do Trovão, vindo de Asgard."
-  },
-  {
-    "id": 305,
-    "pergunta": "Qual heroína da DC carrega o Laço da Verdade?",
-    "opcoes": ["Mulher-Maravilha", "Viúva Negra", "Capitã Marvel", "Supergirl"],
-    "correta": 0,
-    "explicacao": "A Mulher-Maravilha usa o Laço da Verdade como arma principal."
-  },
-  {
-    "id": 306,
-    "pergunta": "Quem é o vingador gigante e verde que fala 'Hulk esmaga!'?",
-    "opcoes": ["Thor", "Homem de Ferro", "Hulk", "Pantera Negra"],
-    "correta": 2,
-    "explicacao": "Hulk é conhecido pela sua força e pela frase 'Hulk esmaga!'."
-  },
-  {
-    "id": 307,
-    "pergunta": "Qual é o nome verdadeiro do Flash?",
-    "opcoes": ["Barry Allen", "Bruce Wayne", "Hal Jordan", "Arthur Curry"],
-    "correta": 0,
-    "explicacao": "O Flash mais famoso é Barry Allen, o velocista escarlate."
-  },
-  {
-    "id": 308,
-    "pergunta": "Quem lidera os Vingadores com a frase 'Avante, Vingadores!'?",
-    "opcoes": ["Thor", "Homem de Ferro", "Capitão América", "Hulk"],
-    "correta": 2,
-    "explicacao": "Capitão América é o líder clássico dos Vingadores."
-  },
-  {
-    "id": 309,
-    "pergunta": "Qual herói da Liga da Justiça é conhecido como o Rei de Atlântida?",
-    "opcoes": ["Aquaman", "Lanterna Verde", "Cyborg", "Flash"],
-    "correta": 0,
-    "explicacao": "Aquaman é o Rei de Atlântida e protetor dos mares."
-  },
-  {
-    "id": 310,
-    "pergunta": "Qual vingadora é especialista em artes marciais e espionagem?",
-    "opcoes": ["Viúva Negra", "Feiticeira Escarlate", "Capitã Marvel", "Gamora"],
-    "correta": 0,
-    "explicacao": "Viúva Negra é a espiã e lutadora da equipe dos Vingadores."
-  },
-  {
-    "id": 311,
-    "pergunta": "Quem é o guardião intergaláctico da Liga da Justiça que usa um anel de poder?",
-    "opcoes": ["Flash", "Lanterna Verde", "Cyborg", "Batman"],
-    "correta": 1,
-    "explicacao": "O Lanterna Verde usa um anel capaz de criar qualquer construção de energia."
-  },
-  {
-    "id": 312,
-    "pergunta": "Qual vingador é conhecido como o arqueiro da equipe?",
-    "opcoes": ["Gavião Arqueiro", "Loki", "Homem de Ferro", "Pantera Negra"],
-    "correta": 0,
-    "explicacao": "Clint Barton é o Gavião Arqueiro, mestre com o arco e flecha."
-  },
-  {
-    "id": 313,
-    "pergunta": "Qual herói da DC é metade homem e metade máquina?",
-    "opcoes": ["Cyborg", "Aquaman", "Flash", "Lanterna Verde"],
-    "correta": 0,
-    "explicacao": "Cyborg é parte humano e parte máquina, membro da Liga da Justiça."
-  },
-  {
-    "id": 314,
-    "pergunta": "Qual é o herói africano da Marvel, rei de Wakanda?",
-    "opcoes": ["Pantera Negra", "Falcão", "Gavião Arqueiro", "Homem de Ferro"],
-    "correta": 0,
-    "explicacao": "T’Challa é o Pantera Negra, rei de Wakanda."
-  },
-  {
-    "id": 315,
-    "pergunta": "Qual é a heroína mais poderosa da Liga da Justiça?",
-    "opcoes": ["Mulher-Maravilha", "Batgirl", "Supergirl", "Zatanna"],
-    "correta": 0,
-    "explicacao": "Mulher-Maravilha é a heroína mais famosa e poderosa da Liga."
-  },
-  {
-    "id": 316,
-    "pergunta": "Quem é o mago dos Vingadores, guardião do tempo?",
-    "opcoes": ["Doutor Estranho", "Loki", "Thor", "Visão"],
-    "correta": 0,
-    "explicacao": "Doutor Estranho é o Mago Supremo e controla o tempo com o Olho de Agamotto."
-  },
-  {
-    "id": 317,
-    "pergunta": "Qual herói da Liga da Justiça tem como fraqueza a kryptonita?",
-    "opcoes": ["Batman", "Aquaman", "Superman", "Flash"],
-    "correta": 2,
-    "explicacao": "Superman perde seus poderes quando exposto à kryptonita."
-  },
-  {
-    "id": 318,
-    "pergunta": "Qual androide vingador tem uma Joia do Infinito em sua testa?",
-    "opcoes": ["Visão", "Ultron", "Homem de Ferro", "Gavião Arqueiro"],
-    "correta": 0,
-    "explicacao": "Visão tem a Joia da Mente incrustada em sua testa."
-  },
-  {
-    "id": 319,
-    "pergunta": "Quem é o milionário da Liga da Justiça que usa tecnologia para lutar contra o crime?",
-    "opcoes": ["Aquaman", "Superman", "Batman", "Lanterna Verde"],
-    "correta": 2,
-    "explicacao": "Batman é Bruce Wayne, milionário que combate o crime com tecnologia."
-  },
-  {
-    "id": 320,
-    "pergunta": "Qual vingadora tem poderes de alterar a realidade?",
-    "opcoes": ["Feiticeira Escarlate", "Viúva Negra", "Gamora", "Nebulosa"],
-    "correta": 0,
-    "explicacao": "Feiticeira Escarlate pode manipular a realidade com seus poderes mágicos."
-  },
-  {
-    "id": 321,
-    "pergunta": "Qual é o nome verdadeiro do Aquaman?",
-    "opcoes": ["Barry Allen", "Arthur Curry", "Hal Jordan", "Victor Stone"],
-    "correta": 1,
-    "explicacao": "O verdadeiro nome do Aquaman é Arthur Curry."
-  },
-  {
-    "id": 322,
-    "pergunta": "Qual vingador é conhecido como 'o gigante esmeralda'?",
-    "opcoes": ["Thor", "Hulk", "Visão", "Pantera Negra"],
-    "correta": 1,
-    "explicacao": "Hulk é chamado de gigante esmeralda por sua cor verde."
-  },
-  {
-    "id": 323,
-    "pergunta": "Quem é o velocista da Liga da Justiça?",
-    "opcoes": ["Flash", "Superman", "Cyborg", "Batman"],
-    "correta": 0,
-    "explicacao": "Flash é o velocista escarlate da DC."
-  },
-  {
-    "id": 324,
-    "pergunta": "Qual vingador é conhecido como 'o Deus da tecnologia'?",
-    "opcoes": ["Visão", "Homem de Ferro", "Capitão América", "Gavião Arqueiro"],
-    "correta": 1,
-    "explicacao": "Tony Stark, o Homem de Ferro, é visto como o gênio da tecnologia."
-  },
-  {
-    "id": 325,
-    "pergunta": "Qual heroína da Liga da Justiça é amazona?",
-    "opcoes": ["Mulher-Maravilha", "Supergirl", "Batgirl", "Zatanna"],
-    "correta": 0,
-    "explicacao": "A Mulher-Maravilha é amazona, vinda da ilha de Themyscira."
-  },
-  {
-    "id": 326,
-    "pergunta": "Qual vingador também é chamado de 'Deus do Trovão'?",
-    "opcoes": ["Loki", "Thor", "Hulk", "Visão"],
-    "correta": 1,
-    "explicacao": "Thor é o Deus do Trovão e membro dos Vingadores."
-  },
-  {
-    "id": 327,
-    "pergunta": "Qual herói da Liga da Justiça é conhecido por ser detetive?",
-    "opcoes": ["Flash", "Batman", "Aquaman", "Lanterna Verde"],
-    "correta": 1,
-    "explicacao": "Batman é considerado o maior detetive do mundo."
-  },
-  {
-    "id": 328,
-    "pergunta": "Quem é o vingador que usa o traje de ferro Mark I até o Mark LXXXV?",
-    "opcoes": ["Capitão América", "Hulk", "Homem de Ferro", "Visão"],
-    "correta": 2,
-    "explicacao": "Tony Stark criou várias armaduras do Homem de Ferro, numeradas de Mark I até Mark 85."
-  },
-  {
-    "id": 329,
-    "pergunta": "Qual é o símbolo do Superman em seu peito?",
-    "opcoes": ["Um morcego", "Uma águia", "Um S", "Um raio"],
-    "correta": 2,
-    "explicacao": "O Superman usa um 'S' no peito, símbolo da esperança em Krypton."
-  },
-  {
-    "id": 241,
-    "pergunta": "Qual é o verdadeiro nome do vilão Darkseid, governante de Apokolips, inimigo da Liga da Justiça?",
-    "opcoes": ["Uxas", "Orion", "Kalibak", "Steppenwolf"],
-    "correta": 0,
-    "explicacao": "Darkseid nasceu como Uxas, antes de assumir o trono de Apokolips."
-  },
-  {
-    "id": 242,
-    "pergunta": "Em qual HQ surgiu pela primeira vez a equipe Vingadores?",
-    "opcoes": ["Avengers #1 (1963)", "Tales of Suspense #39 (1963)", "Journey into Mystery #83 (1962)", "Fantastic Four #1 (1961)"],
-    "correta": 0,
-    "explicacao": "Os Vingadores surgiram na revista Avengers #1 em 1963, criada por Stan Lee e Jack Kirby."
-  },
-  {
-    "id": 243,
-    "pergunta": "Qual é a principal fraqueza do Caçador de Marte (J'onn J'onzz), membro da Liga da Justiça?",
-    "opcoes": ["Água", "Som", "Fogo", "Radiação"],
-    "correta": 2,
-    "explicacao": "O Caçador de Marte tem grande vulnerabilidade ao fogo, apesar de seus poderes incríveis."
-  },
-  {
-    "id": 244,
-    "pergunta": "Quem foi o primeiro herói da Marvel a ser adaptado para uma série live-action de TV?",
-    "opcoes": ["Hulk", "Homem-Aranha", "Capitão América", "Thor"],
-    "correta": 0,
-    "explicacao": "O Incrível Hulk ganhou sua famosa série de TV em 1978, estrelada por Bill Bixby e Lou Ferrigno."
-  },
-  {
-    "id": 245,
-    "pergunta": "Qual desses Lanternas Verdes foi membro fundador da Liga da Justiça na versão clássica dos quadrinhos?",
-    "opcoes": ["John Stewart", "Guy Gardner", "Hal Jordan", "Kyle Rayner"],
-    "correta": 2,
-    "explicacao": "Hal Jordan foi o Lanterna Verde que integrou a primeira formação da Liga da Justiça."
-  },
-  {
-    "id": 246,
-    "pergunta": "Qual vilão já conseguiu quebrar a coluna do Batman em uma famosa HQ?",
-    "opcoes": ["Bane", "Coringa", "Ra's al Ghul", "Exterminador"],
-    "correta": 0,
-    "explicacao": "Na HQ 'Knightfall', Bane quebra a coluna do Batman em um dos arcos mais icônicos do herói."
-  },
-  {
-    "id": 247,
-    "pergunta": "Qual o nome do martelo encantado usado por Thor?",
-    "opcoes": ["Mjolnir", "Stormbreaker", "Asgardian Hammer", "Gungnir"],
-    "correta": 0,
-    "explicacao": "O martelo de Thor se chama Mjolnir, encantado por Odin para ser empunhado apenas por quem for digno."
-  },
-  {
-    "id": 248,
-    "pergunta": "Qual é o nome verdadeiro do vilão Lex Luthor?",
-    "opcoes": ["Alexander Joseph Luthor", "Leonard James Luthor", "Louis John Luthor", "Alfred Jacob Luthor"],
-    "correta": 0,
-    "explicacao": "O nome completo de Lex Luthor é Alexander Joseph Luthor."
-  },
-  {
-    "id": 249,
-    "pergunta": "Qual personagem Marvel é conhecido como o 'Mercenário Tagarela'?",
-    "opcoes": ["Deadpool", "Homem-Aranha", "Cavaleiro da Lua", "Punho de Ferro"],
-    "correta": 0,
-    "explicacao": "Deadpool é apelidado de 'Merc with a Mouth' (Mercenário Tagarela) por seu humor e falas incessantes."
-  },
-  {
-    "id": 250,
-    "pergunta": "Quem foi o criador original da Liga da Justiça nos quadrinhos?",
-    "opcoes": ["Gardner Fox", "Stan Lee", "Jack Kirby", "Bob Kane"],
-    "correta": 0,
-    "explicacao": "Gardner Fox criou a Liga da Justiça em 1960, reunindo heróis da DC Comics."
-  },
-  {
-    "id": 251,
-    "pergunta": "Em qual HQ o Homem-Aranha aparece pela primeira vez?",
-    "opcoes": ["Amazing Spider-Man #1", "Amazing Fantasy #15", "Spectacular Spider-Man #1", "Marvel Team-Up #1"],
-    "correta": 1,
-    "explicacao": "O Homem-Aranha surgiu em Amazing Fantasy #15, de 1962."
-  },
-  {
-    "id": 252,
-    "pergunta": "Qual é o planeta natal de Superman?",
-    "opcoes": ["Krypton", "Apokolips", "Oa", "Thanagar"],
-    "correta": 0,
-    "explicacao": "Superman nasceu em Krypton, que foi destruído, levando-o a ser enviado à Terra."
-  },
-  {
-    "id": 253,
-    "pergunta": "Qual é a jóia do infinito controlada pelo Doutor Estranho?",
-    "opcoes": ["Joia da Realidade", "Joia do Poder", "Joia do Tempo", "Joia da Alma"],
-    "correta": 2,
-    "explicacao": "Doutor Estranho guarda a Joia do Tempo dentro do Olho de Agamotto."
-  },
-  {
-    "id": 254,
-    "pergunta": "Qual velocista da DC morreu durante a Crise nas Infinitas Terras?",
-    "opcoes": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
-    "correta": 0,
-    "explicacao": "Barry Allen se sacrifica durante a Crise nas Infinitas Terras, desaparecendo na Força de Aceleração."
-  },
-  {
-    "id": 255,
-    "pergunta": "Qual herói Marvel tem o nome verdadeiro de T’Challa?",
-    "opcoes": ["Pantera Negra", "Falcão", "Blade", "Luke Cage"],
-    "correta": 0,
-    "explicacao": "T’Challa é o rei de Wakanda e o herói Pantera Negra."
-  },
-  {
-    "id": 256,
-    "pergunta": "Qual herói da Liga da Justiça vem do planeta Thanagar?",
-    "opcoes": ["Mulher-Gavião", "Caçador de Marte", "Lanterna Verde", "Aquaman"],
-    "correta": 0,
-    "explicacao": "A Mulher-Gavião (Hawkgirl) vem do planeta Thanagar."
-  },
-  {
-    "id": 257,
-    "pergunta": "Qual é o verdadeiro nome do herói Marvel conhecido como Cavaleiro da Lua?",
-    "opcoes": ["Marc Spector", "Steven Grant", "Jake Lockley", "Arthur Harrow"],
-    "correta": 0,
-    "explicacao": "O Cavaleiro da Lua é Marc Spector, ex-mercenário que se torna avatar do deus Khonshu."
-  },
-  {
-    "id": 258,
-    "pergunta": "Qual foi o primeiro herói da DC Comics a ganhar uma revista solo?",
-    "opcoes": ["Superman", "Batman", "Flash", "Mulher-Maravilha"],
-    "correta": 0,
-    "explicacao": "Superman foi o primeiro a ganhar revista própria em 1939, após estrear em Action Comics #1 (1938)."
-  },
-  {
-    "id": 259,
-    "pergunta": "Qual herói Marvel tem como inimigo principal o Mandarim?",
-    "opcoes": ["Homem de Ferro", "Capitão América", "Thor", "Hulk"],
-    "correta": 0,
-    "explicacao": "O Mandarim é o vilão mais icônico do Homem de Ferro."
-  },
-  {
-    "id": 260,
-    "pergunta": "Qual membro da Liga da Justiça é conhecido como o 'Homem Mais Rápido do Mundo'?",
-    "opcoes": ["Flash", "Superman", "Lanterna Verde", "Aquaman"],
-    "correta": 0,
-    "explicacao": "O Flash é conhecido como 'O Homem Mais Rápido do Mundo'."
-  },
-  {
-    "id": 261,
-    "pergunta": "Qual HQ é considerada a estreia oficial de Wolverine?",
-    "opcoes": ["Incredible Hulk #180", "Incredible Hulk #181", "X-Men #94", "Avengers #16"],
-    "correta": 1,
-    "explicacao": "Embora Wolverine apareça brevemente em Incredible Hulk #180, sua estreia oficial é em #181."
-  },
-  {
-    "id": 262,
-    "pergunta": "Qual é o nome da mãe do Superman?",
-    "opcoes": ["Martha Kent", "Lois Lane", "Kara Zor-El", "Lara Lor-Van"],
-    "correta": 0,
-    "explicacao": "A mãe adotiva de Superman na Terra é Martha Kent."
-  },
-  {
-    "id": 263,
-    "pergunta": "Qual é a identidade secreta de Shazam?",
-    "opcoes": ["Billy Batson", "Freddy Freeman", "Jason Todd", "Dick Grayson"],
-    "correta": 0,
-    "explicacao": "Shazam é o alter ego do jovem Billy Batson."
-  },
-  {
-    "id": 264,
-    "pergunta": "Qual vingador foi introduzido primeiro nos cinemas da Marvel?",
-    "opcoes": ["Homem de Ferro", "Hulk", "Thor", "Capitão América"],
-    "correta": 0,
-    "explicacao": "O Homem de Ferro foi o primeiro Vingador do MCU, em 2008."
-  },
-  {
-    "id": 265,
-    "pergunta": "Qual vilão da DC é conhecido por usar enigmas e charadas contra o Batman?",
-    "opcoes": ["Charada", "Espantalho", "Duas-Caras", "Pinguim"],
-    "correta": 0,
-    "explicacao": "O Charada (Edward Nigma) é obcecado por enigmas e charadas."
-  },
-  {
-    "id": 266,
-    "pergunta": "Qual joia do infinito estava originalmente na testa do Visão?",
-    "opcoes": ["Joia da Mente", "Joia da Alma", "Joia da Realidade", "Joia do Poder"],
-    "correta": 0,
-    "explicacao": "Visão carrega a Joia da Mente em sua testa, colocada por Ultron nos filmes."
-  },
-  {
-    "id": 267,
-    "pergunta": "Qual Robin se tornou posteriormente o Capuz Vermelho?",
-    "opcoes": ["Jason Todd", "Dick Grayson", "Tim Drake", "Damian Wayne"],
-    "correta": 0,
-    "explicacao": "Jason Todd retorna dos mortos e se torna o anti-herói Capuz Vermelho."
-  },
-  {
-    "id": 268,
-    "pergunta": "Qual é o nome verdadeiro do Pantera Negra?",
-    "opcoes": ["T'Challa", "M'Baku", "N'Jadaka", "Shuri"],
-    "correta": 0,
-    "explicacao": "O Pantera Negra é T’Challa, rei de Wakanda."
-  },
-  {
-    "id": 269,
-    "pergunta": "Qual HQ marcou a primeira aparição do vilão Thanos?",
-    "opcoes": ["Iron Man #55", "Avengers #4", "Captain Marvel #25", "Thor #169"],
-    "correta": 0,
-    "explicacao": "Thanos apareceu pela primeira vez em Iron Man #55, em 1973."
-  },
-  {
-    "id": 270,
-    "pergunta": "Qual é o verdadeiro nome da Mulher-Maravilha?",
-    "opcoes": ["Diana Prince", "Diana Trevor", "Donna Troy", "Hippolyta"],
-    "correta": 0,
-    "explicacao": "A Mulher-Maravilha é Diana, princesa das Amazonas, conhecida na Terra como Diana Prince."
-  },
-  {
-    "id": 270,
-    "pergunta": "Qual é o nome verdadeiro do Flash mais famoso da Liga da Justiça?",
-    "opcoes": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
-    "correta": 0,
-    "explicacao": "O Flash mais famoso da Liga da Justiça é Barry Allen."
-  },
-  {
-    "id": 271,
-    "pergunta": "Qual é a fraqueza mais conhecida do Superman?",
-    "opcoes": ["Vibranium", "Adamantium", "Kryptonita", "Magnetismo"],
-    "correta": 2,
-    "explicacao": "A kryptonita é a maior fraqueza do Superman."
-  },
-  {
-    "id": 272,
-    "pergunta": "Quem é o vingador conhecido como Deus do Trovão?",
-    "opcoes": ["Thor", "Loki", "Odin", "Hércules"],
-    "correta": 0,
-    "explicacao": "Thor é o Deus do Trovão e membro dos Vingadores."
-  },
-  {
-    "id": 273,
-    "pergunta": "Qual membro da Liga da Justiça vem de Atlântida?",
-    "opcoes": ["Aquaman", "Superman", "Cyborg", "Lanterna Verde"],
-    "correta": 0,
-    "explicacao": "Aquaman é o rei de Atlântida e membro da Liga da Justiça."
-  },
-  {
-    "id": 274,
-    "pergunta": "Quem é o gênio bilionário dos Vingadores?",
-    "opcoes": ["Bruce Wayne", "Tony Stark", "Stephen Strange", "Reed Richards"],
-    "correta": 1,
-    "explicacao": "Tony Stark é o Homem de Ferro, gênio bilionário dos Vingadores."
-  },
-  {
-    "id": 275,
-    "pergunta": "Qual herói da DC é conhecido como 'Mulher-Maravilha'?",
-    "opcoes": ["Natasha Romanoff", "Diana Prince", "Jean Grey", "Carol Danvers"],
-    "correta": 1,
-    "explicacao": "Diana Prince é a Mulher-Maravilha da Liga da Justiça."
-  },
-  {
-    "id": 276,
-    "pergunta": "Qual vingador é conhecido como 'Sentinela da Liberdade'?",
-    "opcoes": ["Capitão América", "Homem de Ferro", "Pantera Negra", "Gavião Arqueiro"],
-    "correta": 0,
-    "explicacao": "O Capitão América é chamado de 'Sentinela da Liberdade'."
-  },
-  {
-    "id": 277,
-    "pergunta": "Qual herói da DC usa um anel de poder verde?",
-    "opcoes": ["Lanterna Verde", "Flash", "Shazam", "Batman"],
-    "correta": 0,
-    "explicacao": "O Lanterna Verde possui um anel que cria construções de energia."
-  },
-  {
-    "id": 278,
-    "pergunta": "Qual vingadora é conhecida como Viúva Negra?",
-    "opcoes": ["Natasha Romanoff", "Carol Danvers", "Wanda Maximoff", "Gamora"],
-    "correta": 0,
-    "explicacao": "Natasha Romanoff é a Viúva Negra nos Vingadores."
-  },
-  {
-    "id": 279,
-    "pergunta": "Qual é o herói da Liga da Justiça que tem corpo cibernético?",
-    "opcoes": ["Cyborg", "Flash", "Lanterna Verde", "Aquaman"],
-    "correta": 0,
-    "explicacao": "Cyborg é metade humano e metade máquina, membro da Liga da Justiça."
-  },
-  {
-    "id": 280,
-    "pergunta": "Qual vingador se transforma quando fica com raiva?",
-    "opcoes": ["Hulk", "Thor", "Homem de Ferro", "Homem-Formiga"],
-    "correta": 0,
-    "explicacao": "Bruce Banner se transforma no Hulk quando fica com raiva."
-  },
-  {
-    "id": 281,
-    "pergunta": "Qual herói da DC é chamado de 'Cavaleiro das Trevas'?",
-    "opcoes": ["Batman", "Superman", "Aquaman", "Lanterna Verde"],
-    "correta": 0,
-    "explicacao": "Batman é conhecido como o Cavaleiro das Trevas."
-  },
-  {
-    "id": 282,
-    "pergunta": "Qual vingador pode encolher e se comunicar com formigas?",
-    "opcoes": ["Homem-Formiga", "Homem-Aranha", "Pantera Negra", "Gavião Arqueiro"],
-    "correta": 0,
-    "explicacao": "Scott Lang é o Homem-Formiga e pode encolher e falar com formigas."
-  },
-  {
-    "id": 283,
-    "pergunta": "Qual heroína da Liga da Justiça usa um laço da verdade?",
-    "opcoes": ["Mulher-Maravilha", "Zatanna", "Canário Negro", "Supergirl"],
-    "correta": 0,
-    "explicacao": "Mulher-Maravilha usa o Laço da Verdade como sua arma principal."
-  },
-  {
-    "id": 284,
-    "pergunta": "Qual vingadora é também chamada de Feiticeira Escarlate?",
-    "opcoes": ["Wanda Maximoff", "Jean Grey", "Gamora", "Nebulosa"],
-    "correta": 0,
-    "explicacao": "Wanda Maximoff é a Feiticeira Escarlate dos Vingadores."
-  },
-  {
-    "id": 285,
-    "pergunta": "Qual herói da DC veio do planeta Krypton?",
-    "opcoes": ["Superman", "Batman", "Flash", "Cyborg"],
-    "correta": 0,
-    "explicacao": "Superman nasceu em Krypton e foi enviado à Terra ainda bebê."
-  },
-  {
-    "id": 286,
-    "pergunta": "Qual vingador usa arco e flecha como arma?",
-    "opcoes": ["Gavião Arqueiro", "Thor", "Loki", "Homem de Ferro"],
-    "correta": 0,
-    "explicacao": "Clint Barton é o Gavião Arqueiro e usa arco e flechas especiais."
-  },
-  {
-    "id": 287,
-    "pergunta": "Qual herói da Liga da Justiça é conhecido por sua supervelocidade?",
-    "opcoes": ["Flash", "Lanterna Verde", "Aquaman", "Shazam"],
-    "correta": 0,
-    "explicacao": "Flash é o velocista da Liga da Justiça."
-  },
-  {
-    "id": 288,
-    "pergunta": "Qual vingador tem origem em Wakanda?",
-    "opcoes": ["Pantera Negra", "Homem de Ferro", "Thor", "Capitão América"],
-    "correta": 0,
-    "explicacao": "Pantera Negra é o rei de Wakanda e membro dos Vingadores."
-  },
-  {
-    "id": 289,
-    "pergunta": "Qual é o nome verdadeiro do Batman?",
-    "opcoes": ["Bruce Wayne", "Clark Kent", "Tony Stark", "Steve Rogers"],
-    "correta": 0,
-    "explicacao": "O nome verdadeiro do Batman é Bruce Wayne."
-  },
-  {
-    "id": 290,
-    "pergunta": "Qual vingador tem um escudo feito de vibranium?",
-    "opcoes": ["Capitão América", "Hulk", "Homem de Ferro", "Thor"],
-    "correta": 0,
-    "explicacao": "O escudo do Capitão América é feito de vibranium."
-  },
-  {
-    "id": 291,
-    "pergunta": "Qual herói da DC grita 'Shazam!' para ganhar poderes?",
-    "opcoes": ["Shazam", "Aquaman", "Flash", "Lanterna Verde"],
-    "correta": 0,
-    "explicacao": "Billy Batson se transforma no herói Shazam ao gritar seu nome."
-  },
-  {
-    "id": 292,
-    "pergunta": "Qual vingador é um doutor especialista em artes místicas?",
-    "opcoes": ["Doutor Estranho", "Thor", "Visão", "Homem de Ferro"],
-    "correta": 0,
-    "explicacao": "Stephen Strange é o Doutor Estranho, mestre das artes místicas."
-  },
-  {
-    "id": 293,
-    "pergunta": "Qual heroína da Liga da Justiça é prima do Superman?",
-    "opcoes": ["Supergirl", "Zatanna", "Mulher-Gavião", "Mulher-Maravilha"],
-    "correta": 0,
-    "explicacao": "Kara Zor-El, conhecida como Supergirl, é prima do Superman."
-  },
-  {
-    "id": 294,
-    "pergunta": "Qual vingador é uma criação da inteligência artificial Ultron?",
-    "opcoes": ["Visão", "Homem de Ferro", "Falcão", "Pantera Negra"],
-    "correta": 0,
-    "explicacao": "Visão foi criado por Ultron, mas se juntou aos Vingadores."
-  },
-  {
-    "id": 295,
-    "pergunta": "Qual herói da Liga da Justiça pode falar com animais marinhos?",
-    "opcoes": ["Aquaman", "Superman", "Flash", "Cyborg"],
-    "correta": 0,
-    "explicacao": "Aquaman tem o poder de se comunicar com criaturas do mar."
-  },
-  {
-    "id": 296,
-    "pergunta": "Qual vingador é também conhecido como Falcão?",
-    "opcoes": ["Sam Wilson", "Bucky Barnes", "Scott Lang", "Steve Rogers"],
-    "correta": 0,
-    "explicacao": "Sam Wilson é o herói Falcão e membro dos Vingadores."
-  },
-  {
-    "id": 297,
-    "pergunta": "Qual herói da Liga da Justiça é meio humano e meio máquina?",
-    "opcoes": ["Cyborg", "Lanterna Verde", "Flash", "Shazam"],
-    "correta": 0,
-    "explicacao": "Victor Stone é o Cyborg, metade humano e metade tecnologia."
-  },
-  {
-    "id": 298,
-    "pergunta": "Qual vingador tem a habilidade de mudar de tamanho?",
-    "opcoes": ["Homem-Formiga", "Visão", "Capitão América", "Hulk"],
-    "correta": 0,
-    "explicacao": "O Homem-Formiga pode diminuir ou aumentar de tamanho."
-  },
-  {
-    "id": 299,
-    "pergunta": "Qual herói da DC usa uma capa vermelha e o símbolo 'S' no peito?",
-    "opcoes": ["Superman", "Shazam", "Flash", "Lanterna Verde"],
-    "correta": 0,
-    "explicacao": "Superman é famoso por sua capa vermelha e o 'S' no peito."
-  },
-  {
-    "id": 300,
-    "pergunta": "Quem foi o primeiro imperador do Brasil?",
-    "opcoes": ["Dom Pedro I", "Dom Pedro II", "Tiradentes", "Getúlio Vargas"],
-    "correta": 0,
-    "explicacao": "Dom Pedro I foi proclamado imperador em 1822, após a Independência do Brasil."
-  },
-  {
-    "id": 301,
-    "pergunta": "Qual evento marcou oficialmente o fim da escravidão no Brasil?",
-    "opcoes": ["A Proclamação da República", "Lei Áurea", "Inconfidência Mineira", "Constituição de 1824"],
-    "correta": 1,
-    "explicacao": "A Lei Áurea, assinada pela Princesa Isabel em 1888, aboliu a escravidão no Brasil."
-  },
-  {
-    "id": 302,
-    "pergunta": "Em que cidade ocorreu a Inconfidência Mineira?",
-    "opcoes": ["São Paulo", "Ouro Preto", "Salvador", "Rio de Janeiro"],
-    "correta": 1,
-    "explicacao": "A Inconfidência Mineira ocorreu em Vila Rica, atual Ouro Preto, Minas Gerais."
-  },
-  {
-    "id": 303,
-    "pergunta": "Quem proclamou a Independência do Brasil às margens do Rio Ipiranga?",
-    "opcoes": ["Dom João VI", "Dom Pedro I", "José Bonifácio", "Duque de Caxias"],
-    "correta": 1,
-    "explicacao": "Dom Pedro I proclamou a Independência em 7 de setembro de 1822 no Rio Ipiranga."
-  },
-  {
-    "id": 304,
-    "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
-    "opcoes": ["São Paulo", "Ouro Preto", "Rio de Janeiro", "Salvador"],
-    "correta": 2,
-    "explicacao": "Antes de Brasília, a capital brasileira era o Rio de Janeiro."
-  },
-  {
-    "id": 305,
-    "pergunta": "Quem foi Tiradentes?",
-    "opcoes": ["Líder da Inconfidência Mineira", "Imperador do Brasil", "Presidente da República", "Fundador de Brasília"],
-    "correta": 0,
-    "explicacao": "Tiradentes foi um dos principais líderes da Inconfidência Mineira, movimento de independência."
-  },
-  {
-    "id": 306,
-    "pergunta": "Quem foi o presidente brasileiro durante a construção de Brasília?",
-    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Marechal Deodoro", "Tancredo Neves"],
-    "correta": 0,
-    "explicacao": "Juscelino Kubitschek idealizou e iniciou a construção de Brasília, inaugurada em 1960."
-  },
-  {
-    "id": 307,
-    "pergunta": "Qual tratado definiu as fronteiras entre Brasil e Espanha no período colonial?",
-    "opcoes": ["Tratado de Petrópolis", "Tratado de Tordesilhas", "Tratado de Madri", "Tratado de Paris"],
-    "correta": 2,
-    "explicacao": "O Tratado de Madri (1750) redefiniu as fronteiras entre Portugal e Espanha nas Américas."
-  },
-  {
-    "id": 308,
-    "pergunta": "Qual movimento popular aconteceu em 1835 na Bahia?",
-    "opcoes": ["Revolta dos Malês", "Balaiada", "Sabinada", "Cabanagem"],
-    "correta": 0,
-    "explicacao": "A Revolta dos Malês (1835) foi uma rebelião de escravos muçulmanos em Salvador."
-  },
-  {
-    "id": 309,
-    "pergunta": "Quem foi o líder militar conhecido como Duque de Caxias?",
-    "opcoes": ["Líder da Inconfidência", "Comandante da Guerra do Paraguai", "Presidente do Brasil", "Explorador do sertão"],
-    "correta": 1,
-    "explicacao": "Duque de Caxias foi o comandante das tropas brasileiras na Guerra do Paraguai."
-  },
-  {
-    "id": 310,
-    "pergunta": "Qual presidente do Brasil ficou famoso pelo lema '50 anos em 5'?",
-    "opcoes": ["Getúlio Vargas", "Juscelino Kubitschek", "Tancredo Neves", "Fernando Henrique Cardoso"],
-    "correta": 1,
-    "explicacao": "Juscelino Kubitschek lançou o plano '50 anos em 5', propondo acelerar o desenvolvimento do Brasil."
-  },
-  {
-    "id": 311,
-    "pergunta": "Quem liderou a Revolução Farroupilha no Rio Grande do Sul?",
-    "opcoes": ["Bento Gonçalves", "Tiradentes", "José Bonifácio", "Marechal Deodoro"],
-    "correta": 0,
-    "explicacao": "Bento Gonçalves foi um dos principais líderes da Revolução Farroupilha (1835–1845)."
-  },
-  {
-    "id": 312,
-    "pergunta": "Qual foi o primeiro presidente do Brasil?",
-    "opcoes": ["Deodoro da Fonseca", "Floriano Peixoto", "Getúlio Vargas", "Campos Sales"],
-    "correta": 0,
-    "explicacao": "Marechal Deodoro da Fonseca foi o primeiro presidente após a Proclamação da República em 1889."
-  },
-  {
-    "id": 316,
-    "pergunta": "Onde começou o movimento conhecido como Cabanagem?",
-    "opcoes": ["Pará", "Bahia", "Rio Grande do Sul", "Minas Gerais"],
-    "correta": 0,
-    "explicacao": "A Cabanagem foi uma revolta popular que ocorreu no Pará entre 1835 e 1840."
-  },
-  {
-    "id": 319,
-    "pergunta": "Quem foi José Bonifácio de Andrada e Silva?",
-    "opcoes": ["O Patriarca da Independência", "Imperador do Brasil", "General da Guerra do Paraguai", "Presidente do Brasil"],
-    "correta": 0,
-    "explicacao": "José Bonifácio foi um dos principais articuladores da Independência do Brasil, conhecido como Patriarca da Independência."
-  },
-  {
-    "id": 320,
-    "pergunta": "Qual movimento aconteceu em 1922, sendo importante para a cultura brasileira?",
-    "opcoes": ["Semana de Arte Moderna", "Revolta da Chibata", "Intentona Comunista", "Proclamação da República"],
-    "correta": 0,
-    "explicacao": "A Semana de Arte Moderna de 1922 foi um marco na renovação da arte e cultura brasileira."
-  },
-  {
-    "id": 322,
-    "pergunta": "Qual evento histórico ficou conhecido como 'Revolta da Chibata'?",
-    "opcoes": ["Revolta de escravos contra senhores", "Motim de marinheiros contra castigos físicos", "Protesto estudantil", "Revolta camponesa"],
-    "correta": 1,
-    "explicacao": "A Revolta da Chibata (1910) foi um levante de marinheiros contra os castigos físicos aplicados na Marinha."
-  },
-  {
-    "id": 323,
-    "pergunta": "Qual presidente brasileiro ficou conhecido como 'Pai dos Pobres'?",
-    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Tancredo Neves", "Lula"],
-    "correta": 1,
-    "explicacao": "Getúlio Vargas ficou conhecido como 'Pai dos Pobres' por suas políticas trabalhistas."
-  },
-  {
-    "id": 324,
-    "pergunta": "Quem governava Portugal quando a corte portuguesa se transferiu para o Brasil em 1808?",
-    "opcoes": ["Dom João VI", "Dom Pedro I", "Dom José I", "Dom Manuel II"],
-    "correta": 0,
-    "explicacao": "Dom João VI trouxe a corte portuguesa para o Rio de Janeiro em 1808, fugindo das tropas de Napoleão."
-  },
-  {
-    "id": 325,
-    "pergunta": "Qual país foi aliado do Brasil na Guerra do Paraguai?",
-    "opcoes": ["Chile", "Argentina", "Espanha", "Estados Unidos"],
-    "correta": 1,
-    "explicacao": "O Brasil lutou ao lado da Argentina e do Uruguai contra o Paraguai na Guerra do Paraguai."
-  },
-  {
-    "id": 326,
-    "pergunta": "Em que ano foi inaugurada Brasília?",
-    "opcoes": ["1945", "1955", "1960", "1970"],
-    "correta": 2,
-    "explicacao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo de Juscelino Kubitschek."
-  },
-  {
-    "id": 327,
-    "pergunta": "Quem foi Marechal Deodoro da Fonseca?",
-    "opcoes": ["O proclamador da República", "O líder da Independência", "Presidente da Constituinte de 1824", "General da Guerra do Paraguai"],
-    "correta": 0,
-    "explicacao": "Marechal Deodoro da Fonseca proclamou a República em 1889 e foi o primeiro presidente do Brasil."
-  },
-  {
-    "id": 328,
-    "pergunta": "Qual foi a principal atividade econômica do Brasil no período colonial?",
-    "opcoes": ["Mineração", "Pecuária", "Cana-de-açúcar", "Café"],
-    "correta": 2,
-    "explicacao": "Durante boa parte do período colonial, a cana-de-açúcar foi a principal atividade econômica do Brasil."
-  },
-  {
-    "id": 329,
-    "pergunta": "Qual foi o movimento popular que ocorreu em Canudos, na Bahia?",
-    "opcoes": ["Revolta dos Malês", "Revolta da Vacina", "Guerra de Canudos", "Balaiada"],
-    "correta": 2,
-    "explicacao": "A Guerra de Canudos (1896–1897) foi um conflito entre o exército e seguidores de Antônio Conselheiro."
-  },
-  {
-    "id": 300,
-    "pergunta": "Quem foi o primeiro imperador do Brasil?",
-    "opcoes": ["Dom Pedro I", "Dom Pedro II", "Tiradentes", "Getúlio Vargas"],
-    "correta": 0,
-    "explicacao": "Dom Pedro I foi proclamado imperador em 1822, após a Independência do Brasil."
-  },
-  {
-    "id": 301,
-    "pergunta": "Qual evento marcou oficialmente o fim da escravidão no Brasil?",
-    "opcoes": ["A Proclamação da República", "Lei Áurea", "Inconfidência Mineira", "Constituição de 1824"],
-    "correta": 1,
-    "explicacao": "A Lei Áurea, assinada pela Princesa Isabel em 1888, aboliu a escravidão no Brasil."
-  },
-  {
-    "id": 302,
-    "pergunta": "Em que cidade ocorreu a Inconfidência Mineira?",
-    "opcoes": ["São Paulo", "Ouro Preto", "Salvador", "Rio de Janeiro"],
-    "correta": 1,
-    "explicacao": "A Inconfidência Mineira ocorreu em Vila Rica, atual Ouro Preto, Minas Gerais."
-  },
-  {
-    "id": 303,
-    "pergunta": "Quem proclamou a Independência do Brasil às margens do Rio Ipiranga?",
-    "opcoes": ["Dom João VI", "Dom Pedro I", "José Bonifácio", "Duque de Caxias"],
-    "correta": 1,
-    "explicacao": "Dom Pedro I proclamou a Independência em 7 de setembro de 1822 no Rio Ipiranga."
-  },
-  {
-    "id": 304,
-    "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
-    "opcoes": ["São Paulo", "Ouro Preto", "Rio de Janeiro", "Salvador"],
-    "correta": 2,
-    "explicacao": "Antes de Brasília, a capital brasileira era o Rio de Janeiro."
-  },
-  {
-    "id": 305,
-    "pergunta": "Quem foi Tiradentes?",
-    "opcoes": ["Líder da Inconfidência Mineira", "Imperador do Brasil", "Presidente da República", "Fundador de Brasília"],
-    "correta": 0,
-    "explicacao": "Tiradentes foi um dos principais líderes da Inconfidência Mineira, movimento de independência."
-  },
-  {
-    "id": 306,
-    "pergunta": "Quem foi o presidente brasileiro durante a construção de Brasília?",
-    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Marechal Deodoro", "Tancredo Neves"],
-    "correta": 0,
-    "explicacao": "Juscelino Kubitschek idealizou e iniciou a construção de Brasília, inaugurada em 1960."
-  },
-  {
-    "id": 307,
-    "pergunta": "Qual tratado definiu as fronteiras entre Brasil e Espanha no período colonial?",
-    "opcoes": ["Tratado de Petrópolis", "Tratado de Tordesilhas", "Tratado de Madri", "Tratado de Paris"],
-    "correta": 2,
-    "explicacao": "O Tratado de Madri (1750) redefiniu as fronteiras entre Portugal e Espanha nas Américas."
-  },
-  {
-    "id": 308,
-    "pergunta": "Qual movimento popular aconteceu em 1835 na Bahia?",
-    "opcoes": ["Revolta dos Malês", "Balaiada", "Sabinada", "Cabanagem"],
-    "correta": 0,
-    "explicacao": "A Revolta dos Malês (1835) foi uma rebelião de escravos muçulmanos em Salvador."
-  },
-  {
-    "id": 309,
-    "pergunta": "Quem foi o líder militar conhecido como Duque de Caxias?",
-    "opcoes": ["Líder da Inconfidência", "Comandante da Guerra do Paraguai", "Presidente do Brasil", "Explorador do sertão"],
-    "correta": 1,
-    "explicacao": "Duque de Caxias foi o comandante das tropas brasileiras na Guerra do Paraguai."
-  },
-  {
-    "id": 310,
-    "pergunta": "Qual presidente do Brasil ficou famoso pelo lema '50 anos em 5'?",
-    "opcoes": ["Getúlio Vargas", "Juscelino Kubitschek", "Tancredo Neves", "Fernando Henrique Cardoso"],
-    "correta": 1,
-    "explicacao": "Juscelino Kubitschek lançou o plano '50 anos em 5', propondo acelerar o desenvolvimento do Brasil."
-  },
-  {
-    "id": 311,
-    "pergunta": "Quem liderou a Revolução Farroupilha no Rio Grande do Sul?",
-    "opcoes": ["Bento Gonçalves", "Tiradentes", "José Bonifácio", "Marechal Deodoro"],
-    "correta": 0,
-    "explicacao": "Bento Gonçalves foi um dos principais líderes da Revolução Farroupilha (1835–1845)."
-  },
-  {
-    "id": 312,
-    "pergunta": "Qual foi o primeiro presidente do Brasil?",
-    "opcoes": ["Deodoro da Fonseca", "Floriano Peixoto", "Getúlio Vargas", "Campos Sales"],
-    "correta": 0,
-    "explicacao": "Marechal Deodoro da Fonseca foi o primeiro presidente após a Proclamação da República em 1889."
-  },
-  {
-    "id": 313,
-    "pergunta": "Em que ano foi proclamada a República no Brasil?",
-    "opcoes": ["1822", "1889", "1930", "1964"],
-    "correta": 1,
-    "explicacao": "A Proclamação da República ocorreu em 15 de novembro de 1889."
-  },
-  {
-    "id": 314,
-    "pergunta": "Quem foi a princesa responsável por assinar a Lei Áurea?",
-    "opcoes": ["Princesa Isabel", "Rainha Carlota Joaquina", "Dona Leopoldina", "Maria da Glória"],
-    "correta": 0,
-    "explicacao": "A Princesa Isabel assinou a Lei Áurea em 13 de maio de 1888, abolindo a escravidão."
-  },
-  {
-    "id": 315,
-    "pergunta": "Qual foi o principal conflito internacional do qual o Brasil participou no século XIX?",
-    "opcoes": ["Guerra do Pacífico", "Guerra do Paraguai", "Guerra da Cisplatina", "Primeira Guerra Mundial"],
-    "correta": 1,
-    "explicacao": "A Guerra do Paraguai (1864–1870) foi o maior conflito da América do Sul, com forte participação do Brasil."
-  },
-  {
-    "id": 316,
-    "pergunta": "Onde começou o movimento conhecido como Cabanagem?",
-    "opcoes": ["Pará", "Bahia", "Rio Grande do Sul", "Minas Gerais"],
-    "correta": 0,
-    "explicacao": "A Cabanagem foi uma revolta popular que ocorreu no Pará entre 1835 e 1840."
-  },
-  {
-    "id": 317,
-    "pergunta": "Quem foi Getúlio Vargas?",
-    "opcoes": ["Imperador do Brasil", "Presidente do Brasil", "Militar da Guerra do Paraguai", "Líder da Inconfidência"],
-    "correta": 1,
-    "explicacao": "Getúlio Vargas governou o Brasil em duas ocasiões, sendo presidente eleito e ditador durante o Estado Novo."
-  },
-  {
-    "id": 318,
-    "pergunta": "Qual foi a capital do Brasil durante o período colonial?",
-    "opcoes": ["Brasília", "Rio de Janeiro", "Ouro Preto", "Salvador"],
-    "correta": 3,
-    "explicacao": "A primeira capital do Brasil foi Salvador, durante o período colonial."
-  },
-  {
-    "id": 319,
-    "pergunta": "Quem foi José Bonifácio de Andrada e Silva?",
-    "opcoes": ["O Patriarca da Independência", "Imperador do Brasil", "General da Guerra do Paraguai", "Presidente do Brasil"],
-    "correta": 0,
-    "explicacao": "José Bonifácio foi um dos principais articuladores da Independência do Brasil, conhecido como Patriarca da Independência."
-  },
-  {
-    "id": 321,
-    "pergunta": "Quem liderou a Coluna Prestes?",
-    "opcoes": ["Luís Carlos Prestes", "Getúlio Vargas", "Floriano Peixoto", "Oswaldo Aranha"],
-    "correta": 0,
-    "explicacao": "Luís Carlos Prestes foi o líder da Coluna Prestes, movimento político-militar da década de 1920."
-  },
-  {
-    "id": 322,
-    "pergunta": "Qual evento histórico ficou conhecido como 'Revolta da Chibata'?",
-    "opcoes": ["Revolta de escravos contra senhores", "Motim de marinheiros contra castigos físicos", "Protesto estudantil", "Revolta camponesa"],
-    "correta": 1,
-    "explicacao": "A Revolta da Chibata (1910) foi um levante de marinheiros contra os castigos físicos aplicados na Marinha."
-  },
-  {
-    "id": 323,
-    "pergunta": "Qual presidente brasileiro ficou conhecido como 'Pai dos Pobres'?",
-    "opcoes": ["Juscelino Kubitschek", "Getúlio Vargas", "Tancredo Neves", "Lula"],
-    "correta": 1,
-    "explicacao": "Getúlio Vargas ficou conhecido como 'Pai dos Pobres' por suas políticas trabalhistas."
-  },
-  {
-    "id": 324,
-    "pergunta": "Quem governava Portugal quando a corte portuguesa se transferiu para o Brasil em 1808?",
-    "opcoes": ["Dom João VI", "Dom Pedro I", "Dom José I", "Dom Manuel II"],
-    "correta": 0,
-    "explicacao": "Dom João VI trouxe a corte portuguesa para o Rio de Janeiro em 1808, fugindo das tropas de Napoleão."
-  },
-  {
-    "id": 325,
-    "pergunta": "Qual país foi aliado do Brasil na Guerra do Paraguai?",
-    "opcoes": ["Chile", "Argentina", "Espanha", "Estados Unidos"],
-    "correta": 1,
-    "explicacao": "O Brasil lutou ao lado da Argentina e do Uruguai contra o Paraguai na Guerra do Paraguai."
-  },
-  {
-    "id": 326,
-    "pergunta": "Em que ano foi inaugurada Brasília?",
-    "opcoes": ["1945", "1955", "1960", "1970"],
-    "correta": 2,
-    "explicacao": "Brasília foi inaugurada em 21 de abril de 1960, durante o governo de Juscelino Kubitschek."
-  },
-  {
-    "id": 328,
-    "pergunta": "Qual foi a principal atividade econômica do Brasil no período colonial?",
-    "opcoes": ["Mineração", "Pecuária", "Cana-de-açúcar", "Café"],
-    "correta": 2,
-    "explicacao": "Durante boa parte do período colonial, a cana-de-açúcar foi a principal atividade econômica do Brasil."
-  },
-  {
-    "id": 401,
-    "pergunta": "Qual país venceu a primeira Copa do Mundo, em 1930?",
-    "opcoes": ["Brasil", "Uruguai", "Alemanha", "Argentina"],
-    "correta": 1,
-    "explicacao": "O Uruguai foi o campeão da primeira Copa do Mundo, em 1930."
-  },
-  {
-    "id": 402,
-    "pergunta": "Qual país tem mais títulos da Copa do Mundo?",
-    "opcoes": ["Brasil", "Itália", "Alemanha", "Argentina"],
-    "correta": 0,
-    "explicacao": "O Brasil é o maior campeão, com 5 Copas do Mundo."
-  },
-  {
-    "id": 403,
-    "pergunta": "Qual jogador é conhecido como 'Rei do Futebol'?",
-    "opcoes": ["Pelé", "Maradona", "Zico", "Romário"],
-    "correta": 0,
-    "explicacao": "Pelé é considerado o Rei do Futebol, tricampeão mundial com o Brasil."
-  },
-  {
-    "id": 404,
-    "pergunta": "Em que país nasceu o jogador Lionel Messi?",
-    "opcoes": ["Espanha", "Brasil", "Argentina", "Uruguai"],
-    "correta": 2,
-    "explicacao": "Messi nasceu em Rosário, na Argentina."
-  },
-  {
-    "id": 405,
-    "pergunta": "Em que clube Pelé jogou a maior parte da sua carreira?",
-    "opcoes": ["Flamengo", "Botafogo", "Santos", "Corinthians"],
-    "correta": 2,
-    "explicacao": "Pelé jogou a maior parte de sua carreira no Santos Futebol Clube."
-  },
-  {
-    "id": 406,
-    "pergunta": "Qual é o apelido da Seleção Brasileira de Futebol?",
-    "opcoes": ["La Roja", "Azzurra", "Canarinho", "Albiceleste"],
-    "correta": 2,
-    "explicacao": "A Seleção Brasileira é conhecida como 'Canarinho', em referência à camisa amarela."
-  },
-  {
-    "id": 407,
-    "pergunta": "Quem foi o artilheiro da Copa de 2002?",
-    "opcoes": ["Ronaldo Fenômeno", "Ronaldinho Gaúcho", "Klose", "Henry"],
-    "correta": 0,
-    "explicacao": "Ronaldo Fenômeno foi o artilheiro da Copa de 2002, com 8 gols."
-  },
-  {
-    "id": 408,
-    "pergunta": "Qual estádio é conhecido como o 'Templo do Futebol' no Brasil?",
-    "opcoes": ["Maracanã", "Mineirão", "Morumbi", "Beira-Rio"],
-    "correta": 0,
-    "explicacao": "O Estádio do Maracanã, no Rio de Janeiro, é considerado o 'Templo do Futebol'."
-  },
-  {
-    "id": 409,
-    "pergunta": "Qual país sediou a Copa do Mundo de 2014?",
-    "opcoes": ["África do Sul", "Brasil", "Alemanha", "Rússia"],
-    "correta": 1,
-    "explicacao": "O Brasil sediou a Copa do Mundo em 2014."
-  },
-  {
-    "id": 410,
-    "pergunta": "Quem marcou o gol do título do Brasil na Copa de 2002?",
-    "opcoes": ["Rivaldo", "Ronaldo Fenômeno", "Ronaldinho Gaúcho", "Cafu"],
-    "correta": 1,
-    "explicacao": "Ronaldo Fenômeno marcou dois gols na final contra a Alemanha em 2002."
-  },
-  {
-    "id": 411,
-    "pergunta": "Quantos jogadores cada time deve ter em campo no início de uma partida de futebol?",
-    "opcoes": ["9", "10", "11", "12"],
-    "correta": 2,
-    "explicacao": "Cada time começa com 11 jogadores em campo."
-  },
-  {
-    "id": 412,
-    "pergunta": "Quem é considerado o maior ídolo da história do Flamengo?",
-    "opcoes": ["Romário", "Zico", "Adriano", "Petkovic"],
-    "correta": 1,
-    "explicacao": "Zico é considerado o maior ídolo da história do Flamengo."
-  },
-  {
-    "id": 413,
-    "pergunta": "Quem foi o capitão do Brasil no título de 1994?",
-    "opcoes": ["Dunga", "Romário", "Bebeto", "Cafu"],
-    "correta": 0,
-    "explicacao": "Dunga foi o capitão da Seleção Brasileira campeã em 1994."
-  },
-  {
-    "id": 414,
-    "pergunta": "Qual é o maior rival do Real Madrid na Espanha?",
-    "opcoes": ["Valencia", "Sevilla", "Barcelona", "Atlético de Madrid"],
-    "correta": 2,
-    "explicacao": "O maior rival do Real Madrid é o Barcelona, no clássico El Clásico."
-  },
-  {
-    "id": 415,
-    "pergunta": "Quantas Copas do Mundo a Argentina já conquistou até 2022?",
-    "opcoes": ["1", "2", "3", "4"],
-    "correta": 2,
-    "explicacao": "A Argentina venceu 3 Copas: 1978, 1986 e 2022."
-  },
-  {
-    "id": 416,
-    "pergunta": "Quem é conhecido como 'Fenômeno' no futebol?",
-    "opcoes": ["Ronaldinho", "Cristiano Ronaldo", "Ronaldo Nazário", "Romário"],
-    "correta": 2,
-    "explicacao": "Ronaldo Nazário é chamado de 'Fenômeno'."
-  },
-  {
-    "id": 417,
-    "pergunta": "Qual seleção perdeu a final da Copa de 1950 para o Uruguai no Maracanã?",
-    "opcoes": ["Argentina", "Brasil", "Alemanha", "Itália"],
-    "correta": 1,
-    "explicacao": "O Brasil perdeu a final de 1950 para o Uruguai, no episódio conhecido como Maracanaço."
-  },
-  {
-    "id": 418,
-    "pergunta": "Qual jogador é apelidado de 'La Pulga'?",
-    "opcoes": ["Cristiano Ronaldo", "Messi", "Neymar", "Mbappé"],
-    "correta": 1,
-    "explicacao": "Lionel Messi é chamado de 'La Pulga', devido à sua baixa estatura e agilidade."
-  },
-  {
-    "id": 419,
-    "pergunta": "Qual clube é conhecido como 'Timão' no Brasil?",
-    "opcoes": ["Palmeiras", "São Paulo", "Corinthians", "Santos"],
-    "correta": 2,
-    "explicacao": "O Corinthians é conhecido como 'Timão'."
-  },
-  {
-    "id": 420,
-    "pergunta": "Qual é o maior estádio do Brasil em capacidade?",
-    "opcoes": ["Mineirão", "Morumbi", "Maracanã", "Arena Corinthians"],
-    "correta": 2,
-    "explicacao": "O Maracanã é o maior estádio do Brasil em capacidade."
-  },
-  {
-    "id": 421,
-    "pergunta": "Qual jogador brasileiro ficou famoso pela comemoração do 'corta-luz' com Bebeto em 1994?",
-    "opcoes": ["Romário", "Taffarel", "Mazinho", "Dunga"],
-    "correta": 0,
-    "explicacao": "Romário era parte da famosa comemoração do 'corta-luz' junto com Bebeto em 1994."
-  },
-  {
-    "id": 422,
-    "pergunta": "Qual clube brasileiro é chamado de 'Verdão'?",
-    "opcoes": ["Palmeiras", "Corinthians", "Fluminense", "Grêmio"],
-    "correta": 0,
-    "explicacao": "O Palmeiras é conhecido como 'Verdão'."
-  },
-  {
-    "id": 423,
-    "pergunta": "Quem é conhecido como 'CR7'?",
-    "opcoes": ["Cristiano Ronaldo", "Cafu", "Kaká", "Pato"],
-    "correta": 0,
-    "explicacao": "Cristiano Ronaldo é conhecido como CR7, referência ao número da camisa."
-  },
-  {
-    "id": 424,
-    "pergunta": "Qual país sediou a Copa do Mundo de 2018?",
-    "opcoes": ["Brasil", "Rússia", "Alemanha", "África do Sul"],
-    "correta": 1,
-    "explicacao": "A Rússia foi a sede da Copa do Mundo de 2018."
-  },
-  {
-    "id": 425,
-    "pergunta": "Qual jogador brasileiro é chamado de 'Ney' pelos torcedores?",
-    "opcoes": ["Ney Franco", "Neymar", "Nei Paraíba", "Nei Santos"],
-    "correta": 1,
-    "explicacao": "Neymar é chamado carinhosamente de 'Ney'."
-  },
-  {
-    "id": 426,
-    "pergunta": "Qual clube brasileiro tem o apelido de 'Imortal Tricolor'?",
-    "opcoes": ["Fluminense", "Grêmio", "Bahia", "São Paulo"],
-    "correta": 1,
-    "explicacao": "O Grêmio é chamado de 'Imortal Tricolor'."
-  },
-  {
-    "id": 427,
-    "pergunta": "Quem marcou o famoso gol de falta contra a Inglaterra na Copa de 2002?",
-    "opcoes": ["Rivaldo", "Ronaldinho Gaúcho", "Kaká", "Cafu"],
-    "correta": 1,
-    "explicacao": "Ronaldinho Gaúcho marcou um gol de falta memorável contra a Inglaterra em 2002."
-  },
-  {
-    "id": 428,
-    "pergunta": "Qual jogador é conhecido como 'O Baixinho'?",
-    "opcoes": ["Romário", "Garrincha", "Sócrates", "Careca"],
-    "correta": 0,
-    "explicacao": "Romário é conhecido como 'O Baixinho'."
-  },
-  {
-    "id": 429,
-    "pergunta": "Qual país ganhou a Copa do Mundo de 2010?",
-    "opcoes": ["Brasil", "Espanha", "Holanda", "Alemanha"],
-    "correta": 1,
-    "explicacao": "A Espanha foi campeã da Copa de 2010, vencendo a Holanda na final."
-  },
-  {
-    "id": 430,
-    "pergunta": "Quem foi o técnico da Seleção Brasileira no título de 2002?",
-    "opcoes": ["Felipão", "Parreira", "Dunga", "Zagallo"],
-    "correta": 0,
-    "explicacao": "Luiz Felipe Scolari, o Felipão, era o técnico da Seleção em 2002."
-  },
-  {
-    "id": 501,
-    "pergunta": "Qual é o maior planeta do Sistema Solar?",
-    "opcoes": ["Terra", "Marte", "Júpiter", "Saturno"],
-    "correta": 2,
-    "explicacao": "Júpiter é o maior planeta do Sistema Solar."
-  },
-  {
-    "id": 502,
-    "pergunta": "Qual oceano banha o litoral brasileiro?",
-    "opcoes": ["Oceano Pacífico", "Oceano Atlântico", "Oceano Índico", "Oceano Glacial"],
-    "correta": 1,
-    "explicacao": "O Brasil é banhado pelo Oceano Atlântico."
-  },
-  {
-    "id": 503,
-    "pergunta": "Quem pintou a obra 'Mona Lisa'?",
-    "opcoes": ["Michelangelo", "Van Gogh", "Leonardo da Vinci", "Picasso"],
-    "correta": 2,
-    "explicacao": "A 'Mona Lisa' foi pintada por Leonardo da Vinci."
-  },
-  {
-    "id": 504,
-    "pergunta": "Em que continente fica o deserto do Saara?",
-    "opcoes": ["Ásia", "América", "África", "Oceania"],
-    "correta": 2,
-    "explicacao": "O deserto do Saara está localizado na África."
-  },
-  {
-    "id": 505,
-    "pergunta": "Qual é o menor país do mundo?",
-    "opcoes": ["Mônaco", "Vaticano", "San Marino", "Andorra"],
-    "correta": 1,
-    "explicacao": "O Vaticano é o menor país do mundo em área e população."
-  },
-  {
-    "id": 506,
-    "pergunta": "Quem escreveu 'Dom Casmurro'?",
-    "opcoes": ["José de Alencar", "Machado de Assis", "Monteiro Lobato", "Cecília Meireles"],
-    "correta": 1,
-    "explicacao": "O romance 'Dom Casmurro' foi escrito por Machado de Assis."
-  },
-  {
-    "id": 507,
-    "pergunta": "Qual é o idioma oficial do México?",
-    "opcoes": ["Português", "Inglês", "Espanhol", "Francês"],
-    "correta": 2,
-    "explicacao": "O idioma oficial do México é o espanhol."
-  },
-  {
-    "id": 508,
-    "pergunta": "Qual é a capital da Argentina?",
-    "opcoes": ["Buenos Aires", "Montevidéu", "Santiago", "Lima"],
-    "correta": 0,
-    "explicacao": "A capital da Argentina é Buenos Aires."
-  },
-  {
-    "id": 509,
-    "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
-    "opcoes": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
-    "correta": 0,
-    "explicacao": "Neil Armstrong foi o primeiro homem a pisar na Lua em 1969."
-  },
-  {
-    "id": 510,
-    "pergunta": "Qual é o rio mais extenso do mundo?",
-    "opcoes": ["Rio Nilo", "Rio Amazonas", "Rio Yangtzé", "Rio Mississipi"],
-    "correta": 1,
-    "explicacao": "O Rio Amazonas é considerado o mais extenso e volumoso do mundo."
-  },
-  {
-    "id": 511,
-    "pergunta": "Qual metal é usado em cabos elétricos por sua alta condução?",
-    "opcoes": ["Ouro", "Alumínio", "Cobre", "Ferro"],
-    "correta": 2,
-    "explicacao": "O cobre é o metal mais usado na condução de energia elétrica."
-  },
-  {
-    "id": 512,
-    "pergunta": "Em que país se encontra a Torre Eiffel?",
-    "opcoes": ["Itália", "Alemanha", "França", "Espanha"],
-    "correta": 2,
-    "explicacao": "A Torre Eiffel fica em Paris, na França."
-  },
-  {
-    "id": 513,
-    "pergunta": "Qual é o continente com o maior número de países?",
-    "opcoes": ["Ásia", "África", "América", "Europa"],
-    "correta": 1,
-    "explicacao": "A África é o continente com mais países reconhecidos, mais de 50."
-  },
-  {
-    "id": 514,
-    "pergunta": "Quem foi o cientista que desenvolveu a teoria da relatividade?",
-    "opcoes": ["Newton", "Einstein", "Galileu", "Darwin"],
-    "correta": 1,
-    "explicacao": "Albert Einstein formulou a teoria da relatividade."
-  },
-  {
-    "id": 515,
-    "pergunta": "Qual é o país conhecido como 'Terra do Sol Nascente'?",
-    "opcoes": ["China", "Japão", "Coreia do Sul", "Tailândia"],
-    "correta": 1,
-    "explicacao": "O Japão é chamado de 'Terra do Sol Nascente'."
-  },
-  {
-    "id": 516,
-    "pergunta": "Qual é a capital de Portugal?",
-    "opcoes": ["Lisboa", "Porto", "Coimbra", "Braga"],
-    "correta": 0,
-    "explicacao": "A capital de Portugal é Lisboa."
-  },
-  {
-    "id": 517,
-    "pergunta": "Em que continente está localizado o Brasil?",
-    "opcoes": ["África", "Ásia", "América do Sul", "Europa"],
-    "correta": 2,
-    "explicacao": "O Brasil está localizado na América do Sul."
-  },
-  {
-    "id": 518,
-    "pergunta": "Quem pintou o teto da Capela Sistina?",
-    "opcoes": ["Rafael", "Donatello", "Michelangelo", "Da Vinci"],
-    "correta": 2,
-    "explicacao": "O teto da Capela Sistina foi pintado por Michelangelo."
-  },
-  {
-    "id": 519,
-    "pergunta": "Qual é o animal terrestre mais rápido do mundo?",
-    "opcoes": ["Leão", "Antílope", "Guepardo", "Cavalo"],
-    "correta": 2,
-    "explicacao": "O guepardo pode atingir velocidades de até 100 km/h."
-  },
-  {
-    "id": 520,
-    "pergunta": "Qual é o idioma oficial da China?",
-    "opcoes": ["Cantonês", "Mandarim", "Japonês", "Coreano"],
-    "correta": 1,
-    "explicacao": "O mandarim é o idioma oficial da China."
-  },
-  {
-    "id": 521,
-    "pergunta": "Qual planeta é conhecido como 'Planeta Vermelho'?",
-    "opcoes": ["Marte", "Vênus", "Saturno", "Mercúrio"],
-    "correta": 0,
-    "explicacao": "Marte é chamado de Planeta Vermelho por causa do óxido de ferro em sua superfície."
-  },
-  {
-    "id": 522,
-    "pergunta": "Qual é a capital da Itália?",
-    "opcoes": ["Milão", "Roma", "Veneza", "Nápoles"],
-    "correta": 1,
-    "explicacao": "A capital da Itália é Roma."
-  },
-  {
-    "id": 523,
-    "pergunta": "Quem foi o autor de 'O Pequeno Príncipe'?",
-    "opcoes": ["Saint-Exupéry", "Victor Hugo", "Balzac", "Camus"],
-    "correta": 0,
-    "explicacao": "O livro 'O Pequeno Príncipe' foi escrito por Antoine de Saint-Exupéry."
-  },
-  {
-    "id": 524,
-    "pergunta": "Qual gás os seres humanos precisam para respirar?",
-    "opcoes": ["Oxigênio", "Nitrogênio", "Gás Carbônico", "Hidrogênio"],
-    "correta": 0,
-    "explicacao": "O ser humano precisa de oxigênio para sobreviver."
-  },
-  {
-    "id": 525,
-    "pergunta": "Em que país nasceu o físico Isaac Newton?",
-    "opcoes": ["França", "Alemanha", "Inglaterra", "Itália"],
-    "correta": 2,
-    "explicacao": "Isaac Newton nasceu na Inglaterra em 1643."
-  },
-  {
-    "id": 526,
-    "pergunta": "Qual é o maior continente do planeta?",
-    "opcoes": ["África", "Ásia", "América", "Europa"],
-    "correta": 1,
-    "explicacao": "A Ásia é o maior continente em área e população."
-  },
-  {
-    "id": 527,
-    "pergunta": "Qual é a moeda oficial do Japão?",
-    "opcoes": ["Yuan", "Won", "Iene", "Dólar"],
-    "correta": 2,
-    "explicacao": "A moeda do Japão é o Iene."
-  },
-  {
-    "id": 528,
-    "pergunta": "Quem inventou a lâmpada elétrica incandescente?",
-    "opcoes": ["Nikola Tesla", "Thomas Edison", "Alexander Bell", "Benjamin Franklin"],
-    "correta": 1,
-    "explicacao": "Thomas Edison aperfeiçoou e popularizou a lâmpada incandescente."
-  },
-  {
-    "id": 529,
-    "pergunta": "Qual é o país mais populoso do mundo?",
-    "opcoes": ["Índia", "China", "EUA", "Indonésia"],
-    "correta": 1,
-    "explicacao": "Até 2022, a China era o país mais populoso, com mais de 1,4 bilhão de habitantes."
-  },
-  {
-    "id": 530,
-    "pergunta": "Qual é a capital do Egito?",
-    "opcoes": ["Cairo", "Alexandria", "Luxor", "Assuã"],
-    "correta": 0,
-    "explicacao": "A capital do Egito é Cairo."
-  },
-  {
-    "id": 601,
-    "pergunta": "Qual é o nome do jogo de sinuca online mais famoso da Miniclip?",
-    "opcoes": ["8 Ball Pool", "Snooker Stars", "Pool Master", "Billiards Club"],
-    "correta": 0,
-    "explicacao": "O jogo mais famoso da Miniclip é o 8 Ball Pool."
-  },
-  {
-    "id": 602,
-    "pergunta": "Qual é a moeda principal usada em 8 Ball Pool?",
-    "opcoes": ["Gemas", "Ouros", "Fichas", "Moedinhas"],
-    "correta": 2,
-    "explicacao": "As fichas são a moeda principal para jogar partidas em 8 Ball Pool."
-  },
-  {
-    "id": 603,
-    "pergunta": "Qual é a moeda mais rara e valiosa no 8 Ball Pool?",
-    "opcoes": ["Fichas", "Cash", "Moedas de Bronze", "Pontos"],
-    "correta": 1,
-    "explicacao": "O Cash é a moeda premium usada para comprar itens especiais."
-  },
-  {
-    "id": 604,
-    "pergunta": "Quantas bolas no total há em uma partida de 8 Ball Pool?",
-    "opcoes": ["15", "16", "12", "10"],
-    "correta": 1,
-    "explicacao": "São 15 bolas numeradas e 1 bola branca, totalizando 16."
-  },
-  {
-    "id": 605,
-    "pergunta": "Qual bola deve ser encaçapada por último para vencer?",
-    "opcoes": ["Bola 1", "Bola 8", "Bola 15", "Bola 16"],
-    "correta": 1,
-    "explicacao": "A bola preta número 8 é sempre a última da partida."
-  },
-  {
-    "id": 606,
-    "pergunta": "O que acontece se você encaçapar a bola 8 antes da hora?",
-    "opcoes": ["Nada", "Ganha bônus", "Perde o jogo", "A rodada reinicia"],
-    "correta": 2,
-    "explicacao": "Encaçapar a bola 8 antes do tempo resulta em derrota imediata."
-  },
-  {
-    "id": 607,
-    "pergunta": "Qual item melhora a força e mira no jogo?",
-    "opcoes": ["Tacos", "Luvas", "Mesas", "Avatares"],
-    "correta": 0,
-    "explicacao": "Tacos melhoram atributos como força, tempo e precisão."
-  },
-  {
-    "id": 608,
-    "pergunta": "O que acontece quando você perde todas as fichas?",
-    "opcoes": ["Não pode jogar mesas caras", "Perde o taco", "Fecha o jogo", "Apaga a conta"],
-    "correta": 0,
-    "explicacao": "Sem fichas, só é possível jogar mesas mais baratas ou resgatar bônus."
-  },
-  {
-    "id": 609,
-    "pergunta": "Qual é a mesa inicial onde os jogadores costumam começar?",
-    "opcoes": ["Las Vegas", "Moscou", "Londres", "Berlim"],
-    "correta": 2,
-    "explicacao": "A mesa de Londres é a primeira e mais barata do jogo."
-  },
-  {
-    "id": 610,
-    "pergunta": "Qual desses modos é comum em 8 Ball Pool?",
-    "opcoes": ["1 vs 1", "Torneio", "Ambos", "Nenhum"],
-    "correta": 2,
-    "explicacao": "O jogo possui tanto partidas 1 vs 1 quanto torneios."
-  },
-  {
-    "id": 611,
-    "pergunta": "O que significa o nível (level) do jogador?",
-    "opcoes": ["Quantidade de vitórias", "Experiência acumulada", "Número de tacos", "Moedas acumuladas"],
-    "correta": 1,
-    "explicacao": "O nível representa a experiência total acumulada."
-  },
-  {
-    "id": 612,
-    "pergunta": "O que acontece se o jogador encaçapar a bola branca?",
-    "opcoes": ["Perde a vez", "Perde fichas", "Ganha pontos", "Acaba a partida"],
-    "correta": 0,
-    "explicacao": "Encaçapar a bola branca resulta em falta e perda de vez."
-  },
-  {
-    "id": 613,
-    "pergunta": "Qual é a função do giro (spin) na bola branca?",
-    "opcoes": ["Deixar a bola mais pesada", "Controlar trajetória após impacto", "Aumentar a força do taco", "Acelerar o tempo"],
-    "correta": 1,
-    "explicacao": "O spin permite controlar para onde a bola branca vai após a tacada."
-  },
-  {
-    "id": 614,
-    "pergunta": "Qual destes lugares NÃO é uma mesa do 8 Ball Pool?",
-    "opcoes": ["Londres", "Tóquio", "Marte", "Miami"],
-    "correta": 2,
-    "explicacao": "Todas as opções são mesas reais, exceto Marte."
-  },
-  {
-    "id": 615,
-    "pergunta": "Como ganhar um taco lendário?",
-    "opcoes": ["Comprando pacotes", "Jogando torneios", "Ambos", "Não existem tacos lendários"],
-    "correta": 2,
-    "explicacao": "Tacos lendários podem ser conquistados em torneios ou comprados em pacotes."
-  },
-  {
-    "id": 616,
-    "pergunta": "O que acontece se o tempo da tacada acabar?",
-    "opcoes": ["Jogo pausa", "Perde a vez", "Perde pontos", "Sai do jogo"],
-    "correta": 1,
-    "explicacao": "Se o tempo acaba, você perde a vez automaticamente."
-  },
-  {
-    "id": 617,
-    "pergunta": "O que é o 'break' no início da partida?",
-    "opcoes": ["Primeira tacada", "Última tacada", "Erros do jogo", "Bônus diário"],
-    "correta": 0,
-    "explicacao": "O break é a primeira tacada que espalha as bolas."
-  },
-  {
-    "id": 618,
-    "pergunta": "Qual é o prêmio de uma partida?",
-    "opcoes": ["Nada", "Fichas", "Cash", "Avatares"],
-    "correta": 1,
-    "explicacao": "O vencedor recebe fichas como prêmio da partida."
-  },
-  {
-    "id": 619,
-    "pergunta": "Qual é a função do bônus diário?",
-    "opcoes": ["Ganhar tacos", "Ganhar fichas", "Ganhar skins", "Ganhar pontos de XP"],
-    "correta": 1,
-    "explicacao": "O bônus diário oferece fichas e às vezes cash."
-  },
-  {
-    "id": 620,
-    "pergunta": "Qual é a mesa mais cara do jogo?",
-    "opcoes": ["Londres", "Berlim", "Moscou", "Mumbai"],
-    "correta": 1,
-    "explicacao": "A mesa de Berlim é uma das mais caras do jogo."
-  },
-  {
-    "id": 621,
-    "pergunta": "O que significa XP em 8 Ball Pool?",
-    "opcoes": ["Extra Points", "Experiência", "Xtra Power", "Exame de Pontaria"],
-    "correta": 1,
-    "explicacao": "XP é a experiência acumulada pelo jogador."
-  },
-  {
-    "id": 622,
-    "pergunta": "O que acontece se o jogador sair da partida?",
-    "opcoes": ["Volta depois", "Perde automaticamente", "Continua contra o PC", "Jogo congela"],
-    "correta": 1,
-    "explicacao": "Ao sair da partida, a derrota é automática."
-  },
-  {
-    "id": 623,
-    "pergunta": "Qual é a cor da bola número 8?",
-    "opcoes": ["Branca", "Preta", "Azul", "Amarela"],
-    "correta": 1,
-    "explicacao": "A bola 8 é preta, símbolo clássico do jogo."
-  },
-  {
-    "id": 624,
-    "pergunta": "Qual é o objetivo principal de cada jogador?",
-    "opcoes": ["Encaçapar todas as bolas do adversário", "Encaçapar todas as suas bolas e depois a 8", "Encaçapar a branca", "Fazer pontos soltos"],
-    "correta": 1,
-    "explicacao": "Cada jogador precisa encaçapar seu grupo (lisas ou listradas) e depois a bola 8."
-  },
-  {
-    "id": 625,
-    "pergunta": "Qual é a diferença entre bolas lisas e listradas?",
-    "opcoes": ["Tamanho", "Peso", "Cor e numeração", "Valor em fichas"],
-    "correta": 2,
-    "explicacao": "As bolas são divididas em lisas (1 a 7) e listradas (9 a 15)."
-  },
-  {
-    "id": 626,
-    "pergunta": "Qual é a consequência de encaçapar a bola 8 junto da branca?",
-    "opcoes": ["Vitória", "Nada acontece", "Derrota", "Jogo reinicia"],
-    "correta": 2,
-    "explicacao": "Encaçapar a bola 8 junto com a branca dá derrota imediata."
-  },
-  {
-    "id": 627,
-    "pergunta": "O que acontece quando você sobe de nível?",
-    "opcoes": ["Recebe fichas", "Recebe cash", "Ganha prêmios", "Todas as anteriores"],
-    "correta": 3,
-    "explicacao": "Ao subir de nível, o jogador pode ganhar fichas, cash e prêmios variados."
-  },
-  {
-    "id": 628,
-    "pergunta": "Qual é a empresa criadora do 8 Ball Pool?",
-    "opcoes": ["King", "Electronic Arts", "Miniclip", "Rovio"],
-    "correta": 2,
-    "explicacao": "O 8 Ball Pool foi desenvolvido pela Miniclip."
-  },
-  {
-    "id": 629,
-    "pergunta": "Qual é o limite de tempo médio para uma jogada?",
-    "opcoes": ["10 segundos", "30 segundos", "1 minuto", "Não tem limite"],
-    "correta": 1,
-    "explicacao": "Cada jogada geralmente tem limite de 30 segundos."
-  },
-  {
-    "id": 630,
-    "pergunta": "Qual é a cor da bola número 1?",
-    "opcoes": ["Amarela", "Azul", "Vermelha", "Verde"],
-    "correta": 0,
-    "explicacao": "A bola 1 é amarela e faz parte das bolas lisas."
-  },
-  {
-    "id": 631,
-    "pergunta": "Em qual ano o jogo 8 Ball Pool foi lançado?",
-    "opcoes": ["2010", "2012", "2014", "2016"],
-    "correta": 1,
-    "explicacao": "O 8 Ball Pool foi lançado oficialmente em 2012 pela Miniclip."
-  },
-  {
-    "id": 632,
-    "pergunta": "Qual é o país de origem da empresa Miniclip?",
-    "opcoes": ["Estados Unidos", "Suíça", "Inglaterra", "Alemanha"],
-    "correta": 1,
-    "explicacao": "A Miniclip foi fundada em Neuchâtel, Suíça."
-  },
-  {
-    "id": 633,
-    "pergunta": "Qual é o nome do recurso que mostra a linha de mira estendida?",
-    "opcoes": ["Mira Pro", "Guia de Linha", "Extended Aim", "Trajetória Plus"],
-    "correta": 2,
-    "explicacao": "O Extended Aim aumenta o alcance da linha de mira."
-  },
-  {
-    "id": 634,
-    "pergunta": "Qual é o limite máximo de nível (level) no 8 Ball Pool?",
-    "opcoes": ["99", "500", "1000", "Não tem limite"],
-    "correta": 1,
-    "explicacao": "O limite de nível é 500."
-  },
-  {
-    "id": 635,
-    "pergunta": "O que acontece ao ganhar um torneio?",
-    "opcoes": ["Recebe fichas", "Recebe cash", "Ganha troféu virtual", "Todas as anteriores"],
-    "correta": 3,
-    "explicacao": "Ganhar torneios concede fichas, cash e troféus virtuais."
-  },
-  {
-    "id": 636,
-    "pergunta": "Qual é a principal diferença entre partidas 1x1 e torneios?",
-    "opcoes": ["Tempo de jogo", "Número de adversários", "Número de bolas", "Tipo de taco"],
-    "correta": 1,
-    "explicacao": "Nos torneios, o jogador enfrenta vários adversários até a final."
-  },
-  {
-    "id": 637,
-    "pergunta": "Qual destes NÃO é atributo de um taco?",
-    "opcoes": ["Força", "Tempo", "Precisão", "Velocidade da bola 8"],
-    "correta": 3,
-    "explicacao": "Os tacos têm atributos como força, tempo e precisão, mas não velocidade da bola 8."
-  },
-  {
-    "id": 638,
-    "pergunta": "O que significa 'All-in' no 8 Ball Pool?",
-    "opcoes": ["Jogar com todas as fichas", "Apostar o dobro", "Entrar no modo treino", "Encaçapar todas as bolas de uma vez"],
-    "correta": 0,
-    "explicacao": "O All-in é um modo onde você aposta todas as suas fichas disponíveis."
-  },
-  {
-    "id": 639,
-    "pergunta": "Qual é a principal vantagem de tacos lendários?",
-    "opcoes": ["Não quebram", "Recuperam força com o tempo", "Geram fichas extras", "São mais leves"],
-    "correta": 1,
-    "explicacao": "Tacos lendários recuperam força ao longo do tempo."
-  },
-  {
-    "id": 640,
-    "pergunta": "Qual é a mesa onde o valor de entrada é um dos mais altos?",
-    "opcoes": ["Cairo", "Berlim", "Tóquio", "Sydney"],
-    "correta": 1,
-    "explicacao": "A mesa de Berlim é uma das mais caras do jogo."
-  },
-  {
-    "id": 641,
-    "pergunta": "O que significa 'Win Streak Challenge'?",
-    "opcoes": ["Ganhar várias seguidas", "Ganhar só com a bola 8", "Ganhar sem faltas", "Ganhar apenas em torneios"],
-    "correta": 0,
-    "explicacao": "O Win Streak Challenge desafia o jogador a ganhar várias seguidas."
-  },
-  {
-    "id": 642,
-    "pergunta": "Qual destes modos NÃO existe no 8 Ball Pool?",
-    "opcoes": ["1 vs 1", "Torneios", "Missões de equipe", "Desafios semanais"],
-    "correta": 2,
-    "explicacao": "Não existem missões de equipe, o jogo é individual."
-  },
-  {
-    "id": 643,
-    "pergunta": "Qual item pode ser personalizado além dos tacos?",
-    "opcoes": ["Mesa", "Avatar", "Cor da bola 8", "Todas as anteriores"],
-    "correta": 1,
-    "explicacao": "É possível personalizar o avatar do jogador."
-  },
-  {
-    "id": 644,
-    "pergunta": "Qual destas cidades NÃO aparece como mesa no 8 Ball Pool?",
-    "opcoes": ["Londres", "Miami", "Paris", "Brasília"],
-    "correta": 3,
-    "explicacao": "Brasília não existe como mesa no jogo."
-  },
-  {
-    "id": 645,
-    "pergunta": "Qual é a função da barra de força ao dar a tacada?",
-    "opcoes": ["Escolher a bola", "Definir potência", "Escolher o taco", "Mudar o tempo"],
-    "correta": 1,
-    "explicacao": "A barra de força define a potência da tacada."
-  },
-  {
-    "id": 646,
-    "pergunta": "Qual é a consequência de cometer 3 faltas seguidas?",
-    "opcoes": ["Perde pontos", "Perde fichas", "Perde a partida", "Não acontece nada"],
-    "correta": 2,
-    "explicacao": "Três faltas seguidas resultam em derrota automática."
-  },
-  {
-    "id": 647,
-    "pergunta": "Qual destes não é um tipo de bola no jogo?",
-    "opcoes": ["Lisas", "Listradas", "Metálicas", "Bola 8"],
-    "correta": 2,
-    "explicacao": "Não existem bolas metálicas no 8 Ball Pool."
-  },
-  {
-    "id": 648,
-    "pergunta": "Qual é a vantagem de conectar o jogo ao Facebook?",
-    "opcoes": ["Ganhar tacos lendários", "Salvar progresso e jogar com amigos", "Ganhar moedas infinitas", "Mudar a cor da mesa"],
-    "correta": 1,
-    "explicacao": "Conectar ao Facebook permite salvar o progresso e jogar com amigos."
-  },
-  {
-    "id": 649,
-    "pergunta": "Qual destes eventos pode aparecer em 8 Ball Pool?",
-    "opcoes": ["Win Streak", "Lucky Shot", "Golden Spin", "Todos"],
-    "correta": 3,
-    "explicacao": "O jogo possui eventos como Win Streak, Lucky Shot e Golden Spin."
-  },
-  {
-    "id": 650,
-    "pergunta": "Qual é a função do 'Golden Spin'?",
-    "opcoes": ["Dar fichas", "Dar cash", "Dar prêmios variados", "Todas as anteriores"],
-    "correta": 3,
-    "explicacao": "O Golden Spin pode dar fichas, cash e até tacos."
-  },
-  {
-    "id": 651,
-    "pergunta": "O que acontece se o jogador encaçapar a bola errada no final?",
-    "opcoes": ["Nada", "Perde o jogo", "Ganha bônus", "Recomeça"],
-    "correta": 1,
-    "explicacao": "Encaçapar a bola errada dá derrota imediata."
-  },
-  {
-    "id": 652,
-    "pergunta": "Qual é o maior prêmio possível em uma tacada de Lucky Shot?",
-    "opcoes": ["Fichas", "Cash", "Taco exclusivo", "Todos"],
-    "correta": 3,
-    "explicacao": "O Lucky Shot pode render fichas, cash e tacos exclusivos."
-  },
-  {
-    "id": 653,
-    "pergunta": "O que acontece se você não se conectar por vários dias?",
-    "opcoes": ["Perde fichas", "Não ganha bônus diário", "Perde tacos", "Perde nível"],
-    "correta": 1,
-    "explicacao": "O bônus diário não acumula se você não jogar."
-  },
-  {
-    "id": 654,
-    "pergunta": "Qual destas recompensas é comum em desafios semanais?",
-    "opcoes": ["Fichas", "Cash", "Tacos", "Todas"],
-    "correta": 3,
-    "explicacao": "Os desafios semanais podem dar fichas, cash e tacos."
-  },
-  {
-    "id": 655,
-    "pergunta": "Qual é a principal forma de subir de nível?",
-    "opcoes": ["Ganhar fichas", "Ganhar cash", "Jogar partidas", "Comprar pacotes"],
-    "correta": 2,
-    "explicacao": "A experiência é obtida jogando partidas."
-  },
-  {
-    "id": 656,
-    "pergunta": "Qual destes é considerado um 'erro de jogo'?",
-    "opcoes": ["Acertar a bola do adversário primeiro", "Não encostar em nenhuma bola", "Encaçapar a bola branca", "Todas as anteriores"],
-    "correta": 3,
-    "explicacao": "Todas as situações são faltas no jogo."
-  },
-  {
-    "id": 657,
-    "pergunta": "Qual é o modo onde se aposta valores altíssimos?",
-    "opcoes": ["Londres", "All-in", "Sydney", "Cairo"],
-    "correta": 1,
-    "explicacao": "O modo All-in permite apostar todas as fichas disponíveis."
-  },
-  {
-    "id": 658,
-    "pergunta": "Qual é a cor da bola número 2?",
-    "opcoes": ["Azul", "Vermelha", "Amarela", "Verde"],
-    "correta": 0,
-    "explicacao": "A bola número 2 é azul lisa."
-  },
-  {
-    "id": 659,
-    "pergunta": "Qual é a cor da bola número 15?",
-    "opcoes": ["Vermelha", "Marrom", "Preta", "Roxa"],
-    "correta": 0,
-    "explicacao": "A bola número 15 é vermelha e listrada."
-  },
-  {
-    "id": 660,
-    "pergunta": "Qual é o objetivo principal em qualquer mesa?",
-    "opcoes": ["Acumular fichas", "Encaçapar todas as suas bolas e depois a 8", "Evitar faltas", "Fazer XP"],
-    "correta": 1,
-    "explicacao": "O objetivo é encaçapar todas as bolas do seu grupo e depois a bola 8."
-  },
-  {
-    "id": 661,
-    "pergunta": "Qual é o maior órgão do corpo humano?",
-    "opcoes": ["Coração", "Pulmão", "Pele", "Fígado"],
-    "correta": 2,
-    "explicacao": "A pele é o maior órgão do corpo humano."
-  },
-  {
-    "id": 662,
-    "pergunta": "Quantos ossos tem o corpo humano adulto?",
-    "opcoes": ["206", "210", "198", "201"],
-    "correta": 0,
-    "explicacao": "Um adulto tem em média 206 ossos."
-  },
-  {
-    "id": 663,
-    "pergunta": "Qual é o órgão responsável por bombear o sangue?",
-    "opcoes": ["Fígado", "Coração", "Pulmão", "Rim"],
-    "correta": 1,
-    "explicacao": "O coração bombeia sangue para todo o corpo."
-  },
-  {
-    "id": 664,
-    "pergunta": "Qual é o maior osso do corpo humano?",
-    "opcoes": ["Fêmur", "Tíbia", "Úmero", "Coluna"],
-    "correta": 0,
-    "explicacao": "O fêmur, localizado na coxa, é o maior osso do corpo humano."
-  },
-  {
-    "id": 665,
-    "pergunta": "Qual órgão é responsável pela produção da bile?",
-    "opcoes": ["Estômago", "Fígado", "Intestino", "Baço"],
-    "correta": 1,
-    "explicacao": "O fígado produz a bile, que auxilia na digestão de gorduras."
-  },
-  {
-    "id": 666,
-    "pergunta": "Qual é a função principal dos rins?",
-    "opcoes": ["Produzir insulina", "Filtrar o sangue", "Regular a pressão", "Digestionar proteínas"],
-    "correta": 1,
-    "explicacao": "Os rins filtram o sangue e eliminam resíduos através da urina."
-  },
-  {
-    "id": 667,
-    "pergunta": "Qual órgão controla todas as funções do corpo?",
-    "opcoes": ["Pulmões", "Cérebro", "Fígado", "Coração"],
-    "correta": 1,
-    "explicacao": "O cérebro é o centro de comando do corpo humano."
-  },
-  {
-    "id": 668,
-    "pergunta": "Quantos dentes permanentes tem um adulto?",
-    "opcoes": ["28", "30", "32", "36"],
-    "correta": 2,
-    "explicacao": "Um adulto possui 32 dentes permanentes, incluindo os sisos."
-  },
-  {
-    "id": 669,
-    "pergunta": "Qual parte do corpo humano continua crescendo durante toda a vida?",
-    "opcoes": ["Olhos", "Cérebro", "Nariz e orelhas", "Fêmur"],
-    "correta": 2,
-    "explicacao": "Nariz e orelhas continuam crescendo lentamente durante toda a vida."
-  },
-  {
-    "id": 670,
-    "pergunta": "Qual é o músculo responsável pela respiração?",
-    "opcoes": ["Diafragma", "Bíceps", "Quadríceps", "Peitorais"],
-    "correta": 0,
-    "explicacao": "O diafragma é o principal músculo responsável pela respiração."
-  },
-  {
-    "id": 671,
-    "pergunta": "Onde se localiza a traqueia?",
-    "opcoes": ["No abdômen", "No pescoço", "No tórax", "Na cabeça"],
-    "correta": 1,
-    "explicacao": "A traqueia fica no pescoço e leva ar até os pulmões."
-  },
-  {
-    "id": 672,
-    "pergunta": "Qual é o órgão responsável por armazenar a urina?",
-    "opcoes": ["Rim", "Vesícula", "Bexiga", "Intestino grosso"],
-    "correta": 2,
-    "explicacao": "A bexiga é responsável por armazenar a urina antes da eliminação."
-  },
-  {
-    "id": 673,
-    "pergunta": "Qual é a principal função do estômago?",
-    "opcoes": ["Bombear sangue", "Produzir hormônios", "Digestionar alimentos", "Filtrar resíduos"],
-    "correta": 2,
-    "explicacao": "O estômago é responsável pela digestão dos alimentos."
-  },
-  {
-    "id": 674,
-    "pergunta": "Qual parte do olho é responsável pela cor?",
-    "opcoes": ["Pupila", "Córnea", "Íris", "Cristalino"],
-    "correta": 2,
-    "explicacao": "A íris é a parte colorida dos olhos."
-  },
-  {
-    "id": 675,
-    "pergunta": "Qual é a função principal dos pulmões?",
-    "opcoes": ["Bombear sangue", "Trocar oxigênio e gás carbônico", "Produzir hormônios", "Filtrar toxinas"],
-    "correta": 1,
-    "explicacao": "Os pulmões realizam as trocas gasosas com o sangue."
-  },
-  {
-    "id": 676,
-    "pergunta": "Quantas costelas tem normalmente um ser humano?",
-    "opcoes": ["22", "24", "26", "28"],
-    "correta": 1,
-    "explicacao": "O corpo humano possui normalmente 24 costelas, 12 de cada lado."
-  },
-  {
-    "id": 677,
-    "pergunta": "Qual é a função da medula espinhal?",
-    "opcoes": ["Produzir glóbulos vermelhos", "Conectar cérebro ao corpo", "Controlar a digestão", "Armazenar gordura"],
-    "correta": 1,
-    "explicacao": "A medula espinhal conecta o cérebro ao resto do corpo e transmite sinais nervosos."
-  },
-  {
-    "id": 678,
-    "pergunta": "Qual é a função das plaquetas no sangue?",
-    "opcoes": ["Transportar oxigênio", "Combater infecções", "Coagulação", "Regular temperatura"],
-    "correta": 2,
-    "explicacao": "As plaquetas ajudam na coagulação do sangue."
-  },
-  {
-    "id": 679,
-    "pergunta": "Onde se localiza o fígado?",
-    "opcoes": ["Lado direito do abdômen", "Lado esquerdo do abdômen", "No tórax", "Na pelve"],
-    "correta": 0,
-    "explicacao": "O fígado fica no lado direito do abdômen, logo abaixo do diafragma."
-  },
-  {
-    "id": 680,
-    "pergunta": "Qual é a função principal do intestino delgado?",
-    "opcoes": ["Absorver nutrientes", "Produzir enzimas", "Filtrar toxinas", "Produzir hormônios"],
-    "correta": 0,
-    "explicacao": "O intestino delgado é responsável pela absorção de nutrientes."
-  },
-  {
-    "id": 681,
-    "pergunta": "Qual órgão é conhecido como 'banco de sangue' do corpo?",
-    "opcoes": ["Coração", "Baço", "Pulmão", "Pâncreas"],
-    "correta": 1,
-    "explicacao": "O baço armazena sangue e auxilia no sistema imunológico."
-  },
-  {
-    "id": 682,
-    "pergunta": "Qual parte do corpo possui as falanges?",
-    "opcoes": ["Nariz", "Dedos", "Coluna", "Orelhas"],
-    "correta": 1,
-    "explicacao": "As falanges são ossos que formam os dedos das mãos e dos pés."
-  },
-  {
-    "id": 683,
-    "pergunta": "Qual é a função dos glóbulos vermelhos?",
-    "opcoes": ["Transportar oxigênio", "Combater bactérias", "Produzir hormônios", "Gerar energia"],
-    "correta": 0,
-    "explicacao": "Os glóbulos vermelhos transportam oxigênio no sangue."
-  },
-  {
-    "id": 684,
-    "pergunta": "Qual é o menor osso do corpo humano?",
-    "opcoes": ["Estribo", "Fêmur", "Tíbia", "Cúbito"],
-    "correta": 0,
-    "explicacao": "O estribo, localizado no ouvido médio, é o menor osso do corpo humano."
-  },
-  {
-    "id": 685,
-    "pergunta": "Onde fica localizado o úmero?",
-    "opcoes": ["Perna", "Braço", "Coluna", "Pescoço"],
-    "correta": 1,
-    "explicacao": "O úmero é o osso longo que fica no braço."
-  },
-  {
-    "id": 686,
-    "pergunta": "Qual parte do corpo humano contém a patela?",
-    "opcoes": ["Ombro", "Joelho", "Cotovelo", "Quadril"],
-    "correta": 1,
-    "explicacao": "A patela é o osso do joelho, conhecido como 'rótula'."
-  },
-  {
-    "id": 687,
-    "pergunta": "Qual glândula é chamada de 'glândula mestra'?",
-    "opcoes": ["Tireoide", "Hipófise", "Suprarrenal", "Pineal"],
-    "correta": 1,
-    "explicacao": "A hipófise controla várias outras glândulas do corpo."
-  },
-  {
-    "id": 688,
-    "pergunta": "Qual é a função da epiglote?",
-    "opcoes": ["Produzir saliva", "Fechar a traqueia ao engolir", "Produzir hormônios", "Controlar a voz"],
-    "correta": 1,
-    "explicacao": "A epiglote evita que alimentos entrem na traqueia durante a deglutição."
-  },
-  {
-    "id": 689,
-    "pergunta": "Qual é a parte do corpo responsável pelo equilíbrio?",
-    "opcoes": ["Cérebro", "Ouvido interno", "Olhos", "Pernas"],
-    "correta": 1,
-    "explicacao": "O ouvido interno contém estruturas que controlam o equilíbrio."
-  },
-  {
-    "id": 690,
-    "pergunta": "Qual é o principal hormônio produzido pelo pâncreas?",
-    "opcoes": ["Insulina", "Adrenalina", "Estrogênio", "Testosterona"],
-    "correta": 0,
-    "explicacao": "O pâncreas produz insulina, que regula os níveis de glicose no sangue."
-  },
-  {
-    "id": 691,
-    "pergunta": "Qual é a molécula essencial para a vida conhecida como 'molécula da hereditariedade'?",
-    "opcoes": ["RNA", "DNA", "Proteína", "Lipídio"],
-    "correta": 1,
-    "explicacao": "O DNA carrega as informações genéticas dos seres vivos."
-  },
-  {
-    "id": 692,
-    "pergunta": "Qual gás é essencial para a respiração celular dos seres humanos?",
-    "opcoes": ["Dióxido de carbono", "Oxigênio", "Nitrogênio", "Hidrogênio"],
-    "correta": 1,
-    "explicacao": "O oxigênio é fundamental para a respiração celular."
-  },
-  {
-    "id": 693,
-    "pergunta": "Qual é o órgão responsável pela fotossíntese nas plantas?",
-    "opcoes": ["Raiz", "Caule", "Folha", "Flor"],
-    "correta": 2,
-    "explicacao": "As folhas contêm clorofila e realizam a fotossíntese."
-  },
-  {
-    "id": 694,
-    "pergunta": "Qual elemento químico é representado pelo símbolo 'Na'?",
-    "opcoes": ["Níquel", "Nitrogênio", "Sódio", "Neônio"],
-    "correta": 2,
-    "explicacao": "O símbolo 'Na' corresponde ao sódio."
-  },
-  {
-    "id": 695,
-    "pergunta": "Qual é a fórmula química da água?",
-    "opcoes": ["H2O", "CO2", "NaCl", "O2"],
-    "correta": 0,
-    "explicacao": "A fórmula da água é H2O, dois átomos de hidrogênio e um de oxigênio."
-  },
-  {
-    "id": 696,
-    "pergunta": "Qual grupo de seres vivos é unicelular?",
-    "opcoes": ["Mamíferos", "Aves", "Bactérias", "Peixes"],
-    "correta": 2,
-    "explicacao": "As bactérias são organismos unicelulares."
-  },
-  {
-    "id": 697,
-    "pergunta": "Qual é o principal gás do efeito estufa liberado pela queima de combustíveis fósseis?",
-    "opcoes": ["O2", "N2", "CO2", "CH4"],
-    "correta": 2,
-    "explicacao": "O dióxido de carbono (CO2) é o principal responsável pelo efeito estufa."
-  },
-  {
-    "id": 698,
-    "pergunta": "Qual é a unidade básica da vida?",
-    "opcoes": ["Molécula", "Célula", "Tecido", "Órgão"],
-    "correta": 1,
-    "explicacao": "A célula é a unidade básica estrutural e funcional dos seres vivos."
-  },
-  {
-    "id": 699,
-    "pergunta": "Qual é o elemento químico essencial presente na hemoglobina?",
-    "opcoes": ["Magnésio", "Ferro", "Cálcio", "Potássio"],
-    "correta": 1,
-    "explicacao": "O ferro está presente na hemoglobina e permite o transporte de oxigênio."
-  },
-  {
-    "id": 700,
-    "pergunta": "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
-    "opcoes": ["Respiração", "Digestão", "Fotossíntese", "Fermentação"],
-    "correta": 2,
-    "explicacao": "A fotossíntese é o processo de produção de glicose pelas plantas."
-  },
-  {
-    "id": 701,
-    "pergunta": "Qual é o pH neutro da água?",
-    "opcoes": ["5", "6", "7", "8"],
-    "correta": 2,
-    "explicacao": "O valor de pH neutro é 7."
-  },
-  {
-    "id": 702,
-    "pergunta": "Qual é a função dos ribossomos na célula?",
-    "opcoes": ["Produção de energia", "Síntese de proteínas", "Digestão celular", "Armazenamento de DNA"],
-    "correta": 1,
-    "explicacao": "Os ribossomos são responsáveis pela síntese de proteínas."
-  },
-  {
-    "id": 703,
-    "pergunta": "Qual elemento químico é representado pelo símbolo 'O'?",
-    "opcoes": ["Osmio", "Oxigênio", "Ouro", "Ozônio"],
-    "correta": 1,
-    "explicacao": "O símbolo 'O' representa o oxigênio."
-  },
-  {
-    "id": 704,
-    "pergunta": "Qual é a molécula que armazena energia nas células?",
-    "opcoes": ["ADN", "ATP", "RNA", "Glicose"],
-    "correta": 1,
-    "explicacao": "O ATP (trifosfato de adenosina) é a moeda de energia das células."
-  },
-  {
-    "id": 705,
-    "pergunta": "Qual é o gás essencial para a fotossíntese?",
-    "opcoes": ["Oxigênio", "Dióxido de carbono", "Hidrogênio", "Nitrogênio"],
-    "correta": 1,
-    "explicacao": "O dióxido de carbono (CO2) é utilizado na fotossíntese."
-  },
-  {
-    "id": 706,
-    "pergunta": "Qual órgão do corpo humano realiza a filtração do sangue?",
-    "opcoes": ["Coração", "Rins", "Fígado", "Pulmões"],
-    "correta": 1,
-    "explicacao": "Os rins são responsáveis por filtrar o sangue."
-  },
-  {
-    "id": 707,
-    "pergunta": "Qual é a camada mais externa da Terra, formada por rochas?",
-    "opcoes": ["Manto", "Crosta", "Núcleo externo", "Núcleo interno"],
-    "correta": 1,
-    "explicacao": "A crosta terrestre é a camada mais externa da Terra."
-  },
-  {
-    "id": 708,
-    "pergunta": "Qual é o nome do açúcar presente nas frutas?",
-    "opcoes": ["Glicose", "Frutose", "Lactose", "Sacarose"],
-    "correta": 1,
-    "explicacao": "A frutose é o açúcar natural das frutas."
-  },
-  {
-    "id": 709,
-    "pergunta": "Qual é o símbolo químico do Potássio?",
-    "opcoes": ["P", "Po", "K", "Pt"],
-    "correta": 2,
-    "explicacao": "O símbolo químico do potássio é K."
-  },
-  {
-    "id": 710,
-    "pergunta": "Qual é o processo em que leveduras transformam açúcar em álcool?",
-    "opcoes": ["Fotossíntese", "Fermentação", "Respiração aeróbica", "Oxidação"],
-    "correta": 1,
-    "explicacao": "A fermentação alcoólica converte açúcares em álcool e gás carbônico."
-  },
-  {
-    "id": 711,
-    "pergunta": "Qual é a principal função dos cloroplastos?",
-    "opcoes": ["Armazenar glicose", "Fotossíntese", "Produzir proteínas", "Respiração celular"],
-    "correta": 1,
-    "explicacao": "Os cloroplastos são organelas responsáveis pela fotossíntese."
-  },
-  {
-    "id": 712,
-    "pergunta": "Qual é a partícula subatômica com carga negativa?",
-    "opcoes": ["Próton", "Nêutron", "Elétron", "Íon"],
-    "correta": 2,
-    "explicacao": "O elétron possui carga elétrica negativa."
-  },
-  {
-    "id": 713,
-    "pergunta": "Qual é o processo de perda de água pelas plantas?",
-    "opcoes": ["Respiração", "Transpiração", "Fotossíntese", "Fermentação"],
-    "correta": 1,
-    "explicacao": "A transpiração é a perda de água pelas folhas."
-  },
-  {
-    "id": 714,
-    "pergunta": "Qual é a fórmula do gás carbônico?",
-    "opcoes": ["CO2", "CO", "C2O", "C2O2"],
-    "correta": 0,
-    "explicacao": "A fórmula correta do dióxido de carbono é CO2."
-  },
-  {
-    "id": 715,
-    "pergunta": "Qual é o nome do processo que converte glicose em energia dentro das células?",
-    "opcoes": ["Fotossíntese", "Respiração celular", "Fermentação", "Digestão"],
-    "correta": 1,
-    "explicacao": "A respiração celular transforma glicose em energia (ATP)."
-  },
-  {
-    "id": 716,
-    "pergunta": "Qual é o nome da molécula que dá cor verde às plantas?",
-    "opcoes": ["Clorofila", "Caroteno", "Hemoglobina", "Melanina"],
-    "correta": 0,
-    "explicacao": "A clorofila é o pigmento verde essencial à fotossíntese."
-  },
-  {
-    "id": 717,
-    "pergunta": "Qual é o elemento químico que forma diamantes e grafite?",
-    "opcoes": ["Carbono", "Silício", "Enxofre", "Ferro"],
-    "correta": 0,
-    "explicacao": "O carbono pode formar diferentes estruturas como diamante e grafite."
-  },
-  {
-    "id": 718,
-    "pergunta": "Qual é a principal fonte de energia para os seres vivos?",
-    "opcoes": ["Proteínas", "Lipídios", "Carboidratos", "Vitaminas"],
-    "correta": 2,
-    "explicacao": "Os carboidratos são a principal fonte de energia para o corpo."
-  },
-  {
-    "id": 719,
-    "pergunta": "Qual é a partícula que fica no núcleo do átomo e não possui carga elétrica?",
-    "opcoes": ["Próton", "Nêutron", "Elétron", "Íon"],
-    "correta": 1,
-    "explicacao": "Os nêutrons ficam no núcleo do átomo e não possuem carga elétrica."
-  },
-  {
-    "id": 720,
-    "pergunta": "Qual é a principal função da clorofila?",
-    "opcoes": ["Absorver luz solar", "Produzir oxigênio", "Fixar nitrogênio", "Armazenar água"],
-    "correta": 0,
-    "explicacao": "A clorofila absorve luz solar para o processo da fotossíntese."
-  },
-  {
-    "id": 721,
-    "pergunta": "Qual é o nome do guia do grupo em Caverna do Dragão?",
-    "opcoes": ["Mestre dos Magos", "Vingador", "Dungeon Master", "Orko"],
-    "correta": 0,
-    "explicacao": "O Mestre dos Magos é quem orienta os jovens na jornada."
-  },
-  {
-    "id": 722,
-    "pergunta": "Qual é o inimigo principal em Caverna do Dragão?",
-    "opcoes": ["Skeletor", "Vingador", "Thanos", "Shrek"],
-    "correta": 1,
-    "explicacao": "O Vingador é o grande vilão da série."
-  },
-  {
-    "id": 723,
-    "pergunta": "Qual é o nome do cavalo voador que ajuda os heróis em Caverna do Dragão?",
-    "opcoes": ["Uni", "Pegasus", "Pégaso", "Shadowfax"],
-    "correta": 0,
-    "explicacao": "Uni é o unicórnio amigo dos heróis."
-  },
-  {
-    "id": 724,
-    "pergunta": "Qual dos jovens de Caverna do Dragão tinha o arco mágico?",
-    "opcoes": ["Hank", "Eric", "Bobby", "Sheila"],
-    "correta": 0,
-    "explicacao": "Hank era o arqueiro do grupo."
-  },
-  {
-    "id": 725,
-    "pergunta": "Quem é a irmã de Bobby, o bárbaro, em Caverna do Dragão?",
-    "opcoes": ["Sheila", "Diana", "Tiamat", "Luna"],
-    "correta": 0,
-    "explicacao": "Sheila, a ladina, é a irmã protetora de Bobby."
-  },
-  {
-    "id": 726,
-    "pergunta": "Qual cavaleiro de bronze usa a armadura de Pégaso?",
-    "opcoes": ["Shiryu", "Hyoga", "Seiya", "Ikki"],
-    "correta": 2,
-    "explicacao": "Seiya é o cavaleiro de Pégaso."
-  },
-  {
-    "id": 727,
-    "pergunta": "Qual cavaleiro de bronze é conhecido por ser o mais calmo e justo?",
-    "opcoes": ["Shiryu de Dragão", "Ikki de Fênix", "Hyoga de Cisne", "Shun de Andrômeda"],
+    "pergunta": "Qual é a principal diferença entre fichas e cash?",
+    "opcoes": ["Cash é premium e fichas são usadas para apostar", "Fichas são premium e cash é básico", "Ambos servem para a mesma coisa", "Cash só serve para torneios"],
     "correta": 0,
-    "explicacao": "Shiryu é o cavaleiro mais sábio e calmo do grupo."
-  },
-  {
-    "id": 728,
-    "pergunta": "Qual é o irmão mais velho de Shun de Andrômeda?",
-    "opcoes": ["Seiya", "Ikki", "Hyoga", "Shiryu"],
-    "correta": 1,
-    "explicacao": "Ikki é o irmão mais velho de Shun."
-  },
-  {
-    "id": 729,
-    "pergunta": "Quem é a reencarnação da deusa Atena em Cavaleiros do Zodíaco?",
-    "opcoes": ["Marin", "Saori Kido", "Esmeralda", "Pandora"],
-    "correta": 1,
-    "explicacao": "Saori Kido é a reencarnação da deusa Atena."
-  },
-  {
-    "id": 730,
-    "pergunta": "Qual cavaleiro controla o gelo?",
-    "opcoes": ["Ikki", "Shiryu", "Hyoga", "Shun"],
-    "correta": 2,
-    "explicacao": "Hyoga de Cisne usa técnicas de gelo."
+    "nivel": "medio",
+    "explicacao": "As fichas são usadas para apostar nas mesas, enquanto o cash é moeda premium para itens exclusivos."
   },
   {
-    "id": 731,
-    "pergunta": "Quem é o pai de Goku em Dragon Ball?",
-    "opcoes": ["Raditz", "Bardock", "Vegeta", "Kami-Sama"],
-    "correta": 1,
-    "explicacao": "Bardock é o pai de Goku."
-  },
-  {
-    "id": 732,
-    "pergunta": "Qual é o nome do planeta natal de Goku?",
-    "opcoes": ["Namekusei", "Terra", "Vegeta", "Saiyan"],
+    "id": 120,
+    "pergunta": "Qual item permite que o jogador melhore seus tacos?",
+    "opcoes": ["Tickets", "Caixas misteriosas", "Pontos de upgrade", "Moedas de prata"],
     "correta": 2,
-    "explicacao": "O planeta natal dos Saiyajins é o Planeta Vegeta."
-  },
-  {
-    "id": 733,
-    "pergunta": "Quem foi o primeiro mestre de artes marciais de Goku?",
-    "opcoes": ["Kami-Sama", "Mestre Kame", "Mr. Popo", "Kuririn"],
-    "correta": 1,
-    "explicacao": "Mestre Kame foi quem treinou Goku e Kuririn."
-  },
-  {
-    "id": 734,
-    "pergunta": "Qual técnica famosa Goku aprendeu com Mestre Kame?",
-    "opcoes": ["Galick Gun", "Kamehameha", "Final Flash", "Makankosappo"],
-    "correta": 1,
-    "explicacao": "O Kamehameha é a técnica clássica ensinada por Mestre Kame."
+    "nivel": "dificil",
+    "explicacao": "Os pontos de upgrade são usados para melhorar os atributos dos tacos."
   },
   {
-    "id": 735,
-    "pergunta": "Qual é o irmão mais velho de Goku?",
-    "opcoes": ["Raditz", "Vegeta", "Gohan", "Trunks"],
+    "id": 121,
+    "pergunta": "Por que não é recomendado que um membro fique zerado no clube?",
+    "opcoes": ["Porque atrapalha a pontuação do clube", "Porque gasta cash", "Porque reseta o nível", "Porque perde tacos"],
     "correta": 0,
-    "explicacao": "Raditz é o irmão mais velho de Goku."
+    "nivel": "facil",
+    "explicacao": "Membros zerados não contribuem e podem prejudicar o desempenho geral do clube."
   },
   {
-    "id": 736,
-    "pergunta": "Qual vilão foi o responsável pela destruição do Planeta Vegeta?",
-    "opcoes": ["Cell", "Freeza", "Majin Boo", "Broly"],
+    "id": 122,
+    "pergunta": "Quem pode decidir mudanças importantes nas configurações do clube?",
+    "opcoes": ["Qualquer membro", "Somente o Líder", "Oficiais", "Vice-líderes"],
     "correta": 1,
-    "explicacao": "Freeza foi o responsável por destruir o planeta Vegeta."
-  },
-  {
-    "id": 737,
-    "pergunta": "Quem foi o primeiro Super Saiyajin mostrado em Dragon Ball Z?",
-    "opcoes": ["Goku", "Vegeta", "Gohan", "Trunks"],
-    "correta": 0,
-    "explicacao": "Goku foi o primeiro a alcançar a forma de Super Saiyajin contra Freeza."
+    "nivel": "facil",
+    "explicacao": "Somente o Líder tem autoridade total para modificar as configurações do clube."
   },
   {
-    "id": 738,
-    "pergunta": "Qual é o nome do filho de Goku?",
-    "opcoes": ["Vegeta", "Raditz", "Gohan", "Goten"],
+    "id": 123,
+    "pergunta": "Por que um Oficial não deve expulsar jogadores sem permissão?",
+    "opcoes": ["Porque pode gastar fichas", "Porque isso é função apenas do sistema", "Porque prejudica a confiança no clube", "Porque diminui o nível do clube"],
     "correta": 2,
-    "explicacao": "O primeiro filho de Goku é Gohan."
+    "nivel": "medio",
+    "explicacao": "Expulsar jogadores sem permissão gera desconfiança e desorganização no clube."
   },
   {
-    "id": 739,
-    "pergunta": "Qual é o nome do filho mais novo de Goku?",
-    "opcoes": ["Trunks", "Vegeta Jr.", "Goten", "Pan"],
-    "correta": 2,
-    "explicacao": "O filho mais novo de Goku é Goten."
-  },
-  {
-    "id": 740,
-    "pergunta": "Qual é o nome do vilão que absorve os androides em Dragon Ball Z?",
-    "opcoes": ["Cell", "Babidi", "Boo", "Freeza"],
-    "correta": 0,
-    "explicacao": "Cell é o vilão que absorve os androides 17 e 18."
-  },
-  {
-    "id": 741,
-    "pergunta": "Qual era a cor do uniforme original dos Mighty Morphin Power Rangers?",
-    "opcoes": ["Vermelho, Azul, Verde, Branco, Preto, Rosa", "Vermelho, Azul, Preto, Amarelo, Rosa", "Verde, Branco, Preto, Amarelo, Roxo", "Somente vermelho e azul"],
-    "correta": 1,
-    "explicacao": "Os cinco Power Rangers originais eram vermelho, azul, preto, amarelo e rosa."
-  },
-  {
-    "id": 742,
-    "pergunta": "Quem era o líder dos Power Rangers originais?",
-    "opcoes": ["Billy", "Jason", "Tommy", "Zack"],
+    "id": 124,
+    "pergunta": "Qual é a atitude correta quando um membro está inativo por muito tempo?",
+    "opcoes": ["Expulsar imediatamente", "Aguardar orientação do Líder", "Mudar cargo sozinho", "Ignorar e deixar no clube"],
     "correta": 1,
-    "explicacao": "Jason, o Ranger Vermelho, era o líder original."
+    "nivel": "facil",
+    "explicacao": "A decisão sobre inativos deve ser sempre comunicada e orientada pelo Líder."
   },
   {
-    "id": 743,
-    "pergunta": "Qual Ranger era conhecido como o 'Cérebro do grupo'?",
-    "opcoes": ["Billy", "Jason", "Zack", "Kimberly"],
+    "id": 125,
+    "pergunta": "Qual é a principal forma de fortalecer o clube?",
+    "opcoes": ["Interagir e jogar regularmente", "Mudar a descrição do clube todo dia", "Expulsar jogadores fortes", "Evitar conversar no chat"],
     "correta": 0,
-    "explicacao": "Billy, o Ranger Azul, era o mais inteligente do grupo."
-  },
-  {
-    "id": 744,
-    "pergunta": "Quem foi o primeiro Ranger Verde?",
-    "opcoes": ["Zack", "Tommy", "Jason", "Adam"],
-    "correta": 1,
-    "explicacao": "Tommy Oliver foi o primeiro Ranger Verde."
+    "nivel": "facil",
+    "explicacao": "Clube forte é aquele com jogadores ativos e que interagem entre si."
   },
   {
-    "id": 745,
-    "pergunta": "Qual é o nome do robô assistente dos Power Rangers?",
-    "opcoes": ["R2-D2", "Alpha 5", "C-3PO", "Zordon"],
+    "id": 126,
+    "pergunta": "O que um jogador deve fazer se tiver sugestões para o clube?",
+    "opcoes": ["Mudar a configuração por conta própria", "Conversar com o Líder e Oficiais", "Sair do clube", "Criar outro clube"],
     "correta": 1,
-    "explicacao": "Alpha 5 era o simpático robô ajudante dos Rangers."
-  },
-  {
-    "id": 746,
-    "pergunta": "Qual entidade dava os poderes aos Power Rangers?",
-    "opcoes": ["Alpha 5", "Zordon", "Rita Repulsa", "Lord Zedd"],
-    "correta": 1,
-    "explicacao": "Zordon era quem concedia os poderes e guiava os Rangers."
-  },
-  {
-    "id": 747,
-    "pergunta": "Qual era a arma principal dos Power Rangers quando unidos?",
-    "opcoes": ["Sabres", "Blasters", "Megazord", "Chicotes"],
-    "correta": 2,
-    "explicacao": "Os Rangers combinavam seus Zords para formar o Megazord."
+    "nivel": "facil",
+    "explicacao": "Sugestões devem ser apresentadas ao Líder ou Oficiais, nunca impostas."
   },
   {
-    "id": 748,
-    "pergunta": "Qual vilã queria conquistar a Terra nos Power Rangers originais?",
-    "opcoes": ["Rita Repulsa", "Astronema", "Divatox", "Scorpina"],
+    "id": 127,
+    "pergunta": "Por que interagir no chat do clube é importante?",
+    "opcoes": ["Ajuda a criar amizade e motivação", "Gera fichas extras", "Aumenta o XP", "Desbloqueia tacos lendários"],
     "correta": 0,
-    "explicacao": "Rita Repulsa era a vilã principal da primeira temporada."
+    "nivel": "facil",
+    "explicacao": "A comunicação fortalece o espírito de equipe e motiva os jogadores."
   },
   {
-    "id": 749,
-    "pergunta": "Quem foi o Ranger que mais vezes voltou em diferentes gerações?",
-    "opcoes": ["Jason", "Tommy", "Zack", "Billy"],
+    "id": 128,
+    "pergunta": "O que significa 'não ficar zerado no clube'?",
+    "opcoes": ["Ganhar torneios toda semana", "Fazer contribuições semanais", "Ser vice-líder", "Mudar avatar do clube"],
     "correta": 1,
-    "explicacao": "Tommy apareceu em várias gerações, como Ranger Verde, Branco, Vermelho e Preto."
-  },
-  {
-    "id": 750,
-    "pergunta": "Qual era o lema dos Power Rangers?",
-    "opcoes": ["Go Go Power Rangers!", "Unidos venceremos!", "Mais rápido que a luz!", "Sempre alerta!"],
-    "correta": 0,
-    "explicacao": "O lema clássico era 'Go Go Power Rangers!'"
+    "nivel": "medio",
+    "explicacao": "Não ficar zerado significa sempre somar pontos semanais no clube."
   },
   {
-    "id": 751,
-    "pergunta": "Quem é o deus do trovão na mitologia grega?",
-    "opcoes": ["Ares", "Zeus", "Hades", "Apolo"],
+    "id": 129,
+    "pergunta": "Qual deve ser a postura de um vice-líder responsável?",
+    "opcoes": ["Ignorar membros", "Seguir e aplicar as orientações do Líder", "Mudar o clube sozinho", "Expulsar jogadores sem falar nada"],
     "correta": 1,
-    "explicacao": "Zeus é o rei dos deuses e controla os céus e o trovão."
+    "nivel": "medio",
+    "explicacao": "O vice-líder deve apoiar o Líder e ajudar a manter o clube organizado."
   },
   {
-    "id": 752,
-    "pergunta": "Quem é a deusa do amor e da beleza?",
-    "opcoes": ["Hera", "Afrodite", "Artemis", "Deméter"],
+    "id": 130,
+    "pergunta": "Quem deve aprovar a entrada de novos jogadores no clube?",
+    "opcoes": ["Somente o Líder", "Líder, vice-líder e oficiais com bom senso", "Qualquer membro", "Somente o sistema"],
     "correta": 1,
-    "explicacao": "Afrodite é a deusa do amor e da beleza."
+    "nivel": "medio",
+    "explicacao": "A entrada de novos jogadores deve ser controlada pelos cargos de confiança."
   },
   {
-    "id": 753,
-    "pergunta": "Qual deus grego governa o submundo?",
-    "opcoes": ["Hades", "Poseidon", "Zeus", "Ares"],
+    "id": 131,
+    "pergunta": "O que um membro deve evitar para não atrapalhar o grupo?",
+    "opcoes": ["Ficar zerado, desrespeitar e causar brigas", "Jogar muito", "Falar com colegas", "Ajudar com dicas"],
     "correta": 0,
-    "explicacao": "Hades é o deus do submundo e dos mortos."
+    "nivel": "facil",
+    "explicacao": "Comportamentos tóxicos como inatividade e brigas prejudicam o clube."
   },
   {
-    "id": 754,
-    "pergunta": "Quem é a deusa da sabedoria e da guerra estratégica?",
-    "opcoes": ["Athena", "Hera", "Artemis", "Deméter"],
+    "id": 132,
+    "pergunta": "Qual é o comportamento ideal no chat do clube?",
+    "opcoes": ["Respeito e colaboração", "Xingar adversários", "Spammar emojis", "Ignorar todos"],
     "correta": 0,
-    "explicacao": "Athena é a deusa da sabedoria, artes e estratégia militar."
+    "nivel": "facil",
+    "explicacao": "No chat, espera-se respeito, cooperação e incentivo mútuo."
   },
   {
-    "id": 755,
-    "pergunta": "Qual deus é irmão de Zeus e deus do mar?",
-    "opcoes": ["Hades", "Hermes", "Poseidon", "Ares"],
+    "id": 133,
+    "pergunta": "Quem deve dar a palavra final em decisões importantes do clube?",
+    "opcoes": ["Todos votam", "Oficiais", "Líder", "Jogadores novatos"],
     "correta": 2,
-    "explicacao": "Poseidon é o deus do mar e irmão de Zeus e Hades."
-  },
-  {
-    "id": 756,
-    "pergunta": "Quem é a deusa da caça e protetora dos animais selvagens?",
-    "opcoes": ["Artemis", "Athena", "Afrodite", "Hera"],
-    "correta": 0,
-    "explicacao": "Artemis é a deusa da caça e da vida selvagem."
-  },
-  {
-    "id": 757,
-    "pergunta": "Qual deus grego é conhecido como o deus da guerra?",
-    "opcoes": ["Ares", "Hermes", "Dionísio", "Apolo"],
-    "correta": 0,
-    "explicacao": "Ares é o deus da guerra e da violência."
-  },
-  {
-    "id": 758,
-    "pergunta": "Quem é o deus do vinho e do teatro?",
-    "opcoes": ["Apolo", "Dionísio", "Hefesto", "Hermes"],
-    "correta": 1,
-    "explicacao": "Dionísio é o deus do vinho, do prazer e do teatro."
-  },
-  {
-    "id": 759,
-    "pergunta": "Qual deusa é esposa de Zeus e deusa do casamento?",
-    "opcoes": ["Hera", "Athena", "Afrodite", "Deméter"],
-    "correta": 0,
-    "explicacao": "Hera é a rainha dos deuses e deusa do casamento."
-  },
-  {
-    "id": 760,
-    "pergunta": "Quem é o mensageiro dos deuses, conhecido por suas sandálias aladas?",
-    "opcoes": ["Hermes", "Apolo", "Ares", "Hefesto"],
-    "correta": 0,
-    "explicacao": "Hermes é o mensageiro divino, deus do comércio e viajantes."
-  },
-  {
-    "id": 761,
-    "pergunta": "Qual deus é o ferreiro dos deuses, responsável pelas armas?",
-    "opcoes": ["Ares", "Hefesto", "Apolo", "Poseidon"],
-    "correta": 1,
-    "explicacao": "Hefesto é o deus do fogo e da forja, criador de armas e armaduras."
-  },
-  {
-    "id": 762,
-    "pergunta": "Quem é a deusa da agricultura e da colheita?",
-    "opcoes": ["Deméter", "Artemis", "Hera", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Deméter é a deusa da agricultura e das estações."
+    "nivel": "medio",
+    "explicacao": "A palavra final sempre é do Líder, que é a maior autoridade do clube."
   },
   {
-    "id": 763,
-    "pergunta": "Qual deus é associado ao sol e à música?",
-    "opcoes": ["Apolo", "Ares", "Hermes", "Dionísio"],
+    "id": 134,
+    "pergunta": "Qual é a função dos pontos semanais no clube?",
+    "opcoes": ["Determinar contribuições de cada membro", "Aumentar o nível do taco", "Ganhar mais cash", "Aparecer na tela inicial"],
     "correta": 0,
-    "explicacao": "Apolo é o deus do sol, da música e da profecia."
+    "nivel": "facil",
+    "explicacao": "Os pontos semanais mostram o quanto cada membro contribuiu para o clube."
   },
   {
-    "id": 764,
-    "pergunta": "Quem é a deusa da lua na mitologia grega?",
-    "opcoes": ["Artemis", "Selene", "Hera", "Afrodite"],
+    "id": 135,
+    "pergunta": "Por que é ruim expulsar membros sem conversar antes?",
+    "opcoes": ["Porque perde fichas", "Porque gera conflitos e desorganização", "Porque diminui o XP", "Porque apaga o chat"],
     "correta": 1,
-    "explicacao": "Selene é a deusa da lua; Artemis também é associada à lua e caça."
+    "nivel": "medio",
+    "explicacao": "Expulsar sem dialogar gera brigas e pode desmotivar o grupo."
   },
   {
-    "id": 765,
-    "pergunta": "Qual deus grego tinha o caduceu como símbolo?",
-    "opcoes": ["Hermes", "Apolo", "Ares", "Hades"],
+    "id": 136,
+    "pergunta": "Qual é o papel principal de qualquer membro no clube?",
+    "opcoes": ["Contribuir jogando e respeitar colegas", "Mudar a bandeira do clube", "Ser líder rapidamente", "Criar regras sozinho"],
     "correta": 0,
-    "explicacao": "Hermes carrega o caduceu, símbolo de comércio e comunicação."
+    "nivel": "facil",
+    "explicacao": "A função de todo membro é jogar, contribuir e respeitar o grupo."
   },
   {
-    "id": 766,
-    "pergunta": "Quem é a deusa da destruição e vingança?",
-    "opcoes": ["Nêmesis", "Hera", "Atena", "Afrodite"],
+    "id": 137,
+    "pergunta": "O que deve ser evitado em relação às configurações do clube?",
+    "opcoes": ["Alterar sem permissão", "Manter fixo", "Falar com o líder", "Participar de votações"],
     "correta": 0,
-    "explicacao": "Nêmesis é a deusa da justiça, vingança e retribuição."
+    "nivel": "facil",
+    "explicacao": "Mudar configurações sem permissão é falta de respeito com a liderança."
   },
   {
-    "id": 767,
-    "pergunta": "Qual deus é conhecido por seu arco e flechas e associado à juventude e amor?",
-    "opcoes": ["Eros", "Ares", "Hermes", "Apolo"],
+    "id": 138,
+    "pergunta": "Por que é importante motivar colegas do clube?",
+    "opcoes": ["Porque aumenta a união e o desempenho coletivo", "Porque dá mais cash", "Porque sobe de nível mais rápido", "Porque libera tacos"],
     "correta": 0,
-    "explicacao": "Eros é o deus do amor e da paixão."
+    "nivel": "facil",
+    "explicacao": "A motivação entre colegas fortalece o grupo e incentiva todos a jogar mais."
   },
   {
-    "id": 768,
-    "pergunta": "Quem é a deusa que protege os marinheiros e viajantes?",
-    "opcoes": ["Hera", "Atena", "Posídon", "Aphrodite"],
+    "id": 139,
+    "pergunta": "O que um Oficial deve fazer em caso de dúvida sobre regras?",
+    "opcoes": ["Agir sozinho", "Perguntar ao Líder antes", "Expulsar membros", "Ignorar a situação"],
     "correta": 1,
-    "explicacao": "Athena também era invocada por viajantes e para proteção estratégica."
-  },
-  {
-    "id": 769,
-    "pergunta": "Qual deus grego era responsável por controlar os ventos?",
-    "opcoes": ["Bóreas", "Ares", "Zeus", "Hades"],
-    "correta": 0,
-    "explicacao": "Bóreas é o deus do vento norte; outros deuses também controlavam ventos menores."
-  },
-  {
-    "id": 770,
-    "pergunta": "Quem é a deusa da magia e encantamentos?",
-    "opcoes": ["Hécate", "Artemis", "Athena", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Hécate é a deusa da magia, bruxaria e encruzilhadas."
+    "nivel": "medio",
+    "explicacao": "O Oficial deve sempre consultar o Líder antes de tomar decisões importantes."
   },
   {
-    "id": 771,
-    "pergunta": "Qual deus grego é associado à sorte e ao destino?",
-    "opcoes": ["Tyche", "Ares", "Hermes", "Hades"],
+    "id": 140,
+    "pergunta": "Qual é o risco de ter muitos jogadores zerados no clube?",
+    "opcoes": ["Ficar mal posicionado nos rankings", "Ganhar mais tacos", "Ganhar menos cash", "Ter mais tempo de jogo"],
     "correta": 0,
-    "explicacao": "Tyche é a deusa da sorte e fortuna."
+    "nivel": "medio",
+    "explicacao": "Muitos jogadores zerados prejudicam o ranking semanal e global do clube."
   },
   {
-    "id": 772,
-    "pergunta": "Quem era o deus grego da música e da poesia?",
-    "opcoes": ["Apolo", "Eros", "Dionísio", "Hermes"],
+    "id": 141,
+    "pergunta": "O que significa ser um bom membro de clube?",
+    "opcoes": ["Contribuir, respeitar e interagir", "Expulsar jogadores", "Ficar invisível", "Evitar jogar"],
     "correta": 0,
-    "explicacao": "Apolo é o deus das artes, incluindo música, poesia e profecias."
+    "nivel": "facil",
+    "explicacao": "Um bom membro joga, soma pontos e respeita os colegas."
   },
   {
-    "id": 773,
-    "pergunta": "Qual deus grego é conhecido por seu escudo indestrutível e capacete?",
-    "opcoes": ["Ares", "Athena", "Hades", "Hefesto"],
+    "id": 142,
+    "pergunta": "Quem pode promover ou rebaixar cargos dentro do clube?",
+    "opcoes": ["Todos os membros", "Somente o Líder", "Vice-líderes", "Oficiais"],
     "correta": 1,
-    "explicacao": "Athena é a deusa da guerra estratégica e é frequentemente representada com escudo e capacete."
+    "nivel": "facil",
+    "explicacao": "Somente o Líder tem poder de alterar os cargos do clube."
   },
   {
-    "id": 774,
-    "pergunta": "Quem é o deus do sono?",
-    "opcoes": ["Hipnos", "Morfeu", "Zeus", "Thanatos"],
+    "id": 143,
+    "pergunta": "Por que não se deve criar regras sozinho no clube?",
+    "opcoes": ["Porque pode confundir os jogadores", "Porque o sistema não deixa", "Porque não gera XP", "Porque perde fichas"],
     "correta": 0,
-    "explicacao": "Hipnos é o deus do sono; Morfeu é seu filho e mensageiro dos sonhos."
+    "nivel": "medio",
+    "explicacao": "Regras devem ser discutidas com o Líder para evitar confusão e conflitos."
   },
   {
-    "id": 775,
-    "pergunta": "Qual deus é responsável por guiar as almas dos mortos?",
-    "opcoes": ["Hermes", "Hades", "Thanatos", "Hypnos"],
-    "correta": 2,
-    "explicacao": "Thanatos é o deus da morte pacífica e guia as almas ao submundo."
-  },
-  {
-    "id": 776,
-    "pergunta": "Quem era a deusa que punia os mortais arrogantes?",
-    "opcoes": ["Nêmesis", "Hera", "Athena", "Hécate"],
+    "id": 144,
+    "pergunta": "Qual é o sinal de que um clube é unido?",
+    "opcoes": ["Jogadores se apoiam e interagem no chat", "Sempre mudam de bandeira", "Expulsam sem permissão", "Não conversam nunca"],
     "correta": 0,
-    "explicacao": "Nêmesis punia aqueles que se mostravam arrogantes ou desafiavam os deuses."
+    "nivel": "facil",
+    "explicacao": "A interação e o apoio entre membros é o que mostra a união de um clube."
   },
   {
-    "id": 777,
-    "pergunta": "Qual deus grego é associado à comunicação e ao comércio?",
-    "opcoes": ["Hermes", "Apolo", "Ares", "Dionísio"],
+    "id": 145,
+    "pergunta": "Qual é a consequência de faltar respeito com colegas no clube?",
+    "opcoes": ["Pode ser expulso", "Ganha pontos extras", "Sobe de nível", "Recebe tacos grátis"],
     "correta": 0,
-    "explicacao": "Hermes é o deus mensageiro, padroeiro do comércio e viajantes."
-  },
-  {
-    "id": 778,
-    "pergunta": "Quem é o deus dos animais selvagens e da caça?",
-    "opcoes": ["Ares", "Artemis", "Pan", "Hades"],
-    "correta": 2,
-    "explicacao": "Pan é o deus dos bosques, animais e da natureza selvagem."
+    "nivel": "facil",
+    "explicacao": "Falta de respeito pode resultar em expulsão do clube."
   },
   {
-    "id": 779,
-    "pergunta": "Quem é a deusa da fertilidade e da natureza?",
-    "opcoes": ["Deméter", "Afrodite", "Hera", "Artemis"],
+    "id": 146,
+    "pergunta": "Por que é importante manter disciplina no clube?",
+    "opcoes": ["Porque garante organização e crescimento", "Porque dá fichas infinitas", "Porque desbloqueia torneios", "Porque libera emojis exclusivos"],
     "correta": 0,
-    "explicacao": "Deméter é a deusa da agricultura, fertilidade e ciclos da natureza."
+    "nivel": "medio",
+    "explicacao": "Disciplina ajuda o clube a crescer de forma organizada e respeitosa."
   },
   {
-    "id": 780,
-    "pergunta": "Qual deus grego era associado à música selvagem e festas?",
-    "opcoes": ["Dionísio", "Apolo", "Hermes", "Ares"],
+    "id": 147,
+    "pergunta": "O que significa 'colaborar com o clube'?",
+    "opcoes": ["Jogar partidas e somar pontos semanais", "Ficar zerado", "Expulsar colegas", "Evitar conversar"],
     "correta": 0,
-    "explicacao": "Dionísio é o deus do vinho, festas e celebrações selvagens."
+    "nivel": "facil",
+    "explicacao": "Colaborar é participar das partidas e contribuir com pontos semanais."
   },
   {
-    "id": 781,
-    "pergunta": "Quem é conhecido como o deus da travessura e confusão?",
-    "opcoes": ["Tó", "Loki", "Vishu", "Ares"],
+    "id": 148,
+    "pergunta": "Qual deve ser a atitude ao discordar de algo no clube?",
+    "opcoes": ["Discutir no chat", "Conversar com respeito e propor soluções", "Expulsar colegas", "Sair sem avisar"],
     "correta": 1,
-    "explicacao": "Na mitologia nórdica, Loki é o deus da travessura, astúcia e confusão."
-  },
-  {
-    "id": 782,
-    "pergunta": "Quem é a deusa do submundo e rainha da primavera?",
-    "opcoes": ["Perséfone", "Afrodite", "Diana", "Hera"],
-    "correta": 0,
-    "explicacao": "Perséfone é a deusa do submundo e filha de Deméter, associada às estações."
-  },
-  {
-    "id": 783,
-    "pergunta": "Qual deusa protege e caça animais selvagens?",
-    "opcoes": ["Artemis", "Afrodite", "Hestia", "Diana"],
-    "correta": 0,
-    "explicacao": "Artemis é a deusa da caça, da lua e protetora da vida selvagem."
-  },
-  {
-    "id": 784,
-    "pergunta": "Qual deus é parte da trindade hindu e preservador do universo?",
-    "opcoes": ["Vishu", "Shiva", "Brahma", "Ares"],
-    "correta": 0,
-    "explicacao": "Vishu é o deus preservador no hinduísmo, responsável pela manutenção do universo."
-  },
-  {
-    "id": 785,
-    "pergunta": "Quem é a deusa romana da caça e da lua?",
-    "opcoes": ["Diana", "Artemis", "Hera", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Diana é a deusa romana da caça e da lua, equivalente à Artemis grega."
-  },
-  {
-    "id": 786,
-    "pergunta": "Qual deusa grega é associada à lareira e ao lar?",
-    "opcoes": ["Hestia", "Athena", "Hera", "Durga"],
-    "correta": 0,
-    "explicacao": "Hestia é a deusa do lar, da família e da harmonia doméstica."
-  },
-  {
-    "id": 787,
-    "pergunta": "Qual deusa hindu é conhecida como guerreira protetora?",
-    "opcoes": ["Durga", "Isis", "Afrodite", "Hera"],
-    "correta": 0,
-    "explicacao": "Durga é a deusa guerreira que combate o mal e protege os justos."
-  },
-  {
-    "id": 788,
-    "pergunta": "Quem é a deusa egípcia da magia e fertilidade?",
-    "opcoes": ["Isis", "Perséfone", "Athena", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Isis é a deusa egípcia da magia, fertilidade e maternidade."
-  },
-  {
-    "id": 789,
-    "pergunta": "Qual cidade grega é famosa por seus guerreiros espartanos?",
-    "opcoes": ["Esparta", "Atenas", "Corinto", "Micenas"],
-    "correta": 0,
-    "explicacao": "Esparta era conhecida por sua disciplina militar e guerreiros treinados."
-  },
-  {
-    "id": 790,
-    "pergunta": "Quem é o deus grego do sol e da música?",
-    "opcoes": ["Apolo", "Ares", "Hermes", "Vishu"],
-    "correta": 0,
-    "explicacao": "Apolo é o deus do sol, da música, da profecia e das artes."
-  },
-  {
-    "id": 791,
-    "pergunta": "Qual deusa é conhecida como a deusa do amor e da beleza?",
-    "opcoes": ["Afrodite", "Hera", "Artemis", "Diana"],
-    "correta": 0,
-    "explicacao": "Afrodite é a deusa do amor, da beleza e do desejo."
-  },
-  {
-    "id": 792,
-    "pergunta": "Qual deus grego é mensageiro dos deuses?",
-    "opcoes": ["Hermes", "Apolo", "Ares", "Loki"],
-    "correta": 0,
-    "explicacao": "Hermes é o mensageiro dos deuses e deus do comércio e viagens."
-  },
-  {
-    "id": 793,
-    "pergunta": "Quem é a rainha dos deuses e deusa do casamento?",
-    "opcoes": ["Hera", "Athena", "Afrodite", "Hestia"],
-    "correta": 0,
-    "explicacao": "Hera é a rainha dos deuses e deusa do casamento e da família."
-  },
-  {
-    "id": 794,
-    "pergunta": "Qual deusa inventada você escolheu para representar o poder feminino, chamada Mate?",
-    "opcoes": ["Mate", "Shakira", "Artemis", "Diana"],
-    "correta": 0,
-    "explicacao": "Mate é uma deusa inventada neste quiz, representando criatividade e força feminina."
-  },
-  {
-    "id": 795,
-    "pergunta": "Qual deusa pop foi adicionada como deusa divertida para o quiz?",
-    "opcoes": ["Shakira", "Mate", "Afrodite", "Hera"],
-    "correta": 0,
-    "explicacao": "Shakira foi incluída como deusa inventada neste quiz, de forma lúdica."
-  },
-  {
-    "id": 796,
-    "pergunta": "Qual deusa romana da caça e da lua corresponde à grega Artemis?",
-    "opcoes": ["Diana", "Hestia", "Hera", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Diana é a versão romana da deusa Artemis grega."
-  },
-  {
-    "id": 797,
-    "pergunta": "Qual deus ou deusa é associado(a) à proteção e à justiça?",
-    "opcoes": ["Tó", "Perséfone", "Artemis", "Ator"],
-    "correta": 2,
-    "explicacao": "Artemis também protegia os inocentes e era guardiã da justiça."
-  },
-  {
-    "id": 798,
-    "pergunta": "Qual deus hindu é responsável pela manutenção do mundo?",
-    "opcoes": ["Vishu", "Shiva", "Brahma", "Loki"],
-    "correta": 0,
-    "explicacao": "Vishu é o deus preservador, mantendo a ordem do universo."
-  },
-  {
-    "id": 799,
-    "pergunta": "Qual deusa inventada foi incluída como guerreira chamada Ator?",
-    "opcoes": ["Ator", "Durga", "Hestia", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Ator é uma deusa inventada para fins deste quiz, representando guerra e força."
-  },
-  {
-    "id": 800,
-    "pergunta": "Quem é o deus da música e da arte na mitologia grega?",
-    "opcoes": ["Apolo", "Ares", "Hermes", "Vishu"],
-    "correta": 0,
-    "explicacao": "Apolo é o deus da música, artes e profecias."
-  },
-  {
-    "id": 801,
-    "pergunta": "Qual deusa grega protege a fertilidade e a agricultura?",
-    "opcoes": ["Deméter", "Artemis", "Hera", "Afrodite"],
-    "correta": 0,
-    "explicacao": "Deméter é a deusa da agricultura e fertilidade."
-  },
-  {
-    "id": 802,
-    "pergunta": "Qual deusa egípcia da magia também protege os mortos?",
-    "opcoes": ["Isis", "Perséfone", "Athena", "Hestia"],
-    "correta": 0,
-    "explicacao": "Isis é a deusa da magia, fertilidade e protetora dos mortos."
-  },
-  {
-    "id": 803,
-    "pergunta": "Quem é a deusa inventada que representa proteção e força, chamada Antena?",
-    "opcoes": ["Antena", "Mate", "Shakira", "Ator"],
-    "correta": 0,
-    "explicacao": "Antena é uma deusa inventada para o quiz, simbolizando proteção e estratégia."
-  },
-  {
-    "id": 804,
-    "pergunta": "Qual deus grego é conhecido como deus da guerra e da violência?",
-    "opcoes": ["Ares", "Hermes", "Apolo", "Loki"],
-    "correta": 0,
-    "explicacao": "Ares é o deus da guerra e da violência."
-  },
-  {
-    "id": 805,
-    "pergunta": "Qual deus ou deusa é mensageiro(a) e também associado(a) ao comércio?",
-    "opcoes": ["Hermes", "Apolo", "Ares", "Vishu"],
-    "correta": 0,
-    "explicacao": "Hermes é o deus mensageiro e protetor do comércio."
-  },
-  {
-    "id": 806,
-    "pergunta": "Qual deusa é conhecida como rainha do amor e do casamento?",
-    "opcoes": ["Hera", "Afrodite", "Diana", "Artemis"],
-    "correta": 0,
-    "explicacao": "Hera é a rainha dos deuses e deusa do casamento."
+    "nivel": "medio",
+    "explicacao": "Respeito e diálogo são as formas corretas de resolver discordâncias."
   },
   {
-    "id": 807,
-    "pergunta": "Qual deusa inventada do quiz representa charme e dança, chamada Shakira?",
-    "opcoes": ["Shakira", "Mate", "Antena", "Ator"],
+    "id": 149,
+    "pergunta": "Por que é essencial ter uma boa comunicação entre líder e membros?",
+    "opcoes": ["Para manter o clube organizado e motivado", "Para ganhar fichas infinitas", "Para liberar novos modos de jogo", "Para ganhar tacos lendários"],
     "correta": 0,
-    "explicacao": "Shakira é uma deusa inventada, adicionada de forma lúdica ao quiz."
+    "nivel": "facil",
+    "explicacao": "Boa comunicação garante organização e incentiva todos a participarem."
   },
   {
-    "id": 808,
-    "pergunta": "Qual deusa romana corresponde a Artemis, deusa da caça?",
-    "opcoes": ["Diana", "Afrodite", "Hera", "Hestia"],
+    "id": 150,
+    "pergunta": "Qual é a consequência de mexer nas configurações do clube sem permissão?",
+    "opcoes": ["Pode gerar confusão e até expulsão", "Ganha mais pontos", "Sobe de cargo", "Recebe cash automático"],
     "correta": 0,
-    "explicacao": "Diana é a versão romana de Artemis."
+    "nivel": "medio",
+    "explicacao": "Alterar configurações sem autorização causa desordem e pode levar à expulsão."
   }
 ]
